@@ -9,6 +9,7 @@ Statistics::R
 
 Software for Boolean analysis is available in github:
 https://github.com/sahoo00/BooleanNet
+
 A compiled version is provided in this directory: stepminer-1.1.jar
 
 Software for Hegemon analysis is available in github:
