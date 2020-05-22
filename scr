@@ -1,0 +1,71 @@
+#!/bin/bash
+
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jdk1.8.0_45"
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH="./stepminer-1.1.jar"
+stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
+stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
+export PERL_HASH_SEED=0
+
+#git clone https://github.com/sahoo00/Hegemon
+#javac Hegemon/tools/*.java
+#
+
+#perl analyze.pl data-download PLP10 data/arijs-2018-uc
+#perl analyze.pl toidx data/arijs-2018-uc-expr.txt > data/arijs-2018-uc-idx.txt
+#
+#for i in data/arijs-2018-uc-expr.txt
+#do
+#    P=${i/-expr.txt/}
+#    echo $P
+#    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+#    if [[ ! -f "$P-thr.txt" ]]; then
+#      perl analyze.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+#    fi
+#    if [[ ! -f "$P-info.txt" ]]; then
+#      perl analyze.pl Info  $P > $P-info.txt
+#    fi
+#    if [[ ! -f "$P-vinfo.txt" ]]; then
+#      perl analyze.pl VInfo $P > $P-vinfo.txt
+#    fi
+#    if [[ ! -f "$P-bv.txt" ]]; then
+#      perl analyze.pl bv $P > $P-bv.txt
+#    fi
+#done
+
+
+#FILE=results/ibd-network
+#rm -f $FILE.rl
+#${stepminer}
+#${stepminer} boolean bitMatrix $FILE.rl \
+# data/peters-2017-ibd-bv.txt \
+# $FILE.ph All 0.1 2.5 0.05
+#cp $FILE.rl $FILE-1.rl
+#${stepminer} boolean bitMatrixFill $FILE-1.rl
+#${stepminer} boolean bitMatrixFillStats $FILE-1.rl
+#${stepminer} boolean bitMatrixPrint $FILE-1.rl > $FILE-res.txt
+#
+#FILE=results/ibd-network-2
+#rm -f $FILE.rl
+#${stepminer}
+#${stepminer} boolean bitMatrix $FILE.rl \
+# data/arijs-2018-uc-bv.txt \
+# $FILE.ph All 0.1 2.5 0.05
+#cp $FILE.rl $FILE-1.rl
+#${stepminer} boolean bitMatrixFill $FILE-1.rl
+#${stepminer} boolean bitMatrixFillStats $FILE-1.rl
+#${stepminer} boolean bitMatrixPrint $FILE-1.rl > $FILE-res.txt
+
+#Building Clustered Boolean Implication Network:
+
+#PERL_HASH_SEED=0 perl analyze.pl ibd eq > results/ibd-network-g-eq-4.txt
+#PERL_HASH_SEED=0 perl analyze.pl ibd eq-corr > results/ibd-network-g-eq-4-corr.txt
+#PERL_HASH_SEED=0 perl analyze.pl ibd cls > results/ibd-network-g-eq-cls-4.txt
+#PERL_HASH_SEED=0 perl analyze.pl ibd g-cls > results/ibd-network-g-eq-g-4.txt
+
+#Identifying Paths:
+
+perl analyze.pl ibd genes > results/path-1.json
+perl analyze.pl ibd genes C21orf33 NCF2 > results/path-2.json
+
+
