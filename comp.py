@@ -23,41 +23,72 @@ from pprint import pprint
 import os
 import pickle
 import sys
-sys.path.append("/booleanfs2/sahoo/Hegemon/")
+sys.path.append("Hegemon")
 import StepMiner as smn
 import HegemonUtil as hu
+try:
+    reload  # Python 2.7
+except NameError:
+    try:
+        from importlib import reload  # Python 3.4+
+    except ImportError:
+        from imp import reload  # Python 3.0 - 3.3
+
 import bone
 reload(bone)
+acolor = ["#00CC00", "#D8A03D","#EC008C",
+        'cyan', "#B741DC", "#808285",
+        'blue', 'black', 'green', 'red',
+        'orange', 'brown', 'pink', 'purple',
+        'salmon', 'greenyellow', 'skyblue', 'plum',
+        'sienna', 'darkseagreen', 'teal', 'magenta']
+
 
 plt.rc('text', usetex=True)
 
-import bone
-reload(bone)
-ng = [0, 7, 6, 5, 1, 16, 17]
-genes, wt1, l1 = bone.getGeneGroups([ng[j] for j in [1, 2, 3]], [-3, -2, -1],
-        0)
-#genes, wt1, l1 = bone.getGeneGroups([ng[j] for j in [4, 5, 6]], [1, 1, 2], 0)
+def getPDF(cfile):
+    import bone
+    reload(bone)
+    from matplotlib.backends.backend_pdf import PdfPages
 
-acolor = ["#00CC00", "yellow", "#EC008C",
-        'cyan', "#F7941D", "#808285",
-        'blue', 'black', 'green', 'red']
+    pdf = PdfPages(cfile)
+    return pdf
 
-ana = bone.IBDAnalysis()
-ana.getPeters(2)
+def closePDF(pdf):
+    import datetime
+    d = pdf.infodict()
+    d['Title'] = 'Prediction M1/M2 state'
+    d['Author'] = 'Debashis Sahoo'
+    d['Subject'] = 'COVID-19'
+    d['Keywords'] = 'disease training validation ROC'
+    d['CreationDate'] = datetime.datetime(2020, 1, 16)
+    d['ModDate'] = datetime.datetime.today()
+    pdf.close()
 
-ana.orderData(l1, wt1)
-fig = plt.figure(figsize=(4,4), dpi=100)
-ax = plt.subplot2grid((4, 1), (0, 0))
-params = {'spaceAnn': len(ana.order)/len(ana.atypes),
-        'tAnn': 1, 'widthAnn':1, 'acolor': acolor, 'ax': ax,
-        'w': 5, 'h': 0.8, 'atypes': ana.atypes ,'cval':
-        ana.cval}
-ax = ana.printTitleBar(params)
-res = ana.getMetrics(ana.cval[0])
-ax.text(len(ana.cval[0]), 4, ",".join(res))
-ax = plt.subplot2grid((4, 1), (1, 0), rowspan=3)
-ax = ana.densityPlot(ax)
-plt.tight_layout()
+def T1():
+    pdf = getPDF('results/heatma-1.pdf')
+    import HegemonUtil as hu
+    reload(hu)
+    import bone
+    reload(bone)
+    ng = [0, 7, 6, 5, 1, 16, 17]
+    genes, wt1, l1 = bone.getGeneGroups([ng[j] for j in [1, 2, 3]], [-3, -2, -1], 1)
+    ana = bone.IBDAnalysis()
+    ana.getPetersDf()
+    ana.orderDataDf(l1, wt1)
+    ofile = "results/heatmap-test.pdf"
+    params = {'dx': 100, 'dy': 10, 'spaceAnn': 30, 'tAnn': 1, 'widthAnn':3,
+              'sy': 35, 'thr': 1, 'w': 6, 'h': 6,
+              'genes': genes, 'atypes': ana.atypes,'cval': ana.cval,
+              'tl': 6, 'tw': 0.25, 'ts': 10, 'tsi': -100}
+    i1 = ana.i1
+    f_ranks = ana.f_ranks
+    ana.params = {'genes': genes,'atypes': ana.atypes,'cval': ana.cval}
+    ana.params.update(params)
+    ax, divider = bone.plotHeatmap(ofile, ana.data, ana.col_labels,
+            ana.row_labels, ana.params)
+    pdf.savefig()
 
-fig.savefig("comp-1.pdf", dpi=100)
+    closePDF(pdf)
 
+T1()
