@@ -181,7 +181,7 @@ def getFdrStats(cfile, thr, index):
     return high, low
 
 def readGenes(cfile):
-    genes = "PRKAB1 PPARG PPP1CA PPARGC1A SIRT6 OCLN PARD3 IL23A IL6 S1PR5 ACTA2     CCDC88A COL1A1 CXCL10 ELMO1 HIF1A IL10 IL33 ITGA4 ITGB1 ITGB7 JAK1 MMP14 MMP2     MMP9 MRC1 NOD2 PML PRKCQ RIPK2 S1PR1 SNAI2 SPHK1 TGFB1 TIMP2 TLR2 TLR4 VIM CLDN2     IL11 MMP1 MMP3 CEMIP KIAA1199 PRKAA2 IL8 CXCL8 LGR5"
+    genes = ""
     if not os.path.isfile(cfile):
         print("Can't open file {0} <br>".format(cfile))
         exit()
