@@ -6,6 +6,7 @@
 import cv2
 import re
 import numpy as np
+import scipy
 import matplotlib
 #matplotlib.use('agg')
 from matplotlib import pyplot as plt
@@ -22,7 +23,7 @@ import pandas as pd
 import seaborn as sns
 import json
 from sklearn.metrics import *
-from scipy.stats import fisher_exact
+from scipy.stats import fisher_exact, ttest_ind
 from pprint import pprint
 import os
 import pickle
@@ -1019,6 +1020,66 @@ def PathView(file1,  debug = 1):
             print(i, gn, h.getSimpleName(gn), data_item[i][0], len(gene_groups[i]))
     print([len(s) for s in gene_groups])
 
+def getNBGeneGroups(order = None, weight = None, debug = 1):
+    db = hu.Database("explore.conf")
+    h = hu.Hegemon(db.getDataset("NB4"))
+    h.init()
+    h.initPlatform()
+    h.initSurv()
+    data_item = []
+    with open('path-1.json') as data_file:
+        data_item += json.load(data_file)
+    with open('path-2.json') as data_file:
+        data_item += json.load(data_file)
+    with open('path-3.json') as data_file:
+        data_item += json.load(data_file)
+    cfile = "nb-net-cls.txt"
+    if not os.path.isfile(cfile):
+        print("Can't open file {0} <br>".format(cfile))
+        exit()
+    fp = open(cfile, "r")
+    nodelist = {}
+    nhash = {}
+    for line in fp:
+        line = line.strip();
+        ll = line.split("\t");
+        nodelist[ll[0]] = ll[2:]
+        for i in ll[2:]:
+            nhash[i] = ll[0];
+    fp.close();
+    gene_groups = []
+    for i in range(len(data_item)):
+        gene_groups.append(set())
+        gn = data_item[i][2][0][0]
+        for g in data_item[i][2]:
+            gene_groups[i].add(g[0])
+            if g[0] in nodelist:
+                for k in nodelist[g[0]]:
+                    gene_groups[i].add(k)
+        for g in data_item[i][3]:
+            gene_groups[i].add(g)
+            if g in nodelist:
+                for k in nodelist[g]:
+                    gene_groups[i].add(k)
+    print([len(s) for s in gene_groups])
+    if order is None:
+        order = [1, 3, 4, 5];
+        order = [35]
+        order = [43, 44, 45];
+        order = [8, 9, 10]
+    gene_groups = [gene_groups[i] for i in order]
+    print([len(s) for s in gene_groups])
+    gene_groups = getSimpleName(gene_groups, h)
+    print([len(s) for s in gene_groups])
+    if weight is None:
+        weight = [-1, 1, 2, 3]
+        weight = [-1, -2, -3]
+        weight = [-1]
+        weight = [-1, -2, -3]
+    print(weight)
+    genes = []
+    return genes, weight, gene_groups
+
 def getGeneGroups(order = None, weight = None, debug = 1):
     data_item = []
     with open('data/path-1.json') as data_file:
@@ -1221,11 +1282,39 @@ class IBDAnalysis:
     def aRange(self):
         return range(self.start, self.end + 1)
 
+    def getTitle(self):
+        title = self.name + " (" + self.source + "; n = " + str(self.num) + ")"
+        return title
+
     def printInfo(self):
         print(self.name + " (n = " + str(self.num) + ")")
         url = "http://hegemon.ucsd.edu/Tools/explore.php?key=polyps&id="
+        if self.dbid.startswith("NB"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=nb&id="
+        if self.dbid.startswith("PLP"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=polyps&id="
         if self.dbid.startswith("CRC"):
             url = "http://hegemon.ucsd.edu/Tools/explore.php?key=colon&id="
+        if self.dbid.startswith("MAC"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=mac&id="
+        if self.dbid.startswith("MACV"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=macv&id="
+        if self.dbid.startswith("LIV"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=liver&id="
+        if self.dbid.startswith("G16"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=gbm&id="
+        if self.dbid.startswith("GL"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=global&id="
+        if self.dbid.startswith("GS"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=gastric&id="
+        if self.dbid.startswith("AD"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=ad&id="
+        if self.dbid.startswith("COV"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=covid&id="
+        if self.dbid.startswith("LU"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=lung&id="
+        if self.dbid.startswith("HRT"):
+            url = "http://hegemon.ucsd.edu/Tools/explore.php?key=heart&id="
         print(self.source + " " + url + self.dbid)
         print(len(self.order), [len(i) for i in self.state], \
                 self.source, url + self.dbid, self.dbid)
@@ -1614,8 +1703,11 @@ class IBDAnalysis:
         if params is not None:
             self.params.update(params)
         lval, score = self.getScores(ahash=ahash)
-        ax,bp = plotScores(lval, self.params['atypes'], self.params)
-        ax.text(ax.get_xlim()[1], ax.get_ylim()[1], self.h.getSource(),
+        atypes = self.params['atypes']
+        atypes = [str(atypes[i]) + "("+str(len(lval[i]))+")"
+                for i in range(len(atypes))]
+        ax,bp = plotScores(lval, atypes, self.params)
+        ax.text(ax.get_xlim()[1], ax.get_ylim()[1], self.source,
                 horizontalalignment='left', verticalalignment='center')
         if ('vert' not in self.params or  self.params['vert'] == 0):
             for i in range(1, len(lval)):
@@ -1715,10 +1807,10 @@ class IBDAnalysis:
             lval[aval[i]] += [float(expr[i])]
         ax,bp = plotScores(lval, self.params['atypes'], self.params)
         if self.params['vert'] == 0:
-            ax.text(ax.get_xlim()[1], 1, self.h.getSource(),
+            ax.text(ax.get_xlim()[1], 1, self.source,
                     horizontalalignment='left', verticalalignment='center')
         else:
-            title = self.h.rdataset.getName() + " (" + self.h.getSource() + "; n = " + str(self.h.getNum()) + ")"
+            title = self.getTitle()
             ax.set_title(title)
             ax.set_ylabel(self.h.getSimpleName(id1))
         self.addAxes(ax)
@@ -1751,7 +1843,7 @@ class IBDAnalysis:
         return ",".join(res)
 
     def getStats(self, l1, wt1, annotation=[]):
-        src = re.sub(" .*", "", self.h.getSource())
+        src = re.sub(" .*", "", self.source)
         species = annotation[1]
         if species == 'Hs' or species == 'Rm' :
             self.orderData(l1, wt1)
@@ -1766,24 +1858,18 @@ class IBDAnalysis:
         return [src, roc, p, len(lval[0]), n1] + annotation
         
     def getSurvival(self, dbid = "CRC35.3"):
-        self.db = hu.Database("/booleanfs2/sahoo/Hegemon/explore.conf")
-        self.dbid = dbid
-        self.h = hu.Hegemon(self.db.getDataset(self.dbid))
-        self.h.init()
-        self.h.initPlatform()
-        self.h.initSurv()
+        self.prepareData(dbid)
         atype = self.h.getSurvName("status")
         atypes = ['Censor', 'Relapse']
         ahash = {"0": 0, "1":1}
-        aval = [ahash[atype[i]] if atype[i] in ahash \
-                        else None for i in range(self.h.getNum()+2)]
-        st0 = [ i for i in self.h.aRange() if aval[i] == 0]
-        st1 = [ i for i in self.h.aRange() if aval[i] == 1]
-        self.aval = aval
-        self.atype = atype
-        self.atypes = atypes
-        self.order = st0 + st1
-        self.printInfo()
+        self.initData(atype, atypes, ahash)
+
+    def getSurvivalDf(self, dbid = "CRC35.3"):
+        self.prepareDataDf(dbid)
+        atype = self.getSurvName("status")
+        atypes = ['Censor', 'Relapse']
+        ahash = {"0": 0, "1":1}
+        self.initData(atype, atypes, ahash)
 
     def printSurvival(self, fthr = None, pG = None, genex = "CDX2",
             ct = None, ax = None):
@@ -2457,5 +2543,265 @@ class IBDAnalysis:
         if (tn == 2):
             atypes = ['N', 'IBD']
             ahash = {'Control':0, 'Ulcerative Colitis':1}
+        self.initData(atype, atypes, ahash)
+
+class NBAnalysis(IBDAnalysis):
+
+    def __init__(self):
+        IBDAnalysis.__init__(self)
+
+    def getZage2020(self, tn=1):
+        self.prepareDataDf("NB14")
+        atype = self.getSurvName('c Type')
+        ahash = {'Kely':0, 'SKNSH':1, 'SKNBE2':2, 'P134':3, 'SKNAS':4,
+                'IMR32':5, 'NGP':6, 'LAN1':7}
+        rval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName('c Group')
+        atypes = ['C', 'RA']
+        ahash = {}
+        if (tn >= 3):
+            atype = [atype[i] if rval[i] == (tn - 3) else None 
+                    for i in range(len(atype))]
+        if (tn == 2):
+            bhash = {1:1, 2:1, 4:1, 5:1}
+            atype = [atype[i] if rval[i] in bhash else None 
+                    for i in range(len(atype))]
+        self.initData(atype, atypes, ahash)
+
+    def getTARGET2013(self, tn=1):
+        self.prepareDataDf("NB12")
+        atype = self.getSurvName('c Grade')
+        atypes = ['U', 'D']
+        ahash = {'Undifferentiated or Poorly Differentiated':0,
+                'Differentiating':1}
+        self.initData(atype, atypes, ahash)
+
+    def getJanoueixLerosey2008(self, tn=1):
+        self.prepareDataDf("NB15")
+        atype = self.getSurvName("c Title")
+        atype = [re.sub(" .*", "", str(k)) for k in atype]
+        atypes = ['NB', 'GGNB', 'GN']
+        ahash = {}
+        self.initData(atype, atypes, ahash)
+
+    def getAlbino2008(self, tn=1):
+        self.prepareDataDf("NB16")
+        atype = self.getSurvName("c Phenotype")
+        atype = [re.sub("Borderline g", "G", str(k)) for k in atype]
+        atype = [re.sub("[, ].*", "", str(k)) for k in atype]
+        atypes = ['NB', 'GGNB', 'GN']
+        ahash = {'Neuroblastoma':0, 'Ganglioneuroma':2,
+                'Ganglioneuroblastoma':1}
+        self.initData(atype, atypes, ahash)
+
+    def getNishida2008(self, tn=1, tb=1):
+        self.prepareData("NB17")
+        atype = self.h.getSurvName("c src1")
+        atype = [re.sub(".*RA\), ", "RA ", str(k)) for k in atype]
+        atype = [re.sub(".*NF\), ", "BDNF ", str(k)) for k in atype]
+        ahash = {'RA LY294002, 1day':1, 'RA LY294002, 3day':3,
+                'RA LY294002, 2day':2, 'RA LY294002, 0hour':0,
+                'RA LY294002, 6hour':0.25, 'RA LY294002, 5day':5,
+                'BDNF 6hour':0.25, 'BDNF 1day':1, 'BDNF 2day':2, 'BDNF 3day':3,
+                'RA 1day':1, 'RA 0hour':0, 'RA 5day':5,
+                'RA 3day':3, 'RA 6hour':0.25, 'RA 2day':2}
+        tval = [ahash[i] if i in ahash else None for i in atype]
+        atypes = ['C', 'RA', 'RAi', 'BDNF']
+        ahash = {'RA LY294002, 1day':0, 'RA LY294002, 3day':2,
+                'RA LY294002, 2day':0, 'RA LY294002, 0hour':0,
+                'RA LY294002, 6hour':0, 'RA LY294002, 5day':2,
+                'BDNF 6hour':0, 'BDNF 1day':0, 'BDNF 2day':0, 'BDNF 3day':3,
+                'RA 1day':0, 'RA 0hour':0, 'RA 5day':1,
+                'RA 3day':1, 'RA 6hour':0, 'RA 2day':0}
+        if (tn == 2):
+            atypes = ['C', 'RA']
+            ahash = {'RA 1day':1, 'RA 0hour':0, 'RA 5day':1,
+                    'RA 3day':1, 'RA 6hour':1, 'RA 2day':1}
+            atype = [atype[i] if tval[i] == tb or tval[i] == 0
+                    else None for i in range(len(atype))]
+        self.initData(atype, atypes, ahash)
+
+    def getNishida2008Df(self, tn=1, tb=1):
+        self.prepareDataDf("NB17")
+        atype = self.getSurvName("c src1")
+        atype = [re.sub(".*RA\), ", "RA ", str(k)) for k in atype]
+        atype = [re.sub(".*NF\), ", "BDNF ", str(k)) for k in atype]
+        ahash = {'RA LY294002, 1day':1, 'RA LY294002, 3day':3,
+                'RA LY294002, 2day':2, 'RA LY294002, 0hour':0,
+                'RA LY294002, 6hour':0.25, 'RA LY294002, 5day':5,
+                'BDNF 6hour':0.25, 'BDNF 1day':1, 'BDNF 2day':2, 'BDNF 3day':3,
+                'RA 1day':1, 'RA 0hour':0, 'RA 5day':5,
+                'RA 3day':3, 'RA 6hour':0.25, 'RA 2day':2}
+        tval = [ahash[i] if i in ahash else None for i in atype]
+        atypes = ['C', 'RA', 'RAi', 'BDNF']
+        ahash = {'RA LY294002, 1day':0, 'RA LY294002, 3day':2,
+                'RA LY294002, 2day':0, 'RA LY294002, 0hour':0,
+                'RA LY294002, 6hour':0, 'RA LY294002, 5day':2,
+                'BDNF 6hour':0, 'BDNF 1day':0, 'BDNF 2day':0, 'BDNF 3day':3,
+                'RA 1day':0, 'RA 0hour':0, 'RA 5day':1,
+                'RA 3day':1, 'RA 6hour':0, 'RA 2day':0}
+        if (tn == 2):
+            atypes = ['C', 'RA']
+            ahash = {'RA 1day':1, 'RA 0hour':0, 'RA 5day':1,
+                    'RA 3day':1, 'RA 6hour':1, 'RA 2day':1}
+            atype = [atype[i] if tval[i] == tb or tval[i] == 0
+                    else None for i in range(len(atype))]
+        self.initData(atype, atypes, ahash)
+
+    def getOhtaki2010(self, tn=1):
+        self.prepareData("NB19")
+        atype = self.h.getSurvName("c outcome of the patient")
+        atypes = ['D', 'A']
+        ahash = {'Alive':1, 'Died of disease':0}
+        if (tn == 2):
+            atype = [None if self.headers[i] == 'GSM408940'
+                    else atype[i] for i in range(len(atype))]
+        self.initData(atype, atypes, ahash)
+
+    def getOhtaki2010Df(self, tn=1):
+        self.prepareDataDf("NB19")
+        atype = self.getSurvName("c outcome of the patient")
+        atypes = ['D', 'A']
+        ahash = {'Alive':1, 'Died of disease':0}
+        if (tn == 2):
+            atype = [None if self.headers[i] == 'GSM408940'
+                    else atype[i] for i in range(len(atype))]
+        self.initData(atype, atypes, ahash)
+
+    def getAsgharzadeh2006(self, tn=1):
+        self.prepareDataDf("NB11")
+        atype = self.getSurvName("c src1")
+        atype = [re.sub(".* ", "", str(k)) for k in atype]
+        atypes = ['D', 'R']
+        ahash = {'diagnosis':0, 'relapse':1}
+        self.initData(atype, atypes, ahash)
+
+    def getAckermann2018(self, tn=1):
+        self.prepareDataDf("NB9")
+        atype = self.getSurvName("c mycn status")
+        ahash = {'not amplified':0, 'amplified':1, 'N/A':2}
+        mval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName("c tert rearrangement")
+        atypes = ['+', '-']
+        ahash = {}
+        if (tn == 2):
+            atype = [atype[i] if (mval[i] == 0)
+                    else None for i in range(len(atype))]
+        if (tn == 3):
+            atype = [atype[i] if (mval[i] == 1)
+                    else None for i in range(len(atype))]
+        self.initData(atype, atypes, ahash)
+
+    def getRifatbegovic2018(self, tn=1):
+        self.prepareDataDf("NB21")
+        atype = self.getSurvName("c Title")
+        ctype = [re.sub(" .*", "", str(k)) for k in atype]
+        ahash = {'DTCs':0, 'MNCs':1, 'Tumor':2}
+        tval = [ahash[i] if i in ahash else None for i in ctype]
+        atype = [re.sub(".* at ", "", str(k)) for k in atype]
+        atype = [re.sub(". .*", "", str(k)) for k in atype]
+        atypes = ['D', 'R']
+        ahash = {'diagnosis':0, 'relapse':1}
+        if (tn == 2):
+            atype = [atype[i] if (tval[i] == 0)
+                    else None for i in range(len(atype))]
+        if (tn == 3):
+            atype = [atype[i] if (tval[i] == 1)
+                    else None for i in range(len(atype))]
+        if (tn == 4):
+            atype = tval
+            atypes = ['DTCs', 'MNCs', 'Tumor']
+            ahash = {0:0, 1:1, 2:2}
+        self.initData(atype, atypes, ahash)
+
+    def getClaeys2019I(self, tn=1):
+        self.prepareDataDf("NB22")
+        atype = self.getSurvName("c transduced with")
+        atype = [re.sub(" .*", "", str(k)) for k in atype]
+        atypes = ['none', 'HBP1']
+        ahash = {}
+        self.initData(atype, atypes, ahash)
+
+    def getClaeys2019II(self, tn=1):
+        self.prepareDataDf("NB22.2")
+        atype = self.getSurvName("c Array ID")
+        atype = [re.sub("_.$", "", str(k)) for k in atype]
+        atypes = ['DMSO', 'BEZ', 'SAHA', 'BEZ_SAHA']
+        ahash = {}
+        if (tn == 2):
+            atypes = ['DMSO', 'BEZ', 'SAHA']
+            ahash = {}
+        if (tn == 3):
+            atypes = ['DMSO', 'BEZ']
+            ahash = {}
+        self.initData(atype, atypes, ahash)
+
+    def getWesterlund2017II(self, tn=1):
+        self.prepareDataDf("NB23.2")
+        atype = self.getSurvName("c time point")
+        ahash = {'EP':0, 'day10':1, 'day14':2}
+        tval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName("c injected cells")
+        ahash = {'CHP212':0, 'LAN-1':1}
+        gval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName("c treatment")
+        atypes = ['C', 'RA', 'AZA', 'RA+AZA']
+        ahash = {'AZA':2, 'AZA + RA':3, 'DMSO (CTRL)':0, 'RA':1}
+        if (tn == 2):
+            atype = [atype[i] if (gval[i] == 0)
+                    else None for i in range(len(atype))]
+        if (tn == 3):
+            atype = [atype[i] if gval[i] == 1
+                    else None for i in range(len(atype))]
+        if (tn == 4):
+            atypes = ['C', 'RA+AZA']
+            ahash = {'AZA + RA':1, 'DMSO (CTRL)':0}
+            atype = [atype[i] if gval[i] == 1 and tval[i] == 2
+                    else None for i in range(len(atype))]
+        self.initData(atype, atypes, ahash)
+
+    def getWesterlund2017III(self, tn=1):
+        self.prepareDataDf("NB23.3")
+        atype = self.getSurvName("c time point")
+        ahash = {'EP':0}
+        tval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName("c injected cells")
+        ahash = {'SK-N-AS':0}
+        gval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName("c treatment")
+        atypes = ['C', 'RA', 'AZA', 'RA+AZA']
+        ahash = {'AZA':2, 'AZA + RA':3, 'DMSO (CTRL)':0, 'RA':1}
+        if (tn == 2):
+            atypes = ['C', 'RA+AZA']
+            ahash = {'AZA + RA':1, 'DMSO (CTRL)':0}
+        self.initData(atype, atypes, ahash)
+
+    def getFrumm2013(self, tn=1):
+        self.prepareDataDf("NB24")
+        atype = self.getSurvName("c treatment duration")
+        ahash = {'6':6, '72':72, '24':24}
+        tval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName("c cell line")
+        ahash = {'BE(2)-C':0}
+        gval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName("c treatment")
+        atypes = ['C', 'RA', 'VPA', 'RA+VPA']
+        ahash = {'5uM ATRA':1, '1mM valproic acid (VPA)':2, 'DMSO':0,
+                '5uM ATRA + 1mM valproic acid (VPA)':3}
+        if (tn == 2):
+            atypes = ['C', 'RA']
+            ahash = {'5uM ATRA':1, 'DMSO':0}
+            atype = [atype[i] if tval[i] == 24 or tval[i] == 72
+                    else None for i in range(len(atype))]
+        self.initData(atype, atypes, ahash)
+
+    def getPezzini2017(self, tn=1):
+        self.prepareDataDf("NB25")
+        atype = self.getSurvName("c cell line")
+        ahash = {'SH-SY5Y':0}
+        gval = [ahash[i] if i in ahash else None for i in atype]
+        atype = self.getSurvName("c treatment")
+        atypes = ['C', 'RA']
+        ahash = {'RA-NBM':1, '5% FBS':0}
         self.initData(atype, atypes, ahash)
 

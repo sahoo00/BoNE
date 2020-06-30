@@ -1,0 +1,80 @@
+#!/bin/bash
+
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jre1.8.0_25"
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jdk1.8.0_45"
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH="../stepminer-1.1.jar"
+stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
+stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
+export PERL_HASH_SEED=0
+
+#perl analyze.pl data-download NB4 zhang-2014-rnaseq-nb
+#perl analyze.pl toidx zhang-2014-rnaseq-nb-expr.txt > zhang-2014-rnaseq-nb-idx.txt
+#
+#for i in zhang-2014-rnaseq-nb-expr.txt
+#do
+#    P=${i/-expr.txt/}
+#    echo $P
+#    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+#    if [[ ! -f "$P-thr.txt" ]]; then
+#      perl analyze.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+#    fi
+#    if [[ ! -f "$P-info.txt" ]]; then
+#      perl analyze.pl Info  $P > $P-info.txt
+#    fi
+#    if [[ ! -f "$P-vinfo.txt" ]]; then
+#      perl analyze.pl VInfo $P > $P-vinfo.txt
+#    fi
+#    if [[ ! -f "$P-bv.txt" ]]; then
+#      perl analyze.pl bv $P > $P-bv.txt
+#    fi
+#done
+#
+#exit
+#
+#FILE=nb-net
+#rm -f $FILE.rl
+#${stepminer} boolean bitMatrix $FILE.rl \
+#  zhang-2014-rnaseq-nb-bv.txt \
+#  $FILE.ph All 0.1 3 0.05
+#${stepminer} boolean bitMatrixFill $FILE.rl
+#${stepminer} boolean bitMatrixFillStats $FILE.rl
+#${stepminer} boolean bitMatrixPrint $FILE.rl > $FILE-res.txt
+#${stepminer} boolean bitMatrixPrintStats $FILE.rl > $FILE-stats.txt
+#
+#exit
+
+
+#perl analyze.pl network eq > nb-net-eq.txt
+#perl analyze.pl network cls > nb-net-cls.txt
+#perl analyze.pl network g-cls > nb-net-eq-g.txt
+#
+#perl analyze.pl n-cls > nb-net-n-cls.txt
+perl analyze.pl network state > nb-net-state.txt
+
+
+perl analyze.pl network genes NM_001195738 CCDC88A > path-1.json
+perl analyze.pl network genes NM_001136154 > path-2.json
+perl analyze.pl network genes NM_001211 NM_182850 > path-3.json
+
+python node.py -i path-1.json -o node-1.txt -n 4
+python node.py -i path-1.json -o node-2.txt -n 3
+python node.py -i path-1.json -o node-3.txt -n 2
+python node.py -i path-1.json -o node-4.txt -n 1
+python node.py -i path-1.json -o node-5.txt -n -1
+python node.py -i path-1.json -o node-6.txt -n -2
+python node.py -i path-1.json -o node-7.txt -n -3
+python node.py -i path-1.json -o node-8.txt -n -4
+
+python node.py -i path-3.json -o node-9.txt -n 1
+python node.py -i path-3.json -o node-10.txt -n -1
+
+python node.py -i path-2.json -o node-11.txt -n -1
+
+for i in node*.txt
+do
+  echo $i
+  O=${i/node-/reactome-}
+  python reactome.py -i $i > $O
+done
+
