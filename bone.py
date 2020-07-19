@@ -997,7 +997,7 @@ def getGroupsHsv1(gene_groups):
     return gene_groups_hs
 
 def getGroupsHs(gene_groups):
-    cfile = getRealpath("data/ensembl-GRCh38.p6-100-mm-hs.txt")
+    cfile = getRealpath("BoNE/data/ensembl-GRCm38.p6-100-mm-hs.txt")
     fp = open(cfile, "r")
     mmdict = {}
     for line in fp:
