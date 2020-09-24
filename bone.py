@@ -906,6 +906,77 @@ def plotScores(data, atypes, params):
 
     return ax, bp
 
+def plotViolin(data, atypes, params):
+    df = pd.DataFrame()
+    df['score'] = [k for i in range(len(data)) for k in data[i]]
+    df['category'] = [atypes[i] for i in range(len(data)) for k in data[i]]
+    m1 = []
+    pvals = []
+    for i in range(1, len(data)):
+        if len(data[i]) <= 0:
+            m1 += [0]
+            pvals += [""]
+            continue
+        m1 += [max(data[i]) + (max(data[i]) - min(data[i])) * 0.1]
+        t, p = ttest_ind(data[0],data[i], equal_var=False)
+        if (p < 0.05):
+            pvals += ["p=%.3g" % p]
+        else:
+            pvals += [""]
+    dpi = 100
+    if 'dpi' in params:
+        dpi = params['dpi']
+    w,h = (1.5 * len(atypes), 4)
+    if 'w' in params:
+        w = params['w']
+    if 'h' in params:
+        h = params['h']
+    color_sch1 = acolor
+    if 'acolor' in params:
+        color_sch1 = params['acolor']
+    sns.set()
+    sns.set_style("white")
+    sns.set_style({'text.color': '.5', 
+        'xtick.color':'.5', 'ytick.color':'.5', 'axes.labelcolor': '.5'})
+    sns.set_context("notebook")
+    sns.set_palette([adj_light(c, 1.5, 1) for c in color_sch1])
+    ax = None
+    if 'ax' in params:
+        ax = params['ax']
+    if ax is None:
+        fig,ax = plt.subplots(figsize=(w,h), dpi=dpi)
+    width = 1
+    height = 1
+    if 'width' in params:
+        width = params['width']
+    if 'vert' in params and params['vert'] == 1:
+        ax = sns.violinplot(x="category", y="score", inner='quartile',
+                linewidth=0.5, width=width, ax = ax, data=df,
+                order = atypes)
+        ax = sns.swarmplot(x="category", y="score", color = 'blue', alpha=0.2,
+                ax=ax, data=df, order = atypes)
+        ax.set_xlabel("")
+        pos = range(len(atypes))
+        for tick,label in zip(pos[1:],ax.get_xticklabels()[1:]):
+            ax.text(pos[tick], m1[tick - 1], pvals[tick - 1],
+                    horizontalalignment='center', size=12,
+                    color='0.3')
+        ax.yaxis.grid(True, clip_on=False)
+    else:
+        ax = sns.violinplot(x="score", y="category", inner='quartile',
+                linewidth=0.5, width=width, ax = ax, data=df,
+                order = atypes)
+        ax = sns.swarmplot(x="score", y="category", color = 'blue', alpha=0.2,
+                ax=ax, data=df, order = atypes)
+        ax.set_ylabel("")
+        pos = range(len(atypes))
+        for tick,label in zip(pos[1:],ax.get_yticklabels()[1:]):
+            ax.text(m1[tick - 1], pos[tick]-0.5, pvals[tick - 1],
+                    horizontalalignment='center', size=12,
+                    color='0.3')
+        ax.xaxis.grid(True, clip_on=False)
+    return ax
+
 def getGroupsMmv1(gene_groups):
     cfile = "/booleanfs2/sahoo/Data/SeqData/genome/Homo_sapiens.GRCh38.95.chr_patch_hapl_scaff.len.txt"
     fp = open(cfile, "r")
