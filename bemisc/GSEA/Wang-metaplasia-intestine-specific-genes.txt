@@ -1,0 +1,2 @@
+Cyp2f2	Krt6a	Pax9	Adh7	Upk2	Muc4	Sox1	Upk1b	Gapbrp	Upk1a	Ceacam1	Cxcl17	Car4	Krt31	Runx2	Krt7
+Nr5a2	Muc3	Tinag	Afm	Hnf4a	Muc2	Cdx1	lsx	Tff3	Lgals2	Cdx2	Alpi	Apob	Fabp2	Lct	Apoc3

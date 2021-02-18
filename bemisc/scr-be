@@ -1,0 +1,494 @@
+#!/bin/bash
+
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jdk1.8.0_45"
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH="./stepminer-1.1.jar"
+stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
+stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
+export PERL_HASH_SEED=0
+
+#git clone https://github.com/sahoo00/Hegemon
+#mv Hegemon ..
+#javac ../Hegemon/tools/*.java
+#
+
+exit
+
+mkdir 'be-data/GSE153129'
+perl analyze-be.pl data-download BE1 be-data/GSE153129/sen-2020-barretts
+perl analyze-be.pl toidx be-data/GSE153129/sen-2020-barretts-expr.txt > be-data/GSE153129/sen-2020-barretts-idx.txt
+
+for i in be-data/GSE153129/sen-2020-barretts-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE96831'
+perl analyze-be.pl data-download BE2 be-data/GSE96831/GSE96831-GPL7202
+perl analyze-be.pl toidx be-data/GSE96831/GSE96831-GPL7202-expr.txt > be-data/GSE96831/GSE96831-GPL7202-idx.txt
+
+for i in be-data/GSE96831/GSE96831-GPL7202-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE100843'
+perl analyze-be.pl data-download BE6 be-data/GSE100843/GSE100843-GPL6244
+perl analyze-be.pl toidx be-data/GSE100843/GSE100843-GPL6244-expr.txt > be-data/GSE100843/GSE100843-GPL6244-idx.txt
+
+for i in be-data/GSE100843/GSE100843-GPL6244-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE65013'
+perl analyze-be.pl data-download BE7 be-data/GSE65013/GSE65013-GPL5175
+perl analyze-be.pl toidx be-data/GSE65013/GSE65013-GPL5175-expr.txt > be-data/GSE65013/GSE65013-GPL5175-idx.txt
+
+for i in be-data/GSE65013/GSE65013-GPL5175-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE64894'
+perl analyze-be.pl data-download BE8 be-data/GSE64894/GSE64894-GPL570
+perl analyze-be.pl toidx be-data/GSE64894/GSE64894-GPL570-expr.txt > be-data/GSE64894/GSE64894-GPL570-idx.txt
+
+for i in be-data/GSE64894/GSE64894-GPL570-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE39491'
+perl analyze-be.pl data-download BE9 be-data/GSE39491/GSE39491-GPL571
+perl analyze-be.pl toidx be-data/GSE39491/GSE39491-GPL571-expr.txt > be-data/GSE39491/GSE39491-GPL571-idx.txt
+
+for i in be-data/GSE39491/GSE39491-GPL571-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE49292'
+perl analyze-be.pl data-download BE10 be-data/GSE49292/GSE49292-GPL5175
+perl analyze-be.pl toidx be-data/GSE49292/GSE49292-GPL5175-expr.txt > be-data/GSE49292/GSE49292-GPL5175-idx.txt
+
+for i in be-data/GSE49292/GSE49292-GPL5175-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE26886'
+perl analyze-be.pl data-download BE11 be-data/GSE26886/GSE26886-GPL570
+perl analyze-be.pl toidx be-data/GSE26886/GSE26886-GPL570-expr.txt > be-data/GSE26886/GSE26886-GPL570-idx.txt
+
+for i in be-data/GSE26886/GSE26886-GPL570-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE34619'
+perl analyze-be.pl data-download BE12 be-data/GSE34619/GSE34619-GPL6244
+perl analyze-be.pl toidx be-data/GSE34619/GSE34619-GPL6244-expr.txt > be-data/GSE34619/GSE34619-GPL6244-idx.txt
+
+for i in be-data/GSE34619/GSE34619-GPL6244-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE13083'
+perl analyze-be.pl data-download BE13 be-data/GSE13083/GSE13083-GPL96
+perl analyze-be.pl toidx be-data/GSE13083/GSE13083-GPL96-expr.txt > be-data/GSE13083/GSE13083-GPL96-idx.txt
+
+for i in be-data/GSE13083/GSE13083-GPL96-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE58963'
+perl analyze-be.pl data-download BE19 be-data/GSE58963/GSE58963-GPL10999
+perl analyze-be.pl toidx be-data/GSE58963/GSE58963-GPL10999-expr.txt > be-data/GSE58963/GSE58963-GPL10999-idx.txt
+
+for i in be-data/GSE58963/GSE58963-GPL10999-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE9768'
+perl analyze-be.pl data-download BE21 be-data/GSE9768/GSE9768-GPL570
+perl analyze-be.pl toidx be-data/GSE9768/GSE9768-GPL570-expr.txt > be-data/GSE9768/GSE9768-GPL570-idx.txt
+
+for i in be-data/GSE9768/GSE9768-GPL570-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE70051'
+perl analyze-be.pl data-download BE25 be-data/GSE70051/GSE70051-GPL570
+perl analyze-be.pl toidx be-data/GSE70051/GSE70051-GPL570-expr.txt > be-data/GSE70051/GSE70051-GPL570-idx.txt
+
+for i in be-data/GSE70051/GSE70051-GPL570-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/Analysis-3'
+perl analyze-be.pl data-download BE28 be-data/Analysis-3/pg-2021-be-si
+perl analyze-be.pl toidx be-data/Analysis-3/pg-2021-be-si-expr.txt > be-data/Analysis-3/pg-2021-be-si-idx.txt
+
+for i in be-data/Analysis-3/pg-2021-be-si-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/Analysis-2'
+perl analyze-be.pl data-download BE29 be-data/Analysis-2/sen-2021-k
+perl analyze-be.pl toidx be-data/Analysis-2/sen-2021-k-expr.txt > be-data/Analysis-2/sen-2021-k-idx.txt
+
+for i in be-data/Analysis-2/sen-2021-k-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE120795'
+perl analyze.pl data-download1 GL33 be-data/GSE120795/Suntsova-2019-tissue
+perl analyze.pl toidx be-data/GSE120795/Suntsova-2019-tissue-expr.txt > be-data/GSE120795/Suntsova-2019-tissue-idx.txt
+
+for i in be-data/GSE120795/Suntsova-2019-tissue-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE129153'
+perl analyze.pl data-download1 GL35 be-data/GSE129153/Roberts-2021-fat
+perl analyze.pl toidx be-data/GSE129153/Roberts-2021-fat-expr.txt > be-data/GSE129153/Roberts-2021-fat-idx.txt
+
+for i in be-data/GSE129153/Roberts-2021-fat-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE120795'
+perl analyze-be.pl data-download1 GL33 be-data/GSE120795/Suntsova-2019-tissue
+perl analyze-be.pl toidx be-data/GSE120795/Suntsova-2019-tissue-expr.txt > be-data/GSE120795/Suntsova-2019-tissue-idx.txt
+
+for i in be-data/GSE120795/Suntsova-2019-tissue-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE129153'
+perl analyze-be.pl data-download1 GL35 be-data/GSE129153/Roberts-2021-fat
+perl analyze-be.pl toidx be-data/GSE129153/Roberts-2021-fat-expr.txt > be-data/GSE129153/Roberts-2021-fat-idx.txt
+
+for i in be-data/GSE129153/Roberts-2021-fat-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
+
+
+mkdir 'be-data/GSE148818'
+perl analyze-be.pl data-download1 GL36 be-data/GSE148818/Pennycuick-2020-trachea
+perl analyze-be.pl toidx be-data/GSE148818/Pennycuick-2020-trachea-expr.txt > be-data/GSE148818/Pennycuick-2020-trachea-idx.txt
+
+for i in be-data/GSE148818/Pennycuick-2020-trachea-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze-be.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze-be.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze-be.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze-be.pl bv $P > $P-bv.txt
+    fi
+done
