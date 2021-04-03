@@ -2070,6 +2070,25 @@ class IBDAnalysis:
         res = multivariate_logrank_test(t, g, s)
         print("p = %.2g" % res.p_value)
 
+    def printMeanAbsoluteDeviation(ana, ofile):
+        from scipy.stats import median_absolute_deviation
+        fp = ana.h.fp;
+        fp.seek(0, 0);
+        head = fp.readline();
+        of = open(ofile, "w")
+        of.write("\t".join(["ArrayID", "MAD"]) + "\n")
+        index = 0
+        for line in fp:
+          line = re.sub("[\r\n]", "", line)
+          ll = line.split("\t")
+          if len([i for i in ana.order if ll[i] == '']) > 0:
+              continue
+          v1 = [float(ll[i]) for i in ana.order]
+          mad = median_absolute_deviation(v1)
+          of.write("\t".join([ll[0], str(mad)]) +"\n")
+          index += 1
+        of.close()
+
     def getJSTOM(self):
         self.getSurvival("CRC35.3")
 

@@ -9,7 +9,7 @@ export PERL_HASH_SEED=0
 
 #git clone https://github.com/sahoo00/Hegemon
 #javac Hegemon/tools/*.java
-#
+
 
 #perl analyze.pl data-download PLP10 data/arijs-2018-uc
 #perl analyze.pl toidx data/arijs-2018-uc-expr.txt > data/arijs-2018-uc-idx.txt
@@ -65,7 +65,7 @@ export PERL_HASH_SEED=0
 
 #Identifying Paths:
 
-perl analyze.pl ibd genes > results/path-1.json
-perl analyze.pl ibd genes C21orf33 NCF2 > results/path-2.json
+#perl analyze.pl ibd genes > results/path-1.json
+#perl analyze.pl ibd genes C21orf33 NCF2 > results/path-2.json
 
 
