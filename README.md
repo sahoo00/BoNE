@@ -1,6 +1,40 @@
 # BoNE
 Boolean Network Explorer
 
+## Table of contents
+* [General info](#general-info)
+* [Systems requirements](#systems-requirements)
+* [Installation guide](#installation-guide)
+* [Demo](#demo)
+* [Instruction for use](#instruction-for-use)
+
+## General info
+BoNE is a free, open source software
+that can be used analyze biomedical datasets.
+BoNE transforms Boolean implication relationships into simplified directed graph.
+In the context of biological gene regulatory networks, the directed
+graph posesses a new set of challenges. BoNE implements a set of
+toolkit to explore and analyze the directed graph representation of biological
+dataset and integrates with machine learning for computing predictive models.
+BoNE simplify the Boolean implication netwok by clustering them first using
+Boolean Equivalent relationships. The edges between clusters are
+defined using overwhelming relationships observed between them. BoNE traverse
+the graph to discover different directed paths and chose them using machine
+learning framework to build predictive models.
+
+## Systems requirements
+Project is created with:
+* java: 1.8.0 25
+* perl: v5.26.1
+* python: 3.6.9
+  - lifelines: 0.22.8
+  - matplotlib: 3.2.1
+  - numpy: 1.19.4
+* StepMiner: 1.1
+* Hegemon: 1.1
+
+## Installation guide
+
 bash script to run the softwares:
 scr
 
@@ -20,10 +54,16 @@ Environment variables:
 export JAVA_HOME="/booleanfs/sahoo/softwares/java/jdk1.8.0_45"
 export PATH=$JAVA_HOME/bin:$PATH
 export CLASSPATH="./stepminer-1.1.jar"
+export HEGEMONPATH="/booleanfs2/sahoo/Hegemon"
 stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
 stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
 export PERL_HASH_SEED=0
 ```
+
+Typical installation time on a normal computer varies from 5 mins to one hour.
+
+## Demo
+
 Building Boolean Implication Network:
 
 ```
@@ -69,5 +109,15 @@ perl analyze.pl ibd genes C21orf33 NCF2 > path-2.json
 Analysis of Paths:
 
 python code with bone.py and comp.py
+
+Expected runtimes for this job is 1 hour.
+
+## Instruction for use
+
+Instructions for use in Neuroblastoma,
+Barrett's Esophagus, COVID-19 are provided in NB, BE and covid directories
+respectively.
+
+Jupyter Notebook is provided to reproduce the manuscript figures.
 
 
