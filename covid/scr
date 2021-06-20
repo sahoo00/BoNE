@@ -1,0 +1,42 @@
+#!/bin/bash
+
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jre1.8.0_25"
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jdk1.8.0_45"
+export PATH=$JAVA_HOME/bin:$PATH
+export HEGEMONPATH="/booleanfs2/sahoo/Hegemon"
+export CLASSPATH="../stepminer-1.1.jar"
+stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
+stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
+export PERL_HASH_SEED=0
+
+perl analyze.pl data-download MACV104 mitchell-2013-flu
+perl analyze.pl toidx mitchell-2013-flu-expr.txt > mitchell-2013-flu-idx.txt
+
+perl analyze.pl data-download MACV107 jones-2019-flu-tpm
+perl analyze.pl toidx jones-2019-flu-tpm-expr.txt > jones-2019-flu-tpm-idx.txt
+
+perl analyze.pl data-download COV167 Tang-2019-iav
+perl analyze.pl toidx Tang-2019-iav-expr.txt > Tang-2019-iav-idx.txt
+
+for i in mitchell-2013-flu-expr.txt jones-2019-flu-tpm-expr.txt Tang-2019-iav-expr.txt
+do
+    P=${i/-expr.txt/}
+    echo $P
+    rm -f "$P-thr.txt" "$P-info.txt" "$P-vinfo.txt" "$P-bv.txt"
+    if [[ ! -f "$P-thr.txt" ]]; then
+      perl analyze.pl thr $i 2 70000 0.5 > "$P-thr.txt"
+    fi
+    if [[ ! -f "$P-info.txt" ]]; then
+      perl analyze.pl Info  $P > $P-info.txt
+    fi
+    if [[ ! -f "$P-vinfo.txt" ]]; then
+      perl analyze.pl VInfo $P > $P-vinfo.txt
+    fi
+    if [[ ! -f "$P-bv.txt" ]]; then
+      perl analyze.pl bv $P > $P-bv.txt
+    fi
+done
+
+java -cp $HEGEMONPATH tools.Hegemon Bool mitchell-2013-flu \
+  A_23_P252981 > ace2-boolean.txt
+
