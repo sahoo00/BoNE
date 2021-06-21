@@ -805,6 +805,17 @@ def adj_light(color, l=1, s=1):
     return colorsys.hls_to_rgb(c[0], max(0, min(1, l * c[1])), 
                  max(0, min(1, s * c[2])))
 
+def setPlotStyle(params=None):
+    color_sch1 = acolor
+    if params is not None and 'acolor' in params:
+        color_sch1 = params['acolor']
+    sns.set()
+    sns.set_style("white")
+    sns.set_style({'text.color': '.5', 
+        'xtick.color':'.5', 'ytick.color':'.5', 'axes.labelcolor': '.5'})
+    sns.set_context("notebook")
+    sns.set_palette([adj_light(c, 1.5, 1) for c in color_sch1])
+
 def mean_confidence_interval(data, confidence=0.95):
     a = 1.0 * np.array(data)
     n = len(a)
