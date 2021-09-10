@@ -1510,16 +1510,21 @@ class IBDAnalysis:
         #ranks, row_labels, expr = getRanks(gene_groups, h)
         ranks, row_labels, row_ids, row_numhi, expr = getRanks2(gene_groups,
                 self.h)
-        i1 = getOrder(self.order, self.start, ranks, weight)
-        index = np.array([i - self.start for i in i1])
+        self.f_ranks = mergeRanks(self.h.aRange(), self.h.start, ranks, weight)
+        #i1 = getOrder(self.order, self.h.start, ranks, weight)
+        arr = [self.f_ranks[i - self.h.start] for i in self.order]
+        i1 = [self.order[i] for i in np.argsort(arr)]
+        index = np.array([i - self.h.start for i in i1])
         self.cval = np.array([[self.aval[i] for i in i1]])
         #self.data = np.array(expr)[:,index]
         self.ind_r = np.array(sorted(range(len(row_labels)),
             key=lambda x: (row_numhi[x][0], row_numhi[x][1])))
         row_labels = [row_labels[i] for i in self.ind_r]
         row_ids = [row_ids[i] for i in self.ind_r]
-        self.data = np.array([expr[i] for i in self.ind_r])[:,index]
-        self.f_ranks = mergeRanks(self.h.aRange(), self.start, ranks, weight)
+        if len(self.ind_r) > 0:
+            self.data = np.array([expr[i] for i in self.ind_r])[:,index]
+        else:
+            self.data = np.array([expr[i] for i in self.ind_r])
         self.ranks = ranks
         self.row_labels = row_labels
         self.row_ids = row_ids
@@ -1528,6 +1533,7 @@ class IBDAnalysis:
         self.i1 = i1
         self.index = index
         self.otype = 1
+
 
     def orderData2(self, gene_groups, weight):
         self.col_labels = [self.h.headers[i] for i in self.order]
