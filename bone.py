@@ -18,6 +18,7 @@ import matplotlib.colors as colors
 from matplotlib.transforms import *
 import PIL
 import math
+import array
 #get_ipython().magic(u'matplotlib inline')
 import pandas as pd
 import seaborn as sns
@@ -81,6 +82,81 @@ def getBoolean(cfile, sthr, pthr, code):
             if rel == code:
                 res.append(ll[1])
     return res
+
+def plotViolinBar(ana, desc=None):
+    fig = plt.figure(figsize=(4,4), dpi=100)
+    plt.subplots_adjust(hspace=0.5, wspace=0.5)
+    ax1 = plt.subplot2grid((4, 1), (0, 0))
+    ax2 = plt.subplot2grid((4, 1), (1, 0), rowspan=3)
+    params = {'spaceAnn': len(ana.order)/len(ana.atypes), 'tAnn': 1, 'widthAnn':1,
+              'genes': [], 'ax': ax1, 'acolor': acolor}
+    ax = ana.printTitleBar(params)
+    res = ana.getROCAUC()
+    ax.text(len(ana.cval[0]), 4, res)
+    if desc is not None:
+        ax.text(-1, 2, desc, horizontalalignment='right',
+                    verticalalignment='center')
+    params = {'spaceAnn': len(ana.order)/len(ana.atypes), 'tAnn': 1, 'widthAnn':1,
+            'genes': [], 'ax': ax2, 'acolor': acolor, 'vert': 0}
+    ax = ana.printViolin(None, params)
+    return fig
+
+def plotDensityBar(ana, desc=None):
+    fig = plt.figure(figsize=(4,4), dpi=100)
+    plt.subplots_adjust(hspace=0.5, wspace=0.5)
+    ax1 = plt.subplot2grid((4, 1), (0, 0))
+    ax2 = plt.subplot2grid((4, 1), (1, 0), rowspan=3)
+    params = {'spaceAnn': len(ana.order)/len(ana.atypes), 'tAnn': 1, 'widthAnn':1,
+              'genes': [], 'ax': ax1, 'acolor': acolor}
+    ax = ana.printTitleBar(params)
+    res = ana.getMetrics(ana.cval[0])
+    ax.text(len(ana.cval[0]), 4, ",".join(res))
+    if desc is not None:
+        ax.text(-1, 2, desc, horizontalalignment='right',
+                    verticalalignment='center')
+    ax = ana.densityPlot(ax2, acolor)
+    return fig
+
+def processData(ana, l1, wt1, desc=None, violin=1):
+    ana.orderData(l1, wt1)
+    if (violin == 1):
+        return plotViolinBar(ana, desc)
+    return plotDensityBar(ana, desc)
+
+def rugplot(data, pos=0, height=.1, ax=None, **kwargs):
+    from matplotlib.collections import LineCollection
+    ax = ax or plt.gca()
+    zero = np.zeros_like(data)
+    kwargs.setdefault("linewidth", 1)
+    segs = np.stack((np.c_[data, data],
+                     np.c_[zero+pos*height, zero+(pos+1)*height]),
+                    axis=-1)
+    lc = LineCollection(segs, transform=ax.get_xaxis_transform(), **kwargs)
+    ax.add_collection(lc)
+    return
+
+def plotSingle(expr, pG):
+    fig = plt.figure(figsize=(6,4), dpi=100)
+    plt.subplots_adjust(hspace=0.5, wspace=0.5)
+    ax1 = plt.subplot2grid((4, 1), (0, 0), rowspan=3)
+    ax2 = plt.subplot2grid((4, 1), (3, 0))
+    ax2.axison = False
+    ax2.set_xticklabels([])
+    ax2.set_yticklabels([])
+    ax2.grid(False)
+    ax2.tick_params(top=False, left=False, bottom=False, right=False)
+
+    for i in range(len(pG)):
+        name, col, order = pG[i]
+        if len(order) <= 0:
+            continue
+        vals = [expr[j] for j in order]
+        ax = sns.kdeplot(vals, bw = 1, cut = 2, color=col, label=name, ax=ax1)
+        ax1.axvline(x=np.mean(vals), c=col)
+        rugplot(vals, pos=i, color=col, ax=ax2, height=1/len(pG))
+
+    lims = ax2.axis(ax1.axis())
+    return fig
 
 def getCode(p):
     if p <= 0:
@@ -1871,6 +1947,10 @@ class IBDAnalysis:
         m1 = []
         pvals = []
         for i in range(1, len(lval)):
+            if len(lval[i]) <= 0:
+                m1 += [0]
+                pvals += [""]
+                continue
             m1 += [max(lval[i]) + (max(lval[i]) - min(lval[i])) * 0.1]
             t, p = ttest_ind(lval[0],lval[i], equal_var=False)
             if (p < 0.05):
@@ -2964,3 +3044,597 @@ class NBAnalysis(IBDAnalysis):
         ahash = {'RA-NBM':1, '5% FBS':0}
         self.initData(atype, atypes, ahash)
 
+class BINetwork:
+
+    def __init__(self, filename):
+        if not os.path.isfile(filename):
+            print("Can't open file {0} <br>".format(filename));
+            exit()
+        self.fp = open(filename, "rb")
+        self.file = filename
+        self.magic = -1;
+        self.major = -1;
+        self.minor = -1;
+        self.num = -1;
+        self.numBits = -1;
+        self.numBytes = -1;
+        self.startPtr = -1;
+        self.name = None;
+        self.low = []
+        self.high = []
+        self.balanced = []
+        self.balancedhash = {}
+
+    def getCounts(res):
+        count = [0, 0, 0, 0, 0, 0, 0] #count each relationships
+        for k in res:
+            count[k] += 1
+        return count
+
+    def getCountsString(res):
+        count = BINetwork.getCounts(res)
+        return ", ".join([str(k) for k in count])
+
+    def readVal(buffer, i, nBits, debug=0):
+        index = int(i * nBits/8)
+        v1 = 0
+        v2 = 0
+        if index < len(buffer): 
+            v1 = buffer[index]
+        if (index + 1) < len(buffer): 
+            v2 = buffer[index + 1]
+        shift = (i * nBits) % 8
+        mask = (1 << nBits) - 1
+        val = ((v1 | v2 << 8) >> shift) & mask
+        if (debug == 1):
+            print(v1, v2, shift, mask, val)
+        return val
+
+    #
+    # Codes for Boolean Relationships:
+    # 0 - No relation
+    # 1 - X low -> i high
+    # 2 - X low -> i low
+    # 3 - X high -> i high
+    # 4 - X high -> i low
+    # 5 - Equivalent
+    # 6 - Opposite
+    #
+    # X - buffer1 and buffer2 corresponds to the two lines for probe X
+    # i - probe i
+    def readCode(buffer1, buffer2, i, numBits, debug=0):
+        index = 2 * i * numBits;
+        v1 = BINetwork.readVal(buffer1, index, numBits);
+        v2 = BINetwork.readVal(buffer1, index + numBits, numBits);
+        v3 = BINetwork.readVal(buffer2, index, numBits);
+        v4 = BINetwork.readVal(buffer2, index + numBits, numBits);
+        if (debug == 1):
+            print (index, index + numBits, numBits, v1, v2, v3, v4)
+        total = v1 + v2 + v3 + v4;
+        if (total == 1):
+            if (v1 == 1):
+                return 1
+            if (v2 == 1):
+                return 2
+            if (v3 == 1):
+                return 3
+            if (v4 == 1):
+                return 4
+        if (total == 2):
+            if (v2 == 1 and v3 == 1):
+                return 5
+            if (v1 == 1 and v4 == 1):
+                return 6
+        return 0;
+
+    def getLow(self):
+        return self.readList(0)
+    def getHigh(self):
+        return self.readList(1)
+    def getBalanced(self):
+        return self.readList(2)
+
+    def readList(self, num):
+        fh = self.fp
+        fh.seek(3 + num * 4)
+        buffer = fh.read(4)
+        ptr = array.array("I", buffer)[0]
+        fh.seek(ptr)
+        buffer = fh.read(4);
+        length = array.array("I", buffer)[0]
+        buffer = fh.read(length)
+        name = buffer.decode('utf-8')
+        buffer = fh.read(4);
+        size = array.array("I", buffer)[0]
+        res = []
+        for i in range(size):
+            buffer = fh.read(4);
+            length = array.array("I", buffer)[0]
+            buffer = fh.read(length)
+            res += [buffer.decode('utf-8')]
+        return res
+    
+    def init(self):
+        fh = self.fp
+        fh.seek(0)
+        self.magic = array.array("B", fh.read(1))[0]
+        self.major = array.array("B", fh.read(1))[0]
+        self.minor = array.array("B", fh.read(1))[0]
+        self.low = self.getLow()
+        self.high = self.getHigh();
+        self.balanced = self.getBalanced();
+        self.balancedhash = {}
+        for i in range(len(self.balanced)):
+            self.balancedhash[self.balanced[i]] = i
+        fh.seek(3 + 3 * 4)
+        buffer = fh.read(4)
+        ptr = array.array("I", buffer)[0]
+        buffer = fh.read(4)
+        self.num = array.array("I", buffer)[0]
+        buffer = fh.read(4)
+        self.numBits = array.array("I", buffer)[0]
+        self.numBytes = int(self.num * self.numBits/8) + 1
+        fh.seek(ptr)
+        self.startPtr = ptr
+        return
+
+    def readBlock(self):
+        fh = self.fp
+        buffer1 = fh.read(self.numBytes)
+        buffer2 = fh.read(self.numBytes)
+        res = []
+        for i in range(int(self.num/2)):
+            code = BINetwork.readCode(buffer1, buffer2, i, self.numBits);
+            res += [code]
+        return res
+
+    def readBlockIndex(self, a):
+        ptr = self.startPtr + 2 * a * self.numBytes;
+        self.fp.seek(ptr)
+        return self.readBlock()
+
+    def readBlockID(self, id1):
+        if id1 in self.balancedhash:
+            a = self.balancedhash[id1]
+            return self.readBlockIndex(a)
+        return None
+
+    def printDetails(self):
+        print("Network: ", self.file)
+        print(self.magic, self.major, self.minor)
+        print(self.num, self.numBits, self.numBytes)
+        print ("Low(", len(self.low), "):")
+        #print (" ".join(self.low))
+        print ("High(", len(self.high), "):")
+        #print (" ".join(self.high))
+        print ("Balanced(", len(self.balanced), "):")
+        #print (" ".join(self.balanced))
+        for i in range(10):
+            count = [0, 0, 0, 0, 0, 0, 0] #count each relationships
+            res = self.readBlock(); #get all relationships code for one probe
+            for k in res:
+                count[k] += 1
+            #print the counts
+            print (self.balanced[i], ", ".join([str(k) for k in count]))
+    
+class BIGraph:
+    def readEqGraph(cfile):
+        edges = {}
+        nodes = {}
+        count = 0
+        with open(cfile, "r") as netFile:
+            for ln in netFile:
+                if (not ln.startswith("Found : 5")):
+                    continue
+                pln = ln.strip().split("\t")
+                id1, id2 = pln[3], pln[4]
+                nodes[id1] = 1
+                nodes[id2] = 1
+                if (id1 not in edges):
+                    edges[id1] = {}
+                count += 1
+                edges[id1][id2] = 1
+        print(str(count) + " edges Processed")
+        return nodes, edges
+    def gamma(u, edges, hash1):
+        if (hash1 and u in hash1):
+            return hash1[u]
+        res = [u] + list(edges[u].keys())
+        if hash1:
+            hash1[u] = res
+        return res
+    def rho(u, v, edges, hash1, shash):
+        if (shash and u in shash and v in shash[u]):
+            return shash[u][v]
+        gu = BIGraph.gamma(u, edges, hash1)
+        gv = BIGraph.gamma(v, edges, hash1)
+        g_union = set(gu).union(gv)
+        g_int = set(gu).intersection(gv)
+        res = 0
+        if len(g_union) == 0:
+            res = 0
+        else:
+            res = len(g_int) / len(g_union)
+        if shash:
+            shash[u][v] = res
+        return res
+    def pruneEqGraph(edges):
+        from networkx.utils.union_find import UnionFind
+        uf = UnionFind()
+        hash1 = {}
+        shash = {}
+        num = len(edges)
+        count = 0
+        eqscores = []
+        for u in edges:
+            print(count, num, end='\r', flush=True)
+            data = []
+            scores = []
+            for v in edges[u]:
+                r = BIGraph.rho(u, v, edges, hash1, shash)
+                data += [r]
+                scores += [[r, v]]
+                uf[u], uf[v]
+            filter1 =  sorted(scores, reverse=True)
+            for s in filter1:
+                if (uf[u] != uf[s[1]]):
+                    uf.union(u, s[1])
+                    eqscores.append([u, s[0], s[1]])
+                    #print(u, s[0], s[1])
+                    break
+            count += 1
+        return pd.DataFrame(eqscores)
+
+    def getClusters(df, thr=0.5):
+        from networkx.utils.union_find import UnionFind
+        uf = UnionFind()
+        edges = {}
+        for i in df.index:
+            id1 = df[0][i]
+            id2 = df[2][i]
+            if id1 not in edges:
+                edges[id1] = {}
+            edges[id1][id1] = df[1][i] 
+            if id2 not in edges:
+                edges[id2] = {}
+            edges[id2][id2] = df[1][i] 
+            uf[id1], uf[id2]
+            if (df[1][i] > thr):
+                uf.union(id1, id2)
+                edges[id1][id2] = df[1][i] 
+                edges[id2][id1] = df[1][i]
+        rank = {}
+        for k in edges:
+            rank[k] = len(edges[k])
+        cls = {}
+        for k in uf.to_sets():
+            l = sorted(k, key=lambda x: rank[x], reverse=True)
+            cls[l[0]] = [len(l), l]
+        return cls
+
+    def getNCodes(net, l):
+        relations = {}
+        for u in l:
+            res = net.readBlockID(u)
+            i = net.balancedhash[u]
+            for j in range(len(net.balanced)):
+                v = net.balanced[j]
+                code = res[j]
+                if code <= 0:
+                    continue
+                if code not in relations:
+                    relations[code] = {}
+                if v not in relations[code]:
+                    relations[code][v] = 0
+                relations[code][v] += 1
+        return relations
+
+    def getClustersGraph(net, cls):
+        nodes = cls
+        ids = [k for k in cls]
+        eqgraph = []
+        count = 0
+        for u in ids:
+            if (count % 100) == 0:
+                print(count, end='\r', flush=True)
+            nl = nodes[u][0]
+            mid = int(nl / 2)
+            l = [u]
+            if (nl > 2):
+                l = [u, nodes[u][1][1], nodes[u][1][mid]]
+            if (nl > 10):
+                l += [nodes[u][1][i] for i in [int(mid/4), int(mid/2), mid - 1]]
+            ru = BIGraph.getNCodes(net, l)
+            for c in range(1, 7):
+                if c not in ru:
+                    continue
+                for v in ru[c]:
+                    if v not in nodes:
+                        continue
+                    if (nl > 10 and ru[c][v] < 3):
+                        continue
+                    eqgraph.append([u, str(c), v, ru[c][v]])
+            count += 1
+        return pd.DataFrame(eqgraph)
+
+    def readClustersGraph(cls, cg):
+        edges = {}
+        clusters = {}
+        nodep = {}
+        for u in cls:
+            clusters[u] = cls[u][1]
+            for k in cls[u][1]:
+                nodep[k] = u
+        print(str(len(clusters)) + " Processed")
+        print("Processing edges...")
+        count = 0
+        for i in cg.index:
+            if (count % 100) == 0:
+                print(count, end='\r', flush=True)
+            u, c, v, ru = cg.loc[i, :]
+            if(u not in clusters or v not in clusters):
+                continue
+            if (u not in edges):
+                edges[u] = {}
+            if c not in edges[u]:
+                edges[u][c] = {}
+            count += 1
+            edges[u][c][v] = 1
+        print(str(count) + " edges processed")
+        return edges, clusters, nodep
+
+    def readClustersGraphFile(netprm):
+        edges = {}
+        clusters = {}
+        nodep = {}
+        with open(netprm + "-cls.txt", "r") as clusterFile:
+            for ln in clusterFile:
+                pln = ln.strip().split("\t")
+                if(int(pln[1]) > 0): # min size threshold
+                    clusters[pln[0]] = pln[2:]
+                    for k in pln[2:]:
+                        nodep[k] = pln[0]
+        print(str(len(clusters)) + " Processed")
+        print("Processing edges...")
+        count = 0
+        with open(netprm + "-eq-g.txt", "r") as edgeFile:
+            for ln in edgeFile:
+                if (count % 1000) == 0:
+                    print(count, end='\r', flush=True)
+                pln = ln.strip().split("\t")
+                if(pln[0] not in clusters or
+                   pln[2] not in clusters):
+                    continue
+                if (pln[0] not in edges):
+                    edges[pln[0]] = {}
+                if pln[1] not in edges[pln[0]]:
+                    edges[pln[0]][pln[1]] = {}
+                count += 1
+                edges[pln[0]][pln[1]][pln[2]] = 1
+        print(str(count) + " edges processed")
+        return edges, clusters, nodep
+
+    def getPath(G, s, p):
+        visited = {}
+        visited[s] = 1
+        res = [s]
+        l1 = list(G.neighbors(s))
+        l1 = list(set(p).intersection(l1)) + list(set(l1).difference(p))
+        while (len(l1) > 0):
+            if l1[0] in visited:
+                break
+            visited[l1[0]] = 1
+            res += [l1[0]]
+            l1 = list(G.neighbors(l1[0]))
+            l1 = list(set(p).intersection(l1)) + list(set(l1).difference(p))
+        return res
+
+    def getBINGraph(ana, edges, clusters, dr):
+        import networkx as nx
+        from networkx.drawing.nx_agraph import write_dot, graphviz_layout
+
+        sclusters = {k:len(clusters[k]) for k in clusters}
+        dclusters = {k:dr.loc[k] for k in clusters}
+        def getW(k):
+            return (-sclusters[k], -dclusters[k])
+        def getS(k):
+            return np.log(sclusters[k]+1)/np.log(1.5) + 2
+        keys = sorted(sclusters, key=lambda k:getW(k))
+
+        net = nx.DiGraph()
+        for id1 in edges:
+            if '2' in edges[id1]:
+                l1 = sorted(edges[id1]['2'], key=lambda k:getW(k))
+                for id2 in l1:
+                    net.add_edge(id1, id2, rel='2')
+            if 2 in edges[id1]:
+                l1 = sorted(edges[id1][2], key=lambda k:getW(k))
+                for id2 in l1:
+                    net.add_edge(id1, id2, rel='2')
+
+        G = nx.DiGraph()
+        for id1 in keys[0:10]:
+            l1 = []
+            if id1 in edges and '4' in edges[id1]:
+                l1 += list(edges[id1]['4'].keys())
+            if id1 in edges and '6' in edges[id1]:
+                l1 += list(edges[id1]['6'].keys())
+            if id1 in edges and 4 in edges[id1]:
+                l1 += list(edges[id1][4].keys())
+            if id1 in edges and 6 in edges[id1]:
+                l1 += list(edges[id1][6].keys())
+            l1 = list(set(l1))
+            l2 = sorted(l1, key=lambda k:getW(k))[0:2]
+            print (sclusters[id1], dclusters[id1], l2)
+            for id2 in l2:
+                G.add_node(id1, label=ana.h.getSimpleName(id1), 
+                           size=getS(id1), title='hilo', group=1)
+                G.add_node(id2, label=ana.h.getSimpleName(id2),
+                           size=getS(id2), title='hilo', group=1)
+                G.add_edge(id1, id2, rel='4', color='red')
+
+        l1 = list(G)
+        for id1 in l1:
+            l2 = BIGraph.getPath(net, id1, l1)
+            print(l2)
+            t1 = id1
+            for id2 in l2[1:]:
+                G.add_node(t1, label=ana.h.getSimpleName(t1), 
+                           size=getS(t1), title='lolo', group=2)
+                G.add_node(id2, label=ana.h.getSimpleName(id2),
+                           size=getS(id2), title='lolo', group=2)
+                G.add_edge(t1, id2, rel='2', color='blue',
+                          arrows={'to':{'enabled':True, 'type':'arrow'}})
+                t1 = id2
+                
+        return G
+
+    def visualizeNetwork(G):
+        from pyvis.network import Network
+        nt = Network("500px", "500px", heading="BoNE", notebook=True)
+        nt.from_nx(G)
+        return nt.show("network/nx.html")
+
+    def getBINGraphGML(ana, edges, clusters, dr):
+        import networkx as nx
+        from networkx.drawing.nx_agraph import write_dot, graphviz_layout
+
+        sclusters = {k:len(clusters[k]) for k in clusters}
+        dclusters = {k:dr.loc[k] for k in clusters}
+        def getW(k):
+            return (-sclusters[k], -dclusters[k])
+        def getS(k):
+            return np.log(sclusters[k]+1)/np.log(1.5) + 2
+        keys = sorted(sclusters, key=lambda k:getW(k))
+
+        net = nx.DiGraph()
+        for id1 in edges:
+            if '2' in edges[id1]:
+                l1 = sorted(edges[id1]['2'], key=lambda k:getW(k))
+                for id2 in l1:
+                    net.add_edge(id1, id2, rel='2')
+            if 2 in edges[id1]:
+                l1 = sorted(edges[id1][2], key=lambda k:getW(k))
+                for id2 in l1:
+                    net.add_edge(id1, id2, rel='2')
+
+        G = nx.DiGraph()
+        for id1 in keys[0:10]:
+            l1 = []
+            if id1 in edges and '4' in edges[id1]:
+                l1 += list(edges[id1]['4'].keys())
+            if id1 in edges and '6' in edges[id1]:
+                l1 += list(edges[id1]['6'].keys())
+            if id1 in edges and 4 in edges[id1]:
+                l1 += list(edges[id1][4].keys())
+            if id1 in edges and 6 in edges[id1]:
+                l1 += list(edges[id1][6].keys())
+            l1 = list(set(l1))
+            l2 = sorted(l1, key=lambda k:getW(k))[0:2]
+            print (sclusters[id1], dclusters[id1], l2)
+            for id2 in l2:
+                G.add_node(id1, name=ana.h.getSimpleName(id1),
+                           graphics = {'x': 0, 'y': 0, 'w': getS(id1), 'h': getS(id1),
+                                       'type': 'ellipse', 'fill': '#889999', 'outline': '#666666',
+                                       'outline_width': 1.0})
+                G.add_node(id2, name=ana.h.getSimpleName(id2),
+                           graphics = {'x': 0, 'y': 0, 'w': getS(id2), 'h': getS(id2),
+                                       'type': 'ellipse', 'fill': '#889999', 'outline': '#666666',
+                                       'outline_width': 1.0})
+                G.add_edge(id1, id2, rel='4', 
+                           graphics={'width': 1.0, 'fill': '#ff0000', 'type': 'line',
+                                    'source_arrow': 0, 'target_arrow': 0})
+
+        l1 = list(G)
+        for id1 in l1:
+            l2 = BIGraph.getPath(net, id1, l1)
+            print(l2)
+            t1 = id1
+            for id2 in l2[1:]:
+                G.add_node(t1, name=ana.h.getSimpleName(t1), 
+                           graphics = {'x': 0, 'y': 0, 'w': getS(t1), 'h': getS(t1),
+                                       'type': 'ellipse', 'fill': '#889999', 'outline': '#666666',
+                                       'outline_width': 1.0})
+                G.add_node(id2, name=ana.h.getSimpleName(id2),
+                           graphics = {'x': 0, 'y': 0, 'w': getS(id2), 'h': getS(id2),
+                                       'type': 'ellipse', 'fill': '#889999', 'outline': '#666666',
+                                       'outline_width': 1.0})
+                G.add_edge(t1, id2, rel='2', 
+                          graphics={'width': 1.0, 'fill': '#0000ff', 'type': 'line',
+                                    'source_arrow': 0, 'target_arrow': 1})
+                t1 = id2
+        return G
+
+    def writeGML(G, ofile="network/nx.gml"):
+        import networkx as nx
+        nx.write_gml(G, ofile)
+
+    def getDiff(ana, l1):
+        res = []
+        for k in l1:
+            for u in ana.h.getIDs(k):
+                expr = ana.h.getExprData(u)
+                v1 = [float(expr[i]) for i in ana.state[0]]
+                v2 = [float(expr[i]) for i in ana.state[1]]
+                t, p = ttest_ind(v1,v2, equal_var=False)
+                m1 = np.mean(v1)
+                m2 = np.mean(v2)
+                diff = m2 - m1
+                res.append([k, u, m1, m2, diff, t, p])
+        cl = ['Name', 'ID', 'm1', 'm2', 'diff', 't', 'p']
+        return pd.DataFrame(res, columns=cl)
+
+    def saveClusters(ofile, cls):
+        fp = open(ofile, "w")
+        for k in sorted(cls, key=lambda x: cls[x][0], reverse=True):
+            l1 = [k, cls[k][0]] + cls[k][1]
+            l1 = [str(k) for k in l1]
+            fp.write("\t".join(l1) + "\n")
+        fp.close()
+        return
+    def readClusters(cfile):
+        cls = {}
+        fp = open(cfile, "r")
+        for line in fp:
+            l1 = line.strip().split("\t")
+            cls[l1[0]] = [int(l1[1]), l1[2:]]
+        fp.close()
+        return cls
+    def getVolcano(ana, cfile, genes):
+        h = ana.h
+        list1 = []
+        for g in genes:
+            id1 = h.getBestID(h.getIDs(g).keys())
+            if id1 is None:
+                print (g)
+                continue
+            list1 += [id1]
+        idlist = bone.getEntries(cfile, 0)
+        idhash = {}
+        for i in range(len(idlist)):
+            idhash[idlist[i]] = i
+        order = [idhash[k] for k in list1]
+        pval = [float(i) for i in bone.getEntries(cfile, 3)]
+        fc = [float(i) for i in bone.getEntries(cfile, 4)]
+        c = ["black" for i in fc]
+        df = pd.DataFrame()
+        df["-log10(p)"] = -np.log10(pval)
+        df["log(FC)"] = fc
+        for i in range(len(pval)):
+            if df["-log10(p)"][i] >= -np.log10(0.05) and abs(df["log(FC)"][i]) >= 1:
+                c[i] = "green"
+            if df["-log10(p)"][i] >= -np.log10(0.05) and abs(df["log(FC)"][i]) < 1:
+                c[i] = "red"
+            if df["-log10(p)"][i] < -np.log10(0.05) and abs(df["log(FC)"][i]) >= 1:
+                c[i] = "orange"
+        df["color"] = c
+        df.dropna(inplace = True)
+        ax = df.plot.scatter("log(FC)", "-log10(p)", c = df["color"],
+                s=8, alpha=0.2, figsize=(6, 4))
+        ax.set_xlim([-9, 9])
+        ax.set_ylim([0, 9])
+        for i in order:
+            ax.text(fc[i], -np.log10(pval[i]),  h.getSimpleName(idlist[i]),
+                        horizontalalignment='left', verticalalignment='top')
+            ax.plot([fc[i]], [-np.log10(pval[i])], "bo", ms=4)
+        return ax
