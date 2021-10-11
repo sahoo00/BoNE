@@ -1871,6 +1871,10 @@ class IBDAnalysis:
         m1 = []
         pvals = []
         for i in range(1, len(lval)):
+            if len(lval[i]) <= 0:
+                pvals += [""]
+                m1 += [0.1]
+                continue
             m1 += [max(lval[i]) + (max(lval[i]) - min(lval[i])) * 0.1]
             t, p = ttest_ind(lval[0],lval[i], equal_var=False)
             if (p < 0.05):
