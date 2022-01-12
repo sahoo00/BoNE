@@ -1,0 +1,101 @@
+name	pValue	fdr
+TFAP2 (AP-2) family regulates transcription of growth factors and their receptors	0.00515392863668	0.656863491517
+Pyruvate metabolism and Citric Acid (TCA) cycle	0.0052359146474	0.656863491517
+Type I hemidesmosome assembly	0.00574786735932	0.656863491517
+Citric acid cycle (TCA cycle)	0.00626555662734	0.656863491517
+Peroxisomal protein import	0.00678366472276	0.656863491517
+Ion transport by P-type ATPases	0.00913832186355	0.656863491517
+Nephrin family interactions	0.00936571026054	0.656863491517
+Acyl chain remodelling of PE	0.0125762346336	0.656863491517
+Cell-Cell communication	0.0125907657197	0.656863491517
+Signaling by activated point mutants of FGFR3	0.0184182800081	0.656863491517
+Acyl chain remodelling of PS	0.0190721580692	0.656863491517
+Beta oxidation of hexanoyl-CoA to butanoyl-CoA	0.0213571868103	0.656863491517
+Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA	0.0213571868103	0.656863491517
+Beta oxidation of octanoyl-CoA to hexanoyl-CoA	0.0213571868103	0.656863491517
+PTK6 Expression	0.0220743116736	0.656863491517
+Nectin/Necl  trans heterodimerization	0.0220743116736	0.656863491517
+RUNX2 regulates chondrocyte maturation	0.0220743116736	0.656863491517
+Release of Hh-Np from the secreting cell	0.0282310363447	0.656863491517
+RUNX1 regulates expression of components of tight junctions	0.0282310363447	0.656863491517
+Signaling by MST1	0.0282310363447	0.656863491517
+Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA	0.03162024259	0.656863491517
+MET Receptor Activation	0.0349875124299	0.656863491517
+Transport of nucleotide sugars	0.0355199192294	0.656863491517
+Synthesis of IP3 and IP4 in the cytosol	0.0392223749622	0.656863491517
+Synthesis of epoxy (EET) and dihydroxyeicosatrienoic acids (DHET)	0.0396554044157	0.656863491517
+Binding of TCF/LEF:CTNNB1 to target gene promoters	0.0422994573014	0.656863491517
+RUNX3 Regulates Immune Response and Cell Migration	0.0422994573014	0.656863491517
+Acyl chain remodelling of PC	0.0423514651854	0.656863491517
+FGFR3 mutant receptor activation	0.0486210326482	0.656863491517
+Acyl chain remodelling of PI	0.0486210326482	0.656863491517
+Non-integrin membrane-ECM interactions	0.0500186490714	0.656863491517
+Apoptotic cleavage of cell adhesion  proteins	0.0501247902328	0.656863491517
+Nuclear Receptor transcription pathway	0.0577415046668	0.656863491517
+Regulation of signaling by NODAL	0.0584235375554	0.656863491517
+Defective GALE can cause Epimerase-deficiency galactosemia (EDG)	0.0627014171775	0.656863491517
+Biosynthesis of maresins	0.0692138261894	0.656863491517
+The citric acid (TCA) cycle and respiratory electron transport	0.0726193266128	0.656863491517
+CYP2E1 reactions	0.0748873654152	0.656863491517
+Branched-chain amino acid catabolism	0.0757158687211	0.656863491517
+Regulation of gene expression in early pancreatic precursor cells	0.0762913732915	0.656863491517
+Regulation of pyruvate dehydrogenase (PDH) complex	0.0807597335931	0.656863491517
+Reduction of cytosolic Ca++ levels	0.085790248223	0.656863491517
+Signaling by Activin	0.085790248223	0.656863491517
+DSCAM interactions	0.085790248223	0.656863491517
+Anchoring fibril formation	0.085790248223	0.656863491517
+Cell junction organization	0.0876441394704	0.656863491517
+Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors	0.0903663726759	0.656863491517
+Breakdown of the nuclear lamina	0.0925652226375	0.656863491517
+t(4;14) translocations of FGFR3	0.0925652226375	0.656863491517
+Defective SLC35A1 causes congenital disorder of glycosylation 2F (CDG2F)	0.0925652226375	0.656863491517
+Defective GFPT1 causes CMSTA1	0.0925652226375	0.656863491517
+Intestinal infectious diseases	0.0925652226375	0.656863491517
+Defective MMAA causes methylmalonic aciduria type cblA	0.0925652226375	0.656863491517
+Defective SLC6A2 causes orthostatic intolerance (OI)	0.0925652226375	0.656863491517
+Defective SLC35A1 causes congenital disorder of glycosylation 2F (CDG2F)	0.0925652226375	0.656863491517
+Defective MMADHC causes methylmalonic aciduria and homocystinuria type cblD	0.0925652226375	0.656863491517
+Defective SLC5A2 causes renal glucosuria (GLYS1)	0.0925652226375	0.656863491517
+Defective SLC35A3 causes arthrogryposis, mental retardation, and seizures (AMRS)	0.0925652226375	0.656863491517
+Glycogen storage disease type Ib (SLC37A4)	0.0925652226375	0.656863491517
+mitochondrial fatty acid beta-oxidation of saturated fatty acids	0.0952007638915	0.656863491517
+Beta oxidation of palmitoyl-CoA to myristoyl-CoA	0.0956219461324	0.656863491517
+Beta oxidation of myristoyl-CoA to lauroyl-CoA	0.0956219461324	0.656863491517
+Repression of WNT target genes	0.0956219461324	0.656863491517
+Glycerophospholipid biosynthesis	0.110590990166	0.656863491517
+Phospholipase C-mediated cascade; FGFR3	0.116162489851	0.656863491517
+ERBB2 Activates PTK6 Signaling	0.116162489851	0.656863491517
+Acyl chain remodeling of CL	0.116162489851	0.656863491517
+SUMOylation of intracellular receptors	0.119814936686	0.656863491517
+Defective ACY1 causes encephalopathy	0.121479571953	0.656863491517
+Defective MUT causes methylmalonic aciduria mut type	0.121479571953	0.656863491517
+Defective MAOA causes Brunner syndrome (BRUNS)	0.121479571953	0.656863491517
+HHAT G278V abrogates palmitoylation of Hh-Np	0.121479571953	0.656863491517
+Processing of Intronless Pre-mRNAs	0.12681463561	0.656863491517
+FGFR3 ligand binding and activation	0.12681463561	0.656863491517
+Beta oxidation of butanoyl-CoA to acetyl-CoA	0.12681463561	0.656863491517
+Apoptotic cleavage of cellular proteins	0.126898870996	0.656863491517
+Mitochondrial Fatty Acid Beta-Oxidation	0.128600379212	0.656863491517
+Signaling by FGFR3 in disease	0.134128721368	0.656863491517
+Signaling by FGFR3 point mutants in cancer	0.134128721368	0.656863491517
+Diseases associated with glycosylation precursor biosynthesis	0.134128721368	0.656863491517
+Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE)	0.13768606476	0.656863491517
+TP53 Regulates Transcription of Caspase Activators and Caspases	0.13768606476	0.656863491517
+Phospholipid metabolism	0.147897215575	0.656863491517
+TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest	0.14875207884	0.656863491517
+Biosynthesis of maresin-like SPMs	0.14875207884	0.656863491517
+mitochondrial fatty acid beta-oxidation of unsaturated fatty acids	0.14875207884	0.656863491517
+Coenzyme A biosynthesis	0.14875207884	0.656863491517
+Choline catabolism	0.14875207884	0.656863491517
+Defective MMACHC causes methylmalonic aciduria and homocystinuria type cblC	0.149474585825	0.656863491517
+Signaling by plasma membrane FGFR1 fusions	0.149474585825	0.656863491517
+Defective GNE causes sialuria, Nonaka myopathy and inclusion body myopathy 2	0.149474585825	0.656863491517
+Adenosine P1 receptors	0.149474585825	0.656863491517
+Ion homeostasis	0.155687749558	0.656863491517
+Defects in vitamin and cofactor metabolism	0.156624111158	0.656863491517
+Synthesis of PA	0.161777742452	0.656863491517
+Detoxification of Reactive Oxygen Species	0.161777742452	0.656863491517
+Synthesis of bile acids and bile salts via 24-hydroxycholesterol	0.164368000964	0.656863491517
+Inositol phosphate metabolism	0.169871112054	0.656863491517
+Signaling by NODAL	0.171375731557	0.656863491517
+Nucleotide-like (purinergic) receptors	0.171375731557	0.656863491517

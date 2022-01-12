@@ -1,0 +1,101 @@
+name	pValue	fdr
+Neutrophil degranulation	1.11022302463e-16	2.25375273999e-14
+Immune System	1.11022302463e-16	2.25375273999e-14
+Innate Immune System	7.40518757425e-13	9.99700322524e-11
+Cytokine Signaling in Immune system	1.52362943373e-08	1.53886572807e-06
+Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	9.85196701442e-07	7.98009328168e-05
+Interleukin-10 signaling	5.5042973327e-06	0.000368787921291
+Adaptive Immune System	1.87509153065e-05	0.00102558892328
+Signaling by Interleukins	2.05117784655e-05	0.00102558892328
+Signal regulatory protein family interactions	0.000149852841789	0.00674337788049
+Interferon Signaling	0.000571405969047	0.0228562387619
+Chemokine receptors bind chemokines	0.000720287113967	0.0259303361028
+Transport of glycerol from adipocytes to the liver by Aquaporins	0.000904953155782	0.0298634541408
+Interleukin-4 and Interleukin-13 signaling	0.00109371530385	0.030776777876
+Interferon gamma signaling	0.00113083823828	0.030776777876
+Regulation of TLR by endogenous ligand	0.00113988066208	0.030776777876
+FCGR activation	0.00407558392531	0.101889598133
+Metal sequestration by antimicrobial proteins	0.0154637592876	0.355666463616
+NOTCH2 intracellular domain regulates transcription	0.0227758965152	0.446847929259
+Translocation of ZAP-70 to Immunological synapse	0.0234671792838	0.446847929259
+MyD88 deficiency (TLR2/4)	0.025472922678	0.446847929259
+RUNX1 and FOXP3 control the development of regulatory T lymphocytes (Tregs)	0.025472922678	0.446847929259
+Phosphorylation of CD3 and TCR zeta chains	0.0279826895248	0.446847929259
+IRAK4 deficiency (TLR2/4)	0.0282928197973	0.446847929259
+TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest	0.0342851805703	0.446847929259
+Integrin cell surface interactions	0.0368557897924	0.446847929259
+Passive transport by Aquaporins	0.0374498426219	0.446847929259
+DAP12 interactions	0.0401765442044	0.446847929259
+Surfactant metabolism	0.042105039228	0.446847929259
+Defective SLCO1B1 causes hyperbilirubinemia, Rotor type (HBLRR)	0.0423439845471	0.446847929259
+Cell-Cell communication	0.0447230169936	0.446847929259
+Toll-Like Receptors Cascades	0.050761744479	0.446847929259
+Antigen processing-Cross presentation	0.0540777381411	0.446847929259
+Other interleukin signaling	0.0548096124268	0.446847929259
+Metabolism of Angiotensinogen to Angiotensins	0.0548096124268	0.446847929259
+Defective SLC7A7 causes lysinuric protein intolerance (LPI)	0.0560583453781	0.446847929259
+Defective SLCO1B1 causes hyperbilirubinemia, Rotor type (HBLRR)	0.0560583453781	0.446847929259
+Activation, myristolyation of BID and translocation to mitochondria	0.0560583453781	0.446847929259
+Fcgamma receptor (FCGR) dependent phagocytosis	0.0623166429835	0.446847929259
+Peptide ligand-binding receptors	0.0635511189825	0.446847929259
+The role of Nef in HIV-1 replication and disease pathogenesis	0.0663291801955	0.446847929259
+Aquaporin-mediated transport	0.0737421018954	0.446847929259
+Class I MHC mediated antigen processing & presentation	0.0745941456677	0.446847929259
+Diseases associated with the TLR signaling cascade	0.0827950759648	0.446847929259
+Diseases of Immune System	0.0827950759648	0.446847929259
+Alternative complement activation	0.0829035419935	0.446847929259
+Negative regulators of DDX58/IFIH1 signaling	0.095870580166	0.446847929259
+Defective SLC1A3 causes episodic ataxia 6 (EA6)	0.0960398809706	0.446847929259
+Activation of C3 and C5	0.0960398809706	0.446847929259
+Signaling by NOTCH2	0.104891898333	0.446847929259
+Antimicrobial peptides	0.105943704349	0.446847929259
+Regulation of cytoskeletal remodeling and cell spreading by IPP complex components	0.108988984575	0.446847929259
+Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)	0.112925223969	0.446847929259
+Proton/oligopeptide cotransporters	0.121753508296	0.446847929259
+Nef and signal transduction	0.121753508296	0.446847929259
+Interferon alpha/beta signaling	0.128922755615	0.446847929259
+TRIF-mediated programmed cell death	0.134336070151	0.446847929259
+Neurotransmitter uptake and metabolism In glial cells	0.134336070151	0.446847929259
+Astrocytic Glutamate-Glutamine Uptake And Metabolism	0.134336070151	0.446847929259
+Regulation of PTEN localization	0.134336070151	0.446847929259
+PD-1 signaling	0.138067157814	0.446847929259
+Nef mediated downregulation of MHC class I complex cell surface expression	0.146739251206	0.446847929259
+Fructose biosynthesis	0.146739251206	0.446847929259
+Formyl peptide receptors bind formyl peptides and many other ligands	0.146739251206	0.446847929259
+Interleukin-18 signaling	0.146739251206	0.446847929259
+Toll Like Receptor 4 (TLR4) Cascade	0.156045968527	0.446847929259
+Ficolins bind to repetitive carbohydrate structures on the target cell surface	0.158965596101	0.446847929259
+DDX58/IFIH1-mediated induction of interferon-alpha/beta	0.162225450266	0.446847929259
+Costimulation by the CD28 family	0.165701275796	0.446847929259
+Cell surface interactions at the vascular wall	0.166978717377	0.446847929259
+ROS, RNS production in phagocytes	0.168045279691	0.446847929259
+Binding and entry of HIV virion	0.171017613557	0.446847929259
+Activation of PPARGC1A (PGC-1alpha) by phosphorylation	0.171017613557	0.446847929259
+Ion influx/efflux at host-pathogen interface	0.171017613557	0.446847929259
+Cross-presentation of particulate exogenous antigens (phagosomes)	0.171017613557	0.446847929259
+Class B/2 (Secretin family receptors)	0.172718373967	0.446847929259
+Cross-presentation of soluble exogenous antigens (endosomes)	0.178273160918	0.446847929259
+Dissolution of Fibrin Clot	0.18289777688	0.446847929259
+Lectin pathway of complement activation	0.194608524463	0.446847929259
+DSCAM interactions	0.194608524463	0.446847929259
+Generation of second messenger molecules	0.204221772508	0.446847929259
+Advanced glycosylation endproduct receptor signaling	0.206152260272	0.446847929259
+Post-translational protein phosphorylation	0.208957449701	0.446847929259
+Toll Like Receptor TLR6:TLR2 Cascade	0.212673115741	0.446847929259
+MyD88:Mal cascade initiated on plasma membrane	0.212673115741	0.446847929259
+Toll Like Receptor 2 (TLR2) Cascade	0.223904185352	0.446847929259
+Toll Like Receptor TLR1:TLR2 Cascade	0.223904185352	0.446847929259
+Class A/1 (Rhodopsin-like receptors)	0.226219010992	0.446847929259
+p38MAPK events	0.228748143202	0.446847929259
+P2Y receptors	0.228748143202	0.446847929259
+GPCR ligand binding	0.238765535945	0.446847929259
+Cell-extracellular matrix interactions	0.239804930446	0.446847929259
+IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation	0.239804930446	0.446847929259
+TICAM1,TRAF6-dependent induction of TAK1 complex	0.239804930446	0.446847929259
+Other semaphorin interactions	0.239804930446	0.446847929259
+Dectin-2 family	0.241151375974	0.446847929259
+TP53 Regulates Transcription of Cell Cycle Genes	0.241151375974	0.446847929259
+Initial triggering of complement	0.250529813608	0.446847929259
+TRAF6-mediated induction of TAK1 complex within TLR4 complex	0.250703987098	0.446847929259
+Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon	0.250703987098	0.446847929259
+Heme degradation	0.250703987098	0.446847929259

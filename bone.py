@@ -69,6 +69,39 @@ def reactome(idlist):
     df['fdr'] = [p["entities"]["fdr"] for  p in obj["pathways"]]
     return df
 
+def getPDF(cfile):
+    import bone
+    reload(bone)
+    from matplotlib.backends.backend_pdf import PdfPages
+
+    pdf = PdfPages(cfile)
+    return pdf
+
+def closePDF(pdf):
+    import datetime
+    d = pdf.infodict()
+    d['Title'] = 'Plots'
+    d['Author'] = 'Debashis Sahoo'
+    d['Subject'] = "BoNE"
+    d['Keywords'] = 'disease training validation ROC'
+    d['CreationDate'] = datetime.datetime(2021, 10, 18)
+    d['ModDate'] = datetime.datetime.today()
+    pdf.close()
+
+def getGene(ana, name):
+    id1 = ana.h.getBestID(ana.h.getIDs(name).keys())
+    expr = ana.h.getExprData(id1)
+    lval = [[] for i in ana.atypes]
+    if expr is None:
+        print("Not Found")
+        return lval
+    aval = ana.aval
+    for i in ana.h.aRange():
+        if aval[i] is None:
+            continue
+        lval[aval[i]] += [float(expr[i])]
+    return lval
+
 def getBoolean(cfile, sthr, pthr, code):
     res = []
     with open(cfile, "r") as bFile:
@@ -520,6 +553,37 @@ def getRanksDf(df_e, df_t):
         counts += [count]
     print(counts)
     return ranks, row_labels, row_ids, row_numhi, expr
+
+def getNoiseMargin(h, l1, wt1):
+    ranks = []
+    g_ind = 0
+    counts = []
+    f_ranks = 0
+    for s in l1:
+        count = 0
+        avgrank = 0
+        for gn in s:
+          for id in h.getIDs(gn):
+            e = h.getExprData(id);
+            t = h.getThrData(id);
+            if e[-1] == "":
+                continue
+            v = np.array([float(e[i]) if e[i] != "" else 0 for i in h.aRange()])
+            v1 = 0.5/3
+            std = np.std(v)
+            if std > 0:
+                v1 = v1 / std
+            avgrank += v1 * v1
+            count += 1
+        ranks.append(avgrank)
+        f_ranks += abs(wt1[g_ind]) * avgrank
+        g_ind += 1
+        counts += [count]
+    print(counts)
+    nm = 0.5/3
+    if f_ranks > 0:
+        nm = np.sqrt(f_ranks)
+    return ranks, nm
 
 def saveList(ofile, l1):
     of = open(ofile, "w")
@@ -1101,6 +1165,17 @@ def getGroupsMm(gene_groups):
     cfile = getRealpath("data/ensembl-GRCh38.p13-100-hs-mm.txt")
     fp = open(cfile, "r")
     mmdict = {}
+    for line in fp:
+        line = line.strip();
+        ll = re.split("\t", line);
+        if len(ll) > 3 and ll[2] != '' and ll[3] != '':
+            g = ll[3]
+            if g not in mmdict:
+                mmdict[g] = []
+            mmdict[g] += [ll[2]]
+    fp.close();
+    cfile = getRealpath("data/custom-hs-mm.txt")
+    fp = open(cfile, "r")
     for line in fp:
         line = line.strip();
         ll = re.split("\t", line);
@@ -3429,7 +3504,7 @@ class BIGraph:
             l1 = list(set(p).intersection(l1)) + list(set(l1).difference(p))
         return res
 
-    def getBINGraph(ana, edges, clusters, dr):
+    def getBINGraph(ana, edges, clusters, dr, top=10):
         import networkx as nx
         from networkx.drawing.nx_agraph import write_dot, graphviz_layout
 
@@ -3453,7 +3528,10 @@ class BIGraph:
                     net.add_edge(id1, id2, rel='2')
 
         G = nx.DiGraph()
-        for id1 in keys[0:10]:
+        l1 = keys
+        if top > 0:
+            l1 = keys[0:top]
+        for id1 in l1:
             l1 = []
             if id1 in edges and '4' in edges[id1]:
                 l1 += list(edges[id1]['4'].keys())
@@ -3475,6 +3553,8 @@ class BIGraph:
 
         l1 = list(G)
         for id1 in l1:
+            if id1 not in net:
+                continue
             l2 = BIGraph.getPath(net, id1, l1)
             print(l2)
             t1 = id1
@@ -3489,11 +3569,11 @@ class BIGraph:
                 
         return G
 
-    def visualizeNetwork(G):
+    def visualizeNetwork(G, ofile="network/nx.html"):
         from pyvis.network import Network
         nt = Network("500px", "500px", heading="BoNE", notebook=True)
         nt.from_nx(G)
-        return nt.show("network/nx.html")
+        return nt.show(ofile)
 
     def getBINGraphGML(ana, edges, clusters, dr):
         import networkx as nx
@@ -3547,6 +3627,8 @@ class BIGraph:
 
         l1 = list(G)
         for id1 in l1:
+            if id1 not in net:
+                continue
             l2 = BIGraph.getPath(net, id1, l1)
             print(l2)
             t1 = id1

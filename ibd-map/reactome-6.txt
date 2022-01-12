@@ -1,0 +1,101 @@
+name	pValue	fdr
+Extracellular matrix organization	3.51290663225e-10	4.39113329032e-07
+Integrin cell surface interactions	8.33945912326e-10	5.21216195204e-07
+ECM proteoglycans	4.67196726861e-08	1.94353838374e-05
+Non-integrin membrane-ECM interactions	1.85593029056e-07	5.79050250655e-05
+Platelet activation, signaling and aggregation	2.15705707896e-06	0.000539264269739
+Rho GTPase cycle	7.98989916873e-06	0.00166189902709
+Degradation of the extracellular matrix	1.3155569991e-05	0.00217270673149
+MET activates PTK2 signaling	1.39276072532e-05	0.00217270673149
+Syndecan interactions	2.83540984037e-05	0.00391286557972
+Signaling by Interleukins	3.46391053773e-05	0.00432988817216
+Laminin interactions	5.12539950172e-05	0.00579170143694
+MET promotes cell motility	8.77939237138e-05	0.00913056806624
+Assembly of collagen fibrils and other multimeric structures	0.0001290500274	0.0123888026304
+Hemostasis	0.000156394703863	0.0139191286438
+Collagen chain trimerization	0.000270985046326	0.022491758845
+Response to elevated platelet cytosolic Ca2+	0.00031109900006	0.023670571421
+Neurophilin interactions with VEGF and VEGFR	0.000325323950116	0.023670571421
+Platelet degranulation 	0.000357991593368	0.023670571421
+Defective B3GALTL causes Peters-plus syndrome (PpS)	0.000364162637246	0.023670571421
+RUNX1 and FOXP3 control the development of regulatory T lymphocytes (Tregs)	0.000491145023777	0.0304509914742
+Collagen degradation	0.000542627739532	0.0307121987399
+O-glycosylation of TSR domain-containing proteins	0.000548432120355	0.0307121987399
+Dermatan sulfate biosynthesis	0.000685901141327	0.035666859349
+Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA	0.000685901141327	0.035666859349
+Chondroitin sulfate biosynthesis	0.00101830135154	0.0509150675772
+Negative regulation of the PI3K/AKT network	0.00147708793772	0.0670566854772
+Signaling by PDGF	0.00154846724026	0.0670566854772
+Platelet homeostasis	0.0015594578018	0.0670566854772
+PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling	0.0015594578018	0.0670566854772
+G-protein beta:gamma signalling	0.00185637556694	0.0761113982445
+Constitutive Signaling by Aberrant PI3K in Cancer	0.00195557093877	0.0782228375509
+Nitric oxide stimulates guanylate cyclase	0.00270628365597	0.100132495271
+Interleukin-37 signaling	0.00270628365597	0.100132495271
+Crosslinking of collagen fibrils	0.00342900008506	0.123444003062
+Collagen biosynthesis and modifying enzymes	0.00364484302606	0.126785287338
+Interleukin-4 and Interleukin-13 signaling	0.00372897903937	0.126785287338
+VEGF ligand-receptor interactions	0.00405957545712	0.129906414628
+VEGF binds to VEGFR leading to receptor dimerization	0.00405957545712	0.129906414628
+Collagen formation	0.00478074609898	0.152983875167
+Interleukin-2 family signaling	0.00498603902199	0.154567209682
+RUNX3 regulates YAP1-mediated transcription	0.00611358867229	0.177294071496
+Defective CHST3 causes SEDCJD	0.00611358867229	0.177294071496
+Defective CHST14 causes EDS, musculocontractural type	0.00611358867229	0.177294071496
+Chondroitin sulfate/dermatan sulfate metabolism	0.00650351827978	0.182098511834
+G alpha (12/13) signalling events	0.00788824357501	0.211364315606
+GPVI-mediated activation cascade	0.00829632984586	0.211364315606
+Defective CHSY1 causes TPBS	0.00876216739475	0.211364315606
+RUNX3 Regulates Immune Response and Cell Migration	0.00876216739475	0.211364315606
+Diseases associated with O-glycosylation of proteins	0.00889406699784	0.211364315606
+Interleukin receptor SHC signaling	0.00924138267107	0.211364315606
+G beta:gamma signalling through PI3Kgamma	0.00924138267107	0.211364315606
+Cytokine Signaling in Immune system	0.00942413506148	0.211364315606
+NCAM1 interactions	0.00953153125446	0.211364315606
+Platelet Adhesion to exposed collagen	0.00960746889119	0.211364315606
+G beta:gamma signalling through PLC beta	0.0109056188347	0.229017995529
+Presynaptic function of Kainate receptors	0.0109056188347	0.229017995529
+Elastic fibre formation	0.012412178511	0.260655748731
+PI3K/AKT Signaling in Cancer	0.0136789782932	0.287258544157
+Post-translational protein phosphorylation	0.015424298232	0.30848596464
+GP1b-IX-V activation signalling	0.0160750054279	0.321500108559
+Butyrophilin (BTN) family interactions	0.0160750054279	0.321500108559
+CD28 dependent PI3K/Akt signaling	0.0187300570223	0.355578527998
+Cell-extracellular matrix interactions	0.0187589973852	0.355578527998
+Signaling by Receptor Tyrosine Kinases	0.0194977785404	0.355578527998
+Opioid Signalling	0.0197543626665	0.355578527998
+Interleukin-3, Interleukin-5 and GM-CSF signaling	0.0200471726492	0.360849107685
+cGMP effects	0.0227615555429	0.399536474505
+Thrombin signalling through proteinase activated receptors (PARs)	0.0231857178955	0.399536474505
+G alpha (z) signalling events	0.0235021455591	0.399536474505
+Signaling by MET	0.023920745866	0.406652679722
+PECAM1 interactions	0.0263684876163	0.417560172478
+NOTCH3 Intracellular Domain Regulates Transcription	0.0264438931418	0.417560172478
+Regulation of cytoskeletal remodeling and cell spreading by IPP complex components	0.0265578476777	0.417560172478
+Defective B4GALT7 causes EDS, progeroid type	0.0272788858674	0.417560172478
+Defective B3GALT6 causes EDSP2 and SEMDJL1	0.0272788858674	0.417560172478
+Defective B3GAT3 causes JDSSDHD	0.0272788858674	0.417560172478
+Platelet Aggregation (Plug Formation)	0.0276634379117	0.417560172478
+Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)	0.0278373448319	0.417560172478
+Ca2+ pathway	0.0284779854762	0.427169782142
+Diseases associated with glycosaminoglycan metabolism	0.0306014227666	0.459021341498
+Anchoring fibril formation	0.0327068650613	0.490602975919
+Prostacyclin signalling through prostacyclin receptor	0.0379256273419	0.52985105262
+Integrin alphaIIb beta3 signaling	0.0380491805454	0.52985105262
+Integrin signaling	0.0380491805454	0.52985105262
+CD28 co-stimulation	0.0380491805454	0.52985105262
+Nuclear Receptor transcription pathway	0.0388316501698	0.52985105262
+Interleukin-35 Signalling	0.0398603366799	0.52985105262
+RUNX3 regulates RUNX1-mediated transcription	0.0407577732784	0.52985105262
+Interleukin-33 signaling	0.0407577732784	0.52985105262
+Regulation of TP53 Expression	0.0407577732784	0.52985105262
+Signaling by VEGF	0.0423177882919	0.550131247795
+Generation of second messenger molecules	0.0445175347311	0.578727951504
+MyD88 deficiency (TLR2/4)	0.047833405835	0.620044367943
+Interleukin-6 signaling	0.047833405835	0.620044367943
+NCAM signaling for neurite out-growth	0.0516703639952	0.620044367943
+Activation of kainate receptors upon glutamate binding	0.0560412736225	0.67249528347
+IRAK4 deficiency (TLR2/4)	0.0566224634577	0.679469561493
+YAP1- and WWTR1 (TAZ)-stimulated gene expression	0.0566224634577	0.679469561493
+RUNX1 regulates transcription of genes involved in differentiation of myeloid cells	0.0582001214563	0.688367514448
+Interleukin-18 signaling	0.0582001214563	0.688367514448

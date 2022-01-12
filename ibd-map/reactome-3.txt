@@ -1,0 +1,101 @@
+name	pValue	fdr
+Respiratory electron transport	1.11022302463e-16	4.45199432875e-14
+Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.	1.11022302463e-16	4.45199432875e-14
+The citric acid (TCA) cycle and respiratory electron transport	1.11022302463e-16	4.45199432875e-14
+Mitochondrial translation	2.22044604925e-16	6.68354260824e-14
+Mitochondrial translation termination	7.77156117238e-16	1.55431223448e-13
+Mitochondrial translation elongation	7.77156117238e-16	1.55431223448e-13
+Mitochondrial translation initiation	1.44328993201e-15	2.48245868306e-13
+Complex I biogenesis	1.14535581019e-09	1.71803371529e-07
+Cristae formation	1.67011949825e-08	2.22125893268e-06
+Mitochondrial protein import	5.78863574185e-07	6.94636289023e-05
+Translation	1.24920997935e-06	0.000136163887749
+Mitochondrial calcium ion transport	1.50695145895e-06	0.000150695145895
+Peroxisomal protein import	1.70598081095e-06	0.000156950234607
+Mitochondrial biogenesis	2.47842391787e-06	0.000213144456937
+Formation of ATP by chemiosmotic coupling	1.82547612221e-05	0.00146038089777
+Metabolism	0.000155463327066	0.0116597495299
+Mitochondrial Fatty Acid Beta-Oxidation	0.000412162461225	0.0288513722858
+Pyruvate metabolism and Citric Acid (TCA) cycle	0.000550707188575	0.0363466744459
+Processing of SMDT1	0.000769960054172	0.0485074834128
+Citric acid cycle (TCA cycle)	0.00136766215358	0.0820597292146
+TYSND1 cleaves peroxisomal proteins	0.00169351496698	0.0965303531178
+Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization	0.00210794365653	0.113828957453
+TP53 Regulates Metabolic Genes	0.00259783417226	0.135087376957
+Sulfide oxidation to sulfate	0.0027943266427	0.139716332135
+Gluconeogenesis	0.00366515291388	0.172627496417
+Defective HLCS causes multiple carboxylase deficiency	0.00375277166124	0.172627496417
+Defects in biotin (Btn) metabolism	0.00706628776422	0.310916661626
+Degradation of cysteine and homocysteine	0.00743290307365	0.319614832167
+Beta-oxidation of very long chain fatty acids	0.0104643737905	0.429039325409
+Detoxification of Reactive Oxygen Species	0.0220021847805	0.774514689506
+Reversible hydration of carbon dioxide	0.0224083933576	0.774514689506
+Release of apoptotic factors from the mitochondria	0.0260966045095	0.774514689506
+Peroxisomal lipid metabolism	0.0271964139212	0.774514689506
+Biotin transport and metabolism	0.0318013162473	0.774514689506
+Formation of annular gap junctions	0.0319382003074	0.774514689506
+Sulfur amino acid metabolism	0.0354291705797	0.774514689506
+Gap junction degradation	0.0396546785142	0.774514689506
+Fatty acid metabolism	0.0447067281945	0.774514689506
+Transcriptional activation of mitochondrial biogenesis	0.0479524594638	0.774514689506
+Lysosome Vesicle Biogenesis	0.0537856891973	0.774514689506
+RUNX2 regulates genes involved in differentiation of myeloid cells	0.0541846588508	0.774514689506
+Pyrophosphate hydrolysis	0.0541846588508	0.774514689506
+p75NTR negatively regulates cell cycle via SC1	0.0541846588508	0.774514689506
+Deletions in the AXIN genes in hepatocellular carcinoma result in elevated WNT signaling	0.0601274821485	0.774514689506
+Glutathione conjugation	0.0604174843551	0.774514689506
+AXIN mutants destabilize the destruction complex, activating WNT signaling	0.0678102779152	0.774514689506
+SeMet incorporation into proteins	0.0678102779152	0.774514689506
+Organelle biogenesis and maintenance	0.0704213630842	0.774514689506
+RSK activation	0.0889707043443	0.774514689506
+Glycosphingolipid metabolism	0.0913417550513	0.774514689506
+Glucose metabolism	0.0972179465402	0.774514689506
+Import of palmitoyl-CoA into the mitochondrial matrix	0.0984896407394	0.774514689506
+LDL clearance	0.0984896407394	0.774514689506
+Beta oxidation of hexanoyl-CoA to butanoyl-CoA	0.102742002058	0.774514689506
+RUNX1 regulates transcription of genes involved in WNT signaling	0.108254056586	0.774514689506
+Spry regulation of FGF signaling	0.115692600708	0.774514689506
+N-Glycan antennae elongation	0.115692600708	0.774514689506
+Activation and oligomerization of BAK protein	0.116643600284	0.774514689506
+Vitamin E	0.116643600284	0.774514689506
+RPIA deficiency: failed conversion of R5P to RU5P	0.116643600284	0.774514689506
+Defective SLC35C1 causes congenital disorder of glycosylation 2C (CDG2C)	0.116643600284	0.774514689506
+Defective PGM1 causes PGM1-CDG (CDG1t)	0.116643600284	0.774514689506
+Defective PMM2 causes PMM2-CDG (CDG-1a)	0.116643600284	0.774514689506
+Defective SLC39A4 causes acrodermatitis enteropathica, zinc-deficiency type (AEZ)	0.116643600284	0.774514689506
+Defective MPI causes MPI-CDG (CDG-1b)	0.116643600284	0.774514689506
+RPIA deficiency: failed conversion of RU5P to R5P	0.116643600284	0.774514689506
+RAF activation	0.118376443712	0.774514689506
+Synthesis of substrates in N-glycan biosythesis	0.119987179284	0.774514689506
+Plasma lipoprotein clearance	0.122894897241	0.774514689506
+Defects in vitamin and cofactor metabolism	0.122894897241	0.774514689506
+Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein	0.124236756375	0.774514689506
+VLDL clearance	0.128513619365	0.774514689506
+rRNA modification in the mitochondrion	0.128513619365	0.774514689506
+RUNX1 regulates estrogen receptor mediated transcription	0.128513619365	0.774514689506
+Clathrin derived vesicle budding	0.128692756194	0.774514689506
+trans-Golgi Network Vesicle Budding	0.128692756194	0.774514689506
+Regulation of pyruvate dehydrogenase (PDH) complex	0.128921423029	0.774514689506
+PPARA activates gene expression	0.12969717912	0.774514689506
+EPH-ephrin mediated repulsion of cells	0.130384211342	0.774514689506
+tRNA Aminoacylation	0.13393509384	0.774514689506
+Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)	0.138338756154	0.774514689506
+mitochondrial fatty acid beta-oxidation of unsaturated fatty acids	0.143268923127	0.774514689506
+Pyruvate metabolism	0.146574776976	0.774514689506
+Synthesis of GDP-mannose	0.149562615668	0.774514689506
+RUNX1 regulates transcription of genes involved in differentiation of myeloid cells	0.149562615668	0.774514689506
+Zinc influx into cells by the SLC39 gene family	0.149562615668	0.774514689506
+TP53 Regulates Transcription of Genes Involved in Cytochrome C Release	0.151114814866	0.774514689506
+Nuclear Receptor transcription pathway	0.155448220774	0.774514689506
+Pentose phosphate pathway	0.160271995996	0.774514689506
+Cytosolic sulfonation of small molecules	0.163938511277	0.774514689506
+Defective SLC17A5 causes Salla disease (SD) and ISSD	0.169765022099	0.774514689506
+Defective AHCY causes Hypermethioninemia with S-adenosylhomocysteine hydrolase deficiency (HMAHCHD)	0.169765022099	0.774514689506
+Defective TPMT causes Thiopurine S-methyltransferase deficiency (TPMT deficiency)	0.169765022099	0.774514689506
+Defective SLC4A4 causes renal tubular acidosis, proximal, with ocular abnormalities and mental retardation (pRTA-OA)	0.169765022099	0.774514689506
+Defective SLC6A2 causes orthostatic intolerance (OI)	0.169765022099	0.774514689506
+Defective SLC26A2 causes chondrodysplasias	0.169765022099	0.774514689506
+Defective MMAB causes methylmalonic aciduria type cblB	0.169765022099	0.774514689506
+Defective DHDDS causes retinitis pigmentosa 59	0.169765022099	0.774514689506
+Defective SLC22A5 causes systemic primary carnitine deficiency (CDSP)	0.169765022099	0.774514689506
+Sialic acid metabolism	0.172455317907	0.774514689506

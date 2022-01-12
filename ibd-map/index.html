@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title> IBD Target Discovery </title>
+  </head>
+  <body>
+    <form action="analyze.php">
+      <label for="fname">Search Genes:</label><br>
+      <input type="text" id="searchtext" name="id" value=""><br>
+      <input type="hidden" name="go" value="ibdAll"><br>
+      <label for="type">Type:</label><br>
+      <select name="type">
+        <option value="json">json</option>
+        <option value="html">html</option>
+        <option value="htmlpdf" selected>htmlpdf</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form> 
+
+  </body>
+</html>
