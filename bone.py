@@ -65,6 +65,7 @@ def reactome(idlist):
     obj = json.loads(response.text)
     df = pd.DataFrame()
     df['name'] = [p["name"] for  p in obj["pathways"]]
+    df['count'] = [p["entities"]["found"] for  p in obj["pathways"]]
     df['pValue'] = [p["entities"]["pValue"] for  p in obj["pathways"]]
     df['fdr'] = [p["entities"]["fdr"] for  p in obj["pathways"]]
     return df
@@ -1933,7 +1934,10 @@ class IBDAnalysis:
         df = pd.DataFrame(data_list)
         df['y'] = pd.Series(np.array(actual))
         tab = pd.crosstab(df.y > 0, df.x > 0)
-        res[2] = "%.3g" % fisher_exact(tab)[1]
+        if tab.shape == (2, 2):
+            res[2] = "%.3g" % fisher_exact(tab)[1]
+        else:
+            res[2] = "1.0"
         return res
 
     def densityPlot(self, ax=None, color = None):
@@ -2092,6 +2096,9 @@ class IBDAnalysis:
             self.params.update(params)
         id1 = self.h.getBestID(self.h.getIDs(name).keys())
         expr = self.h.getExprData(id1)
+        if expr is None:
+            print("Not Found")
+            return None, None
         lval = [[] for i in self.params['atypes']]
         aval = self.aval
         if ahash is not None:
@@ -2100,12 +2107,18 @@ class IBDAnalysis:
             if aval[i] is None:
                 continue
             lval[aval[i]] += [float(expr[i])]
-        ax,bp = plotScores(lval, self.params['atypes'], self.params)
+        atypes = [str(self.params['atypes'][i]) + "("+str(len(lval[i]))+")"
+                for i in range(len(self.params['atypes']))]
+        if 'violin' in self.params and self.params['violin'] == 1:
+            ax = plotViolin(lval, atypes, self.params)
+            bp = None
+        else:
+            ax,bp = plotScores(lval, atypes, self.params)
         if self.params['vert'] == 0:
-            ax.text(ax.get_xlim()[1], 1, self.source,
+            ax.text(ax.get_xlim()[1], 1, self.h.getSource(),
                     horizontalalignment='left', verticalalignment='center')
         else:
-            title = self.getTitle()
+            title = self.h.rdataset.getName() + " (" + self.h.getSource() + "; n = " + str(self.h.getNum()) + ")"
             ax.set_title(title)
             ax.set_ylabel(self.h.getSimpleName(id1))
         self.addAxes(ax)
