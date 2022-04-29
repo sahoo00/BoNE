@@ -1553,8 +1553,8 @@ def processGeneGroupsDf(ana, l1, wt1, debug = 0, fthr = None):
 
 class IBDAnalysis:
 
-    def __init__(self):
-        self.db = hu.Database("/booleanfs2/sahoo/Hegemon/explore.conf")
+    def __init__(self, cf="/booleanfs2/sahoo/Hegemon/explore.conf"):
+        self.db = hu.Database(cf);
         self.state = []
         self.params = {}
         self.otype = 0
