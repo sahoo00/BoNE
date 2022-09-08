@@ -1,0 +1,73 @@
+#!/bin/bash
+
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jdk1.8.0_45"
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH="../stepminer-1.1.jar"
+stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
+stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
+export PERL_HASH_SEED=0
+
+#perl -I .. ../analyze.pl data-download BES20 GSE100843-GPL6244
+#perl -I .. ../analyze.pl toidx GSE100843-GPL6244-expr.txt > GSE100843-GPL6244-idx.txt
+#perl -I .. ../analyze.pl thr GSE100843-GPL6244-expr.txt 2 500 0.5> GSE100843-GPL6244-thr.txt
+#perl -I .. ../analyze.pl bv GSE100843-GPL6244 > GSE100843-GPL6244-bv.txt
+#perl -I .. ../analyze.pl Info GSE100843-GPL6244 > GSE100843-GPL6244-info.txt
+#perl -I .. ../analyze.pl VInfo GSE100843-GPL6244 > GSE100843-GPL6244-vinfo.txt
+#
+#perl -I .. ../analyze.pl data-download BES21 E-MTAB-4054
+#perl -I .. ../analyze.pl toidx E-MTAB-4054-expr.txt > E-MTAB-4054-idx.txt
+#perl -I .. ../analyze.pl thr E-MTAB-4054-expr.txt 2 500 0.5> E-MTAB-4054-thr.txt
+#perl -I .. ../analyze.pl bv E-MTAB-4054 > E-MTAB-4054-bv.txt
+#perl -I .. ../analyze.pl Info E-MTAB-4054 > E-MTAB-4054-info.txt
+#perl -I .. ../analyze.pl VInfo E-MTAB-4054 > E-MTAB-4054-vinfo.txt
+#
+perl -I .. ../analyze.pl data-download BES22 GSE39491-GPL571
+perl -I .. ../analyze.pl toidx GSE39491-GPL571-expr.txt > GSE39491-GPL571-idx.txt
+perl -I .. ../analyze.pl thr GSE39491-GPL571-expr.txt 2 500 0.5> GSE39491-GPL571-thr.txt
+perl -I .. ../analyze.pl bv GSE39491-GPL571 > GSE39491-GPL571-bv.txt
+perl -I .. ../analyze.pl Info GSE39491-GPL571 > GSE39491-GPL571-info.txt
+perl -I .. ../analyze.pl VInfo GSE39491-GPL571 > GSE39491-GPL571-vinfo.txt
+
+exit
+
+FILE=bes-net
+rm -f $FILE.rl
+${stepminer}
+${stepminer} boolean bitMatrix $FILE.rl \
+  GSE100843-GPL6244-bv.txt \
+ $FILE.ph All 0.1 3 0.05
+cp $FILE.rl $FILE-1.rl
+${stepminer} boolean bitMatrixFill $FILE-1.rl
+${stepminer} boolean bitMatrixFillStats $FILE-1.rl
+${stepminer} boolean bitMatrixPrint $FILE-1.rl > $FILE-res.txt
+
+FILE=eac-net
+rm -f $FILE.rl
+${stepminer}
+${stepminer} boolean bitMatrix $FILE.rl \
+  E-MTAB-4054-bv.txt \
+ $FILE.ph All 0.1 3 0.05
+cp $FILE.rl $FILE-1.rl
+${stepminer} boolean bitMatrixFill $FILE-1.rl
+${stepminer} boolean bitMatrixFillStats $FILE-1.rl
+${stepminer} boolean bitMatrixPrint $FILE-1.rl > $FILE-res.txt
+
+function apply2() {
+  ${stepminer} shuffle bv Random/$2-$1.bv $3/network.bv $1
+  ${stepminer} boolean pairs Random/$2-$1.pairs Random/$2-$1.bv network.ph All 0.1 3 0.05
+}
+
+function apply1() {
+  perl /booleanfs/sahoo/scripts/buildNetwork.pl shuffle Random/$2-$1.bv $3/network.bv
+  ${stepminer} boolean pairs Random/$2-$1.pairs Random/$2-$1.bv network.ph All 0.1 3 0.05
+}
+
+#mkdir -p Random
+#cp /booleanfs2/sahoo/Data/Daniella/data/BE/GSE100843/GSE100843-GPL6244-bv.txt Random/network.bv
+#for ((i=0;i<2;i++)) do
+#   apply1 $i flu Random
+#done
+#for ((i=2;i<4;i++)) do
+#   apply2 $i flu Random
+#done
+#${stepminer} boolean pairs Random/original.pairs Random/network.bv network.ph All 0.1 3 0.05
