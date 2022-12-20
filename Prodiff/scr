@@ -1,0 +1,82 @@
+#!/bin/bash
+
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jre1.8.0_25"
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jdk1.8.0_45"
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH="/booleanfs/sahoo/softwares/BooleanNet/dist/lib/tools.jar"
+stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
+stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
+export PERL_HASH_SEED=0
+
+#--------------- download the required data
+
+perl -I .. ../analyze.pl data-download CRC145 colon-dyn
+perl -I .. ../analyze.pl toidx colon-dyn-expr.txt > colon-dyn-idx.txt
+perl -I .. ../analyze.pl thr colon-dyn-expr.txt 2 500 0.5> colon-dyn-thr.txt
+perl -I .. ../analyze.pl bv colon-dyn > colon-dyn-bv.txt
+perl -I .. ../analyze.pl Info colon-dyn > colon-dyn-info.txt
+perl -I .. ../analyze.pl VInfo colon-dyn > colon-dyn-vinfo.txt
+
+
+perl -I .. ../analyze.pl data-download PLP50 qu-2016-noadca
+perl -I .. ../analyze.pl toidx qu-2016-noadca-expr.txt > qu-2016-noadca-idx.txt
+perl -I .. ../analyze.pl thr qu-2016-noadca-expr.txt 2 500 0.5> qu-2016-noadca-thr.txt
+perl -I .. ../analyze.pl bv qu-2016-noadca > qu-2016-noadca-bv.txt
+perl -I .. ../analyze.pl Info qu-2016-noadca > qu-2016-noadca-info.txt
+perl -I .. ../analyze.pl VInfo qu-2016-noadca > qu-2016-noadca-vinfo.txt
+
+
+perl -I .. ../analyze.pl data-download CRC80 tcga-2017-m
+perl -I .. ../analyze.pl toidx tcga-2017-m-expr.txt > tcga-2017-m-idx.txt
+perl -I .. ../analyze.pl thr tcga-2017-m-expr.txt 2 500 0.5> tcga-2017-m-thr.txt
+perl -I .. ../analyze.pl bv tcga-2017-m > tcga-2017-m-bv.txt
+perl -I .. ../analyze.pl Info tcga-2017-m > tcga-2017-m-info.txt
+perl -I .. ../analyze.pl VInfo tcga-2017-m > tcga-2017-m-vinfo.txt
+
+
+perl -I .. ../analyze.pl data-download CRC137.2 skrzypczak-2010-crc-old
+perl -I .. ../analyze.pl toidx skrzypczak-2010-crc-old-expr.txt > skrzypczak-2010-crc-old-idx.txt
+perl -I .. ../analyze.pl thr skrzypczak-2010-crc-old-expr.txt 2 500 0.5> skrzypczak-2010-crc-old-thr.txt
+perl -I .. ../analyze.pl bv skrzypczak-2010-crc-old > skrzypczak-2010-crc-old-bv.txt
+perl -I .. ../analyze.pl Info skrzypczak-2010-crc-old > skrzypczak-2010-crc-old-info.txt
+perl -I .. ../analyze.pl VInfo skrzypczak-2010-crc-old > skrzypczak-2010-crc-old-vinfo.txt
+
+
+
+perl -I .. ../analyze.pl data-download CRC148 Paredes-2020-crc
+perl -I .. ../analyze.pl toidx Paredes-2020-crc-expr.txt > Paredes-2020-crc-idx.txt
+perl -I .. ../analyze.pl thr Paredes-2020-crc-expr.txt 2 500 0.5> Paredes-2020-crc-thr.txt
+perl -I .. ../analyze.pl bv Paredes-2020-crc > Paredes-2020-crc-bv.txt
+perl -I .. ../analyze.pl Info Paredes-2020-crc > Paredes-2020-crc-info.txt
+perl -I .. ../analyze.pl VInfo Paredes-2020-crc > Paredes-2020-crc-vinfo.txt
+
+
+perl -I .. ../analyze.pl data-download CRC149 Sole-2014-crc
+perl -I .. ../analyze.pl toidx Sole-2014-crc-expr.txt > Sole-2014-crc-idx.txt
+perl -I .. ../analyze.pl thr Sole-2014-crc-expr.txt 2 500 0.5> Sole-2014-crc-thr.txt
+perl -I .. ../analyze.pl bv Sole-2014-crc > Sole-2014-crc-bv.txt
+perl -I .. ../analyze.pl Info Sole-2014-crc > Sole-2014-crc-info.txt
+perl -I .. ../analyze.pl VInfo Sole-2014-crc > Sole-2014-crc-vinfo.txt
+
+
+perl -I .. ../analyze.pl data-download CRC154 Chen-2016-crc-1
+perl -I .. ../analyze.pl toidx Chen-2016-crc-1-expr.txt > Chen-2016-crc-1-idx.txt
+perl -I .. ../analyze.pl thr Chen-2016-crc-1-expr.txt 2 500 0.5> Chen-2016-crc-1-thr.txt
+perl -I .. ../analyze.pl bv Chen-2016-crc-1 > Chen-2016-crc-1-bv.txt
+perl -I .. ../analyze.pl Info Chen-2016-crc-1 > Chen-2016-crc-1-info.txt
+perl -I .. ../analyze.pl VInfo Chen-2016-crc-1 > Chen-2016-crc-1-vinfo.txt
+
+
+
+# ---------------- create the required files
+FILE=crc-net-1
+rm -f $FILE.rl
+${stepminer} boolean bitMatrix $FILE.rl \
+  colon-dyn-bv.txt \
+  $FILE.ph All 0.15 10 0.05
+${stepminer} boolean bitMatrixFill $FILE.rl
+${stepminer} boolean bitMatrixFillStats $FILE.rl
+${stepminer} boolean bitMatrixPrint $FILE.rl > $FILE-res.txt
+${stepminer} boolean bitMatrixPrintStats $FILE.rl > $FILE-stats.txt
+
+
