@@ -66,6 +66,13 @@ perl -I .. ../analyze.pl bv Chen-2016-crc-1 > Chen-2016-crc-1-bv.txt
 perl -I .. ../analyze.pl Info Chen-2016-crc-1 > Chen-2016-crc-1-info.txt
 perl -I .. ../analyze.pl VInfo Chen-2016-crc-1 > Chen-2016-crc-1-vinfo.txt
 
+perl -I .. ../analyze.pl data-download CRC54 marisa-2013-colon
+perl -I .. ../analyze.pl toidx marisa-2013-colon-expr.txt > marisa-2013-colon-idx.txt
+perl -I .. ../analyze.pl thr marisa-2013-colon-expr.txt 2 500 0.5> marisa-2013-colon-thr.txt
+perl -I .. ../analyze.pl bv marisa-2013-colon > marisa-2013-colon-bv.txt
+perl -I .. ../analyze.pl Info marisa-2013-colon > marisa-2013-colon-info.txt
+perl -I .. ../analyze.pl VInfo marisa-2013-colon > marisa-2013-colon-vinfo.txt
+
 
 
 # ---------------- create the required files
