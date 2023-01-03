@@ -1,5 +1,5 @@
 
-# Pro-differentiation Project: AI-guided identification and validation of a target to differentiate colorectal cancers?
+# Pro-differentiation Project: AI-guided identification and validation of a target to differentiate colorectal cancers
 
 ## Details
 * [scr](https://github.com/sahoo00/BoNE/blob/master/Prodiff/scr): A bash script to download all required Hegemon files from Hegemon.ucsd.edu and create all required files to build the Boolean Implication Network (in cells #3-8 in the Prodiff-Paper.ipynb) using [analyze.pl](https://github.com/sahoo00/BoNE/blob/master/analyze.pl) available in the parent directory.
