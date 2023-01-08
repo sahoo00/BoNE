@@ -555,6 +555,54 @@ def getRanksDf(df_e, df_t):
     print(counts)
     return ranks, row_labels, row_ids, row_numhi, expr
 
+def getRanksDf2(gene_groups, df_g, df_e, df_t):
+    expr = []
+    row_labels = []
+    row_ids = []
+    row_numhi = []
+    ranks = []
+    g_ind = 0
+    counts = []
+    for k in range(len(df_e)):
+        count = 0
+        order = range(2, df_e[k].shape[1])
+        avgrank = [0 for i in order]
+        for j in df_g[k]['idx']:
+            e = df_e[k].iloc[j,:]
+            t = df_t[k]['thr2'][j]
+            if e[-1] == "":
+                continue
+            v = np.array([float(e[i]) if e[i] != "" else 0 for i in order])
+            te = []
+            sd = np.std(v)
+            for i in order:
+                if (e[i] != ""):
+                    v1 = (float(e[i]) - t) / 3;
+                    if sd > 0:
+                        v1 = v1 / sd
+                else:
+                    v1 = -t/3/sd
+                avgrank[i-2] += v1
+                te.append(v1)
+            expr.append(te)
+            nm = getSName(e[1])
+            row_labels.append(nm)
+            row_ids.append(e[0])
+            v1 = [g_ind, sum(v > t)]
+            if g_ind > 3:
+                v1 = [g_ind, sum(v <= t)]
+            else:
+                v1 = [g_ind, sum(v > t)]
+            row_numhi.append(v1)
+            count += 1
+            #if count > 200:
+            #    break
+        ranks.append(avgrank)
+        g_ind += 1
+        counts += [count]
+    print(counts)
+    return ranks, row_labels, row_ids, row_numhi, expr
+
 def getNoiseMargin(h, l1, wt1):
     ranks = []
     g_ind = 0
@@ -1653,6 +1701,9 @@ class IBDAnalysis:
     def getSurvName(self, name):
         return hu.getHegemonPatientData(self.dbid, name)[1]
 
+    def getExprData(self, name):
+        return hu.getHegemonData(self.dbid, name, "")[1]
+
     def convertMm(self, gene_groups, genes):
         self.gene_groups = getGroupsMm(gene_groups)
         self.genes = getGroupsMm([genes])[0]
@@ -1712,9 +1763,11 @@ class IBDAnalysis:
         self.otype = 2
 
     def orderDataDf(self, gene_groups, weight):
+        data_g = []
         data_e = []
         data_t = []
         for k in gene_groups:
+            df_g = hu.getHegemonGeneIDs(self.dbid, k)
             df_e = hu.getHegemonDataFrame(self.dbid, k, None)
             df_t = hu.getHegemonThrFrame(self.dbid, k)
             rhash = {}
@@ -1723,6 +1776,11 @@ class IBDAnalysis:
             order = [rhash[df_e.iloc[i,0]] for i in range(df_e.shape[0])]
             df_t = df_t.reindex(order)
             df_t.reset_index(inplace=True)
+            rhash = {}
+            for i in df_e.index:
+                rhash[df_e.iloc[i,0]] = i
+            df_g['idx'] = [rhash[df_g.iloc[i,0]] for i in df_g.index]
+            data_g.append(df_g)
             data_e.append(df_e)
             data_t.append(df_t)
         self.col_labels = self.headers[self.start:]
@@ -1731,7 +1789,8 @@ class IBDAnalysis:
         self.chash = {}
         for i in range(len(self.col_labels)):
             self.chash[self.col_labels[i]] = i
-        ranks, row_labels, row_ids, row_numhi, expr = getRanksDf(data_e, data_t)
+        #ranks, row_labels, row_ids, row_numhi, expr = getRanksDf(data_e, data_t)
+        ranks, row_labels, row_ids, row_numhi, expr = getRanksDf2(gene_groups, data_g, data_e, data_t)
         i1 = getOrder(self.order, self.start, ranks, weight)
         index = np.array([i - self.start for i in i1])
         self.cval = np.array([[self.aval[i] for i in i1]])
@@ -2189,8 +2248,12 @@ class IBDAnalysis:
             fthr = thr[0]
         if fthr == "thr0":
             fthr = thr[0] - nm
+        if fthr == "thr1":
+            fthr = thr[0]
         if fthr == "thr2":
             fthr = thr[0] + nm
+        if fthr == "thr2.5":
+            fthr = thr[0] + 2.5 * nm
         if fthr == "thr3":
             fthr = thr[0] + 3 * nm
         print(thr)
@@ -2206,11 +2269,13 @@ class IBDAnalysis:
         if ct is not None:
             time, status = hu.censor(time, status, ct)
         sax = hu.survival(time, status, pG, ax)
-        df = pd.DataFrame()
-        df["f_ranks"] = pd.to_numeric(pd.Series(f_ranks))
-        e = self.h.getExprData(genex)
-        df[genex] = pd.to_numeric(pd.Series(e[2:]))
-        ax = df.plot.scatter(x=genex, y='f_ranks')
+        ax = None
+        if genex is not None:
+            df = pd.DataFrame()
+            df["f_ranks"] = pd.to_numeric(pd.Series(f_ranks))
+            e = self.h.getExprData(genex)
+            df[genex] = pd.to_numeric(pd.Series(e[2:]))
+            ax = df.plot.scatter(x=genex, y='f_ranks')
         return sax, ax
 
     def printCoxSurvival(ana, fthr = None):
