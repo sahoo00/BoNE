@@ -18,6 +18,9 @@ if ($cmd eq "network") {
 if ($cmd eq "n-cls") {
   &analyzeNameCLS(@ARGV);
 }
+if ($cmd eq "length") {
+  &Length(@ARGV);
+}
 
 sub gamma {
   my ($u, $edges, $hash) = @_;
@@ -696,5 +699,59 @@ sub analyzeNameCLS {
       map { $h->getSimpleName($_) } @$l), "\n";
   }
   close($fh);
+}
+
+sub Length {
+  my $file = shift;
+  my $hash = {};
+  open(my $fh, "<$file");
+  while (<$fh>) {
+    next if (/^#/);
+    s/[\n\r]//g;
+    my @list = split("\t");
+    next if ($list[2] eq 'transcript' || $list[2] eq 'gene');
+    my $hh = {};
+    foreach my $l (split(/; /, $list[8])) {
+      $l =~ s/^\s*//g;
+      my ($k, $v) = split(/ /, $l);
+      $v =~ s/"//g;
+      $hh->{$k} = $v;
+    }
+    my $gid = $hh->{"gene_id"};
+    my $name = $hh->{"gene_name"};
+    $gid =~ s/\..*//g;
+    #print join("\t", $gid, $name), "\n";
+    my @exon_start = split(",", $list[3]);
+    my @exon_end = split(",", $list[4]);
+    if (!defined $hash->{$gid}) {
+      $hash->{$gid} = [ [], [], $name ];
+      push @$genes, $gid;
+    }
+    push @{$hash->{$gid}->[0]}, @exon_start;
+    push @{$hash->{$gid}->[1]}, @exon_end;
+  }
+  close($fh);
+  foreach my $g (keys %{$hash}) {
+    my @order = sort { $hash->{$g}->[0]->[$a] <=> $hash->{$g}->[0]->[$b] } 0 ..  $#{$hash->{$g}->[0]};
+    my @exon_start = map { $hash->{$g}->[0]->[$_] } @order;
+    my @exon_end = map { $hash->{$g}->[1]->[$_] } @order;
+    my $count = 0;
+    my $max = $exon_start[0];
+    my @list;
+    for (my $i = 0; $i < scalar(@exon_start); $i++) {
+      if ($max < $exon_start[$i]) {
+        $max = $exon_start[$i];
+      }
+      if ($max < $exon_end[$i]) {
+        $count += $exon_end[$i] - $max + 1;
+        push @list, $exon_end[$i] - $max + 1;
+        $max = $exon_end[$i];
+      }
+      else {
+        push @list, 0;
+      }
+    }
+    print join("\t", $g, $hash->{$g}->[2], $count, join(",", @list), join(",", @exon_start), join(",", @exon_end)), "\n";
+  }
 }
 

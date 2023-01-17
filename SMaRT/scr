@@ -7,8 +7,15 @@ export CLASSPATH="../stepminer-1.1.jar"
 stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
 stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
 export PERL_HASH_SEED=0
+export PYTHONHASHSEED=0
 
 #--------------- download the required data
+
+##Create Homo_sapiens.GRCh38.95.chr_patch_hapl_scaff.len.txt
+#wget -c ftp://ftp.ensembl.org/pub/release-95/gtf/homo_sapiens/Homo_sapiens.GRCh38.95.chr_patch_hapl_scaff.gtf.gz
+#gunzip Homo_sapiens.GRCh38.95.chr_patch_hapl_scaff.gtf.gz
+#perl analyze.pl length Homo_sapiens.GRCh38.95.chr_patch_hapl_scaff.gtf
+#mv Homo_sapiens.GRCh38.95.chr_patch_hapl_scaff.len.txt database/
 
 #perl -I .. ../analyze.pl data-download G16 macrophage
 #perl -I .. ../analyze.pl toidx macrophage-expr.txt > macrophage-idx.txt
@@ -34,11 +41,11 @@ export PERL_HASH_SEED=0
 #perl analyze.pl n-cls > mac-net-n-cls.txt
 #perl analyze.pl network state > mac-net-state.txt
 
-perl analyze.pl network genes > path-0.json
-perl analyze.pl network genes TLR4 NOD2 TLR8 TLR1 TLR2 TLR5 > path-1.json
-perl analyze.pl network genes TCF4 > path-2.json
-perl analyze.pl network genes CSF1R CSF1R CSF1R > path-3.json
-perl analyze.pl network genes TAP1 TAP1 TAP1 CCDC88A MAP3K8 > path-4.json
-perl analyze.pl network genes CCDC88A > path-5.json
-perl analyze.pl network genes TLR4 NOD2 TLR8 > path-6.json
+#perl analyze.pl network genes > path-0.json
+#perl analyze.pl network genes TLR4 NOD2 TLR8 TLR1 TLR2 TLR5 > path-1.json
+#perl analyze.pl network genes TCF4 > path-2.json
+#perl analyze.pl network genes CSF1R CSF1R CSF1R > path-3.json
+#perl analyze.pl network genes TAP1 TAP1 TAP1 CCDC88A MAP3K8 > path-4.json
+#perl analyze.pl network genes CCDC88A > path-5.json
+#perl analyze.pl network genes TLR4 NOD2 TLR8 > path-6.json
 
