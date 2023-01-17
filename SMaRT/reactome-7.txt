@@ -1,0 +1,101 @@
+name	pValue	fdr
+WNT5A-dependent internalization of FZD4	0.000684431395648	0.0484120368822
+Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters	0.000826217937757	0.0484120368822
+Cargo recognition for clathrin-mediated endocytosis	0.00135546535146	0.0484120368822
+The role of Nef in HIV-1 replication and disease pathogenesis	0.00142388343771	0.0484120368822
+Clathrin-mediated endocytosis	0.00350895426654	0.0947417651965
+Defective AHCY causes Hypermethioninemia with S-adenosylhomocysteine hydrolase deficiency (HMAHCHD)	0.00760184969639	0.122515444043
+Membrane Trafficking	0.00776315278713	0.122515444043
+Negative regulation of TCF-dependent signaling by DVL-interacting proteins	0.0094935993397	0.122515444043
+Adenosine P1 receptors	0.0094935993397	0.122515444043
+Signaling by NTRK1 (TRKA)	0.012768784465	0.122515444043
+Nef Mediated CD8 Down-regulation	0.0151480358923	0.122515444043
+PCP/CE pathway	0.0152888581964	0.122515444043
+EPH-Ephrin signaling	0.0158757653612	0.122515444043
+Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus	0.0170259310179	0.122515444043
+Vesicle-mediated transport	0.0184065819132	0.122515444043
+Nef Mediated CD4 Down-regulation	0.0189003777884	0.122515444043
+Removal of aminoterminal propeptides from gamma-carboxylated proteins	0.0189003777884	0.122515444043
+Signaling by NTRKs	0.0202490299174	0.122515444043
+Nef mediated downregulation of MHC class I complex cell surface expression	0.0207713822929	0.122515444043
+WNT mediated activation of DVL	0.0226389506101	0.122515444043
+VLDLR internalisation and degradation	0.0226389506101	0.122515444043
+Signaling by WNT	0.0244164047775	0.122515444043
+WNT5A-dependent internalization of FZD2, FZD5 and ROR2	0.0245030888086	0.122515444043
+Gamma-carboxylation of protein precursors	0.0282210990712	0.132308408301
+Gamma-carboxylation, transport, and amino-terminal cleavage of proteins	0.0300749832209	0.132308408301
+Rho GTPase cycle	0.0306968190041	0.132308408301
+MHC class II antigen presentation	0.0322757223997	0.132308408301
+Host Interactions of HIV factors	0.0330771020753	0.132308408301
+Retrograde neurotrophin signalling	0.033772539694	0.135090158776
+p38MAPK events	0.033772539694	0.135090158776
+Beta-catenin independent WNT signaling	0.0393334999828	0.143572696049
+Signaling by Hippo	0.0411269734579	0.143572696049
+Trafficking of GluR2-containing AMPA receptors	0.0429571419762	0.143572696049
+Signalling to RAS	0.0466073928343	0.143572696049
+WNT ligand biogenesis and trafficking	0.0520576427146	0.143572696049
+LDL clearance	0.0520576427146	0.143572696049
+Transport of organic anions	0.0520576427146	0.143572696049
+Nucleotide-like (purinergic) receptors	0.0520576427146	0.143572696049
+Signaling by Rho GTPases	0.0553055923602	0.143572696049
+TRP channels	0.0556744607151	0.143572696049
+Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models	0.0556744607151	0.143572696049
+Neurodegenerative Diseases	0.0556744607151	0.143572696049
+Cyclin A/B1/B2 associated events during G2/M transition	0.0592779881837	0.143572696049
+Disassembly of the destruction complex and recruitment of AXIN to the membrane	0.0610747826518	0.143572696049
+Trafficking of AMPA receptors	0.0682289686026	0.143572696049
+Glutamate binding, activation of AMPA receptors and synaptic plasticity	0.0717863480246	0.143572696049
+Transferrin endocytosis and recycling	0.0717863480246	0.143572696049
+Signalling to ERKs	0.0717863480246	0.143572696049
+Metabolism of ingested SeMet, Sec, MeSec into H2Se	0.0735601296779	0.146819886228
+Plasma lipoprotein clearance	0.077097905802	0.146819886228
+Lysosome Vesicle Biogenesis	0.0788619118165	0.146819886228
+Metabolism of folate and pterines	0.080622670812	0.146819886228
+HIV Infection	0.0886889552015	0.146819886228
+TBC/RABGAPs	0.0893779613203	0.146819886228
+EPHB-mediated forward signaling	0.0928575487973	0.146819886228
+Methylation	0.0945925377269	0.146819886228
+Recycling pathway of L1	0.0997783532872	0.146819886228
+EPH-ephrin mediated repulsion of cells	0.0997783532872	0.146819886228
+The canonical retinoid cycle in rods (twilight vision)	0.101500593566	0.146819886228
+Degradation of DVL	0.103219660783	0.146819886228
+Golgi Associated Vesicle Biogenesis	0.110064311335	0.146819886228
+NRAGE signals death through JNK	0.113467743954	0.146819886228
+Asymmetric localization of PCP proteins	0.118549402424	0.146819886228
+Adaptive Immune System	0.11886342442	0.146819886228
+Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	0.121298737461	0.146819886228
+Gamma carboxylation, hypusine formation and arylsulfatase activation	0.123603005378	0.146819886228
+trans-Golgi Network Vesicle Budding	0.14189525157	0.146819886228
+Cell death signalling via NRAGE, NRIF and NADE	0.14189525157	0.146819886228
+Iron uptake and transport	0.146819886228	0.146819886228
+G alpha (12/13) signalling events	0.15008784408	0.15008784408
+Amyloid fiber formation	0.15496719026	0.15496719026
+Metabolic disorders of biological oxidation enzymes	0.15496719026	0.15496719026
+Cyclin A:Cdk2-associated events at S phase entry	0.158205089633	0.158205089633
+Sulfur amino acid metabolism	0.164645084378	0.164645084378
+Plasma lipoprotein assembly, remodeling, and clearance	0.17103762243	0.17103762243
+Circadian Clock	0.180538183363	0.180538183363
+Transport of vitamins, nucleosides, and related molecules	0.186813546237	0.186813546237
+p75 NTR receptor-mediated signalling	0.186813546237	0.186813546237
+Post-translational protein phosphorylation	0.188375141366	0.188375141366
+Synthesis of bile acids and bile salts	0.191489672957	0.191489672957
+Post-translational modification: synthesis of GPI-anchored proteins	0.197684244972	0.197684244972
+Stimuli-sensing channels	0.205363209684	0.205363209684
+Bile acid and bile salt metabolism	0.206890486644	0.206890486644
+Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)	0.215994959717	0.215994959717
+Rab regulation of trafficking	0.219007356192	0.219007356192
+L1CAM interactions	0.220509371641	0.220509371641
+Platelet degranulation 	0.230945863292	0.230945863292
+Response to elevated platelet cytosolic Ca2+	0.241247730659	0.241247730659
+RHO GTPases Activate Formins	0.248524710518	0.248524710518
+Signal Transduction	0.253090762389	0.253090762389
+Death Receptor Signalling	0.260028287604	0.260028287604
+Signaling by Receptor Tyrosine Kinases	0.261867396619	0.261867396619
+Infectious disease	0.275456780457	0.275456780457
+Visual phototransduction	0.275569157816	0.275569157816
+Transport of small molecules	0.279695851996	0.279695851996
+S Phase	0.290795482371	0.290795482371
+G alpha (i) signalling events	0.294771002643	0.294771002643
+Selenoamino acid metabolism	0.294894334014	0.294894334014
+Axon guidance	0.306200786197	0.306200786197
+Ion channel transport	0.328175627634	0.328175627634

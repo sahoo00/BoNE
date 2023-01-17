@@ -1,0 +1,101 @@
+name	pValue	fdr
+MECP2 regulates transcription factors	0.0161230274449	0.139271129241
+PECAM1 interactions	0.0225023610082	0.139271129241
+POLB-Dependent Long Patch Base Excision Repair	0.0240910015362	0.139271129241
+HDR through MMEJ (alt-NHEJ)	0.0240910015362	0.139271129241
+TRAF3-dependent IRF activation pathway	0.0272608768696	0.139271129241
+Butyrate Response Factor 1 (BRF1) binds and destabilizes mRNA	0.0304209023162	0.139271129241
+Translesion Synthesis by POLH	0.0382780642298	0.139271129241
+Other interleukin signaling	0.0414038446376	0.139271129241
+ERK/MAPK targets	0.0414038446376	0.139271129241
+Neutrophil degranulation	0.0416219748341	0.139271129241
+Downregulation of SMAD2/3:SMAD4 transcriptional activity	0.0429630883942	0.139271129241
+Interleukin receptor SHC signaling	0.0460743010566	0.139271129241
+Nuclear Events (kinase and transcription factor activation)	0.0460743010566	0.139271129241
+Resolution of AP sites via the multiple-nucleotide patch replacement pathway	0.0507229869027	0.139271129241
+Myogenesis	0.0507229869027	0.139271129241
+Immune System	0.0524223949956	0.139271129241
+MAPK targets/ Nuclear events mediated by MAP kinases	0.0553499990637	0.139271129241
+Innate Immune System	0.0578453694821	0.139271129241
+Synthesis of IP3 and IP4 in the cytosol	0.061485800682	0.139271129241
+DNA Damage Recognition in GG-NER	0.0630137841053	0.139271129241
+Chromatin modifying enzymes	0.0643981606355	0.139271129241
+Chromatin organization	0.0643981606355	0.139271129241
+Dual Incision in GG-NER	0.0645393878297	0.139271129241
+TRAF6 mediated IRF7 activation	0.0675834703281	0.139271129241
+Formation of Incision Complex in GG-NER	0.0736432342717	0.139271129241
+Interleukin-2 family signaling	0.0736432342717	0.139271129241
+Resolution of Abasic Sites (AP sites)	0.0751522788857	0.139271129241
+Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template	0.0751522788857	0.139271129241
+PKMTs methylate histone lysines	0.0766589719645	0.139271129241
+Interleukin-3, Interleukin-5 and GM-CSF signaling	0.0781633170061	0.139271129241
+Signaling by Interleukins	0.0837611450294	0.139271129241
+Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	0.0856499437424	0.139271129241
+DNA Damage Bypass	0.0901139661365	0.139271129241
+HDACs deacetylate histones	0.0975077137942	0.139271129241
+MAP kinase activation	0.106304362085	0.139271129241
+Synthesis of PIPs at the plasma membrane	0.106304362085	0.139271129241
+Interleukin-17 signaling	0.117905722142	0.139271129241
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	0.119345722418	0.139271129241
+DNA Repair	0.119442943804	0.139271129241
+SUMOylation of DNA damage response and repair proteins	0.123652244317	0.139271129241
+Signaling by TGF-beta Receptor Complex	0.12936294752	0.139271129241
+Transcriptional activation of mitochondrial biogenesis	0.132204933673	0.139271129241
+Signaling by NTRK1 (TRKA)	0.136451280743	0.139271129241
+Inositol phosphate metabolism	0.136451280743	0.139271129241
+Global Genome Nucleotide Excision Repair (GG-NER)	0.139271129241	0.139271129241
+Regulation of mRNA stability by proteins that bind AU-rich elements	0.140677748513	0.140677748513
+MyD88 cascade initiated on plasma membrane	0.142082168849	0.142082168849
+Toll Like Receptor 5 (TLR5) Cascade	0.142082168849	0.142082168849
+Toll Like Receptor 10 (TLR10) Cascade	0.142082168849	0.142082168849
+DDX58/IFIH1-mediated induction of interferon-alpha/beta	0.144884425836	0.144884425836
+Base Excision Repair	0.1476779264	0.1476779264
+Hemostasis	0.147879837544	0.147879837544
+Transcriptional Regulation by MECP2	0.150462696662	0.150462696662
+TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation	0.153238762669	0.153238762669
+Toll Like Receptor 3 (TLR3) Cascade	0.153238762669	0.153238762669
+MyD88 dependent cascade initiated on endosome	0.154623539698	0.154623539698
+Toll Like Receptor 7/8 (TLR7/8) Cascade	0.154623539698	0.154623539698
+Circadian Clock	0.156006150396	0.156006150396
+RUNX1 regulates transcription of genes involved in differentiation of HSCs	0.158764885742	0.158764885742
+TRIF(TICAM1)-mediated TLR4 signaling 	0.160141016846	0.160141016846
+MyD88-independent TLR4 cascade 	0.160141016846	0.160141016846
+Toll Like Receptor 9 (TLR9) Cascade	0.160141016846	0.160141016846
+Transcriptional regulation of white adipocyte differentiation	0.161514994534	0.161514994534
+Post-translational protein phosphorylation	0.162886822022	0.162886822022
+MyD88:MAL(TIRAP) cascade initiated on plasma membrane	0.165624039244	0.165624039244
+Toll Like Receptor TLR6:TLR2 Cascade	0.165624039244	0.165624039244
+PI Metabolism	0.166989435389	0.166989435389
+Signaling by TGF-beta family members	0.16971381874	0.16971381874
+Toll Like Receptor TLR1:TLR2 Cascade	0.16971381874	0.16971381874
+Toll Like Receptor 2 (TLR2) Cascade	0.16971381874	0.16971381874
+Signaling by NTRKs	0.171072812329	0.171072812329
+Nucleotide Excision Repair	0.176487540369	0.176487540369
+Downstream TCR signaling	0.18320838389	0.18320838389
+Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)	0.187215672599	0.187215672599
+Mitochondrial biogenesis	0.187215672599	0.187215672599
+Homology Directed Repair	0.191204151796	0.191204151796
+Platelet degranulation 	0.200437927979	0.200437927979
+Rho GTPase cycle	0.209570818266	0.209570818266
+Response to elevated platelet cytosolic Ca2+	0.209570818266	0.209570818266
+Toll Like Receptor 4 (TLR4) Cascade	0.209570818266	0.209570818266
+TCR signaling	0.212161833003	0.212161833003
+DNA Double-Strand Break Repair	0.238881551956	0.238881551956
+Cytokine Signaling in Immune system	0.243840533965	0.243840533965
+PPARA activates gene expression	0.247593868128	0.247593868128
+Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)	0.25006552784	0.25006552784
+SUMO E3 ligases SUMOylate target proteins	0.258655320446	0.258655320446
+Toll-like Receptor Cascades	0.259874724279	0.259874724279
+SUMOylation	0.269561124292	0.269561124292
+Factors involved in megakaryocyte development and platelet production	0.271963709776	0.271963709776
+Peptide ligand-binding receptors	0.281498676934	0.281498676934
+Cell surface interactions at the vascular wall	0.342804368256	0.342804368256
+Transcriptional regulation by RUNX1	0.348220526269	0.348220526269
+G alpha (q) signalling events	0.37050571848	0.37050571848
+Platelet activation, signaling and aggregation	0.388010427557	0.388010427557
+Antigen processing: Ubiquitination & Proteasome degradation	0.404059394813	0.404059394813
+Phospholipid metabolism	0.413884714844	0.413884714844
+Organelle biogenesis and maintenance	0.423554975812	0.423554975812
+Generic Transcription Pathway	0.457477732742	0.457477732742
+Adaptive Immune System	0.489302580629	0.489302580629
+RNA Polymerase II Transcription	0.518086508466	0.518086508466

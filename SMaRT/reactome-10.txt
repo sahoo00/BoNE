@@ -1,0 +1,101 @@
+name	pValue	fdr
+Neutrophil degranulation	0.00191734245498	0.232246975243
+Platelet sensitization by LDL	0.00544204842211	0.232246975243
+Synthesis of PIPs at the early endosome membrane	0.00964916781492	0.232246975243
+Synthesis of PIPs at the Golgi membrane	0.0102506386473	0.232246975243
+Defective GALE can cause Epimerase-deficiency galactosemia (EDG)	0.0141010696282	0.232246975243
+Metabolism of lipids	0.0167651278994	0.232246975243
+TGFBR1 LBD Mutants in Cancer	0.0187577566403	0.232246975243
+Phospholipid metabolism	0.0190198192893	0.232246975243
+Interleukin-2 family signaling	0.021133362426	0.232246975243
+The NLRP1 inflammasome	0.0233927755208	0.232246975243
+Metabolism	0.0236892339513	0.232246975243
+RUNX2 regulates genes involved in differentiation of myeloid cells	0.0280062255735	0.232246975243
+Loss of Function of TGFBR1 in Cancer	0.032598205654	0.232246975243
+NRAGE signals death through JNK	0.0361890966913	0.232246975243
+Ribosomal scanning and start codon recognition	0.0372353775962	0.232246975243
+Gluconeogenesis	0.0415350731831	0.232246975243
+Signaling by TGF-beta Receptor Complex in Cancer	0.0417181490928	0.232246975243
+Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	0.0426380012468	0.232246975243
+Innate Immune System	0.0458696782009	0.232246975243
+Activated NTRK2 signals through CDK5	0.0462463079396	0.232246975243
+Cation-coupled Chloride cotransporters	0.0462463079396	0.232246975243
+Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation	0.0471579658793	0.232246975243
+BH3-only proteins associate with and inactivate anti-apoptotic BCL-2 members	0.0507533877954	0.232246975243
+RUNX1 regulates transcription of genes involved in differentiation of myeloid cells	0.0507533877954	0.232246975243
+Sphingolipid de novo biosynthesis	0.0542492378513	0.232246975243
+Caspase activation via Dependence Receptors in the absence of ligand	0.0552394853048	0.232246975243
+Cell death signalling via NRAGE, NRIF and NADE	0.0554659045726	0.232246975243
+Interleukin-12 signaling	0.0604277040202	0.232246975243
+Signaling by the B Cell Receptor (BCR)	0.0615170818599	0.232246975243
+Calcineurin activates NFAT	0.0641491176837	0.232246975243
+PECAM1 interactions	0.0641491176837	0.232246975243
+Dissolution of Fibrin Clot	0.0641491176837	0.232246975243
+Galactose catabolism	0.0685728436688	0.232246975243
+DSCAM interactions	0.0685728436688	0.232246975243
+Advanced glycosylation endproduct receptor signaling	0.0729759695425	0.232246975243
+Regulation of IFNG signaling	0.0729759695425	0.232246975243
+Sulfur amino acid metabolism	0.0734589864457	0.232246975243
+Interleukin-12 family signaling	0.0761657550098	0.232246975243
+Processing of SMDT1	0.0773585897873	0.232246975243
+Vitamin B2 (riboflavin) metabolism	0.0773585897873	0.232246975243
+Hydrolysis of LPC	0.0817207984589	0.232246975243
+p38MAPK events	0.0817207984589	0.232246975243
+CLEC7A (Dectin-1) induces NFAT activation	0.0817207984589	0.232246975243
+Regulation of KIT signaling	0.0817207984589	0.232246975243
+Signal regulatory protein family interactions	0.0817207984589	0.232246975243
+Antigen activates B Cell Receptor (BCR) leading to generation of second messengers	0.0858825721638	0.232246975243
+Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion	0.0860626891881	0.232246975243
+Acetylcholine regulates insulin secretion	0.0860626891881	0.232246975243
+ERBB2 Regulates Cell Motility	0.0860626891881	0.232246975243
+TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	0.0860626891881	0.232246975243
+Mitochondrial Fatty Acid Beta-Oxidation	0.0887249762368	0.232246975243
+Regulation of insulin secretion	0.0901567187348	0.232246975243
+Class I peroxisomal membrane protein import	0.0903843551829	0.232246975243
+p75 NTR receptor-mediated signalling	0.0930408076533	0.232246975243
+Vitamins B6 activation to pyridoxal phosphate	0.0946858892303	0.232246975243
+Synthesis of PG	0.0946858892303	0.232246975243
+GDP-fucose biosynthesis	0.0946858892303	0.232246975243
+Glycerophospholipid biosynthesis	0.0976969022611	0.232246975243
+PI Metabolism	0.0988887751407	0.232246975243
+Synthesis of PIPs at the late endosome membrane	0.0989673836981	0.232246975243
+Signaling by Receptor Tyrosine Kinases	0.100536046836	0.232246975243
+Formation of ATP by chemiosmotic coupling	0.103228930537	0.232246975243
+Regulation of TP53 Activity through Methylation	0.103228930537	0.232246975243
+Signaling by NTRKs	0.103341668017	0.232246975243
+GTP hydrolysis and joining of the 60S ribosomal subunit	0.11088344989	0.232246975243
+Insertion of tail-anchored proteins into the endoplasmic reticulum membrane	0.111692547053	0.232246975243
+Acyl chain remodelling of PI	0.111692547053	0.232246975243
+Methionine salvage pathway	0.111692547053	0.232246975243
+Pregnenolone biosynthesis	0.111692547053	0.232246975243
+Signalling to RAS	0.111692547053	0.232246975243
+Platelet homeostasis	0.115476864944	0.232246975243
+Thromboxane signalling through TP receptor	0.115894798561	0.232246975243
+VEGFA-VEGFR2 Pathway	0.1185662042	0.232246975243
+Free fatty acids regulate insulin secretion	0.120077466107	0.232246975243
+Mitochondrial calcium ion transport	0.120077466107	0.232246975243
+RHO GTPases activate PAKs	0.120077466107	0.232246975243
+Deadenylation of mRNA	0.12424063958	0.232246975243
+Regulation of IFNA signaling	0.12424063958	0.232246975243
+Cap-dependent Translation Initiation	0.126379461014	0.232246975243
+Eukaryotic Translation Initiation	0.126379461014	0.232246975243
+ADP signalling through P2Y purinoceptor 1	0.128384408467	0.232246975243
+Interleukin receptor SHC signaling	0.128384408467	0.232246975243
+Growth hormone receptor signaling	0.128384408467	0.232246975243
+TRP channels	0.132508861849	0.232246975243
+VEGFR2 mediated cell proliferation	0.132508861849	0.232246975243
+Signaling by VEGF	0.132717247815	0.232246975243
+Cristae formation	0.136614088403	0.232246975243
+Alpha-oxidation of phytanate	0.136614088403	0.232246975243
+Signaling by NTRK2 (TRKB)	0.140700176407	0.232246975243
+Caspase activation via extrinsic apoptotic signalling pathway	0.140700176407	0.232246975243
+Inflammasomes	0.144767213739	0.232246975243
+Glucose metabolism	0.145604274374	0.232246975243
+Pyrimidine salvage	0.148815287881	0.232246975243
+Integration of energy metabolism	0.148866608453	0.232246975243
+Thrombin signalling through proteinase activated receptors (PARs)	0.152844485916	0.232246975243
+RAF activation	0.156854894537	0.232246975243
+Interleukin-37 signaling	0.156854894537	0.232246975243
+TGF-beta receptor signaling activates SMADs	0.156854894537	0.232246975243
+Platelet activation, signaling and aggregation	0.168663365871	0.232246975243
+Transferrin endocytosis and recycling	0.16877424496	0.232246975243

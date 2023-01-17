@@ -1,0 +1,101 @@
+name	pValue	fdr
+Peptide chain elongation	2.63647725873e-09	8.61335809343e-07
+Eukaryotic Translation Elongation	4.58157345395e-09	8.61335809343e-07
+Formation of a pool of free 40S subunits	6.981083156e-09	8.726353945e-07
+GTP hydrolysis and joining of the 60S ribosomal subunit	2.68515735202e-08	2.01386801402e-06
+L13a-mediated translational silencing of Ceruloplasmin expression	2.68515735202e-08	2.01386801402e-06
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	4.43816515761e-08	2.75166239772e-06
+Eukaryotic Translation Initiation	6.3419092089e-08	2.94378265497e-06
+Cap-dependent Translation Initiation	6.3419092089e-08	2.94378265497e-06
+Eukaryotic Translation Termination	7.17995769506e-08	2.94378265497e-06
+Viral mRNA Translation	1.47454283117e-07	5.01344562598e-06
+Selenocysteine synthesis	1.47454283117e-07	5.01344562598e-06
+SRP-dependent cotranslational protein targeting to membrane	2.24809689309e-07	6.96910036857e-06
+Nonsense-Mediated Decay (NMD)	3.36150393521e-07	8.73991023154e-06
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	3.36150393521e-07	8.73991023154e-06
+Major pathway of rRNA processing in the nucleolus and cytosol	3.11562836142e-06	7.78907090354e-05
+Influenza Infection	5.22852773466e-06	0.000120256137897
+rRNA processing in the nucleus and cytosol	7.7393138207e-06	0.000170264904055
+Influenza Viral RNA Transcription and Replication	8.89291334671e-06	0.000177858266934
+Selenoamino acid metabolism	1.27581968291e-05	0.000241470752703
+Regulation of expression of SLITs and ROBOs	1.34150418168e-05	0.000241470752703
+Influenza Life Cycle	1.71592547364e-05	0.00029170733052
+rRNA processing	3.98539861759e-05	0.00067751776499
+Translation	5.69810357886e-05	0.000911696572617
+Signaling by ROBO receptors	0.00012448741067	0.00186731116005
+Formation of the ternary complex, and subsequently, the 43S complex	0.000493466663432	0.00740199995147
+Translation initiation complex formation	0.000913174169829	0.0127844383776
+Ribosomal scanning and start codon recognition	0.00105034490177	0.013654483723
+Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S	0.00120224454726	0.0156291791144
+Digestion of dietary carbohydrate	0.00377493704755	0.0452992445706
+Axon guidance	0.00959750656236	0.115170078748
+Infectious disease	0.0121559330923	0.145871197108
+Defective TCN2 causes hereditary megaloblastic anemia	0.0233213241581	0.256534565739
+Regulation of TP53 Activity through Methylation	0.0306646726618	0.33731139928
+Defective CD320 causes methylmalonic aciduria	0.0347784369344	0.347784369344
+MyD88 deficiency (TLR5)	0.0347784369344	0.347784369344
+Digestion	0.0392479324611	0.392479324611
+Metabolism of RNA	0.0443736193685	0.41491750762
+Influenza Virus Induced Apoptosis	0.0461019452911	0.41491750762
+Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization	0.0461019452911	0.41491750762
+Digestion and absorption	0.0525441673756	0.458347183584
+Negative regulation of TCF-dependent signaling by DVL-interacting proteins	0.057293397948	0.458347183584
+IRAK4 deficiency (TLR5)	0.057293397948	0.458347183584
+Defective MAOA causes Brunner syndrome (BRUNS)	0.057293397948	0.458347183584
+NGF processing	0.057293397948	0.458347183584
+Expression and Processing of Neurotrophins	0.057293397948	0.458347183584
+Disassembly of the destruction complex and recruitment of AXIN to the membrane	0.0585263990393	0.468211192314
+Enzymatic degradation of Dopamine by monoamine oxidase	0.111322793163	0.530825736742
+Pre-NOTCH Processing in the Endoplasmic Reticulum	0.111322793163	0.530825736742
+Uptake and function of diphtheria toxin	0.111322793163	0.530825736742
+Calcitonin-like ligand receptors	0.121753449598	0.530825736742
+Sodium/Proton exchangers	0.121753449598	0.530825736742
+WNT mediated activation of DVL	0.132062402996	0.530825736742
+Butyrophilin (BTN) family interactions	0.132062402996	0.530825736742
+WNT5A-dependent internalization of FZD2, FZD5 and ROR2	0.142251064913	0.530825736742
+Apoptosis induced DNA fragmentation	0.142251064913	0.530825736742
+Metabolism of serotonin	0.142251064913	0.530825736742
+Formation of the active cofactor, UDP-glucuronate	0.142251064913	0.530825736742
+Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB	0.142251064913	0.530825736742
+Complex I biogenesis	0.146070816634	0.530825736742
+Degradation of DVL	0.146070816634	0.530825736742
+Enzymatic degradation of dopamine by COMT	0.152320830628	0.530825736742
+Metabolism of amino acids and derivatives	0.158511220961	0.530825736742
+Synthesis of diphthamide-EEF2	0.162273079337	0.530825736742
+Serotonin clearance from the synaptic cleft	0.172109174329	0.530825736742
+Interleukin-15 signaling	0.172109174329	0.530825736742
+AKT phosphorylates targets in the cytosol	0.172109174329	0.530825736742
+Deadenylation-dependent mRNA decay	0.179158214576	0.530825736742
+Processing of SMDT1	0.181830463175	0.530825736742
+Dopamine clearance from the synaptic cleft	0.181830463175	0.530825736742
+Asymmetric localization of PCP proteins	0.183374052214	0.530825736742
+CRMPs in Sema3A signaling	0.191438277904	0.530825736742
+p38MAPK events	0.191438277904	0.530825736742
+Mitochondrial protein import	0.196105114927	0.530825736742
+SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion	0.200933935185	0.530825736742
+Sema3A PAK dependent Axon repulsion	0.200933935185	0.530825736742
+Tristetraprolin (TTP, ZFP36) binds and destabilizes mRNA	0.200933935185	0.530825736742
+Butyrate Response Factor 1 (BRF1) binds and destabilizes mRNA	0.200933935185	0.530825736742
+Multifunctional anion exchangers	0.200933935185	0.530825736742
+Protein methylation	0.200933935185	0.530825736742
+Other semaphorin interactions	0.200933935185	0.530825736742
+WNT5A-dependent internalization of FZD4	0.210318736499	0.530825736742
+KSRP (KHSRP) binds and destabilizes mRNA	0.210318736499	0.530825736742
+Receptor-type tyrosine-protein phosphatases	0.210318736499	0.530825736742
+SUMOylation of transcription factors	0.210318736499	0.530825736742
+Amine Oxidase reactions	0.228760902265	0.530825736742
+Keratan sulfate degradation	0.228760902265	0.530825736742
+Signaling by Hippo	0.228760902265	0.530825736742
+Pre-NOTCH Processing in Golgi	0.237820795307	0.530825736742
+Rho GTPase cycle	0.242077722477	0.530825736742
+mRNA decay by 3' to 5' exoribonuclease	0.2467748899	0.530825736742
+BBSome-mediated cargo-targeting to cilium	0.2467748899	0.530825736742
+Signalling to RAS	0.255624414167	0.530825736742
+Signaling by cytosolic FGFR1 fusion mutants	0.264370582062	0.530825736742
+Glycogen synthesis	0.264370582062	0.530825736742
+Mitochondrial calcium ion transport	0.273014593527	0.530825736742
+FGFR2 alternative splicing	0.28155763466	0.530825736742
+Deadenylation of mRNA	0.28155763466	0.530825736742
+Transport of organic anions	0.28155763466	0.530825736742
+Interleukin receptor SHC signaling	0.290000877868	0.530825736742
+CD209 (DC-SIGN) signaling	0.290000877868	0.530825736742

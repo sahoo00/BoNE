@@ -1,0 +1,101 @@
+name	pValue	fdr
+FGFR1c and Klotho ligand binding and activation	0.00133977525175	0.39351284015
+Role of ABL in ROBO-SLIT signaling	0.00269416332042	0.39351284015
+Negative regulation of activity of TFAP2 (AP-2) family transcription factors	0.00324395207998	0.39351284015
+FGFR1 ligand binding and activation	0.0112576324604	0.39351284015
+Phospholipase C-mediated cascade: FGFR1	0.012295115583	0.39351284015
+Activation of gene expression by SREBF (SREBP)	0.0163934372376	0.39351284015
+PI-3K cascade:FGFR1	0.0193420399551	0.39351284015
+SHC-mediated cascade:FGFR1	0.0206476089221	0.39351284015
+FRS-mediated FGFR1 signaling	0.0219889806198	0.39351284015
+RUNX2 regulates osteoblast differentiation	0.0277005457131	0.39351284015
+Regulation of cholesterol biosynthesis by SREBP (SREBF)	0.0278980587224	0.39351284015
+Regulation of cortical dendrite branching	0.0297882559948	0.39351284015
+Defective ABCC6 causes pseudoxanthoma elasticum (PXE)	0.0297882559948	0.39351284015
+Negative regulation of FGFR1 signaling	0.0355752640334	0.39351284015
+TFAP2 (AP-2) family regulates transcription of other transcription factors	0.0370969129839	0.39351284015
+Downstream signaling of activated FGFR1	0.0389395495731	0.39351284015
+RUNX2 regulates bone development	0.0424198892117	0.39351284015
+PPARA activates gene expression	0.0435760128798	0.39351284015
+TFAP2 (AP-2) family regulates transcription of cell cycle factors	0.044351024173	0.39351284015
+Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)	0.0451063500596	0.39351284015
+Transcriptional regulation of white adipocyte differentiation	0.0491389706407	0.39351284015
+HATs acetylate histones	0.0513717662195	0.39351284015
+Reelin signalling pathway	0.0515509928349	0.39351284015
+Nectin/Necl  trans heterodimerization	0.0515509928349	0.39351284015
+Toxicity of botulinum toxin type C (BoNT/C)	0.0515509928349	0.39351284015
+Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3	0.0535160223414	0.39351284015
+Noncanonical activation of NOTCH3	0.0586972192894	0.39351284015
+SLIT2:ROBO1 increases RHOA activity	0.0586972192894	0.39351284015
+RNF mutants show enhanced WNT signaling and proliferation	0.0586972192894	0.39351284015
+Ligand-receptor interactions	0.0586972192894	0.39351284015
+Toxicity of botulinum toxin type E (BoNT/E)	0.0586972192894	0.39351284015
+Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors	0.059408049004	0.39351284015
+TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation	0.0657901009241	0.39351284015
+RUNX3 regulates YAP1-mediated transcription	0.0657901009241	0.39351284015
+PI3K Cascade	0.071816377171	0.39351284015
+Ca2+ activated K+ channels	0.0728300322161	0.39351284015
+VLDL clearance	0.0728300322161	0.39351284015
+Signaling by FGFR1	0.0783085574108	0.39351284015
+HDACs deacetylate histones	0.0827354998756	0.39351284015
+IRS-mediated signalling	0.0849773793118	0.39351284015
+Inactivation of CDC42 and RAC1	0.0867526072536	0.39351284015
+VLDLR internalisation and degradation	0.0867526072536	0.39351284015
+Gap junction degradation	0.0867526072536	0.39351284015
+Activation of the TFAP2 (AP-2) family of transcription factors	0.0867526072536	0.39351284015
+Regulation of commissural axon pathfinding by SLIT and ROBO	0.0867526072536	0.39351284015
+Toxicity of botulinum toxin type A (BoNT/A)	0.0867526072536	0.39351284015
+IRS-related events triggered by IGF1R	0.0941249416857	0.39351284015
+Dissolution of Fibrin Clot	0.100468042804	0.39351284015
+PECAM1 interactions	0.100468042804	0.39351284015
+Transcriptional regulation by RUNX2	0.100901548444	0.39351284015
+IGF1R signaling cascade	0.101163786309	0.39351284015
+Insulin receptor signalling cascade	0.101163786309	0.39351284015
+Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)	0.103541990956	0.39351284015
+Activation of RAC1	0.107249039136	0.39351284015
+ATF6 (ATF6-alpha) activates chaperone genes	0.107249039136	0.39351284015
+Collagen biosynthesis and modifying enzymes	0.113204719994	0.39351284015
+Interleukin-35 Signalling	0.113979392036	0.39351284015
+ATF6 (ATF6-alpha) activates chaperones	0.12065947619	0.39351284015
+RHO GTPases activate PKNs	0.123090477269	0.39351284015
+Regulation of KIT signaling	0.127289663537	0.39351284015
+YAP1- and WWTR1 (TAZ)-stimulated gene expression	0.127289663537	0.39351284015
+TP53 Regulates Transcription of Death Receptors and Ligands	0.127289663537	0.39351284015
+TP53 Regulates Transcription of Cell Death Genes	0.130638157868	0.39351284015
+Activation of SMO	0.140401821959	0.39351284015
+SUMOylation of transcription factors	0.140401821959	0.39351284015
+TFAP2 (AP-2) family regulates transcription of growth factors and their receptors	0.146884523362	0.39351284015
+Coenzyme A biosynthesis	0.146884523362	0.39351284015
+Axon guidance	0.153017281259	0.39351284015
+Regulation of FZD by ubiquitination	0.153318788654	0.39351284015
+Serotonin Neurotransmitter Release Cycle	0.15970497634	0.39351284015
+FOXO-mediated transcription of cell death genes	0.15970497634	0.39351284015
+SUMO E3 ligases SUMOylate target proteins	0.161517418495	0.39351284015
+Signaling by Insulin receptor	0.164448638191	0.39351284015
+mRNA Splicing - Major Pathway	0.165163395059	0.39351284015
+Regulation of signaling by CBL	0.166043442299	0.39351284015
+UCH proteinases	0.169783207134	0.39351284015
+CTLA4 inhibitory signaling	0.172334539799	0.39351284015
+RORA activates gene expression	0.172334539799	0.39351284015
+Class B/2 (Secretin family receptors)	0.172461594089	0.39351284015
+SUMOylation	0.178113718533	0.39351284015
+Developmental Biology	0.178297642134	0.39351284015
+Acetylcholine Neurotransmitter Release Cycle	0.178578619518	0.39351284015
+Other interleukin signaling	0.178578619518	0.39351284015
+Constitutive Signaling by Aberrant PI3K in Cancer	0.183243172843	0.39351284015
+Potassium Channels	0.183243172843	0.39351284015
+mRNA Splicing	0.185637939775	0.39351284015
+Collagen formation	0.185954326334	0.39351284015
+Dopamine Neurotransmitter Release Cycle	0.190927115485	0.39351284015
+Reactions specific to the complex N-glycan synthesis pathway	0.190927115485	0.39351284015
+NOTCH3 Activation and Transmission of Signal to the Nucleus	0.190927115485	0.39351284015
+Neurotoxicity of clostridium toxins	0.190927115485	0.39351284015
+TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain	0.190927115485	0.39351284015
+Signaling by FGFR	0.191393841569	0.39351284015
+Synthesis of pyrophosphates in the cytosol	0.197032220305	0.39351284015
+Peptide ligand-binding receptors	0.197078859385	0.39351284015
+Norepinephrine Neurotransmitter Release Cycle	0.203091684526	0.39351284015
+Metalloprotease DUBs	0.215075040712	0.39351284015
+Glutamate Neurotransmitter Release Cycle	0.215075040712	0.39351284015
+ATF4 activates genes in response to endoplasmic reticulum  stress	0.215075040712	0.39351284015
+Urea cycle	0.215075040712	0.39351284015

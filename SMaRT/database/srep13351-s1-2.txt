@@ -1,0 +1,59 @@
+GENE	Description	Gene classification*
+ADAM19	ADAM metallopeptidase domain 19 (meltrin beta);	Matrix
+ALOX15	arachidonate 15-lipoxygenase;	Enzyme
+ARRB1	"arrestin, beta 1;"	Transcription factor
+BZW2	basic leucine zipper and W2 domains 2;	Others
+CARD9	"caspase recruitment domain family, member 9;"	Others
+CCL13	chemokine (C-C motif) ligand 13;	Chemokine
+CCL17	chemokine (C-C motif) ligand 17;	Chemokine
+CCL23	chemokine (C-C motif) ligand 23;	Chemokine
+CD1A	CD1a molecule;	Receptor
+CD1C	CD1c molecule;	Receptor
+CD1E	CD1e molecule; T-cell surface glycoprotein CD1e;	Receptor
+CDR2L	cerebellar degeneration-related protein 2-like;	Others
+CHN2	chimerin (chimaerin) 2; GTPase-activating protein for p21-rac;	Others
+CLEC4A	"C-type lectin domain family 4, member A;"	Receptor
+CLIC2	Chloride intracellular channel 2	Others
+CMTM8	CKLF-like MARVEL transmembrane domain containing 8;	Cytokine
+CRIP1	cysteine-rich protein 1 (intestinal);	Others
+CTSC	cathepsin C; Thiol protease. endopeptidase.	Enzyme
+DUSP22	Dual specificity phosphatase 22;	Enzyme
+EMILIN2	elastin microfibril interfacer 2;	Matrix
+ESPNL	espin-like;	Others
+F13A1	"coagulation factor XIII, A1 polypeptide;"	Matrix
+FOXQ1	forkhead box Q1;	Transcription Factor
+FSCN1	"fascin homolog 1, actin-bundling protein (Strongylocentrotus purpuratus);"	Others
+FZD2	frizzled homolog 2 (Drosophila); Receptor for Wnt proteins;	Receptor
+GALNTL4	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 4;	Enzyme
+GATM	glycine amidinotransferase (L-arginine:glycine amidinotransferase);	Enzyme
+GPD1L	glycerol-3-phosphate dehydrogenase 1-like;	Enzyme
+GSTP1	glutathione S-transferase pi 1;	Enzyme
+ITM2C	integral membrane protein 2C;	Others
+KCNK6	"potassium channel, subfamily K, member 6;"	Others
+MAOA	monoamine oxidase A;	Enzyme
+MAP4K1	mitogen-activated protein kinase kinase kinase kinase 1;	Enzyme
+MAPKAPK3	mitogen-activated protein kinase-activated protein kinase 3;	Enzyme
+MFNG	MFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase;	Enzyme
+MS4A6A	"membrane-spanning 4-domains, subfamily A, member 6A;"	Receptor
+NMNAT3	nicotinamide nucleotide adenylyltransferase 3; n	Enzyme
+OSBPL7	oxysterol binding protein-like 7;	Others
+P2RY11	"purinergic receptor P2Y, G-protein coupled, 11;"	Receptor
+PALLD	"palladin, cytoskeletal associated protein; a variety of cell types;"	Others
+PAQR4	progestin and adipoQ receptor family member IV;	Receptor
+PELP1	"proline, glutamate and leucine rich protein 1;"	Transcription factor
+PLAU	"plasminogen activator, urokinase;"	Enzime
+PON2	paraoxonase 2;	Enzime
+PPP1R14A	"protein phosphatase 1, regulatory (inhibitor) subunit 14A;"	Others
+PTGS1	prostaglandin-endoperoxide synthase 1;	Enzyme
+RAMP1	receptor (G protein-coupled) activity modifying protein 1;	Receptor
+REPS2	RALBP1 associated Eps domain containing 2;	Others
+RGS18	regulator of G-protein signaling 18;	Others
+RRS1	RRS1 ribosome biogenesis regulator homolog (S. cerevisiae);	Others
+S100A4	S100 calcium binding protein A4;	Others
+SEC14L5	SEC14-like 5 (S. cerevisiae);	Others
+SHPK	Sedoheptulokinase;	Enzyme
+SPINT2	"serine peptidase inhibitor, Kunitz type, 2;"	Others
+TGFBI	"transforming growth factor, beta-induced, 68kDa;"	Matrix
+TMEM97	transmembrane protein 97;	Others
+VCL	vinculin; Involved in cell adhesion;	Matrix
+ZNF789	zinc finger protein 789;	Transcription factor

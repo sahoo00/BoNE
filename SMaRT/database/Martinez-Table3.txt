@@ -1,0 +1,65 @@
+Symbol	EntrezGene name	Fold change	Reported in M2 macrophages
+MRC1	"mannose receptor, C type 1"	10.76	Stein15
+NDUFA4	"NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4, 9kDa"	8.08	
+CBR1	carbonyl reductase 1	5.87	
+KRT1	keratin 1	5.86	
+EIF4E	eukaryotic translation initiation factor 4E	4.34	
+SERPINB6	"serpin peptidase inhibitor, clade B (ovalbumin), member 6"	4.09	
+ATP5C1	"ATP synthase, H+ transporting, mitochondrial F1 complex, gamma polypeptide 1"	3.82	
+TFRC	"transferrin receptor (p90, CD71)"	3.62	Weiss16
+DPYSL2	dihydropyrimidinase-like 2	3.4	
+OTUB1	"OTU domain, ubiquitin aldehyde binding 1"	2.81	
+ACAA2	acetyl-CoA acyltransferase 2	2.71	
+RPS23	ribosomal protein S23	2.67	
+ESD	esterase D	2.56	
+CYFIP1	cytoplasmic FMR1 interacting protein 1	2.36	
+PPT1	palmitoyl-protein thioesterase 1	2.32	
+GRN	granulin	2.29	
+ANXA4	annexin A4	2.27	
+RPL4	ribosomal protein L4	2.19	
+HSPA9	heat shock 70kDa protein 9 (mortalin)	2.12	
+ACTN1	"actinin, alpha 1"	1.96	
+NCL	nucleolin	1.95	
+UBA1	ubiquitin-like modifier activating enzyme 1	1.95	
+RPS15	ribosomal protein S15	1.89	
+VPS35	vacuolar protein sorting 35 homolog (S. cerevisiae)	1.86	
+UBE2V1	ubiquitin-conjugating enzyme E2 variant 1	1.68	
+ITGAM	"integrin, alpha M (complement component 3 receptor 3 subunit)"	1.65	
+DDOST	dolichyl-diphosphooligosaccharide–protein glycosyltransferase	-1.58	
+HMOX2	heme oxygenase (decycling) 2	-1.63	
+COTL1	coactosin-like 1 (Dictyostelium)	-1.64	
+PTPRC	"protein tyrosine phosphatase, receptor type, C"	-1.65	
+GUSB	"glucuronidase, beta"	-1.67	
+GRB2	growth factor receptor-bound protein 2	-1.71	
+PRDX1	peroxiredoxin 1	-1.71	
+COX6B1	cytochrome c oxidase subunit VIb polypeptide 1 (ubiquitous)	-1.73	
+CTSA	cathepsin A	-1.74	
+CLTA	"clathrin, light chain A"	-1.75	
+CTSS	cathepsin S	-1.75	Balce50 (up-regulated)
+EIF5A	eukaryotic translation initiation factor 5A	-1.75	
+CFL1	cofilin 1 (non-muscle)	-1.77	
+GLB1	"galactosidase, beta 1"	-1.78	
+PPIA	peptidylprolyl isomerase A (cyclophilin A)	-1.79	
+DBI	"diazepam binding inhibitor (GABA receptor modulator, acyl-CoA binding protein)"	-1.9	
+S100A11	S100 calcium binding protein A11	-1.95	
+PRDX3	peroxiredoxin 3	-1.96	
+CSTB	cystatin B (stefin B)	-2.03	
+GSR	glutathione reductase	-2.03	
+TBCB	tubulin folding cofactor B	-2.04	
+PYCARD	PYD and CARD domain containing	-2.17	
+TXNRD1	thioredoxin reductase 1	-2.24	
+ESYT1	extended synaptotagmin-like protein 1	-2.35	
+RPS10	ribosomal protein S10	-2.47	
+SNX2	sorting nexin 2	-2.49	
+TAPBP	TAP binding protein (tapasin)	-2.61	
+CTSD	cathepsin D	-2.71	
+GLS	glutaminase	-2.73	
+LRPAP1	low density lipoprotein receptor-related protein associated protein 1	-2.81	
+PLD3	"phospholipase D family, member 3"	-2.84	
+APOE	apolipoprotein E	-2.92	
+HIST1H1C	"histone cluster 1, H1c"	-3.28	
+HK3	hexokinase 3 (white cell)	-3.28	
+NUCB1	nucleobindin 1	-3.39	
+PSMD2	"proteasome (prosome, macropain) 26S subunit, non-ATPase, 2"	-3.68	
+NAGA	"N-acetylgalactosaminidase, alpha-"	-4.35	
+ADSL	adenylosuccinate lyase	-5.84	

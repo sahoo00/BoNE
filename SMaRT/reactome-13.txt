@@ -1,0 +1,101 @@
+name	pValue	fdr
+Cytokine Signaling in Immune system	1.11022302463e-16	3.16413562018e-14
+Interferon Signaling	2.22044604925e-16	3.16413562018e-14
+Interferon alpha/beta signaling	3.33066907388e-16	3.16413562018e-14
+Immune System	6.44667097482e-10	4.57713639213e-08
+Antiviral mechanism by IFN-stimulated genes	3.48819106932e-09	1.98826890951e-07
+ISG15 antiviral mechanism	1.88917235022e-05	0.000666715301044
+Regulation of RUNX2 expression and activity	1.88917235022e-05	0.000666715301044
+OAS antiviral response	2.9956692422e-05	0.000666715301044
+Interleukin-2 family signaling	3.62100160337e-05	0.000666715301044
+Interleukin-15 signaling	3.62564968595e-05	0.000666715301044
+Interleukin-6 signaling	4.33689212572e-05	0.000666715301044
+Regulation of activated PAK-2p34 by proteasome mediated degradation	4.5980482019e-05	0.000666715301044
+Interferon gamma signaling	5.17463877258e-05	0.000666715301044
+Regulation of ornithine decarboxylase (ODC)	5.34824676972e-05	0.000666715301044
+TNFR2 non-canonical NF-kB pathway	5.48616760008e-05	0.000666715301044
+Vpu mediated degradation of CD4	5.75511421377e-05	0.000666715301044
+Cross-presentation of soluble exogenous antigens (endosomes)	5.75511421377e-05	0.000666715301044
+Ubiquitin Mediated Degradation of Phosphorylated Cdc25A	6.18412126218e-05	0.000666715301044
+p53-Independent G1/S DNA damage checkpoint	6.18412126218e-05	0.000666715301044
+p53-Independent DNA Damage Response	6.18412126218e-05	0.000666715301044
+Ubiquitin-dependent degradation of Cyclin D	6.18412126218e-05	0.000666715301044
+Autodegradation of the E3 ubiquitin ligase COP1	6.18412126218e-05	0.000666715301044
+Regulation of Apoptosis	6.18412126218e-05	0.000666715301044
+FBXL7 down-regulates AURKA during mitotic entry and in early mitosis	6.63599864247e-05	0.000666715301044
+SCF-beta-TrCP mediated degradation of Emi1	6.63599864247e-05	0.000666715301044
+AUF1 (hnRNP D0) binds and destabilizes mRNA	7.11148495149e-05	0.000666715301044
+Vif-mediated degradation of APOBEC3G	7.11148495149e-05	0.000666715301044
+Degradation of DVL	7.61132647894e-05	0.000666715301044
+Degradation of AXIN	7.61132647894e-05	0.000666715301044
+Negative regulation of NOTCH4 signaling	7.61132647894e-05	0.000666715301044
+Regulation of RUNX3 expression and activity	7.61132647894e-05	0.000666715301044
+CDT1 association with the CDC6:ORC:origin complex	8.68709776585e-05	0.000666715301044
+Stabilization of p53	8.68709776585e-05	0.000666715301044
+Apoptosis	8.84974544381e-05	0.000666715301044
+Hh mutants that don't undergo autocatalytic processing are degraded by ERAD	9.86943008378e-05	0.000666715301044
+NIK-->noncanonical NF-kB signaling	9.86943008378e-05	0.000666715301044
+Degradation of GLI1 by the proteasome	0.000105024991688	0.000666715301044
+Degradation of GLI2 by the proteasome	0.000105024991688	0.000666715301044
+GLI3 is processed to GLI3R by the proteasome	0.000105024991688	0.000666715301044
+SCF(Skp2)-mediated degradation of p27/p21	0.000105024991688	0.000666715301044
+Programmed Cell Death	0.000111119216841	0.000666715301044
+Autodegradation of Cdh1 by Cdh1:APC/C	0.000111645530998	0.000669873185988
+Hh mutants abrogate ligand secretion	0.000118563872223	0.000705930919006
+Asymmetric localization of PCP proteins	0.000133326089797	0.000705930919006
+Dectin-1 mediated noncanonical NF-kB signaling	0.000133326089797	0.000705930919006
+APC/C:Cdc20 mediated degradation of Securin	0.000141186183801	0.000705930919006
+Defective CFTR causes cystic fibrosis	0.000141186183801	0.000705930919006
+Assembly of the pre-replicative complex	0.000149376511858	0.000742424328889
+Signaling by Interleukins	0.00016263567578	0.000742424328889
+Regulation of RAS by GAPs	0.000166780944399	0.000742424328889
+Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha	0.000166780944399	0.000742424328889
+p53-Dependent G1 DNA Damage Response	0.000166780944399	0.000742424328889
+p53-Dependent G1/S DNA damage checkpoint	0.000166780944399	0.000742424328889
+APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	0.000185606082222	0.000742424328889
+Cdc20:Phospho-APC/C mediated degradation of Cyclin A	0.000185606082222	0.000742424328889
+Activation of NF-kappaB in B cells	0.000185606082222	0.000742424328889
+G1/S DNA Damage Checkpoints	0.000185606082222	0.000742424328889
+Hedgehog ligand biogenesis	0.000185606082222	0.000742424328889
+Regulation of IFNA signaling	0.000188010389384	0.000752041557535
+Orc1 removal from chromatin	0.000195572488764	0.000782289955057
+APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint	0.000195572488764	0.000782289955057
+CDK-mediated phosphorylation and removal of Cdc6	0.000205919460222	0.000823677840886
+Regulation of PTEN stability and activity	0.000205919460222	0.000823677840886
+APC/C:Cdc20 mediated degradation of mitotic proteins	0.000216655561893	0.000866622247572
+Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins	0.000227789405673	0.000911157622694
+Interleukin-6 family signaling	0.000229978564393	0.000919914257572
+Transcriptional regulation by RUNX2	0.000272842448294	0.000952786855519
+Regulation of APC/C activators between G1/S and early anaphase	0.000303432830855	0.000952786855519
+The role of GTSE1 in G2/M progression after G2 checkpoint	0.000317595618506	0.000952786855519
+Cellular response to hypoxia	0.000317595618506	0.000952786855519
+Cyclin E associated events during G1/S transition 	0.00039561159115	0.00118683477345
+DNA Replication Pre-Initiation	0.00039561159115	0.00118683477345
+APC/C-mediated degradation of cell cycle proteins	0.000430347663259	0.00129104298978
+Regulation of mitotic cell cycle	0.000430347663259	0.00129104298978
+Cyclin A:Cdk2-associated events at S phase entry	0.000430347663259	0.00129104298978
+Degradation of beta-catenin by the destruction complex	0.000430347663259	0.00129104298978
+Interleukin-1 family signaling	0.00043641672983	0.00130925018949
+ER-Phagosome pathway	0.00046114623021	0.00138343869063
+Switching of origins to a post-replicative state	0.000467210041009	0.00140163012303
+Downstream signaling events of B Cell Receptor (BCR)	0.000467210041009	0.00140163012303
+Hedgehog 'on' state	0.000467210041009	0.00140163012303
+Signaling by NOTCH4	0.000467210041009	0.00140163012303
+Regulation of mRNA stability by proteins that bind AU-rich elements	0.00048646153911	0.00145938461733
+PTEN Regulation	0.000541710572301	0.0016251317169
+UCH proteinases	0.000591291507834	0.00175371341365
+ABC transporter disorders	0.000614036957055	0.00175371341365
+PCP/CE pathway	0.000614036957055	0.00175371341365
+RUNX1 regulates transcription of genes involved in differentiation of HSCs	0.000790996339592	0.00175371341365
+MAPK6/MAPK4 signaling	0.000790996339592	0.00175371341365
+Antigen processing-Cross presentation	0.000808445056933	0.00175371341365
+Interleukin-9 signaling	0.000872537906792	0.00175371341365
+Interleukin-1 signaling	0.000876856706826	0.00175371341365
+Signaling by SCF-KIT	0.00100792214171	0.00201584428342
+Interleukin-21 signaling	0.00103581118638	0.00207162237276
+Transcriptional regulation by RUNX3	0.00117373615559	0.00234747231118
+Interleukin-27 signaling	0.00121261870962	0.00242523741925
+Ub-specific processing proteases	0.00124061122242	0.00248122244484
+CLEC7A (Dectin-1) signaling	0.00124819939392	0.00249639878784
+Antigen processing: Ubiquitination & Proteasome degradation	0.00138378874239	0.00276757748478
+Hedgehog 'off' state	0.00140695400024	0.00281390800048

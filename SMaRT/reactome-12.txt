@@ -1,0 +1,101 @@
+name	pValue	fdr
+Physiological factors	0.00693522066328	0.406476362295
+Class I peroxisomal membrane protein import	0.0157239867639	0.406476362295
+TGFBR2 MSI Frameshift Mutants in Cancer	0.0187564437927	0.406476362295
+Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters	0.0187945356467	0.406476362295
+Rap1 signalling	0.0220953238993	0.406476362295
+Thromboxane signalling through TP receptor	0.0256167688439	0.406476362295
+Insulin receptor recycling	0.0293495616059	0.406476362295
+The role of Nef in HIV-1 replication and disease pathogenesis	0.0312923775926	0.406476362295
+Loss of Function of TGFBR2 in Cancer	0.0371636598464	0.406476362295
+TGFBR2 Kinase Domain Mutants in Cancer	0.0371636598464	0.406476362295
+TGFBR1 LBD Mutants in Cancer	0.0371636598464	0.406476362295
+Defective ABCD1 causes adrenoleukodystrophy (ALD)	0.0371636598464	0.406476362295
+Potassium transport channels	0.0371636598464	0.406476362295
+Neurophilin interactions with VEGF and VEGFR	0.0371636598464	0.406476362295
+Iron uptake and transport	0.0448896051856	0.406476362295
+Release of apoptotic factors from the mitochondria	0.046238329095	0.406476362295
+Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.	0.0508027135814	0.406476362295
+Transferrin endocytosis and recycling	0.0532665726479	0.406476362295
+Host Interactions of HIV factors	0.0550336287818	0.406476362295
+Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes	0.0552281024761	0.406476362295
+TGFBR1 KD Mutants in Cancer	0.0552281024761	0.406476362295
+Switching of origins to a post-replicative state	0.0575701547921	0.406476362295
+G2/M Checkpoints	0.0594498771598	0.406476362295
+Signal amplification	0.0606693434282	0.406476362295
+Signaling by Insulin receptor	0.0636935454694	0.406476362295
+Loss of Function of TGFBR1 in Cancer	0.0641337682962	0.406476362295
+SMAD2/3 Phosphorylation Motif Mutants in Cancer	0.0641337682962	0.406476362295
+NrCAM interactions	0.0641337682962	0.406476362295
+Platelet activation, signaling and aggregation	0.0657344386753	0.406476362295
+Voltage gated Potassium channels	0.0657884899006	0.406476362295
+The citric acid (TCA) cycle and respiratory electron transport	0.0674898566829	0.406476362295
+Nef Mediated CD8 Down-regulation	0.0729561075971	0.406476362295
+PTK6 Regulates Cell Cycle	0.0729561075971	0.406476362295
+Terminal pathway of complement	0.0729561075971	0.406476362295
+The fatty acid cycling model	0.0729561075971	0.406476362295
+Loss of Function of SMAD2/3 in Cancer	0.0729561075971	0.406476362295
+Release of Hh-Np from the secreting cell	0.0729561075971	0.406476362295
+SMAC, XIAP-regulated apoptotic response	0.0729561075971	0.406476362295
+Potassium Channels	0.0750989340812	0.406476362295
+Glucagon-like Peptide-1 (GLP1) regulates insulin secretion	0.0791786186346	0.406476362295
+Regulation of insulin secretion	0.0802457658859	0.406476362295
+Signaling by TGF-beta Receptor Complex in Cancer	0.0816958942219	0.406476362295
+RUNX3 regulates YAP1-mediated transcription	0.0816958942219	0.406476362295
+Cardiac conduction	0.0856024275771	0.406476362295
+Nef Mediated CD4 Down-regulation	0.0903538948812	0.406476362295
+Activation of PUMA and translocation to mitochondria	0.0903538948812	0.406476362295
+Cross-presentation of soluble exogenous antigens (endosomes)	0.0904445196512	0.406476362295
+Respiratory electron transport	0.096566478835	0.406476362295
+The proton buffering model	0.098930869218	0.406476362295
+Nef mediated downregulation of MHC class I complex cell surface expression	0.098930869218	0.406476362295
+Degradation of GABA	0.098930869218	0.406476362295
+Sodium/Proton exchangers	0.098930869218	0.406476362295
+RUNX1 regulates transcription of genes involved in differentiation of keratinocytes	0.098930869218	0.406476362295
+Vif-mediated degradation of APOBEC3G	0.0991835859749	0.406476362295
+Complex I biogenesis	0.102147743849	0.406476362295
+Meiotic recombination	0.105136252514	0.406476362295
+Phase 3 - rapid repolarisation	0.107427569873	0.406476362295
+VLDLR internalisation and degradation	0.107427569873	0.406476362295
+Unwinding of DNA	0.107427569873	0.406476362295
+Regulation of commissural axon pathfinding by SLIT and ROBO	0.107427569873	0.406476362295
+Intrinsic Pathway for Apoptosis	0.108148398668	0.406476362295
+ABC-family proteins mediated transport	0.114116720794	0.406476362295
+Golgi Associated Vesicle Biogenesis	0.114240805564	0.406476362295
+Mitochondrial Uncoupling Proteins	0.115844742547	0.406476362295
+WNT5A-dependent internalization of FZD2, FZD5 and ROR2	0.115844742547	0.406476362295
+SCF(Skp2)-mediated degradation of p27/p21	0.117319694612	0.406476362295
+Signaling by Receptor Tyrosine Kinases	0.122412511748	0.406476362295
+Prostanoid ligand receptors	0.124183126068	0.406476362295
+Cell Cycle Checkpoints	0.126498868698	0.406476362295
+Synthesis of DNA	0.130650771163	0.406476362295
+ERKs are inactivated	0.132443452449	0.406476362295
+Peroxisomal protein import	0.133014517588	0.406476362295
+Assembly of the pre-replicative complex	0.136209086965	0.406476362295
+Trafficking and processing of endosomal TLR	0.140626446954	0.406476362295
+Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha	0.142648901979	0.406476362295
+p53-Dependent G1/S DNA damage checkpoint	0.142648901979	0.406476362295
+p53-Dependent G1 DNA Damage Response	0.142648901979	0.406476362295
+DNA Damage/Telomere Stress Induced Senescence	0.145892959545	0.406476362295
+Regulation of TP53 Activity through Association with Co-factors	0.148732828161	0.406476362295
+Hedgehog ligand biogenesis	0.149152340997	0.406476362295
+G1/S DNA Damage Checkpoints	0.149152340997	0.406476362295
+DNA Replication	0.150188344258	0.406476362295
+Orc1 removal from chromatin	0.152426475952	0.406476362295
+CDK-mediated phosphorylation and removal of Cdc6	0.155714803267	0.406476362295
+Retrograde neurotrophin signalling	0.156763308017	0.406476362295
+YAP1- and WWTR1 (TAZ)-stimulated gene expression	0.156763308017	0.406476362295
+Regulation of KIT signaling	0.156763308017	0.406476362295
+TP53 Regulates Transcription of Death Receptors and Ligands	0.156763308017	0.406476362295
+Hyaluronan uptake and degradation	0.156763308017	0.406476362295
+Apoptotic factor-mediated response	0.156763308017	0.406476362295
+Integration of energy metabolism	0.156900509877	0.406476362295
+TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	0.164718591906	0.406476362295
+Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion	0.164718591906	0.406476362295
+Acetylcholine regulates insulin secretion	0.164718591906	0.406476362295
+Lysosphingolipid and LPA receptors	0.164718591906	0.406476362295
+Protein repair	0.164718591906	0.406476362295
+Cell-extracellular matrix interactions	0.164718591906	0.406476362295
+MHC class II antigen presentation	0.165992434744	0.406476362295
+Diseases associated with O-glycosylation of proteins	0.168999129863	0.406476362295
+G1/S Transition	0.17059631951	0.406476362295

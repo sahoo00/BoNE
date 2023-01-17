@@ -1,0 +1,101 @@
+name	pValue	fdr
+Peptide chain elongation	1.11382732049e-06	0.000462815878766
+Eukaryotic Translation Elongation	1.98261693196e-06	0.000462815878766
+GTP hydrolysis and joining of the 60S ribosomal subunit	2.65549560441e-06	0.000462815878766
+L13a-mediated translational silencing of Ceruloplasmin expression	2.65549560441e-06	0.000462815878766
+Formation of a pool of free 40S subunits	3.06898822333e-06	0.000462815878766
+Nonsense-Mediated Decay (NMD)	3.92216846412e-06	0.000462815878766
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	3.92216846412e-06	0.000462815878766
+Influenza Infection	6.29674055108e-06	0.000560858644535
+Eukaryotic Translation Initiation	6.8397395675e-06	0.000560858644535
+Cap-dependent Translation Initiation	6.8397395675e-06	0.000560858644535
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	9.01754037119e-06	0.000676315527839
+Eukaryotic Translation Termination	1.48933455146e-05	0.00102764084051
+Viral mRNA Translation	3.13342040492e-05	0.0018487180389
+Selenocysteine synthesis	3.13342040492e-05	0.0018487180389
+Influenza Life Cycle	3.76109972524e-05	0.00206860484888
+SRP-dependent cotranslational protein targeting to membrane	4.82571023372e-05	0.0024611122192
+Influenza Viral RNA Transcription and Replication	5.57036336774e-05	0.00267377441651
+Regulation of expression of SLITs and ROBOs	0.000300958654107	0.0138440980889
+Major pathway of rRNA processing in the nucleolus and cytosol	0.000419510107557	0.018038934625
+Selenoamino acid metabolism	0.000869032705467	0.0356303409242
+rRNA processing in the nucleus and cytosol	0.00104203374228	0.0406393159488
+Signaling by ROBO receptors	0.001359373295	0.0502968119149
+Interleukin-6 signaling	0.00152600184426	0.0549360663935
+Pre-NOTCH Processing in the Endoplasmic Reticulum	0.00307161960468	0.104435066559
+rRNA processing	0.00501730920839	0.165571203877
+Apoptosis induced DNA fragmentation	0.00634007982215	0.196542474487
+Translation initiation complex formation	0.00922095782489	0.276628734747
+Interleukin receptor SHC signaling	0.00992311933041	0.277847341251
+Ribosomal scanning and start codon recognition	0.0106502509344	0.277962649571
+Regulation of IFNG signaling	0.0111081365712	0.277962649571
+Interleukin-6 family signaling	0.0111185059829	0.277962649571
+Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S	0.0122299092248	0.30574773062
+Defective LFNG causes SCDO3	0.0129441872999	0.310660495197
+Interleukin-3, Interleukin-5 and GM-CSF signaling	0.0148706503885	0.342024958935
+Host Interactions with Influenza Factors	0.0148706503885	0.342024958935
+Translation	0.018522622976	0.407497705472
+Formation of the ternary complex, and subsequently, the 43S complex	0.0199675589886	0.419318738761
+Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant	0.0221746260322	0.443492520644
+Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant	0.0221746260322	0.443492520644
+Pre-NOTCH Processing in Golgi	0.0285744225318	0.571488450637
+Cohesin Loading onto Chromatin	0.0333932059988	0.608703421926
+Interleukin-10 signaling	0.0377927191543	0.608703421926
+Digestion of dietary carbohydrate	0.0388276448351	0.608703421926
+NS1 Mediated Effects on Host Pathways	0.0434587463407	0.608703421926
+MAPK1 (ERK2) activation	0.0463533064204	0.608703421926
+Interleukin-2 family signaling	0.0463575294326	0.608703421926
+mTOR signalling	0.0524701079647	0.608703421926
+Interleukin-27 signaling	0.053415160175	0.608703421926
+MAPK3 (ERK1) activation	0.053415160175	0.608703421926
+RNA Polymerase I Transcription Initiation	0.0556831200774	0.608703421926
+Infectious disease	0.0601117248032	0.608703421926
+TNFR1-induced proapoptotic signaling	0.0608293673569	0.608703421926
+Constitutive Signaling by AKT1 E17K in Cancer	0.0641072972816	0.608703421926
+Apoptotic execution phase	0.0695654366902	0.608703421926
+Erythropoietin activates Phosphoinositide-3-kinase (PI3K)	0.0766153248983	0.608703421926
+Constitutive Signaling by NOTCH1 HD Domain Mutants	0.0766153248983	0.608703421926
+Signaling by NOTCH1 HD Domain Mutants in Cancer	0.0766153248983	0.608703421926
+Interleukin-15 signaling	0.0766153248983	0.608703421926
+Interleukin-35 Signalling	0.0766153248983	0.608703421926
+Mitotic Telophase/Cytokinesis	0.0766153248983	0.608703421926
+Regulation of FOXO transcriptional activity by acetylation	0.0766153248983	0.608703421926
+AKT phosphorylates targets in the cytosol	0.0766153248983	0.608703421926
+SUMO E3 ligases SUMOylate target proteins	0.0803965885099	0.608703421926
+Interactions of Tat with host cellular proteins	0.0816793027555	0.608703421926
+Defective SLC26A2 causes chondrodysplasias	0.0816793027555	0.608703421926
+XAV939 inhibits tankyrase, stabilizing AXIN	0.0816793027555	0.608703421926
+MyD88 deficiency (TLR5)	0.0816793027555	0.608703421926
+Inhibition of Host mRNA Processing and RNA Silencing	0.0816793027555	0.608703421926
+Transport of Mature mRNA derived from an Intron-Containing Transcript	0.083225321463	0.608703421926
+Negative regulators of DDX58/IFIH1 signaling	0.0842322079893	0.608703421926
+IL-6-type cytokine receptor ligand interactions	0.0849400902459	0.608703421926
+Metabolism of RNA	0.0885534447724	0.608703421926
+SUMOylation	0.100232061331	0.608703421926
+Transport of the SLBP independent Mature mRNA	0.100868103858	0.608703421926
+CD28 co-stimulation	0.100868103858	0.608703421926
+SUMOylation of chromatin organization proteins	0.102065787598	0.608703421926
+Acetylcholine regulates insulin secretion	0.102343610121	0.608703421926
+Multifunctional anion exchangers	0.102343610121	0.608703421926
+Other semaphorin interactions	0.102343610121	0.608703421926
+Transport of the SLBP Dependant Mature mRNA	0.10668406481	0.608703421926
+MPS IIIA - Sanfilippo syndrome A	0.107398894828	0.608703421926
+Influenza Virus Induced Apoptosis	0.107398894828	0.608703421926
+Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization	0.107398894828	0.608703421926
+Axon guidance	0.110359493638	0.608703421926
+SUMOylation of transcription factors	0.111381513933	0.608703421926
+Nuclear import of Rev protein	0.112627820275	0.608703421926
+Transport of Mature Transcript to Cytoplasm	0.115789730138	0.608703421926
+SUMOylation of ubiquitinylation proteins	0.124880241735	0.608703421926
+GPVI-mediated activation cascade	0.124880241735	0.608703421926
+Negative regulation of TCF-dependent signaling by DVL-interacting proteins	0.132399894818	0.608703421926
+IRAK4 deficiency (TLR5)	0.132399894818	0.608703421926
+Defective GNE causes sialuria, Nonaka myopathy and inclusion body myopathy 2	0.132399894818	0.608703421926
+NGF processing	0.132399894818	0.608703421926
+Expression and Processing of Neurotrophins	0.132399894818	0.608703421926
+Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	0.135209249635	0.608703421926
+The NLRP3 inflammasome	0.139614147994	0.608703421926
+Regulation of TP53 Activity through Methylation	0.139614147994	0.608703421926
+Transport of Mature mRNA Derived from an Intronless Transcript	0.144101054089	0.608703421926
+Interactions of Rev with host cellular proteins	0.144101054089	0.608703421926
+Regulation of signaling by CBL	0.149340389932	0.608703421926

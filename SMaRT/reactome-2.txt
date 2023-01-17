@@ -1,0 +1,101 @@
+name	pValue	fdr
+Processing of Capped Intron-Containing Pre-mRNA	3.75707243094e-11	6.63498991305e-08
+Transport of Mature Transcript to Cytoplasm	3.79927890259e-08	1.78244253717e-05
+Transport of Mature mRNA derived from an Intron-Containing Transcript	4.04181981217e-08	1.78244253717e-05
+SUMOylation of DNA damage response and repair proteins	4.04181981217e-08	1.78244253717e-05
+mRNA Splicing - Major Pathway	5.31983189722e-08	1.87790065972e-05
+Transport of the SLBP Dependant Mature mRNA	7.43493888677e-08	2.18587203271e-05
+NS1 Mediated Effects on Host Pathways	1.02794036616e-07	2.59040972272e-05
+SUMOylation of SUMOylation proteins	1.61964780809e-07	3.17450970386e-05
+Transport of the SLBP independent Mature mRNA	1.61964780809e-07	3.17450970386e-05
+mRNA Splicing	4.47922046565e-07	7.38143067069e-05
+Transport of Mature mRNAs Derived from Intronless Transcripts	5.08559221624e-07	7.38143067069e-05
+ISG15 antiviral mechanism	5.19737463178e-07	7.38143067069e-05
+Host Interactions with Influenza Factors	5.46772642274e-07	7.38143067069e-05
+Transport of Mature mRNA Derived from an Intronless Transcript	1.0585765069e-06	0.000133380639869
+Nuclear import of Rev protein	1.34626538695e-06	0.000157513050273
+Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC)	1.6378513612e-06	0.000180163649732
+SUMOylation of RNA binding proteins	2.37688044824e-06	0.000244818686169
+SUMOylation of ubiquitinylation proteins	3.05585851101e-06	0.000296538596853
+Interactions of Rev with host cellular proteins	3.22324561797e-06	0.000296538596853
+Antiviral mechanism by IFN-stimulated genes	4.21604223955e-06	0.000334310741914
+Vpr-mediated nuclear import of PICs	4.51063970963e-06	0.000334310741914
+Rev-mediated nuclear export of HIV RNA	4.51063970963e-06	0.000334310741914
+SUMOylation of chromatin organization proteins	4.5795992043e-06	0.000334310741914
+SUMOylation of DNA replication proteins	4.78057656705e-06	0.000334640359694
+Nuclear Pore Complex (NPC) Disassembly	6.31005289908e-06	0.000422773544239
+SUMO E3 ligases SUMOylate target proteins	8.15180962743e-06	0.000529867625783
+Regulation of Glucokinase by Glucokinase Regulatory Protein	8.82363971155e-06	0.000555889301828
+SUMOylation	1.03433266021e-05	0.000620599596126
+Metabolism of RNA	1.25681341033e-05	0.000728951777993
+Interactions of Vpr with host cellular proteins	1.34615982766e-05	0.000753849503492
+Metabolism of non-coding RNA	1.50923092301e-05	0.000799892389197
+snRNP Assembly	1.50923092301e-05	0.000799892389197
+Transport of Ribonucleoproteins into the Host Nucleus	1.89381182973e-05	0.000965844033164
+NEP/NS2 Interacts with the Cellular Export Machinery	8.95594831827e-05	0.00447797415913
+Export of Viral Ribonucleoproteins from Nucleus	0.000118842676917	0.00582329116893
+HIV Life Cycle	0.000196243538907	0.00922344632864
+Cohesin Loading onto Chromatin	0.000213051358142	0.00980036247452
+Late Phase of HIV Life Cycle	0.000246868170647	0.0111090676791
+mRNA 3'-end processing	0.000339586859897	0.0149418218354
+Nuclear Envelope Breakdown	0.000354836714182	0.0152579787098
+Mitotic Spindle Checkpoint	0.000490281398891	0.0205918187534
+RNA Polymerase II Transcription Termination	0.000556296641745	0.0228081623115
+Cellular response to heat stress	0.00067944116788	0.0271776467152
+Regulation of HSF1-mediated heat shock response	0.000800845804428	0.0312329863727
+M Phase	0.00116873085004	0.0444117723014
+Formation of Incision Complex in GG-NER	0.00145761584602	0.0530747762051
+Antigen processing: Ubiquitination & Proteasome degradation	0.00147429933903	0.0530747762051
+Cell Cycle Checkpoints	0.00184083525257	0.0662700690924
+Mitotic Prophase	0.00203109307789	0.069939205197
+Transcriptional regulation by small RNAs	0.00208028364875	0.069939205197
+tRNA processing in the nucleus	0.00211936985445	0.069939205197
+Separation of Sister Chromatids	0.00257725038421	0.0818100540233
+Mitotic Metaphase and Anaphase	0.00266504756667	0.0818100540233
+Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal	0.0027220017556	0.0818100540233
+Amplification of signal from the kinetochores	0.0027220017556	0.0818100540233
+HIV Infection	0.00272700180078	0.0818100540233
+Mitotic Anaphase	0.00300629037787	0.0885280516389
+Cell Cycle	0.00305269143582	0.0885280516389
+Viral Messenger RNA Synthesis	0.00305719652152	0.088658699124
+Establishment of Sister Chromatid Cohesion	0.00489983670255	0.137195427671
+Mitotic Telophase/Cytokinesis	0.00521165515283	0.145926344279
+MyD88-independent TLR4 cascade 	0.00574500623408	0.15511516832
+TRIF(TICAM1)-mediated TLR4 signaling 	0.00574500623408	0.15511516832
+Global Genome Nucleotide Excision Repair (GG-NER)	0.00644472623419	0.174007608323
+Membrane Trafficking	0.00680449868625	0.176916965842
+Gene Silencing by RNA	0.00738957679752	0.187882687111
+Host Interactions of HIV factors	0.00751530748446	0.187882687111
+Resolution of Sister Chromatid Cohesion	0.00798524239905	0.199631059976
+IKK complex recruitment mediated by RIP1	0.00941645741287	0.233309096833
+Small interfering RNA (siRNA) biogenesis	0.00972121236804	0.233309096833
+Misspliced GSK3beta mutants stabilize beta-catenin	0.0109922629211	0.257985736858
+Cell Cycle, Mitotic	0.0119525564588	0.257985736858
+MAP kinase activation	0.0122850350885	0.257985736858
+Mitotic Prometaphase	0.013285077291	0.27898662311
+Toll Like Receptor 3 (TLR3) Cascade	0.0141830671593	0.283661343186
+TICAM1, RIP1-mediated IKK complex recruitment 	0.0146929312419	0.288592089371
+phosphorylation site mutants of CTNNB1 are not targeted to the proteasome by the destruction complex	0.0155793310513	0.288592089371
+T41 mutants of beta-catenin aren't phosphorylated	0.0155793310513	0.288592089371
+S45 mutants of beta-catenin aren't phosphorylated	0.0155793310513	0.288592089371
+S37 mutants of beta-catenin aren't phosphorylated	0.0155793310513	0.288592089371
+S33 mutants of beta-catenin aren't phosphorylated	0.0155793310513	0.288592089371
+Toll Like Receptor 9 (TLR9) Cascade	0.0157834189292	0.288592089371
+Intra-Golgi and retrograde Golgi-to-ER traffic	0.016032893854	0.288592089371
+Synthesis of active ubiquitin: roles of E1 and E2 enzymes	0.0160742627381	0.289336729286
+Dual Incision in GG-NER	0.0186242090766	0.335235763378
+Protein ubiquitination	0.0189347614783	0.340825706609
+Chromatin modifying enzymes	0.0196841422362	0.348722459475
+Chromatin organization	0.0196841422362	0.348722459475
+Downregulation of SMAD2/3:SMAD4 transcriptional activity	0.0205130858514	0.348722459475
+truncated APC mutants destabilize the destruction complex	0.0228127667562	0.365004268099
+Truncations of AMER1 destabilize the destruction complex	0.0228127667562	0.365004268099
+APC truncation mutants have impaired AXIN binding	0.0228127667562	0.365004268099
+AXIN missense mutants destabilize the destruction complex	0.0228127667562	0.365004268099
+Nucleotide Excision Repair	0.0235667978883	0.377068766213
+mRNA Capping	0.0243904860891	0.390247777425
+HDR through Single Strand Annealing (SSA)	0.0257451928185	0.411923085096
+Notch-HLH transcription pathway	0.0257806217597	0.412489948156
+RNA Polymerase II Transcription Pre-Initiation And Promoter Opening	0.0275622828983	0.440996526372
+Negative regulators of DDX58/IFIH1 signaling	0.0295767838817	0.45248244843
+RNA Polymerase II Pre-transcription Events	0.0307998087996	0.45248244843

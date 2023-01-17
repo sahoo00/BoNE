@@ -1,0 +1,101 @@
+name	pValue	fdr
+Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	1.10701795974e-06	0.000298116887516
+Transport of connexons to the plasma membrane	1.37381054155e-06	0.000298116887516
+Post-chaperonin tubulin folding pathway	2.05817154619e-06	0.000298434874198
+Prefoldin mediated transfer of substrate  to CCT/TriC	4.21466923206e-06	0.000431666076766
+Formation of tubulin folding intermediates by CCT/TriC	4.96167904329e-06	0.000431666076766
+Activation of AMPK downstream of NMDARs	9.04515713951e-06	0.000651251314045
+RHO GTPases activate IQGAPs	1.18860011725e-05	0.000731437220292
+Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding	1.35451337091e-05	0.000731437220292
+Gap junction assembly	2.20649654535e-05	0.00101085843325
+HSP90 chaperone cycle for steroid hormone receptors (SHR)	2.35083356569e-05	0.00101085843325
+Factors involved in megakaryocyte development and platelet production	2.82698755498e-05	0.00110252514644
+Assembly and cell surface presentation of NMDA receptors	4.64269960441e-05	0.00167137185759
+Carboxyterminal post-translational modifications of tubulin	6.75470973248e-05	0.00209396001707
+Gap junction trafficking	6.75470973248e-05	0.00209396001707
+Recycling pathway of L1	8.77357412749e-05	0.00238507319908
+Intraflagellar transport	9.54029279631e-05	0.00238507319908
+Gap junction trafficking and regulation	9.54029279631e-05	0.00238507319908
+COPI-independent Golgi-to-ER retrograde traffic	0.000164491801338	0.00394780323211
+Kinesins	0.00023350574995	0.0051371264989
+RHO GTPase Effectors	0.000301454781461	0.00616468128189
+Signaling by Rho GTPases	0.000308234064094	0.00616468128189
+Signaling by Hedgehog	0.000428090411967	0.00813371782738
+Translocation of SLC2A4 (GLUT4) to the plasma membrane	0.000461113923543	0.00830005062377
+Hedgehog 'off' state	0.000513385933437	0.00924094680186
+The role of GTSE1 in G2/M progression after G2 checkpoint	0.000575621344386	0.00978556285456
+Post NMDA receptor activation events	0.00104863482224	0.0167781571559
+Recruitment of NuMA to mitotic centrosomes	0.00114924855608	0.0183879768973
+Chaperonin-mediated protein folding	0.00131335453867	0.0197003180801
+RHO GTPases Activate Formins	0.00131681857356	0.0197522786034
+Protein folding	0.00169268431979	0.0229185852137
+COPI-dependent Golgi-to-ER retrograde traffic	0.00176296809336	0.0229185852137
+COPI-mediated anterograde transport	0.00176296809336	0.0229185852137
+Activation of NMDA receptors and postsynaptic events	0.00214692388561	0.0257630866273
+Hemostasis	0.00244144202829	0.0292973043394
+Neurotransmitter receptors and postsynaptic signal transmission	0.0026449957943	0.0317399495316
+L1CAM interactions	0.00404181331294	0.0444599464424
+Resolution of Sister Chromatid Cohesion	0.00458715602312	0.0504587162543
+Golgi-to-ER retrograde transport	0.00690947549473	0.0690947549473
+MHC class II antigen presentation	0.00690947549473	0.0690947549473
+G2/M Transition	0.0073134618389	0.073134618389
+Mitotic G2-G2/M phases	0.00763973914081	0.0763973914081
+ER to Golgi Anterograde Transport	0.0104513341339	0.0940620072048
+Glycolysis	0.0120195693004	0.108176123703
+Metabolism of ingested H2SeO4 and H2SeO3 into H2Se	0.013635659891	0.122720939019
+RHO GTPases Activate ROCKs	0.0160611323503	0.144550191152
+Sema4D induced cell migration and growth-cone collapse	0.0160611323503	0.144550191152
+Neuronal System	0.0185970235012	0.148776188009
+Semaphorin interactions	0.0189232400275	0.15138592022
+RHO GTPases activate PAKs	0.0200159447202	0.160127557762
+Separation of Sister Chromatids	0.0201058733456	0.160846986765
+Insulin receptor recycling	0.0214157069517	0.162307876958
+Cellular responses to stress	0.0222730555735	0.162307876958
+Transmission across Chemical Synapses	0.0231868395654	0.162307876958
+Defective SLC12A6 causes agenesis of the corpus callosum, with peripheral neuropathy (ACCPN)	0.0236671079676	0.165341958223
+MPS IV - Morquio syndrome A	0.0236671079676	0.165341958223
+Sema4D in semaphorin signaling	0.0243331698781	0.165341958223
+Mitotic Prometaphase	0.0256662562019	0.165341958223
+Cilium Assembly	0.0261308706888	0.165341958223
+Mitotic Anaphase	0.0261308706888	0.165341958223
+Signaling by NTRK2 (TRKB)	0.0274032226673	0.165341958223
+Mitotic Metaphase and Anaphase	0.0275569930372	0.165341958223
+Glucose metabolism	0.0275603580442	0.165362148265
+ROS and RNS production in phagocytes	0.0284176914863	0.170506148918
+Rho GTPase cycle	0.0288008650881	0.172805190529
+Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane	0.0289937539398	0.173962523639
+Iron uptake and transport	0.0293038664571	0.175823198743
+Intra-Golgi and retrograde Golgi-to-ER traffic	0.0310750960246	0.186450576148
+HHAT G278V abrogates palmitoylation of Hh-Np	0.0314321018427	0.187374121594
+Transport to the Golgi and subsequent modification	0.0315996855085	0.187374121594
+Interleukin-10 signaling	0.0320495593628	0.187374121594
+RHO GTPases Activate NADPH Oxidases	0.0374748243189	0.187374121594
+Phosphorylation of proteins involved in the G2/M transition by Cyclin A:Cdc2 complexes	0.0391358811932	0.195679405966
+Transferrin endocytosis and recycling	0.0392721872852	0.196360936426
+GPVI-mediated activation cascade	0.0467779321845	0.233889660922
+Protein localization	0.0479426916163	0.239713458082
+Organelle biogenesis and maintenance	0.0525042453456	0.262521226728
+G2 Phase	0.0543617058295	0.271808529147
+NTRK2 activates RAC1	0.0543617058295	0.271808529147
+Cellular responses to external stimuli	0.0610280871951	0.277393456108
+Nef Mediated CD8 Down-regulation	0.0618846966388	0.277393456108
+Defective SLC29A3 causes histiocytosis-lymphadenopathy plus syndrome (HLAS)	0.0618846966388	0.277393456108
+Signaling by MST1	0.0618846966388	0.277393456108
+Regulation of cytoskeletal remodeling and cell spreading by IPP complex components	0.0618846966388	0.277393456108
+Metabolism of ingested MeSeO2H into MeSeH	0.0693483640271	0.277393456108
+Defective CYP11A1 causes Adrenal insufficiency, congenital, with 46,XY sex reversal (AICSR)	0.0693483640271	0.277393456108
+MET Receptor Activation	0.0693483640271	0.277393456108
+CREB3 factors activate genes	0.0693483640271	0.277393456108
+Disinhibition of SNARE formation	0.076753171652	0.286934726305
+Nef Mediated CD4 Down-regulation	0.076753171652	0.286934726305
+Activated NTRK2 signals through CDK5	0.076753171652	0.286934726305
+Electron transport from NADPH to Ferredoxin	0.076753171652	0.286934726305
+Ca2+ activated K+ channels	0.076753171652	0.286934726305
+Cation-coupled Chloride cotransporters	0.076753171652	0.286934726305
+Uptake and function of diphtheria toxin	0.076753171652	0.286934726305
+RHO GTPases Activate Rhotekin and Rhophilins	0.076753171652	0.286934726305
+Activated NTRK2 signals through FYN	0.0840995795797	0.286934726305
+RUNX1 regulates transcription of genes involved in differentiation of myeloid cells	0.0840995795797	0.286934726305
+Ion channel transport	0.0847771955256	0.286934726305
+Transport of small molecules	0.0852634579364	0.286934726305
+Cell Cycle, Mitotic	0.0865169053081	0.286934726305

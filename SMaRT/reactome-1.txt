@@ -1,0 +1,101 @@
+name	pValue	fdr
+Vasopressin-like receptors	0.00716040533605	0.965617682687
+Presynaptic depolarization and calcium channel opening	0.0102828580607	0.965617682687
+NCAM1 interactions	0.0132700081826	0.965617682687
+Class B/2 (Secretin family receptors)	0.0208848643292	0.965617682687
+Voltage gated Potassium channels	0.0240753568778	0.965617682687
+RNF mutants show enhanced WNT signaling and proliferation	0.0255329356728	0.965617682687
+GRB7 events in ERBB2 signaling	0.027130450822	0.965617682687
+Peptide ligand-binding receptors	0.0279512604082	0.965617682687
+Potassium Channels	0.0348988593355	0.965617682687
+Type I hemidesmosome assembly	0.0357120573458	0.965617682687
+Highly sodium permeable acetylcholine nicotinic receptors	0.0413365144947	0.965617682687
+Interaction between L1 and Ankyrins	0.0456958870473	0.965617682687
+Defective AVP does not bind AVPR1A,B and causes neurohypophyseal diabetes insipidus (NDI)	0.0518389408895	0.965617682687
+Tachykinin receptors bind tachykinins	0.0518625701339	0.965617682687
+ECM proteoglycans	0.0560533102639	0.965617682687
+Synaptic adhesion-like molecules	0.0594079341776	0.965617682687
+Presynaptic nicotinic acetylcholine receptors	0.0605256475957	0.965617682687
+Nuclear Receptor transcription pathway	0.061680185939	0.965617682687
+Ligand-receptor interactions	0.0739393707092	0.965617682687
+NCAM signaling for neurite out-growth	0.075827374023	0.965617682687
+Elastic fibre formation	0.0949197358014	0.965617682687
+LGI-ADAM interactions	0.0978708778183	0.965617682687
+Acetylcholine binding and downstream events	0.104233551754	0.965617682687
+Postsynaptic nicotinic acetylcholine receptors	0.104233551754	0.965617682687
+Defective AVP does not bind AVPR2 and causes neurohypophyseal diabetes insipidus (NDI)	0.106812149544	0.965617682687
+Defective ACTH causes Obesity and Pro-opiomelanocortinin deficiency (POMCD)	0.106812149544	0.965617682687
+Defective CHST3 causes SEDCJD	0.107492350231	0.965617682687
+Opsins	0.107492350231	0.965617682687
+Molecules associated with elastic fibres	0.112785517816	0.965617682687
+Activation of Matrix Metalloproteinases	0.113415329565	0.965617682687
+Assembly of collagen fibrils and other multimeric structures	0.126024061454	0.965617682687
+NrCAM interactions	0.131654681287	0.965617682687
+Activation of G protein gated Potassium channels	0.135121733248	0.965617682687
+Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits	0.135121733248	0.965617682687
+G protein gated Potassium channels	0.135121733248	0.965617682687
+Glycoprotein hormones	0.147188104426	0.965617682687
+Peptide hormone biosynthesis	0.155433111636	0.965617682687
+Hormone ligand-binding receptors	0.155433111636	0.965617682687
+Activation of Ca-permeable Kainate Receptor	0.155433111636	0.965617682687
+Inwardly rectifying K+ channels	0.155684861892	0.965617682687
+Erythrocytes take up oxygen and release carbon dioxide	0.159669792905	0.965617682687
+Unblocking of NMDA receptors, glutamate binding and activation	0.15972520511	0.965617682687
+Phospholipase C-mediated cascade; FGFR2	0.161109946665	0.965617682687
+TRKA activation by NGF	0.162529308321	0.965617682687
+PLC-gamma1 signalling	0.162529308321	0.965617682687
+Activated NTRK3 signals through PLCG1	0.162529308321	0.965617682687
+Invadopodia formation	0.162529308321	0.965617682687
+GABA receptor activation	0.163534714975	0.965617682687
+Neurexins and neuroligins	0.167608555021	0.965617682687
+Gap junction assembly	0.171955673846	0.965617682687
+Cell-cell junction organization	0.176422760015	0.965617682687
+ChREBP activates metabolic gene expression	0.18331929603	0.965617682687
+Orexin and neuropeptides FF and QRFP bind to their respective receptors	0.18331929603	0.965617682687
+Cell junction organization	0.186474269439	0.965617682687
+FGFR2 ligand binding and activation	0.189613814706	0.965617682687
+GABA B receptor activation	0.18981562034	0.965617682687
+Activation of GABAB receptors	0.18981562034	0.965617682687
+Calcitonin-like ligand receptors	0.192110321212	0.965617682687
+Highly calcium permeable nicotinic acetylcholine receptors	0.192110321212	0.965617682687
+Negative regulation of activity of TFAP2 (AP-2) family transcription factors	0.192110321212	0.965617682687
+Ephrin signaling	0.192445075385	0.965617682687
+Serotonin Neurotransmitter Release Cycle	0.192445075385	0.965617682687
+Ionotropic activity of kainate receptors	0.195431860487	0.965617682687
+Reversible hydration of carbon dioxide	0.195871070239	0.965617682687
+Negative regulation of NMDA receptor-mediated neuronal transmission	0.220173388648	0.965617682687
+Protein-protein interactions at synapses	0.223785206423	0.965617682687
+Passive transport by Aquaporins	0.230338877113	0.965617682687
+Muscarinic acetylcholine receptors	0.232324943089	0.965617682687
+PLCG1 events in ERBB2 signaling	0.232324943089	0.965617682687
+RUNX3 regulates BCL2L11 (BIM) transcription	0.232324943089	0.965617682687
+Dopamine receptors	0.232324943089	0.965617682687
+Misspliced LRP5 mutants have enhanced beta-catenin-dependent signaling	0.232324943089	0.965617682687
+Neurotransmitter receptors and postsynaptic signal transmission	0.237706473853	0.965617682687
+Signaling by Activin	0.238792443986	0.965617682687
+DSCAM interactions	0.238792443986	0.965617682687
+Anchoring fibril formation	0.238792443986	0.965617682687
+Neurofascin interactions	0.240360063595	0.965617682687
+RUNX1 regulates transcription of genes involved in WNT signaling	0.240360063595	0.965617682687
+PP2A-mediated dephosphorylation of key metabolic factors	0.240360063595	0.965617682687
+Defective B4GALT1 causes B4GALT1-CDG (CDG-2d)	0.240360063595	0.965617682687
+Defective CHST14 causes EDS, musculocontractural type	0.240360063595	0.965617682687
+AKT phosphorylates targets in the nucleus	0.241131111774	0.965617682687
+Interaction With Cumulus Cells And The Zona Pellucida	0.241131111774	0.965617682687
+Activation of the TFAP2 (AP-2) family of transcription factors	0.241131111774	0.965617682687
+Regulation of commissural axon pathfinding by SLIT and ROBO	0.241131111774	0.965617682687
+Defective Base Excision Repair Associated with NTHL1	0.2417421514	0.965617682687
+Defective Base Excision Repair Associated with NEIL1	0.2417421514	0.965617682687
+Defective NTHL1 substrate binding	0.2417421514	0.965617682687
+Defective NTHL1 substrate processing	0.2417421514	0.965617682687
+Defective pro-SFTPC causes pulmonary surfactant metabolism dysfunction 2 (SMDP2) and respiratory distress syndrome (RDS)	0.2417421514	0.965617682687
+Defective pro-SFTPB causes pulmonary surfactant metabolism dysfunction 1 (SMDP1) and respiratory distress syndrome (RDS)	0.2417421514	0.965617682687
+Long-term potentiation	0.245174902048	0.965617682687
+Dopamine Neurotransmitter Release Cycle	0.252519243997	0.965617682687
+Glucagon-type ligand receptors	0.267870940153	0.965617682687
+Adherens junctions interactions	0.267870940153	0.965617682687
+Activation of the phototransduction cascade	0.276311464713	0.965617682687
+Neuronal System	0.277831957415	0.965617682687
+DAG and IP3 signaling	0.278414883937	0.965617682687
+Gap junction trafficking	0.278414883937	0.965617682687
+Calmodulin induced events	0.279090403359	0.965617682687

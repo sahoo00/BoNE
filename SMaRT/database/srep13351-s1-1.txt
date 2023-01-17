@@ -1,0 +1,107 @@
+GENE	Description	Gene Classification*							
+ADAM28	ADAM metallopeptidase domain 28	Matrix							
+AIM2	absent in melanoma 2	Others							
+ANKRD22	ankyrin repeat domain 22	Others							
+APOBEC3A	"apolipoprotein B mRNA editing enzyme, catalytic polypeptide-like 3A"	Enzyme							
+APOL1	"apolipoprotein L, 1"	Others							
+APOL3	"apolipoprotein L, 3"	Others							
+BATF2	"basic leucine zipper transcription factor, ATF-like 2"	Transcription factor							
+C1R	"complement component 1, r subcomponent"	Enzyme							
+C1S	"complement component 1, s subcomponent"	Enzyme							
+CCL19	chemokine (C-C motif) ligand 19	Chemokine							
+CD38	CD38 molecule	Receptor							
+CD40	"CD40 molecule, TNF receptor superfamily member 5"	Receptor							
+CD80	CD80 molecule	Receptor							
+CFB	complement factor B	Others							
+CLEC4D	"C-type lectin domain family 4, member D"	Receptor							
+CXCL10	chemokine (C-X-C motif) ligand 10	Chemokine							
+CXCL9	chemokine (C-X-C motif) ligand 9	Chemokine							
+CYBB	"cytochrome b-245, beta polypeptide"	Others							
+DUSP10	dual specificity phosphatase 10	Enzyme							
+DUSP6	dual specificity phosphatase 6	Enzyme							
+ETV7	ets variant 7	Transcription factor							
+FAM49A	"family with sequence similarity 49, member A"	Others							
+FAM65B	"family with sequence similarity 65, member B"	Others							
+FCGR1B	"Fc fragment of IgG, high affinity Ib, receptor (CD64)"	Recptor							
+FPR2	formyl peptide receptor 2	Receptor							
+GADD45G	"growth arrest and DNA-damage-inducible, gamma"	Others							
+GBP1	"guanylate binding protein 1, interferon-inducible, 67kDa"	Others							
+GBP2	"guanylate binding protein 2, interferon-inducible"	Others							
+GBP4	guanylate binding protein 4	Others							
+GBP5	guanylate binding protein 5	Others							
+GCH1	GTP cyclohydrolase 1	Enzyme							
+GK	glycerol kinase 3 pseudogene; glycerol kinase	Enzyme							
+GPR84	G protein-coupled receptor 84	Receptor							
+GUCY1A3	"guanylate cyclase 1, soluble, alpha 3"	Enzyme							
+HERC5	hect domain and RLD 5	Enzyme							
+HESX1	HESX homeobox 1	Transcription factor							
+HLA-F	"major histocompatibility complex, class I, F"	Receptor							
+IFI27	"interferon, alpha-inducible protein 27"	Others							
+IFI35	interferon-induced protein 35	Others							
+IFI44L	interferon-induced protein 44-like	Others							
+IFIH1	interferon induced with helicase C domain 1	Receptor							
+IFIT2	interferon-induced protein with tetratricopeptide repeats 2	Others							
+IFIT3	interferon-induced protein with tetratricopeptide repeats 3	Others							
+IFITM1	interferon induced transmembrane protein 1 (9-27)	Others							
+IFITM2	interferon induced transmembrane protein 2 (1-8D)	Others							
+IL15	interleukin 15	Cytokine							
+IL15RA	"interleukin 15 receptor, alpha"	Receptor							
+IL32	interleukin 32	Cytokine							
+INHBA	"inhibin, beta A"	Others							
+IRF1	interferon regulatory factor 1	Transcription factor							
+IRF7	interferon regulatory factor 7	Transcription factor							
+ISG15	ISG15 ubiquitin-like modifier	Others							
+ISG20	interferon stimulated exonuclease gene 20kDa	Enzyme							
+ITGAL	"integrin, alpha L (antigen CD11A (p180), lymphocyte function-associated antigen 1; alpha"								
+ITGB7	"polypeptide) integrin, beta 7"	Receptor Receptor							
+LAG3	lymphocyte-activation gene 3	Others							
+LAMP3	lysosomal-associated membrane protein 3	Others							
+LIMK2	LIM domain kinase 2	Enzyme							
+LRRK2	leucine-rich repeat kinase 2	Enzyme							
+MUC1	"mucin 1, cell surface associated"	Others							
+MX1	"myxovirus (influenza virus) resistance 1, interferon-inducible protein p78 (mouse)"	Others							
+NAMPT	nicotinamide phosphoribosyltransferase	Enzyme							
+NFKBIZ	"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, zeta"	Transcription factor ??							
+OAS1	"2',5'-oligoadenylate synthetase 1, 40/46kDa"	Enzyme							
+OAS2	"2'-5'-oligoadenylate synthetase 2, 69/71kDa"	Enzyme							
+OAS3	"2'-5'-oligoadenylate synthetase 3, 100kDa"	Enzyme							
+OASL	2'-5'-oligoadenylate synthetase-like	Enzyme							
+OPTN	optineurin	Transcription factor							
+PAG1	phosphoprotein associated with glycosphingolipid microdomains 1	Others							
+PARP14	"poly (ADP-ribose) polymerase family, member 14"	Enzyme							
+PCNX	pecanex homolog (Drosophila)	Others							
+PDE4B	"phosphodiesterase 4B, cAMP-specific (phosphodiesterase E4 dunce homolog, Drosophila)"	Enzyme							
+PIM1	pim-1 oncogene	Enzyme							
+PRKAR2B	"protein kinase, cAMP-dependent, regulatory, type II, beta"	Others							
+PSMB9	"proteasome (prosome, macropain) subunit, beta type, 9 (large multifunctional peptidase 2)"	Enzyme							
+PTGS2	prostaglandin-endoperoxide synthase 2 (prostaglandin G/H synthase and cyclooxygenase)	Enzyme							
+RARRES3	retinoic acid receptor responder (tazarotene induced) 3	Others							
+RCN1	"reticulocalbin 1, EF-hand calcium binding domain"	Others							
+RHBDF2	rhomboid 5 homolog 2 (Drosophila)	Others							
+RSAD2	radical S-adenosyl methionine domain containing 2	Others							
+SAT1	spermidine/spermine N1-acetyltransferase 1	Enzyme							
+SCO2	SCO cytochrome oxidase deficient homolog 2 (yeast)	Others							
+SEPT4	septin 4	Others							
+SERPING1	"serpin peptidase inhibitor, clade G (C1 inhibitor), member 1"	Others							
+SLAMF7	SLAM family member 7	Receptor							
+SLC22A15	"solute carrier family 22, member 15"	Others							
+SLC25A28	"solute carrier family 25, member 28"	Others							
+SLC31A2	"solute carrier family 31 (copper transporters), member 2"	Others							
+SLC6A12	"solute carrier family 6 (neurotransmitter transporter, betaine/GABA), member 12"	Others							
+SLC7A5	"solute carrier family 7 (cationic amino acid transporter, y+ system), member 5"	Others							
+SNTB1	"syntrophin, beta 1 (dystrophin-associated protein A1, 59kDa, basic component 1)"	Others							
+SNX10	sorting nexin 10	Others							
+SOCS3	suppressor of cytokine signaling 3	Trancription Factor							
+SOD2	"superoxide dismutase 2, mitochondrial"	Enzyme							
+STAT1	"signal transducer and activator of transcription 1, 91kDa"	Trancription Factor							
+STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	Trancription Factor							
+STX11	syntaxin 11	Others							
+TAP1	"transporter 1, ATP-binding cassette, sub-family B (MDR/TAP)"	Others							
+TNFAIP6	"tumor necrosis factor, alpha-induced protein 6"	Others							
+TNFSF10	"tumor necrosis factor (ligand) superfamily, member 10"	Cytokine							
+TRIM69	tripartite motif-containing 69	Enzyme							
+UBE2L6	ubiquitin-conjugating enzyme E2L 6	Enzyme							
+USP18	ubiquitin specific peptidase 18	Enzyme							
+VAMP5	vesicle-associated membrane protein 5 (myobrevin)	Others							
+WARS	tryptophanyl-tRNA synthetase	Enzyme							
+XRN1	5'-3' exoribonuclease 1	Enzyme							
