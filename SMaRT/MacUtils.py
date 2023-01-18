@@ -34,6 +34,11 @@ acolor = ["#00CC00", "#D8A03D","#EC008C",
         'blue', 'black', 'green', 'red',
         'orange', 'brown', 'pink', 'purple']
 
+basedir = os.path.join(os.getcwd(), os.path.dirname(__file__)) + "/"
+def getRealpath(cfile):
+    return os.path.realpath(os.path.join(os.getcwd(), 
+        os.path.dirname(__file__), cfile))
+
 urlbase="http://hegemon.ucsd.edu/Tools/explore.php"
 class HegemonUtil:
     @staticmethod
@@ -459,7 +464,7 @@ def getSimpleName(gene_groups):
     return res
 def getGeneGroups(order = None, weight = None):
     data_item = []
-    dir1 = "./"
+    dir1 = basedir
     with open(dir1 + 'path-1.json') as data_file:
         data_item += json.load(data_file)
     with open(dir1 + 'path-0.json') as data_file:
@@ -519,7 +524,7 @@ def getCls13a14a3():
     #wt1 = [-1, 1, 2]
     #nx = [0, 1, 4, 5, 6, 8, 9, 10, 16, 17, 19, 20, 21, 25, 28]
     #genes, wt1, l1 = getGeneGroups([nx[i] for i in order], wt1)
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir +  f"node-{i}.txt") for i in [13, 14, 3]]
     return wt1, l1
 
 def getCls13():
@@ -527,7 +532,7 @@ def getCls13():
     #wt1 = [-1]
     #nx = [0, 1, 4, 5, 6, 8, 9, 10, 16, 17, 19, 20, 21, 25, 28]
     #genes, wt1, l1 = getGeneGroups([nx[i] for i in order], wt1)
-    wt1, l1 = [-1], [readGenes(f"node-{i}.txt") for i in [13]]
+    wt1, l1 = [-1], [readGenes(basedir + f"node-{i}.txt") for i in [13]]
     return wt1, l1
 
 def getCls14a3():
@@ -535,7 +540,7 @@ def getCls14a3():
     #wt1 = [1, 2]
     #nx = [0, 1, 4, 5, 6, 8, 9, 10, 16, 17, 19, 20, 21, 25, 28]
     #genes, wt1, l1 = getGeneGroups([nx[i] for i in order], wt1)
-    wt1, l1 = [1, 2], [readGenes(f"node-{i}.txt") for i in [14, 3]]
+    wt1, l1 = [1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [14, 3]]
     return wt1, l1
 
 def saveNodes():
@@ -544,7 +549,7 @@ def saveNodes():
     wt1 = [1]
     genes, wt1, l1 = getGceneGroups([nx[i] for i in order], wt1)
     for i in range(len(l1)):
-        ofh = open("node-" + str(i+1) + ".txt", "w")
+        ofh = open(basedir + "node-" + str(i+1) + ".txt", "w")
         for g in l1[i]:
             ofh.write(g + "\n")
         ofh.close()
@@ -892,7 +897,7 @@ def getRanksDf2(gene_groups, df_g, df_e, df_t):
     return ranks, noisemargins, row_labels, row_ids, row_numhi, expr
 
 def getGroupsHs(gene_groups):
-    cfile = "database/ensembl-GRCm38.p6-100-mm-hs.txt"
+    cfile = basedir + "database/ensembl-GRCm38.p6-100-mm-hs.txt"
     fp = open(cfile, "r")
     mmdict = {}
     for line in fp:
@@ -916,7 +921,7 @@ def getGroupsHs(gene_groups):
     return gene_groups_hs
 
 def getGroupsMm(gene_groups):
-    cfile = "database/ensembl-GRCh38.p13-100-hs-mm.txt"
+    cfile = basedir + "database/ensembl-GRCh38.p13-100-hs-mm.txt"
     fp = open(cfile, "r")
     mmdict = {}
     for line in fp:
@@ -940,7 +945,7 @@ def getGroupsMm(gene_groups):
     return gene_groups_mm
 
 def getGroupsMmv1(gene_groups):
-    cfile = "database/Homo_sapiens.GRCh38.95.chr_patch_hapl_scaff.len.txt"
+    cfile = basedir + "database/Homo_sapiens.GRCh38.95.chr_patch_hapl_scaff.len.txt"
     fp = open(cfile, "r")
     hsdict = {}
     for line in fp:
@@ -949,7 +954,7 @@ def getGroupsMmv1(gene_groups):
         hsdict[ll[0]] = ll[1]
     fp.close();
 
-    cfile = "database/mart-export-hs-mm.txt"
+    cfile = basedir + "database/mart-export-hs-mm.txt"
     fp = open(cfile, "r")
     mmdict = {}
     for line in fp:
@@ -1005,7 +1010,7 @@ def plotHeatMapReactome():
     ana = MacAnalysis()
     ana.getGEOMacAnn()
     ana.orderDataDf(l1, wt1)
-    genes = readList("selected-genes.txt")
+    genes = readList(basedir + "selected-genes.txt")
     ofile = "heatmap-2.pdf"
     params = {'dx': 50, 'dy': 150, 'spaceAnn': len(ana.order)/len(ana.atypes),
               'tAnn': 0.5, 'widthAnn':0.5, 'lfs':8,
@@ -1021,26 +1026,26 @@ def plotHeatMapReactome():
         ax.set_xlabel('-log10(FDR)')
         ax.set_ylabel('')
 
-    df = pd.read_csv("reactome-13.txt", sep="\t")
+    df = pd.read_csv(basedir + "reactome-13.txt", sep="\t")
     df['lfdr'] = -np.log10(df['fdr'])
     df1 = df.loc[ [2, 8, 9, 10, 14, 18], :]
     plotReactome(df1)
     pdf.savefig(transparent=True,bbox_inches = 'tight')
 
-    df = pd.read_csv("reactome-14.txt", sep="\t")
+    df = pd.read_csv(basedir + "reactome-14.txt", sep="\t")
     df['lfdr'] = -np.log10(df['fdr'])
     df1 = df.loc[ [1, 6, 8, 9, 14, 18], :]
     plotReactome(df1)
     pdf.savefig(transparent=True,bbox_inches = 'tight')
 
-    df = pd.read_csv("reactome-3.txt", sep="\t")
+    df = pd.read_csv(basedir + "reactome-3.txt", sep="\t")
     df['lfdr'] = -np.log10(df['fdr'])
     df1 = df.loc[ [0, 6, 8, 12, 14, 15], :]
     plotReactome(df1)
     pdf.savefig(transparent=True,bbox_inches = 'tight')
 
-    l1 = readGenes("node-14.txt")
-    l2 = readGenes("node-3.txt")
+    l1 = readGenes(basedir + "node-14.txt")
+    l2 = readGenes(basedir + "node-3.txt")
     df = reactome(" ".join(l1 + l2))
     df['lfdr'] = -np.log10(df['fdr'])
     df1 = df.loc[ [1, 6, 8, 9, 16, 18], :]
@@ -1085,7 +1090,7 @@ def trainingAlgorithm():
 
 def getCoates():
     #PMID: 18199539 DOI: 10.1158/0008-5472.CAN-07-3050
-    cfile = "database/c2.all.v6.2.symbols.gmt"
+    cfile = basedir + "database/c2.all.v6.2.symbols.gmt"
     fp = open(cfile, "r")
     l1 = l2 = None
     for line in fp:
@@ -1101,7 +1106,7 @@ def getCoates():
 
 def getMartinez():
     #PMID: 17082649 DOI: 10.4049/jimmunol.177.10.7303
-    cfile = "database/c7.all.v6.2.symbols.gmt"
+    cfile = basedir + "database/c7.all.v6.2.symbols.gmt"
     fp = open(cfile, "r")
     l1 = l2 = None
     for line in fp:
@@ -1116,12 +1121,12 @@ def getMartinez():
     return res
 
 def getMartinezM2hsmm():
-    cfile = "database/Martinez-Table3.txt"
+    cfile = basedir + "database/Martinez-Table3.txt"
     res = getEntries(cfile, 0)
     return [res[1:]]
 
 def getMartinezM0hsmm():
-    cfile = "database/Martinez-TableS1.txt"
+    cfile = basedir + "database/Martinez-TableS1.txt"
     res = getEntries(cfile, 0)
     return [res[1:]]
 
@@ -1131,7 +1136,7 @@ def getBell2016():
 # Tuberculosis. PLoS Pathog 12(3): e1005469.
 # https://doi.org/10.1371/journal.ppat.1005469
 #PMID: 26986567 PMCID: PMC4795555 DOI: 10.1371/journal.ppat.1005469
-    cfile = "database/journal.ppat.1005469.s018.txt"
+    cfile = basedir + "database/journal.ppat.1005469.s018.txt"
     fp = open(cfile, "r")
     l1 = l2 = l3 = None
     for line in fp:
@@ -1155,19 +1160,19 @@ def getBecker():
     #Applications for Clinical Health and Disease. Sci Rep. 2015 Aug 25;
     #5:13351. doi: 10.1038/srep13351.
     #PMID: 26302899 PMCID: PMC4548187 DOI: 10.1038/srep13351
-    cfile = "database/srep13351-s1-1.txt"
+    cfile = basedir + "database/srep13351-s1-1.txt"
     l1 = getEntries(cfile, 0)
-    cfile = "database/srep13351-s1-2.txt"
+    cfile = basedir + "database/srep13351-s1-2.txt"
     l2 = getEntries(cfile, 0)
     return [l1[1:], l2[2:]]
 
 def getSViP():
-    l1 = [readList("database/svip-signature.txt")] # 20 gene signature
+    l1 = [readList(basedir + "database/svip-signature.txt")] # 20 gene signature
     wt1 = [1]
     return wt1, l1
 
 def getViP():
-    l1 = [readList("database/vip-signature.txt")] # 166 gene signature
+    l1 = [readList(basedir + "database/vip-signature.txt")] # 166 gene signature
     wt1 = [1]
     return wt1, l1
 
@@ -1336,7 +1341,7 @@ def MacData(adata, desc, Org, tn=1):
     return
 
 def figure2a():
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     pathdesc = "13-14-3"
     ta = 1
     ana = MacAnalysis()
@@ -1361,7 +1366,7 @@ def figure2a():
     return
 
 def figure2b():
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     pathdesc = "13-14-3"
     ta = 2
     ana = MacAnalysis()
@@ -1396,9 +1401,9 @@ def figure2b():
     return
 
 def figure2c():
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
-    wt2, l2 = [-1], [readGenes(f"node-{i}.txt") for i in [13]]
-    wt3, l3 = [1, 2], [readGenes(f"node-{i}.txt") for i in [14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
+    wt2, l2 = [-1], [readGenes(basedir + f"node-{i}.txt") for i in [13]]
+    wt3, l3 = [1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [14, 3]]
     pathdesc = "13-14-3"
     ta = 1
     ana = MacAnalysis()
@@ -1489,30 +1494,30 @@ def getMacSignatures(index=0):
     if (index == 2 or index == 'C13-14-3'):
         wt1, l1 = getCls13a14a3()
     if (index == 5 or index == 'SAM A'):
-        cfile = 'database/SAM_DAM_LAM signatures.xlsx'
+        cfile = basedir + 'database/SAM_DAM_LAM signatures.xlsx'
         df = pd.read_excel(cfile, sheet_name="SAMac")
         wt1, l1 = [1], [list(df['Signature A'].dropna())]
     if (index == 6 or index == 'SAM B'):
-        cfile = 'database/SAM_DAM_LAM signatures.xlsx'
+        cfile = basedir + 'database/SAM_DAM_LAM signatures.xlsx'
         df = pd.read_excel(cfile, sheet_name="SAMac")
         wt1, l1 = [1], [list(df['Signature B'].dropna())]
     if (index == 7 or index == 'SAM i'):
-        cfile = 'database/SAM_DAM_LAM signatures.xlsx'
+        cfile = basedir + 'database/SAM_DAM_LAM signatures.xlsx'
         df = pd.read_excel(cfile, sheet_name="SAMac_inflam", skiprows=4)
         wt1, l1 = [1], [list(df['Inflammatory macs'].dropna())]
     if (index == 8 or index == 'SAM ni'):
-        cfile = 'database/SAM_DAM_LAM signatures.xlsx'
+        cfile = basedir + 'database/SAM_DAM_LAM signatures.xlsx'
         df = pd.read_excel(cfile, sheet_name="SAMac_NonInf", skiprows=3)
         wt1, l1 = [1], [list(df['Non-Inflammatory Macs'].dropna())]
     if (index == 9 or index == 'DAM'):
-        cfile = 'database/SAM_DAM_LAM signatures.xlsx'
+        cfile = basedir + 'database/SAM_DAM_LAM signatures.xlsx'
         df = pd.read_excel(cfile, sheet_name="DAM signature")
         up = list(df[df['up/down'] == 1]['Unnamed: 0'])
         down = list(df[df['up/down'] == -1]['Unnamed: 0'])
         wt1, l1 = [1, -1], [up, down]
         l1 = getGroupsHs(l1)
     if (index == 10 or index == 'LAM'):
-        cfile = 'database/SAM_DAM_LAM signatures.xlsx'
+        cfile = basedir + 'database/SAM_DAM_LAM signatures.xlsx'
         df = pd.read_excel(cfile, sheet_name="LAM signature")
         up = list(df[df['fcLAMvsMacHuman'] >= 3]['gene'])
         down = list(df[df['fcLAMvsMacHuman'] <= -2]['gene'])
@@ -1536,20 +1541,20 @@ def getMacSignatures(index=0):
         l1 = getMartinez()
         wt1 = [-1, 1]
     if (index == 17 or index == 'LM22-M1'):
-        df = pd.read_csv("database/LM22-signature.csv")
+        df = pd.read_csv(basedir + "database/LM22-signature.csv")
         wt1, l1 = [-1], [list(df['Macrophages_M1'].dropna())]
     if (index == 18 or index == 'LM22-M2'):
-        df = pd.read_csv("database/LM22-signature.csv")
+        df = pd.read_csv(basedir + "database/LM22-signature.csv")
         wt1, l1 = [1], [list(df['Macrophages_M2'].dropna())]
     if (index == 18 or index == 'LM22-M0'):
-        df = pd.read_csv("database/LM22-signature.csv")
+        df = pd.read_csv(basedir + "database/LM22-signature.csv")
         wt1, l1 = [1], [list(df['Macrophages_M0'].dropna())]
     if (index == 19 or index == 'Murray-M1'):        
-        df = pd.read_csv("database/Murray-PMID27813830.txt", sep="\t")
+        df = pd.read_csv(basedir + "database/Murray-PMID27813830.txt", sep="\t")
         wt1, l1 = [-1], [list(df['M1'].dropna())]
         l1 = getGroupsHs(l1)
     if (index == 20 or index == 'Murray-M2'):
-        df = pd.read_csv("database/Murray-PMID27813830.txt", sep="\t")
+        df = pd.read_csv(basedir + "database/Murray-PMID27813830.txt", sep="\t")
         wt1, l1 = [1], [list(df['M2'].dropna())]
         l1 = getGroupsHs(l1)
     if (index == 21 or index == 'DAM 1'):
@@ -1565,7 +1570,7 @@ def figure2e():
     list1 = ['SAM A', 'SAM B', 'SAM i', 'SAM ni', 'DAM', 'LAM', 'ViP']
     res = []
     for j in range(1, 15):
-        k = readGenes(f"node-{j}.txt")
+        k = readGenes(basedir + f"node-{j}.txt")
         v = []
         for i in list1:
             wt1, l1 = getMacSignatures(i)
@@ -1873,9 +1878,9 @@ def MacComparisonTransplantOutcome():
     return df
 
 def figure3p():
-    #wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
-    wt1, l1 = [-1], [readGenes(f"node-{i}.txt") for i in [13]]
-    #wt1, l1 = [1, 2], [readGenes(f"node-{i}.txt") for i in [14, 3]]
+    #wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
+    wt1, l1 = [-1], [readGenes(basedir + f"node-{i}.txt") for i in [13]]
+    #wt1, l1 = [1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [14, 3]]
     pathdesc = "13"
     ta = 1
     ana = MacAnalysis()
@@ -1991,38 +1996,38 @@ def printTestSurvival7(l1, wt1, fthr, ax = None):
     return sax
 
 def figure4a():
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     sax = printTestSurvival(l1, wt1, "thr+thr1")
     return sax
 
 def figure4b():
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     sax = printTestSurvival2(l1, wt1, "thr1")
     return sax
 
 def figure4c():
-    wt1, l1 = [-1], [readGenes(f"node-{i}.txt") for i in [13]]
+    wt1, l1 = [-1], [readGenes(basedir + f"node-{i}.txt") for i in [13]]
     sax = printTestSurvival3(l1, wt1, "thr+thr1")
     return sax
 
 def figure4d():
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     sax = printTestSurvival4(l1, wt1, 0, 1.5, 0)
     sax.set_title("GSE28221")
     return sax
 
 def figure4e():
-    wt1, l1 = [-1], [readGenes(f"node-{i}.txt") for i in [13]]
+    wt1, l1 = [-1], [readGenes(basedir + f"node-{i}.txt") for i in [13]]
     sax = printTestSurvival5(l1, wt1, "thr1")
     return sax
 
 def figure4f():
-    wt1, l1 = [-1], [readGenes(f"node-{i}.txt") for i in [13]]
+    wt1, l1 = [-1], [readGenes(basedir + f"node-{i}.txt") for i in [13]]
     sax = printTestSurvival6(l1, wt1, None)
     return sax
 
 def figure4g():
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     sax = printTestSurvival7(l1, wt1, None)
 
     ana = MacAnalysis()
@@ -2077,9 +2082,9 @@ def figure4():
     closePDF(pdf)
 
 def figure6():
-    wt1, l1 = [-1, 1, 2], [readGenes(f"node-{i}.txt") for i in [13, 14, 3]]
-    wt2, l2 = [-1], [readGenes(f"node-{i}.txt") for i in [13]]
-    wt3, l3 = [1, 2], [readGenes(f"node-{i}.txt") for i in [14, 3]]
+    wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
+    wt2, l2 = [-1], [readGenes(basedir + f"node-{i}.txt") for i in [13]]
+    wt3, l3 = [1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [14, 3]]
     pathdesc = "13-14-3"
     ta = 1
     ana = MacAnalysis()
