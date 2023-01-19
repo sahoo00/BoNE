@@ -2224,6 +2224,15 @@ class IBDAnalysis:
         n1 = np.sum([len(lval[i])for i in range(1, len(lval))])
         return [src, roc, p, len(lval[0]), n1] + annotation
         
+    def getDataset(self, dbid):
+        self.prepareData(dbid)
+        atype = self.h.getSurvName("time")
+        atypes = ['All']
+        atype = [atypes[0] for i in atype]
+        ahash = {}
+        self.initData(atype, atypes, ahash)
+        return
+
     def getSurvival(self, dbid = "CRC35.3"):
         self.prepareData(dbid)
         atype = self.h.getSurvName("status")

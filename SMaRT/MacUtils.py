@@ -2648,6 +2648,15 @@ class MacAnalysis:
         sax = hu.survival(time, status, pG, ax)
         return sax
 
+    def getDataset(self, dbid):
+        self.prepareDataDf(dbid)
+        atype = self.getSurvName("time")
+        atypes = ['All']
+        atype = [atypes[0] for i in atype]
+        ahash = {}
+        self.initData(atype, atypes, ahash)
+        return
+
     def getGEOMacAnn(self):
         self.prepareDataDf("G16")
         atype = self.getSurvName("c Type")
