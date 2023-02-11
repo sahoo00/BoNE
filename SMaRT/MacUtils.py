@@ -2269,11 +2269,12 @@ def figure2f():
 
 
 class MacAnalysis:
-    def __init__(self):
+    def __init__(self, urlbase=urlbase):
         self.state = []
         self.params = {}
         self.start = 2
         self.end = 2
+        self.urlbase = urlbase
         return
     
     def aRange(self):
@@ -2299,13 +2300,13 @@ class MacAnalysis:
               self.source, url + self.dbid, self.dbid)
         return
     
-    def prepareDataDf(self, dbid):
+    def prepareDataDf(self, dbid, urlbase=urlbase):
         self.dbid = dbid
-        self.dataset = hu.getHegemonDataset(self.dbid)
+        self.dataset = hu.getHegemonDataset(self.dbid, urlbase)
         self.num = self.dataset[2]
         self.name = self.dataset[1]
         self.source = self.dataset[3]
-        obj = hu.getHegemonPatientData(self.dbid, 'time')
+        obj = hu.getHegemonPatientData(self.dbid, 'time', urlbase)
         self.headers = obj[0]
         self.hhash = {}
         self.start = 2;
@@ -2329,19 +2330,19 @@ class MacAnalysis:
         return
     
     def getSurvName(self, name):
-        return hu.getHegemonPatientData(self.dbid, name)[1]
+        return hu.getHegemonPatientData(self.dbid, name, self.urlbase)[1]
 
     def getExprData(self, name):
-        return hu.getHegemonData(self.dbid, name, "")[1]
+        return hu.getHegemonData(self.dbid, name, "", self.urlbase)[1]
     
     def orderDataDf(self, gene_groups, weight):
         data_g = []
         data_e = []
         data_t = []
         for k in gene_groups:
-            df_g = hu.getHegemonGeneIDs(self.dbid, k)
-            df_e = hu.getHegemonDataFrame(self.dbid, k, None)
-            df_t = hu.getHegemonThrFrame(self.dbid, k)
+            df_g = hu.getHegemonGeneIDs(self.dbid, k, self.urlbase)
+            df_e = hu.getHegemonDataFrame(self.dbid, k, None, self.urlbase)
+            df_t = hu.getHegemonThrFrame(self.dbid, k, self.urlbase)
             df_e.fillna(0,inplace=True)
             rhash = {}
             for i in range(df_t.shape[0]):
