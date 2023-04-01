@@ -1,0 +1,15 @@
+1 hilo 2
+1 hilo 14
+10 hilo 8
+12 hilo 5
+13 hilo 14
+5 lolo 6
+6 lolo 7
+7 lolo 4
+2 lolo 3
+3 lolo 4
+14 lolo 3
+8 lolo 9
+12 lolo 1
+11 lolo 12
+10 lolo 11

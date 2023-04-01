@@ -46,6 +46,7 @@ except NameError:
     except ImportError:
         from imp import reload  # Python 3.0 - 3.3
 
+basedir = os.path.join(os.getcwd(), os.path.dirname(__file__)) + "/"
 def getRealpath(cfile):
     return os.path.realpath(os.path.join(os.getcwd(), 
         os.path.dirname(__file__), cfile))
@@ -431,11 +432,12 @@ def getRanks2(gene_groups, h):
             t = h.getThrData(id);
             if e[-1] == "":
                 continue
-            v = np.array([float(e[i]) if e[i] != "" else 0 for i in h.aRange()])
+            v = np.array([float(e[i]) if i < len(e) and e[i] != ""
+                else 0 for i in h.aRange()])
             te = []
             sd = np.std(v)
             for i in h.aRange():
-                if (e[i] != ""):
+                if (i < len(e) and e[i] != ""):
                     v1 = (float(e[i]) - t[3]) / 3;
                     if sd > 0:
                         v1 = v1 / sd
@@ -1416,11 +1418,12 @@ def getNBGeneGroups(order = None, weight = None, debug = 1):
 
 def getGeneGroups(order = None, weight = None, debug = 1):
     data_item = []
-    with open('data/path-1.json') as data_file:
+    dir1 = basedir
+    with open(dir1 + 'data/path-1.json') as data_file:
         data_item += json.load(data_file)
-    with open('data/path-2.json') as data_file:
+    with open(dir1 + 'data/path-2.json') as data_file:
         data_item += json.load(data_file)
-    cfile = "data/ibd-network-g-eq-cls-4.txt"
+    cfile = dir1 + "data/ibd-network-g-eq-cls-4.txt"
     if not os.path.isfile(cfile):
         print("Can't open file {0} <br>".format(cfile))
         exit()
@@ -1457,7 +1460,7 @@ def getGeneGroups(order = None, weight = None, debug = 1):
     if weight is None:
         weight = [-3, -2, -1]
     print(weight)
-    genes = readGenes("data/cluster-names.txt")
+    genes = readGenes(dir1 + "data/cluster-names.txt")
     return genes, weight, gene_groups
 
 def getGeneGroups2(order = None, weight = None, debug = 1):
@@ -1468,11 +1471,12 @@ def getGeneGroups2(order = None, weight = None, debug = 1):
     h.initPlatform()
     h.initSurv()
     data_item = []
-    with open('CD/info2/path-1.json') as data_file:
+    dir1 = basedir
+    with open(dir1 + 'CD/info2/path-1.json') as data_file:
         data_item += json.load(data_file)
-    with open('CD/info2/path-2.json') as data_file:
+    with open(dir1 + 'CD/info2/path-2.json') as data_file:
         data_item += json.load(data_file)
-    cfile = "CD/cd-network-2-cls.txt"
+    cfile = dir1 + "CD/cd-network-2-cls.txt"
     if not os.path.isfile(cfile):
         print("Can't open file {0} <br>".format(cfile))
         exit()
@@ -1513,7 +1517,7 @@ def getGeneGroups2(order = None, weight = None, debug = 1):
     if weight is None:
         weight = [-3, -2, -1]
     print(weight)
-    genes = readGenes("cluster-names.txt")
+    genes = readGenes(dir1 + "cluster-names.txt")
     return genes, weight, gene_groups
 
 def getC4genes():

@@ -547,7 +547,7 @@ def saveNodes():
     nx = [0, 1, 4, 5, 6, 8, 9, 10, 16, 17, 19, 20, 21, 25, 28]
     order = range(1, len(nx))
     wt1 = [1]
-    genes, wt1, l1 = getGceneGroups([nx[i] for i in order], wt1)
+    genes, wt1, l1 = getGeneGroups([nx[i] for i in order], wt1)
     for i in range(len(l1)):
         ofh = open(basedir + "node-" + str(i+1) + ".txt", "w")
         for g in l1[i]:
@@ -1071,6 +1071,54 @@ def plotM1M2(order, wt1, ax, desc):
     nx = [0, 1, 4, 5, 6, 8, 9, 10, 16, 17, 19, 20, 21, 25, 28]
     genes, wt1, l1 = getGeneGroups([nx[i] for i in order], wt1)
     plotM1M2list(l1, wt1, ax, desc)
+
+def computeROCAUC(order, wt1):
+    nx = [0, 1, 4, 5, 6, 8, 9, 10, 16, 17, 19, 20, 21, 25, 28]
+    genes, wt1, l1 = getGeneGroups([nx[i] for i in order], wt1)
+    ana = MacAnalysis()
+    ana.getGEOMacAnn()
+    ana.orderDataDf(l1, wt1)
+    res = ana.getMacMetrics(ana.cval[0])
+    return res
+
+def machineLearning():
+    cfile = basedir + 'graph.txt'
+    fp = open(cfile, "r")
+    nodes = {}
+    edges = {}
+    for line in fp:
+        line = line.strip();
+        ll = line.split(" ");
+        ll[0] = int(ll[0])
+        ll[2] = int(ll[2])
+        nodes[ll[0]] = 1
+        nodes[ll[2]] = 1
+        if ll[0] not in edges:
+            edges[ll[0]] = {}
+        if ll[1] not in edges[ll[0]]:
+            edges[ll[0]][ll[1]] = {}
+        edges[ll[0]][ll[1]][ll[2]] = 1
+    fp.close();
+    res = []
+    for k in edges:
+        if "hilo" in edges[k]:
+            for l in edges[k]['hilo']:
+                res += [[k, l]]
+    res2 = []
+    for k in res:
+        if k[1] in edges and "lolo" in edges[k[1]]:
+            for l in edges[k[1]]['lolo']:
+                res2 += [ [[-1, 1, 2], [k[0], k[1], l]] ]
+        if k[0] in edges and "lolo" in edges[k[0]]:
+            for l in edges[k[0]]['lolo']:
+                res2 += [ [[-2, -1, 1], [l, k[0], k[1]]] ]
+    for i in range(len(res2)):
+        k = res2[i]
+        res2[i] += [computeROCAUC(k[1], k[0])]
+        print(res2[i])
+    res3 = max(res2, key=lambda k: float(k[2][1]) * float(k[2][2]))
+    return res3, res2
+
 
 def trainingAlgorithm():
     fig = plt.figure(figsize=(5,7), dpi=100)
