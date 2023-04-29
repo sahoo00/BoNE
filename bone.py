@@ -350,17 +350,17 @@ def printReport(actual, predicted, score, target_names):
     return ax
 
 def convertScore(mylist):
-    hs = dict()
+    hs = {}
     for x in mylist:
         if (x not in hs):
             hs[x] = 1
         else:
             hs[x] += 1
-    keys = hs.keys()
-    values = [0] + list(np.cumsum(hs.values()))
+    keys = list(hs.keys())
+    values = [0] + list(np.cumsum(list(hs.values())))
     for i in range(len(keys)):
         hs[keys[i]] = values[i]
-    hh = dict()
+    hh = {}
     res = []
     for x in mylist:
         if (x not in hh):
@@ -1292,6 +1292,17 @@ def getGroupsHs(gene_groups):
             if g not in mmdict:
                 mmdict[g] = []
             mmdict[g] += [ll[2]]
+    fp.close();
+    cfile = getRealpath("data/custom-hs-mm.txt")
+    fp = open(cfile, "r")
+    for line in fp:
+        line = line.strip();
+        ll = re.split("\t", line);
+        if len(ll) > 3 and ll[2] != '' and ll[3] != '':
+            g = ll[2]
+            if g not in mmdict:
+                mmdict[g] = []
+            mmdict[g] += [ll[3]]
     fp.close();
 
     gene_groups_hs = []
@@ -3782,13 +3793,13 @@ class BIGraph:
                 print (g)
                 continue
             list1 += [id1]
-        idlist = bone.getEntries(cfile, 0)
+        idlist = getEntries(cfile, 0)
         idhash = {}
         for i in range(len(idlist)):
             idhash[idlist[i]] = i
         order = [idhash[k] for k in list1]
-        pval = [float(i) for i in bone.getEntries(cfile, 3)]
-        fc = [float(i) for i in bone.getEntries(cfile, 4)]
+        pval = [float(i) for i in getEntries(cfile, 3)]
+        fc = [float(i) for i in getEntries(cfile, 4)]
         c = ["black" for i in fc]
         df = pd.DataFrame()
         df["-log10(p)"] = -np.log10(pval)

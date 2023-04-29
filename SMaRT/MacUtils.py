@@ -1081,7 +1081,7 @@ def computeROCAUC(order, wt1):
     res = ana.getMacMetrics(ana.cval[0])
     return res
 
-def machineLearning():
+def learningAlgorithm():
     cfile = basedir + 'graph.txt'
     fp = open(cfile, "r")
     nodes = {}
