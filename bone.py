@@ -72,8 +72,6 @@ def reactome(idlist):
     return df
 
 def getPDF(cfile):
-    import bone
-    reload(bone)
     from matplotlib.backends.backend_pdf import PdfPages
 
     pdf = PdfPages(cfile)
@@ -1475,7 +1473,6 @@ def getGeneGroups(order = None, weight = None, debug = 1):
     return genes, weight, gene_groups
 
 def getGeneGroups2(order = None, weight = None, debug = 1):
-    reload(hu)
     db = hu.Database("/booleanfs2/sahoo/Hegemon/explore.conf")
     h = hu.Hegemon(db.getDataset("PLP11"))
     h.init()
