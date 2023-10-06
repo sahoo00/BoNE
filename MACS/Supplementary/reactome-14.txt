@@ -1,0 +1,101 @@
+name	pValue	fdr
+Constitutive Signaling by Aberrant PI3K in Cancer	0.000942217979181	0.265485192229
+Signaling by FGFR1 amplification mutants	0.00158973168999	0.265485192229
+TRKA activation by NGF	0.00158973168999	0.265485192229
+PI3K/AKT Signaling in Cancer	0.00336598717442	0.407230665717
+PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling	0.00407230665717	0.407230665717
+Negative regulation of the PI3K/AKT network	0.00542276607593	0.434768233106
+Activation of TRKA receptors	0.00612349624094	0.434768233106
+Circadian Clock	0.00776102027669	0.481183257155
+FGFR1 mutant receptor activation	0.0107202536505	0.522497275649
+Defective pro-SFTPB causes SMDP1 and RDS	0.0114598932843	0.522497275649
+Signaling by activated point mutants of FGFR1	0.013270071377	0.522497275649
+Retrograde neurotrophin signalling	0.0186847422821	0.522497275649
+Signaling by FGFR1 in disease	0.0195692106593	0.522497275649
+Cell-extracellular matrix interactions	0.0206635952932	0.522497275649
+Prolonged ERK activation events	0.0227257557222	0.522497275649
+TFAP2 (AP-2) family regulates transcription of growth factors and their receptors	0.0248690770907	0.522497275649
+Phospholipase C-mediated cascade: FGFR1	0.0270914506877	0.522497275649
+FGFR1 ligand binding and activation	0.0293908049947	0.522497275649
+Neurexins and neuroligins	0.0328136864392	0.522497275649
+Zygotic genome activation (ZGA)	0.0367305830048	0.522497275649
+PI-3K cascade:FGFR1	0.0419723166198	0.522497275649
+Neurophilin interactions with VEGF and VEGFR	0.0450619021644	0.522497275649
+Activation of HOX genes during differentiation	0.0462150663519	0.522497275649
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	0.0462150663519	0.522497275649
+SHC-mediated cascade:FGFR1	0.0474752892239	0.522497275649
+Heme signaling	0.0480086585792	0.522497275649
+FRS-mediated FGFR1 signaling	0.0503201939351	0.522497275649
+Laminin interactions	0.0503201939351	0.522497275649
+PLC-gamma1 signalling	0.0560082257132	0.522497275649
+Signaling by plasma membrane FGFR1 fusions	0.0560082257132	0.522497275649
+Signalling to STAT3	0.0560082257132	0.522497275649
+NR1D1 (REV-ERBA) represses gene expression	0.0560082257132	0.522497275649
+Tachykinin receptors bind tachykinins	0.0560082257132	0.522497275649
+Signaling by FGFR in disease	0.0699952763628	0.522497275649
+Negative regulation of FGFR1 signaling	0.0750951502792	0.522497275649
+FGFR1c and Klotho ligand binding and activation	0.0775279609797	0.522497275649
+NrCAM interactions	0.0775279609797	0.522497275649
+Downstream signaling of activated FGFR1	0.0852034964275	0.522497275649
+Signalling to ERKs	0.0852034964275	0.522497275649
+NGF-independant TRKA activation	0.0881041853669	0.522497275649
+Signalling to p38 via RIT and RIN	0.0881041853669	0.522497275649
+Nef Mediated CD8 Down-regulation	0.0881041853669	0.522497275649
+Defective CSF2RA causes SMDP4	0.0881041853669	0.522497275649
+Defective CSF2RB causes SMDP5	0.0881041853669	0.522497275649
+VEGF ligand-receptor interactions	0.0881041853669	0.522497275649
+VEGF binds to VEGFR leading to receptor dimerization	0.0881041853669	0.522497275649
+Epithelial-Mesenchymal Transition (EMT) during gastrulation	0.0881041853669	0.522497275649
+TYSND1 cleaves peroxisomal proteins	0.0881041853669	0.522497275649
+BMAL1:CLOCK,NPAS2 activates circadian gene expression	0.0886599549422	0.522497275649
+Protein-protein interactions at synapses	0.0934324394104	0.522497275649
+Defective CHST14 causes EDS, musculocontractural type	0.0985598296479	0.522497275649
+Defective CHST3 causes SEDCJD	0.0985598296479	0.522497275649
+RUNX1 regulates transcription of genes involved in WNT signaling	0.0985598296479	0.522497275649
+Abacavir transmembrane transport	0.0985598296479	0.522497275649
+ChREBP activates metabolic gene expression	0.0985598296479	0.522497275649
+RHOA GTPase cycle	0.103739991767	0.522497275649
+RUNX1 regulates estrogen receptor mediated transcription	0.108896260841	0.522497275649
+Defective CHSY1 causes TPBS	0.108896260841	0.522497275649
+Nef Mediated CD4 Down-regulation	0.108896260841	0.522497275649
+Attachment of GPI anchor to uPAR	0.108896260841	0.522497275649
+Ca2+ activated K+ channels	0.108896260841	0.522497275649
+FGFR1b ligand binding and activation	0.119114830553	0.522497275649
+Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2	0.119114830553	0.522497275649
+Surfactant metabolism	0.121458364335	0.522497275649
+Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors	0.121458364335	0.522497275649
+ARMS-mediated activation	0.129216875154	0.522497275649
+Regulation of commissural axon pathfinding by SLIT and ROBO	0.129216875154	0.522497275649
+Extra-nuclear estrogen signaling	0.137561557179	0.522497275649
+Dermatan sulfate biosynthesis	0.139203715948	0.522497275649
+PI3K/AKT activation	0.139203715948	0.522497275649
+WNT5A-dependent internalization of FZD2, FZD5 and ROR2	0.139203715948	0.522497275649
+Metal sequestration by antimicrobial proteins	0.139203715948	0.522497275649
+Regulation of CDH11 function	0.139203715948	0.522497275649
+Chemokine receptors bind chemokines	0.140774012853	0.522497275649
+PI3K Cascade	0.144713462555	0.522497275649
+G alpha (z) signalling events	0.164734265135	0.522497275649
+VLDLR internalisation and degradation	0.168486006048	0.522497275649
+Diseases associated with surfactant metabolism	0.168486006048	0.522497275649
+SUMOylation of DNA methylation proteins	0.168486006048	0.522497275649
+Signaling by FGFR1	0.168796179627	0.522497275649
+NRAGE signals death through JNK	0.168796179627	0.522497275649
+PIP3 activates AKT signaling	0.169552620299	0.522497275649
+IRS-mediated signalling	0.172875118274	0.522497275649
+FGFR1c ligand binding and activation	0.17802494918	0.522497275649
+Frs2-mediated activation	0.17802494918	0.522497275649
+Mtb iron assimilation by chelation	0.17802494918	0.522497275649
+TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway	0.17802494918	0.522497275649
+Cell junction organization	0.178702721742	0.522497275649
+Signaling by Receptor Tyrosine Kinases	0.186689032374	0.522497275649
+Transport of fatty acids	0.187455074865	0.522497275649
+cGMP effects	0.187455074865	0.522497275649
+Biosynthesis of protectins	0.187455074865	0.522497275649
+IRS-related events triggered by IGF1R	0.18934306461	0.522497275649
+L1CAM interactions	0.190198403419	0.522497275649
+NCAM signaling for neurite out-growth	0.193493745805	0.522497275649
+DCC mediated attractive signaling	0.196777617486	0.522497275649
+Lysosphingolipid and LPA receptors	0.196777617486	0.522497275649
+Biotin transport and metabolism	0.196777617486	0.522497275649
+Activation of gene expression by SREBF (SREBP)	0.197656225514	0.522497275649
+IGF1R signaling cascade	0.201829694268	0.522497275649

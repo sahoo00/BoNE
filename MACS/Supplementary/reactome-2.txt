@@ -1,0 +1,101 @@
+name	pValue	fdr
+Regulation of gene expression by Hypoxia-inducible Factor	0.000942797982493	0.407288728437
+Drug ADME	0.00340316029894	0.423567492865
+TYSND1 cleaves peroxisomal proteins	0.00465937871111	0.423567492865
+Carnitine metabolism	0.00544696916447	0.423567492865
+NR1H2 & NR1H3 regulate gene expression linked to gluconeogenesis 	0.00716222044721	0.423567492865
+Paracetamol ADME	0.00844654445782	0.423567492865
+MAPK1 (ERK2) activation	0.0101466848216	0.423567492865
+NFE2L2 regulating MDR associated enzymes	0.0101466848216	0.423567492865
+MAPK3 (ERK1) activation	0.0118116556452	0.423567492865
+Bicarbonate transporters	0.0135877061148	0.423567492865
+Reduction of cytosolic Ca++ levels	0.015471848589	0.423567492865
+Ion channel transport	0.0164536323538	0.423567492865
+Neutrophil degranulation	0.0178440508338	0.423567492865
+Stimuli-sensing channels	0.018129763207	0.423567492865
+Interleukin-6 signaling	0.0195527401522	0.423567492865
+Reversible hydration of carbon dioxide	0.0195527401522	0.423567492865
+TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	0.0240315409649	0.423567492865
+Other semaphorin interactions	0.0240315409649	0.423567492865
+Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4	0.0246964393134	0.423567492865
+Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4	0.0246964393134	0.423567492865
+Class I peroxisomal membrane protein import	0.0264132712963	0.423567492865
+Apoptotic execution phase	0.030915236834	0.423567492865
+Evasion of Oncogene Induced Senescence Due to p16INK4A Defects	0.0368161674069	0.423567492865
+Evasion of Oxidative Stress Induced Senescence Due to p16INK4A Defects	0.0368161674069	0.423567492865
+Defective SLC20A2 causes idiopathic basal ganglia calcification 1 (IBGC1)	0.0368161674069	0.423567492865
+Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	0.0368161674069	0.423567492865
+Defective SLC22A5 causes systemic primary carnitine deficiency (CDSP)	0.0368161674069	0.423567492865
+Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	0.0368161674069	0.423567492865
+Defective SLC4A4 causes renal tubular acidosis, proximal, with ocular abnormalities and mental retardation (pRTA-OA)	0.0368161674069	0.423567492865
+Cardiac conduction	0.0384216374189	0.423567492865
+Ion homeostasis	0.0470843386626	0.423567492865
+Digestion	0.0470843386626	0.423567492865
+Signaling by TGF-beta Receptor Complex	0.0476566715216	0.423567492865
+RAF-independent MAPK1/3 activation	0.048541433289	0.423567492865
+Diseases of Cellular Senescence	0.0487860629334	0.423567492865
+Diseases of cellular response to stress	0.0487860629334	0.423567492865
+Synthesis of PA	0.0488906137129	0.423567492865
+Peroxisomal protein import	0.052603598675	0.423567492865
+Interleukin-6 family signaling	0.0548383713432	0.423567492865
+Transport of inorganic cations/anions and amino acids/oligopeptides	0.0599062081178	0.423567492865
+Cytosolic sulfonation of small molecules	0.0604239477895	0.423567492865
+Digestion and absorption	0.0604239477895	0.423567492865
+Abacavir ADME	0.0614048072143	0.423567492865
+Ion transport by P-type ATPases	0.0624595623718	0.423567492865
+Sensory processing of sound by inner hair cells of the cochlea	0.0709150758313	0.423567492865
+Platelet calcium homeostasis	0.0717227715165	0.423567492865
+Proton-coupled neutral amino acid transporters	0.0722837047651	0.423567492865
+Muscle contraction	0.07272217002	0.423567492865
+RHO GTPases activate IQGAPs	0.0752788516899	0.423567492865
+Apoptotic cleavage of cellular proteins	0.0825544462684	0.423567492865
+Beta-oxidation of very long chain fatty acids	0.0825544462684	0.423567492865
+PTK6 Activates STAT3	0.08381506922	0.423567492865
+SMAC(DIABLO)-mediated dissociation of IAP:caspase complexes 	0.08381506922	0.423567492865
+Sodium-coupled phosphate cotransporters	0.08381506922	0.423567492865
+SMAC (DIABLO) binds to IAPs 	0.08381506922	0.423567492865
+NrCAM interactions	0.08381506922	0.423567492865
+Cellular response to hypoxia	0.0941289682279	0.423567492865
+Defective NEU1 causes sialidosis	0.095203837953	0.423567492865
+Activation of caspases through apoptosome-mediated cleavage	0.095203837953	0.423567492865
+Sensory perception of salty taste	0.095203837953	0.423567492865
+SMAC, XIAP-regulated apoptotic response	0.095203837953	0.423567492865
+Signaling by TGFB family members	0.0961365317732	0.423567492865
+Sensory processing of sound	0.0966036964468	0.423567492865
+Oncogene Induced Senescence	0.0977074544708	0.423567492865
+Senescence-Associated Secretory Phenotype (SASP)	0.104184759133	0.423567492865
+SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	0.105556533531	0.423567492865
+Abacavir transmembrane transport	0.10645176517	0.423567492865
+alpha-linolenic acid (ALA) metabolism	0.109543300319	0.423567492865
+Transcriptional regulation of pluripotent stem cells	0.109543300319	0.423567492865
+PTK6 Expression	0.117560583611	0.423567492865
+Assembly and cell surface presentation of NMDA receptors	0.125867967449	0.423567492865
+FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes	0.125867967449	0.423567492865
+Alpha-defensins	0.128532004805	0.423567492865
+MTOR signalling	0.130035880532	0.423567492865
+G1 Phase	0.138465530756	0.423567492865
+Cyclin D associated events in G1	0.138465530756	0.423567492865
+Caspase-mediated cleavage of cytoskeletal proteins	0.139367719337	0.423567492865
+HuR (ELAVL1) binds and stabilizes mRNA	0.139367719337	0.423567492865
+Butyrophilin (BTN) family interactions	0.139367719337	0.423567492865
+Biological oxidations	0.149730207052	0.423567492865
+Activation of Ca-permeable Kainate Receptor	0.150069397097	0.423567492865
+Formation of the active cofactor, UDP-glucuronate	0.150069397097	0.423567492865
+Apoptosis induced DNA fragmentation	0.150069397097	0.423567492865
+Pexophagy	0.150069397097	0.423567492865
+alpha-linolenic (omega3) and linoleic (omega6) acid metabolism	0.151323699648	0.423567492865
+Pyruvate metabolism	0.160022727441	0.423567492865
+RHOD GTPase cycle	0.160022727441	0.423567492865
+Ionotropic activity of kainate receptors	0.160638687534	0.423567492865
+Protein localization	0.165252069965	0.423567492865
+Sodium/Calcium exchangers	0.171077219902	0.423567492865
+Uptake of dietary cobalamins into enterocytes	0.171077219902	0.423567492865
+Cytochrome c-mediated apoptotic response	0.171077219902	0.423567492865
+Neurexins and neuroligins	0.173236396637	0.423567492865
+Post-translational modification: synthesis of GPI-anchored proteins	0.175183571115	0.423567492865
+Erythrocytes take up oxygen and release carbon dioxide	0.181386603512	0.423567492865
+Sensory processing of sound by outer hair cells of the cochlea	0.19111322042	0.423567492865
+Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	0.19111322042	0.423567492865
+Formation of Senescence-Associated Heterochromatin Foci (SAHF)	0.191568427969	0.423567492865
+CRMPs in Sema3A signaling	0.201624263415	0.423567492865
+Beta oxidation of hexanoyl-CoA to butanoyl-CoA	0.201624263415	0.423567492865

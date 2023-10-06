@@ -1,0 +1,120 @@
+#!/bin/bash
+
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jre1.8.0_25"
+export JAVA_HOME="/booleanfs/sahoo/softwares/java/jdk1.8.0_45"
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH="/booleanfs/sahoo/softwares/BooleanNet/dist/lib/tools.jar"
+stepminer="java -cp $CLASSPATH -Xms64m -Xmx10G tools.CustomAnalysis"
+stepminer1="java -cp $CLASSPATH -Xms64m -Xmx10G tools.Analyze"
+export PERL_HASH_SEED=0
+
+
+# Download data
+#perl -I .. ../analyze.pl data-download PLP33 colon-noad
+#perl -I .. ../analyze.pl toidx colon-noad-expr.txt > colon-noad-idx.txt
+#perl -I .. ../analyze.pl toih colon-noad-expr.txt > colon-noad-ih.txt
+#perl -I .. ../analyze.pl thr colon-noad-expr.txt 2 70000 0.5 > colon-noad-thr.txt
+#perl -I .. ../analyze.pl Info colon-noad > colon-noad-info.txt
+#perl -I .. ../analyze.pl VInfo colon-noad > colon-noad-vinfo.txt
+#perl -I .. ../analyze.pl bv colon-noad > colon-noad-bv.txt
+
+
+FILE=colon-network
+#rm -f $FILE.rl
+#${stepminer}
+#${stepminer} boolean bitMatrix $FILE.rl \
+# colon-noad-bv.txt \
+# $FILE.ph All 0.1 3 0.05
+#cp $FILE.rl $FILE-1.rl
+#${stepminer} boolean bitMatrixFill $FILE-1.rl
+#${stepminer} boolean bitMatrixFillStats $FILE-1.rl
+#${stepminer} boolean bitMatrixPrint $FILE-1.rl > $FILE-res.txt
+#${stepminer} boolean bitMatrixPrintStats $FILE-1.rl > $FILE-stats.txt
+
+#perl analyze.pl network eq > colon-network-eq.txt
+#perl analyze.pl network cls > colon-network-cls.txt
+#perl analyze.pl network g-cls > colon-network-eq-g.txt
+#perl analyze.pl network state > colon-network-state.txt
+cp colon-network-cls.txt Supplementary/colon-network-clusters.txt
+cp colon-network-eq-g.txt Supplementary/colon-network-graph.txt 
+
+perl analyze.pl network genes > Supplementary/path-1.json
+perl analyze.pl network genes THEG GNAO1 C1orf165 CD19 CD19 > Supplementary/path-2.json
+perl analyze.pl network genes PRKAA2 GIMAP8 EDN3 > Supplementary/path-3.json
+perl analyze.pl network genes CD19  KIAA1881  LOC126661 ZNF611 ANAPC10 > Supplementary/path-4.json
+perl analyze.pl network genes ZNF611 MBNL2 > Supplementary/path-5.json
+perl analyze.pl network genes KRAS > Supplementary/path-6.json
+perl analyze.pl network genes BRAF BRAF TACSTD2 > Supplementary/path-7.json
+perl analyze.pl network genes \
+  PRKAA2 CCDC88A CA1 CA1 MS4A12 SLC26A3 CLDN2 \
+  KIAA1199 LGR5 IL8 > Supplementary/path-8.json
+
+python node.py -i Supplementary/path-8.json -n 3 > Supplementary/node-1.txt
+python node.py -i Supplementary/path-8.json -n 2 > Supplementary/node-2.txt
+python node.py -i Supplementary/path-8.json -n 1 > Supplementary/node-3.txt
+python node.py -i Supplementary/path-8.json -n -1 > Supplementary/node-4.txt
+python node.py -i Supplementary/path-8.json -n -2 > Supplementary/node-5.txt
+python node.py -i Supplementary/path-1.json -n 1 > Supplementary/node-6.txt
+python node.py -i Supplementary/path-1.json -n -1 > Supplementary/node-7.txt
+python node.py -i Supplementary/path-1.json -n -2 > Supplementary/node-8.txt
+python node.py -i Supplementary/path-1.json -n -3 > Supplementary/node-9.txt
+python node.py -i Supplementary/path-2.json -n -3 > Supplementary/node-10.txt
+python node.py -i Supplementary/path-2.json -n -2 > Supplementary/node-11.txt
+python node.py -i Supplementary/path-2.json -n -1 > Supplementary/node-12.txt
+python node.py -i Supplementary/path-2.json -n 1 > Supplementary/node-13.txt
+python node.py -i Supplementary/path-4.json -n -1 > Supplementary/node-14.txt
+python node.py -i Supplementary/path-4.json -n 1 > Supplementary/node-15.txt
+
+for i in Supplementary/node-*.txt
+do
+    echo $i
+    D=${i/node/reactome}
+    python reactome.py -i $i > $D
+done
+
+perl analyze.pl network genes EVI2A TRPM6 > Supplementary/path-1.json
+perl analyze.pl network genes EVI2A TRPM6 GALNT6  IL8 > Supplementary/path-2.json
+perl analyze.pl network genes RPA1 TRPM6 GALNT6 IL8 > Supplementary/path-3.json
+perl analyze.pl network genes ANKIB1 CDCA5 GALNT6 > Supplementary/path-4.json
+perl analyze.pl network genes RPA1 GALNT6 IL8 > Supplementary/path-5.json
+perl analyze.pl network genes ANKIB1 BRAF> Supplementary/path-6.json
+perl analyze.pl network genes KRAS> Supplementary/path-7.json
+# plot KRAS RPA1 and GANAB
+perl analyze.pl network genes ANKIB1 CDCA5> Supplementary/path-8.json
+
+perl analyze.pl network genes \
+  PRKAA2 CHGA CCDC88A KIAA1199 MS4A12 SLC26A3 \
+  CA1 CLDN2 CEMIP LGR5 IL8 > Supplementary/path-9.json
+
+#EVI2A TRPM6 GALNT6 IL8 RPA1 C3AR1 GANAB CDCA5 ANKIB1
+
+#EVI2A
+python node.py -i Supplementary/path-2.json -n -2 > Supplementary/node-1.txt
+#TRPM6
+python node.py -i Supplementary/path-2.json -n -1 > Supplementary/node-2.txt
+#GALNT6
+python node.py -i Supplementary/path-2.json -n 1 > Supplementary/node-3.txt
+#IL8
+python node.py -i Supplementary/path-2.json -n 3 > Supplementary/node-4.txt
+#RPA1 C3AR1
+python node.py -i Supplementary/path-3.json -n -3 > Supplementary/node-5.txt
+#GANAB
+python node.py -i Supplementary/path-6.json -n 1 > Supplementary/node-6.txt
+#CDCA5
+python node.py -i Supplementary/path-8.json -n -1 > Supplementary/node-7.txt
+#ANKIB1
+python node.py -i Supplementary/path-6.json -n -1 > Supplementary/node-8.txt
+
+python reactome.py -i Supplementary/node-1.txt > Supplementary/reactome-1.txt
+python reactome.py -i Supplementary/node-2.txt > Supplementary/reactome-2.txt
+python reactome.py -i Supplementary/node-3.txt > Supplementary/reactome-3.txt
+python reactome.py -i Supplementary/node-4.txt > Supplementary/reactome-4.txt
+python reactome.py -i Supplementary/node-5.txt > Supplementary/reactome-5.txt
+python reactome.py -i Supplementary/node-6.txt > Supplementary/reactome-6.txt
+python reactome.py -i Supplementary/node-7.txt > Supplementary/reactome-7.txt
+python reactome.py -i Supplementary/node-8.txt > Supplementary/reactome-8.txt
+
+python rank.py | sort -n -k 3 > Supplementary/c4-ranks.txt
+
+perl analyze.pl surv-1 > Supplementary/surv-1-res.txt 2>&1
+

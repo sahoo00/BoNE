@@ -1,0 +1,101 @@
+name	pValue	fdr
+Cell Cycle	1.11022302463e-16	5.6399329651e-14
+Cell Cycle, Mitotic	1.11022302463e-16	5.6399329651e-14
+Mitotic Prometaphase	4.10782519111e-15	1.3884449146e-12
+M Phase	2.89834822809e-12	7.36180449934e-10
+Cell Cycle Checkpoints	4.17366141647e-12	8.47253267544e-10
+Mitotic Spindle Checkpoint	8.02262700716e-11	1.35582396421e-08
+Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal	1.40609746069e-10	1.78574377507e-08
+Amplification of signal from the kinetochores	1.40609746069e-10	1.78574377507e-08
+EML4 and NUDC in mitotic spindle formation	2.20835827403e-09	2.47336126691e-07
+Resolution of Sister Chromatid Cohesion	2.78021972111e-09	2.80802191832e-07
+Separation of Sister Chromatids	1.06102427955e-08	9.04714338112e-07
+Mitotic Metaphase and Anaphase	1.07704087871e-08	9.04714338112e-07
+Mitotic Anaphase	3.46588997502e-08	2.70339418051e-06
+RHO GTPases Activate Formins	8.28044603995e-08	5.96192114877e-06
+AURKA Activation by TPX2	2.03705343926e-07	1.36482580431e-05
+Transcriptional Regulation by E2F6	1.80249345849e-06	0.000113557087885
+DNA strand elongation	2.29793312656e-06	0.000128684255087
+Activation of ATR in response to replication stress	2.88310798136e-06	0.000152804723012
+Unwinding of DNA	7.32063788855e-06	0.000351390618651
+Mitotic G2-G2/M phases	8.61532434138e-06	0.000396304919703
+Homologous DNA Pairing and Strand Exchange	9.9015929258e-06	0.000435670088735
+Recruitment of mitotic centrosome proteins and complexes	1.54917018858e-05	0.000650651479202
+Chromosome Maintenance	1.84817554113e-05	0.000716404402473
+Loss of proteins required for interphase microtubule organization from the centrosome	1.98654357098e-05	0.000716404402473
+Loss of Nlp from mitotic centrosomes	1.98654357098e-05	0.000716404402473
+Centrosome maturation	1.99001222909e-05	0.000716404402473
+G2/M Transition	2.26913587225e-05	0.000794197555286
+HDR through Homologous Recombination (HRR)	2.59451934139e-05	0.000856191382659
+TP53 Regulates Transcription of DNA Repair Genes	2.85700550342e-05	0.00087149666236
+Anchoring of the basal body to the plasma membrane	2.92404861464e-05	0.00087149666236
+Diseases of DNA Double-Strand Break Repair	3.00516090469e-05	0.00087149666236
+Defective homologous recombination repair (HRR) due to BRCA2 loss of function	3.00516090469e-05	0.00087149666236
+Impaired BRCA2 binding to PALB2	4.00213912737e-05	0.00116062034694
+RHO GTPase Effectors	5.01635517093e-05	0.00123827277891
+Synthesis of DNA	5.03471607661e-05	0.00123827277891
+Defective homologous recombination repair (HRR) due to PALB2 loss of function	5.15946991212e-05	0.00123827277891
+Defective homologous recombination repair (HRR) due to BRCA1 loss of function	5.15946991212e-05	0.00123827277891
+Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA2/RAD51/RAD51C binding function	5.15946991212e-05	0.00123827277891
+Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA1 binding function	5.15946991212e-05	0.00123827277891
+Regulation of PLK1 Activity at G2/M Transition	5.62251203666e-05	0.00129317776843
+Activation of the pre-replicative complex	7.58777430182e-05	0.0016693103464
+DNA Replication	8.31684760876e-05	0.00182970647393
+Recruitment of NuMA to mitotic centrosomes	9.47360774531e-05	0.00198945762652
+Cilium Assembly	0.000153989961326	0.00323378918784
+S Phase	0.000179776338232	0.00359552676463
+Transcriptional Regulation by TP53	0.000189897557775	0.00365373738193
+Polymerase switching on the C-strand of the telomere	0.00019230196747	0.00365373738193
+Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)	0.00019230196747	0.00365373738193
+G1/S Transition	0.000212776641388	0.00386685307212
+Presynaptic phase of homologous DNA pairing and strand exchange	0.000214825170674	0.00386685307212
+Diseases of DNA repair	0.000235083400641	0.00423150121154
+G1/S-Specific Transcription	0.000251146358273	0.00452063444891
+Protein localization	0.00028651293034	0.00487071981579
+HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)	0.00029705398496	0.00504991774432
+Mitotic G1 phase and G1/S transition	0.000371995614078	0.00632392543933
+Homology Directed Repair	0.000471494765103	0.00754391624166
+Resolution of D-loop Structures through Holliday Junction Intermediates	0.000548995399239	0.00878392638783
+Resolution of D-Loop Structures	0.000641141251144	0.0102582600183
+Major pathway of rRNA processing in the nucleolus and cytosol	0.000917675814083	0.0143910715669
+rRNA processing in the nucleus and cytosol	0.000959404771129	0.0143910715669
+Nucleosome assembly	0.000971927162353	0.0145789074353
+Deposition of new CENPA-containing nucleosomes at the centromere	0.000971927162353	0.0145789074353
+Regulation of TP53 Activity through Phosphorylation	0.00104757535596	0.0150754738647
+Extension of Telomeres	0.00107681956176	0.0150754738647
+Peroxisomal protein import	0.00107681956176	0.0150754738647
+DNA Repair	0.00128167117474	0.0179433964464
+Resolution of AP sites via the multiple-nucleotide patch replacement pathway	0.00141372768562	0.0197921875987
+rRNA modification in the nucleus and cytosol	0.001595617801	0.022338649214
+PCNA-Dependent Long Patch Base Excision Repair	0.00186100381923	0.02419304965
+Polo-like kinase mediated events	0.00186100381923	0.02419304965
+G2/M Checkpoints	0.00215163358923	0.02797123666
+Impaired BRCA2 binding to RAD51	0.00220654420655	0.0286850746852
+Resolution of Abasic Sites (AP sites)	0.00240286264108	0.031237214334
+Defective DNA double strand break response due to BARD1 loss of function	0.00262747501799	0.0315297002159
+Defective DNA double strand break response due to BRCA1 loss of function	0.00262747501799	0.0315297002159
+Telomere C-strand (Lagging Strand) Synthesis	0.00269039749472	0.0322847699367
+rRNA processing	0.00276907320387	0.0332288784465
+APC-Cdc20 mediated degradation of Nek2A	0.00313931729863	0.035576824205
+Leading Strand Synthesis	0.00323425674591	0.035576824205
+Polymerase switching	0.00323425674591	0.035576824205
+TP53 Regulates Transcription of Cell Cycle Genes	0.00339739610596	0.0373713571655
+HDR through Single Strand Annealing (SSA)	0.00373498267768	0.0410848094545
+DNA Double-Strand Break Repair	0.00510690762033	0.0561759838236
+Recognition of DNA damage by PCNA-containing replication complex	0.00569602327457	0.0626562560203
+Class I peroxisomal membrane protein import	0.00703492592891	0.0703492592891
+TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest	0.00703492592891	0.0703492592891
+Epigenetic regulation of gene expression	0.00785289797576	0.0755602505229
+Telomere Maintenance	0.00810563036958	0.0755602505229
+Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components	0.00830846576322	0.0755602505229
+Inactivation of APC/C via direct inhibition of the APC/C complex	0.00830846576322	0.0755602505229
+Regulation of mitotic cell cycle	0.00839558339143	0.0755602505229
+APC/C-mediated degradation of cell cycle proteins	0.00839558339143	0.0755602505229
+Organelle biogenesis and maintenance	0.00890126485558	0.0801113837002
+Gene expression (Transcription)	0.0123427961582	0.111085165424
+Kinesins	0.0147701069362	0.132930962426
+Lagging Strand Synthesis	0.0169168840306	0.152251956275
+Gap-filling DNA repair synthesis and ligation in GG-NER	0.0191201830882	0.172081647794
+Processing of DNA double-strand break ends	0.0197279043939	0.177551139545
+FBXW7 Mutants and NOTCH1 in Cancer	0.0214485777958	0.193037200162
+Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling	0.0214485777958	0.193037200162

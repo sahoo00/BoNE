@@ -1,0 +1,101 @@
+name	pValue	fdr
+G1/S-Specific Transcription	0.000317841900889	0.203135935684
+Defective F8 sulfation at Y1699	0.0013827595945	0.203135935684
+SARS-CoV-2 modulates host translation machinery	0.00161485975646	0.203135935684
+rRNA processing in the nucleus and cytosol	0.00211470266458	0.203135935684
+Gap-filling DNA repair synthesis and ligation in TC-NER	0.00211489959513	0.203135935684
+Metabolism of RNA	0.00225668135887	0.203135935684
+Dual incision in TC-NER	0.00240336805813	0.203135935684
+Transcription of E2F targets under negative control by p107 (RBL1) and p130 (RBL2) in complex with HDAC1	0.00260430686775	0.203135935684
+Phosphorylation of the APC/C	0.00260430686775	0.203135935684
+Major pathway of rRNA processing in the nucleolus and cytosol	0.00432118546762	0.254513524462
+APC/C:Cdc20 mediated degradation of Cyclin B	0.00432763803034	0.254513524462
+G1/S Transition	0.00444349161248	0.254513524462
+Phosphorylation of Emi1	0.00533974736112	0.254513524462
+Nucleotide Excision Repair	0.00574535042214	0.254513524462
+Transcription-Coupled Nucleotide Excision Repair (TC-NER)	0.00611800805669	0.254513524462
+Translation	0.00652338304288	0.254513524462
+rRNA processing	0.00659583787244	0.254513524462
+Defective factor VIII causes hemophilia A	0.00669907108297	0.254513524462
+RNA Pol II CTD phosphorylation and interaction with CE during HIV infection	0.00727181498463	0.254513524462
+RNA Pol II CTD phosphorylation and interaction with CE	0.00727181498463	0.254513524462
+Mitotic G1 phase and G1/S transition	0.00963363849896	0.26649882801
+Mitochondrial translation initiation	0.0100033624953	0.26649882801
+Translation initiation complex formation	0.01016518963	0.26649882801
+Formation of the HIV-1 Early Elongation Complex	0.0111631776753	0.26649882801
+Formation of the Early Elongation Complex	0.0111631776753	0.26649882801
+Ribosomal scanning and start codon recognition	0.0113076017418	0.26649882801
+mRNA Capping	0.0120599143872	0.26649882801
+Termination of translesion DNA synthesis	0.0120599143872	0.26649882801
+Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S	0.0125295828443	0.26649882801
+Mitochondrial translation	0.0127116859797	0.26649882801
+Aberrant regulation of mitotic cell cycle due to RB1 defects	0.0129968907271	0.26649882801
+Defective F8 accelerates dissociation of the A2 domain	0.0133249414005	0.26649882801
+Defective F8 secretion	0.0133249414005	0.26649882801
+Defective F8 binding to the cell membrane	0.0133249414005	0.26649882801
+G0 and Early G1	0.0149925371566	0.279295955909
+Diseases of mitotic cell cycle	0.0149925371566	0.279295955909
+Formation of the posterior neural plate	0.0155164419949	0.279295955909
+Prostanoid ligand receptors	0.0155164419949	0.279295955909
+rRNA modification in the nucleus and cytosol	0.0159443519853	0.286998335736
+Dual Incision in GG-NER	0.0182930519298	0.310981882806
+SARS-CoV-1 modulates host translation machinery	0.0182930519298	0.310981882806
+Cell Cycle	0.0207245965086	0.313493048669
+Formation of HIV-1 elongation complex containing HIV-1 Tat	0.0246197408907	0.313493048669
+N-glycan trimming and elongation in the cis-Golgi	0.0247720297675	0.313493048669
+Formation of HIV elongation complex in the absence of HIV Tat	0.0260092268118	0.313493048669
+HIV Transcription Elongation	0.0260092268118	0.313493048669
+Tat-mediated elongation of the HIV-1 transcript	0.0260092268118	0.313493048669
+RNA Polymerase II Transcription Pre-Initiation And Promoter Opening	0.0260092268118	0.313493048669
+Regulation of APC/C activators between G1/S and early anaphase	0.026354518836	0.313493048669
+Defective F8 binding to von Willebrand factor	0.0264731792079	0.313493048669
+Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4	0.0264731792079	0.313493048669
+Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4	0.0264731792079	0.313493048669
+Activation and oligomerization of BAK protein	0.0264731792079	0.313493048669
+Activation, translocation and oligomerization of BAX	0.0264731792079	0.313493048669
+Formation of the anterior neural plate	0.0273624159405	0.313493048669
+Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template	0.0274400196453	0.313493048669
+RNA Polymerase II HIV Promoter Escape	0.0289120404733	0.313493048669
+HIV Transcription Initiation	0.0289120404733	0.313493048669
+RNA Polymerase II Transcription Initiation	0.0289120404733	0.313493048669
+Aberrant regulation of mitotic exit in cancer due to RB1 defects	0.0300567564605	0.313493048669
+Cell Cycle, Mitotic	0.0307804367165	0.313493048669
+RNA Polymerase II Promoter Escape	0.03197934267	0.313493048669
+Diseases of hemostasis	0.0328518497774	0.313493048669
+Defects of contact activation system (CAS) and kallikrein/kinin system (KKS)	0.0328518497774	0.313493048669
+Inactivation of APC/C via direct inhibition of the APC/C complex	0.0328518497774	0.313493048669
+Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components	0.0328518497774	0.313493048669
+RNA Polymerase II Transcription Initiation And Promoter Clearance	0.0352100820441	0.313493048669
+Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase	0.0357445604756	0.313493048669
+Regulation of mitotic cell cycle	0.0363185439399	0.313493048669
+APC/C-mediated degradation of cell cycle proteins	0.0363185439399	0.313493048669
+Global Genome Nucleotide Excision Repair (GG-NER)	0.0363185439399	0.313493048669
+Regulation of PLK1 Activity at G2/M Transition	0.0363185439399	0.313493048669
+mRNA Splicing - Minor Pathway	0.0368863266785	0.313493048669
+Formation of the ternary complex, and subsequently, the 43S complex	0.0368863266785	0.313493048669
+Mitochondrial translation termination	0.0387900912759	0.313493048669
+Mitochondrial translation elongation	0.0387900912759	0.313493048669
+Evasion of Oncogene Induced Senescence Due to p16INK4A Defects	0.0394470454294	0.313493048669
+Evasion of Oxidative Stress Induced Senescence Due to p16INK4A Defects	0.0394470454294	0.313493048669
+Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	0.0394470454294	0.313493048669
+Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	0.0394470454294	0.313493048669
+Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation	0.0400611427912	0.313493048669
+Formation of TC-NER Pre-Incision Complex	0.0403595785981	0.313493048669
+Abortive elongation of HIV-1 transcript in the absence of Tat	0.0418106159649	0.313493048669
+mRNA decay by 3' to 5' exoribonuclease	0.0418106159649	0.313493048669
+Signaling by FGFR2 IIIa TM	0.0418106159649	0.313493048669
+DNA Damage Bypass	0.0421561397806	0.313493048669
+BBSome-mediated cargo-targeting to cilium	0.044978010074	0.313493048669
+Eicosanoid ligand-binding receptors	0.044978010074	0.313493048669
+Formation of RNA Pol II elongation complex 	0.0477825546806	0.313493048669
+APC-Cdc20 mediated degradation of Nek2A	0.0482311179369	0.313493048669
+RNA Polymerase II Transcription Elongation	0.0497360143343	0.313493048669
+Gap-filling DNA repair synthesis and ligation in GG-NER	0.0515671174957	0.313493048669
+Activation, myristolyation of BID and translocation to mitochondria	0.0522488414449	0.313493048669
+RHO GTPases regulate CFTR trafficking	0.0522488414449	0.313493048669
+Defective F8 cleavage by thrombin	0.0522488414449	0.313493048669
+Defective factor IX causes thrombophilia	0.0522488414449	0.313493048669
+Defective AHCY causes HMAHCHD	0.0522488414449	0.313493048669
+Defective cofactor function of FVIIIa variant	0.0522488414449	0.313493048669
+Defective F9 variant does not activate FX	0.0522488414449	0.313493048669
+Mitotic Metaphase/Anaphase Transition	0.0522488414449	0.313493048669

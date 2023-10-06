@@ -1,0 +1,1912 @@
+ArrayID	time	status	n Age	c Name	c Series	c Sex	c Stage	c Grade	c MSI	c Histology	c T	c N	c M	c File
+GSM89013				Rectum - 4210	GSE2109			2		Carcinoma				GSM89013
+GSM152591				Colon - 151618	GSE2109			2		Carcinoma				GSM152591
+GSM358358	67.82		78	T3123A	GSE14333	F	I	2		Carcinoma				GSM358358
+GSM358410	31.06		86	T2746A	GSE14333	F	II	3		Carcinoma				GSM358410
+GSM298776				Colonic_mucosa_control_31	GSE11831					Normal				GSM298776_C31KN3
+GSM53106				Colon - 23958	GSE2109			1		Carcinoma				GSM53106
+GSM237992				NM63  healthy control	GSE9348					Normal				GSM237992
+GSM784851			72	Colon_R15_2364	GSE31595	F	III	3		Carcinoma				GSM784851
+GSM782674			79	Colon_R09_2362	GSE31595	M	II	2		Carcinoma				GSM782674
+GSM437111	50.1		71	MCC Patient 19	GSE17538	M	I	2		Carcinoma				GSM437111
+GSM358366	119.21		56	T656A	GSE14333	F	I	1		Carcinoma				GSM358366
+GSM452152			74	C7	GSE18088	M		2	MSS	Carcinoma				GSM452152
+GSM138037				Colon - 215937	GSE2109			2		Carcinoma				GSM138037
+GSM335579	112.86		56	primary colorectal adenocarcinoma R120: MSS	GSE13294	F	II		MSS	Carcinoma	3	0		GSM335579
+GSM339563				3 normal	GSE13471					Normal				GSM339563
+GSM452628				patient 096, cancer, LCM	GSE18105					Carcinoma				GSM452628
+GSM656625			74	colon cancer (GRUBER_CRC_84)	GSE26682	M			MSS	Carcinoma				GSM656625
+GSM452177			81	C46	GSE18088	M		3	MSS	Carcinoma				GSM452177
+GSM452197			40	C83	GSE18088	M		3	MSI	Carcinoma				GSM452197
+GSM662675			76	COL2_705	GSE26906	F	II			Carcinoma				GSM662675
+GSM523283				carcinoma_2 (macro)	GSE20916					Carcinoma				GSM523283_ColonCa_Seria01_18B1
+GSM358599			78	T4449E1	GSE14333	F	IV	2		Carcinoma				GSM358599
+GSM437296	45.4356164383562		51	VMC Patient 27	GSE17538	F	III			Carcinoma				GSM437296
+GSM662678			43	COL2_708	GSE26906	F	II			Carcinoma				GSM662678
+GSM335642	260.71		78	primary colorectal adenocarcinoma R299: MSI	GSE13294	M	II		MSI	Carcinoma	3	0		GSM335642
+GSM46972				Rectosigmoid - 8278	GSE2109			2		Carcinoma				GSM46972
+GSM76512				Colon - 20327	GSE2109			2		Carcinoma				GSM76512
+GSM335654	260.71			primary colorectal adenocarcinoma R357: MSI	GSE13294	NA	II		MSI	Carcinoma				GSM335654
+GSM662668			53	COL2_534	GSE26906	F	II			Carcinoma				GSM662668
+GSM656555			77	colon cancer (GRUBER_CRC_14)	GSE26682	M			MSS	Carcinoma				GSM656555
+GSM76546				Rectosigmoid - 21951	GSE2109			2		Carcinoma				GSM76546
+GSM929526			78	SA031610	GSE37892	M	III			Carcinoma				GSM929526_050805-07
+GSM523309				adenocarcinoma_28 (macro)	GSE20916					Carcinoma				GSM523309_ColonCa_Seria04_P9BD
+GSM95494				colon_adenoma_983	GSE4183					Adenoma				GSM95494
+GSM137976				Bladder - 195183	GSE2109			X		Carcinoma				GSM137976
+GSM358415	37.31		75	T1923A	GSE14333	F	II	1		Carcinoma				GSM358415
+GSM277466				Synchronous liver metastasis colorectal CA 05	GSE10961		IV			Carcinoma				GSM277466
+GSM656871			74	colon cancer (GRUBER_CRC_330)	GSE26682	F				Carcinoma				GSM656871
+GSM335624	260.71		59	primary colorectal adenocarcinoma R214: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335624
+GSM102574				Colon - 84150	GSE2109			4		Carcinoma				GSM102574
+GSM152666				Colon - 211407	GSE2109			2		Carcinoma				GSM152666
+GSM662697			42	COL2_727	GSE26906	M	II			Carcinoma				GSM662697
+GSM358604			62	T4984A1	GSE14333	M	IV	2		Carcinoma				GSM358604
+GSM437309	46.9808219178082		63	VMC Patient 40	GSE17538	F	III	3		Carcinoma				GSM437309
+GSM452570				patient 128, cancer, LCM	GSE18105					Carcinoma				GSM452570
+GSM89100				Rectosigmoid - 89234	GSE2109			2		Carcinoma				GSM89100
+GSM656569			59	colon cancer (GRUBER_CRC_28)	GSE26682	M			MSS	Carcinoma				GSM656569
+GSM523324				normal_colon_43 (macro)	GSE20916					Normal				GSM523324_ColonCa_Seria07_29A
+GSM358392	17.95		38	T3912A	GSE14333	F	II	2		Carcinoma				GSM358392
+GSM437288	2.95890410958904		63	VMC Patient 19	GSE17538	M	II			Carcinoma				GSM437288
+GSM327313	15		72	02-TB-084: MSI	GSE13067	F	III		MSI	Carcinoma				GSM327313
+GSM234926				Normal_colon_39_20April05	GSE9254					Normal				GSM234926
+GSM358349	43.79		86	T4573A1	GSE14333	F	I	2		Carcinoma				GSM358349
+GSM301656				Colon - 416799	GSE2109			2		Carcinoma				GSM301656
+GSM93923				3578M patient’s mucosa	GSE4107					Carcinoma				GSM93923
+GSM270782				ADHGD02	GSE10714					Adenoma				GSM270782
+GSM929594			72	182	GSE37892	M	III			Carcinoma				GSM929594_051206-13
+GSM523348				adenocarcinoma_67 (macro)	GSE20916					Carcinoma				GSM523348_ColonCa_Seria10_P31
+GSM215068				Biopsy of the normal mucosa of the colon from patient #18	GSE8671					Normal				GSM215068
+GSM656776			73	colon cancer (GRUBER_CRC_235)	GSE26682	M			MSS	Carcinoma				GSM656776
+GSM656846			54	colon cancer (GRUBER_CRC_305)	GSE26682	F			MSS	Carcinoma				GSM656846
+GSM358356	65.88		88	T1239A	GSE14333	M	I	2		Carcinoma				GSM358356
+GSM152714				Colon - 231877	GSE2109			3		Carcinoma				GSM152714
+GSM353915				Rectum - 465777	GSE2109			3		Carcinoma				GSM353915
+GSM53168				Rectum - 4610	GSE2109					Carcinoma				GSM53168
+GSM656705			67	colon cancer (GRUBER_CRC_164)	GSE26682	F			MSS	Carcinoma				GSM656705
+GSM234919				Normal_colon_25_13April05	GSE9254					Normal				GSM234919
+GSM215060				Biopsy of the normal mucosa of the colon from patient #10	GSE8671					Normal				GSM215060
+GSM662690			68	COL2_721	GSE26906	M	II			Carcinoma				GSM662690
+GSM215083				Biopsy of a colorectal adenoma from patient #1	GSE8671					Adenoma				GSM215083
+GSM358380	44.2		57	03-TB-103-1A	GSE14333	M	I			Carcinoma				GSM358380
+GSM95499				colon_CRC_1316	GSE4183					Carcinoma				GSM95499
+GSM231915				Colon - 383903	GSE2109			2		Carcinoma				GSM231915
+GSM327290	56.8		72	01-TB-032: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327290
+GSM656857			51	colon cancer (GRUBER_CRC_316)	GSE26682	F			MSS	Carcinoma				GSM656857
+GSM452171			65	C38	GSE18088	M		2	MSS	Carcinoma				GSM452171
+GSM523253				mucosa_carcinoma_12 (micro)	GSE20916					Carcinoma				GSM523253_Microdys_30AC
+GSM929612			73	73	GSE37892	F	III			Carcinoma				GSM929612_051206-22
+GSM358533	85.61		71	T1954A	GSE14333	F	III	2		Carcinoma				GSM358533
+GSM335539	260.71		60	primary colorectal adenocarcinoma R030: MSS	GSE13294	F	II		MSS	Carcinoma	4	0	0	GSM335539
+GSM215085				Biopsy of a colorectal adenoma from patient #3	GSE8671					Adenoma				GSM215085
+GSM358348	28.96		51	T552G	GSE14333	M	I	2		Carcinoma				GSM358348
+GSM231934				Rectum - 388893	GSE2109			2		Carcinoma				GSM231934
+GSM358384	80.8		64	99-30-P29	GSE14333	F	I			Carcinoma				GSM358384
+GSM95510				colon_CRC_1883	GSE4183					Carcinoma				GSM95510
+GSM53047				Colon - 1232	GSE2109					Carcinoma				GSM53047
+GSM929588			61	95	GSE37892	M	II			Carcinoma				GSM929588_121206-06
+GSM327292			69	01-TB-035: MSS	GSE13067	F	IV		MSS	Carcinoma				GSM327292
+GSM929576			76	S5	GSE37892	M	III			Carcinoma				GSM929576_070123-01
+GSM327298	64.5		47	02-TB-040: MSS	GSE13067	F	I		MSS	Carcinoma				GSM327298
+GSM656838			75	colon cancer (GRUBER_CRC_297)	GSE26682	M			MSI	Carcinoma				GSM656838
+GSM452624				patient 079, cancer, LCM	GSE18105					Carcinoma				GSM452624
+GSM231964				Colon - 404999	GSE2109			3		Carcinoma				GSM231964
+GSM656646			78	colon cancer (GRUBER_CRC_105)	GSE26682	F			MSI	Carcinoma				GSM656646
+GSM452643				patient 044, normal, homogenized	GSE18105					Normal				GSM452643
+GSM237925				3229T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237925
+GSM358590			56	T3289A	GSE14333	M	IV	3		Carcinoma				GSM358590
+GSM358534	85.84		74	T5133A	GSE14333	M	III	2		Carcinoma				GSM358534
+GSM358426	58.02		75	T2466A	GSE14333	M	II			Carcinoma				GSM358426
+GSM437286	0		23	VMC Patient 17	GSE17538	F	IV			Carcinoma				GSM437286
+GSM237988				NM59  healthy control	GSE9348					Normal				GSM237988
+GSM358485	8.21		38	T324A	GSE14333	M	III	2		Carcinoma				GSM358485
+GSM656702			50	colon cancer (GRUBER_CRC_161)	GSE26682	F			MSS	Carcinoma				GSM656702
+GSM325789				Ascending Colon - 345986	GSE2109			2		Carcinoma				GSM325789
+GSM523314				normal_colon_33 (macro)	GSE20916					Normal				GSM523314_ColonCa_Seria05_5K
+GSM231961				Colon - 404996	GSE2109			2		Carcinoma				GSM231961
+GSM53073				Colon - 1655	GSE2109					Carcinoma				GSM53073
+GSM270795				CRCCD03	GSE10714					Carcinoma				GSM270795
+GSM335559	260.71		80	primary colorectal adenocarcinoma R100: MSI	GSE13294	F	II		MSI	Carcinoma	3	0		GSM335559
+GSM89069				Colon - 8046	GSE2109			2		Carcinoma				GSM89069
+GSM929608			47	629	GSE37892	M	III			Carcinoma				GSM929608_070123-02
+GSM76501				Colon - 20310	GSE2109			2		Carcinoma				GSM76501
+GSM335635	260.71		70	primary colorectal adenocarcinoma R268: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335635
+GSM203627				Colon - 143651	GSE2109			2		Carcinoma				GSM203627
+GSM38075				Colon - 8196	GSE2109			2		Carcinoma				GSM38075
+GSM358408	28.86		89	T2631A	GSE14333	F	II	1		Carcinoma				GSM358408
+GSM523293				adenocarcinoma_12 (macro)	GSE20916					Carcinoma				GSM523293_ColonCa_Seria02_46BII6D
+GSM179889				Colon - 267098	GSE2109			2		Carcinoma				GSM179889
+GSM523310				normal_colon_29 (macro)	GSE20916					Normal				GSM523310_ColonCa_Seria05_36B1N
+GSM656556			80	colon cancer (GRUBER_CRC_15)	GSE26682	F			MSS	Carcinoma				GSM656556
+GSM929560			78	08C0463T	GSE37892	M	II			Carcinoma				GSM929560_SOG_0463_U133_2
+GSM929538			86	684	GSE37892	M	II			Carcinoma				GSM929538_MFL_684b_U133_2
+GSM179888				Colon - 267096	GSE2109			X		Carcinoma				GSM179888
+GSM102479				Rectosigmoid - 118663	GSE2109			2		Carcinoma				GSM102479
+GSM335607			80	primary colorectal adenocarcinoma R148: MSS	GSE13294	F	IV		MSS	Carcinoma	2	1	1	GSM335607
+GSM117710				Rectum - 174057	GSE2109			2		Carcinoma				GSM117710
+GSM452160			59	C24	GSE18088	F		2	MSS	Carcinoma				GSM452160
+GSM152692				Colon - 226422	GSE2109			2		Carcinoma				GSM152692
+GSM38098				Colon - 8246	GSE2109			2		Carcinoma				GSM38098
+GSM95508				colon_CRC_1739	GSE4183					Carcinoma				GSM95508
+GSM656639			74	colon cancer (GRUBER_CRC_98)	GSE26682	F			MSS	Carcinoma				GSM656639
+GSM656700			55	colon cancer (GRUBER_CRC_159)	GSE26682	M			MSS	Carcinoma				GSM656700
+GSM656548			74	colon cancer (GRUBER_CRC_7)	GSE26682	M			MSS	Carcinoma				GSM656548
+GSM437300	50.1369863013699		61	VMC Patient 31	GSE17538	M	III	2		Carcinoma				GSM437300
+GSM358582			52	T2528C	GSE14333	F	IV			Carcinoma				GSM358582
+GSM662703			42	COL2_735	GSE26906	F	II			Carcinoma				GSM662703
+GSM215094				Biopsy of a colorectal adenoma from patient #12	GSE8671					Adenoma				GSM215094
+GSM656844			78	colon cancer (GRUBER_CRC_303)	GSE26682	F				Carcinoma				GSM656844
+GSM358406	27.64		51	T433A	GSE14333	F	II	2		Carcinoma				GSM358406
+GSM335606	260.71		54	primary colorectal adenocarcinoma R147: MSS	GSE13294	M	III		MSS	Carcinoma	3	1	0	GSM335606
+GSM215082				Biopsy of the normal mucosa of the colon from patient #32	GSE8671					Normal				GSM215082
+GSM358400	25.24		71	T4508A1	GSE14333	M	II	2		Carcinoma				GSM358400
+GSM656715			58	colon cancer (GRUBER_CRC_174)	GSE26682	F			MSS	Carcinoma				GSM656715
+GSM358570			69	T1094A1	GSE14333	M	IV	3		Carcinoma				GSM358570
+GSM237977				3952T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237977
+GSM327329				03-TB-032: MSS	GSE13067				MSS	Carcinoma				GSM327329
+GSM95495				colon_adenoma_995	GSE4183					Adenoma				GSM95495
+GSM358351	55.13		74	T3686A	GSE14333	F	I	2		Carcinoma				GSM358351
+GSM237984				NM53  healthy control	GSE9348					Normal				GSM237984
+GSM152790				Colon - 262792	GSE2109			2		Carcinoma				GSM152790
+GSM203733				Colon - 341541	GSE2109			2		Carcinoma				GSM203733
+GSM270783				ADLGD01	GSE10714					Adenoma				GSM270783
+GSM929600			46	456	GSE37892	F	III			Carcinoma				GSM929600_070123-08
+GSM929512			53	27	GSE37892	M	III			Carcinoma				GSM929512_051206-16
+GSM358492	18.93		50	T2638B	GSE14333	F	III			Carcinoma				GSM358492
+GSM358430	64.86		49	T1403D	GSE14333	M	II	2		Carcinoma				GSM358430
+GSM929511			66	17	GSE37892	M	III			Carcinoma				GSM929511_051206-07
+GSM523369				normal_colon_88 (macro)	GSE20916					Normal				GSM523369_ColonCa_Seria13_4K
+GSM358521	52.86		72	T4088A	GSE14333	M	III	3		Carcinoma				GSM358521
+GSM53051				Colon - 1237	GSE2109					Carcinoma				GSM53051
+GSM327342				04-TB-058: MSS	GSE13067				MSS	Carcinoma				GSM327342
+GSM203723				Colon - 317481	GSE2109			2		Carcinoma				GSM203723
+GSM929494			70	200	GSE37892	M	II			Carcinoma				GSM929494_MFL_200b_U133_2
+GSM335618	260.71		30	primary colorectal adenocarcinoma R163: MSI	GSE13294	M	II		MSI	Carcinoma		0		GSM335618
+GSM400185				vCRC6	GSE15960					Carcinoma				GSM400185
+GSM335602	97.57		75	primary colorectal adenocarcinoma R143: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335602
+GSM327354	31.6		51	05-WH-057: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327354
+GSM53090				Liver - 2313	GSE2109					Carcinoma				GSM53090
+GSM179948				Colon - 309409	GSE2109			3		Carcinoma				GSM179948
+GSM76555				Colon - 31575	GSE2109			2		Carcinoma				GSM76555
+GSM437284	62.4		55	VMC Patient 15	GSE17538	M	I			Carcinoma				GSM437284
+GSM270793				CRCCD01	GSE10714					Carcinoma				GSM270793
+GSM656714			70	colon cancer (GRUBER_CRC_173)	GSE26682	F			MSS	Carcinoma				GSM656714
+GSM929508			64	21	GSE37892	F	II			Carcinoma				GSM929508_121206-05
+GSM929579			67	106	GSE37892	F	II			Carcinoma				GSM929579_121206-12
+GSM523272				colonic_crypt_epithelial_cells_normal_colon_31 (micro)	GSE20916					Normal				GSM523272_Microdys_6EN
+GSM929618			64	12487	GSE37892	M	III			Carcinoma				GSM929618_110706-20
+GSM335537	260.71		77	primary colorectal adenocarcinoma R028: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335537
+GSM215086				Biopsy of a colorectal adenoma from patient #4	GSE8671					Adenoma				GSM215086
+GSM353942				Cecum - 487435	GSE2109			2		Carcinoma				GSM353942
+GSM117681				Colon - 152488	GSE2109			2		Carcinoma				GSM117681
+GSM327283	16.9		77	00-TB-005: MSS	GSE13067	F	III		MSS	Carcinoma				GSM327283
+GSM358440	110.79		43	T402B	GSE14333	F	II	2		Carcinoma				GSM358440
+GSM662694			70	COL2_724	GSE26906	F	II			Carcinoma				GSM662694
+GSM452652				patient 031, cancer, homogenized	GSE18105					Carcinoma				GSM452652
+GSM152720				Colon - 235690	GSE2109			2		Carcinoma				GSM152720
+GSM89030				Liver - 54073	GSE2109			X		Carcinoma				GSM89030
+GSM215066				Biopsy of the normal mucosa of the colon from patient #16	GSE8671					Normal				GSM215066
+GSM358513	38.72		73	T3216A	GSE14333	F	III	2		Carcinoma				GSM358513
+GSM523270				mucosa_distant_normal_colon_29 (micro)	GSE20916					Normal				GSM523270_Microdys_56ANN
+GSM523377				normal_colon_96 (macro)	GSE20916					Normal				GSM523377_ColonCa_Seria14_48A
+GSM523386				adenocarcinoma_105 (macro)	GSE20916					Carcinoma				GSM523386_ColonCa_Seria17_49P
+GSM437293	0		29	VMC Patient 24	GSE17538	F	IV			Carcinoma				GSM437293
+GSM358463	44.4		63	04-TB-014-1A	GSE14333	F	II			Carcinoma				GSM358463
+GSM179882				Colon - 262829	GSE2109			2		Carcinoma				GSM179882
+GSM203704				Liver - 310511	GSE2109			X		Carcinoma				GSM203704
+GSM523336				adenocarcinoma_55 (macro)	GSE20916					Carcinoma				GSM523336_ColonCa_Seria08_P25_2
+GSM358469	58.4		53	01-28-P617	GSE14333	F	II			Carcinoma				GSM358469
+GSM523352				carcinoma_71 (macro)	GSE20916					Carcinoma				GSM523352_ColonCa_Seria11_31IIB1
+GSM234925				Normal_colon_36_13April05	GSE9254					Normal				GSM234925
+GSM335532	372.86		69	primary colorectal adenocarcinoma R023: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335532
+GSM237969				3821T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237969
+GSM93939				NM16 healthy control	GSE4107					Normal				GSM93939
+GSM452600				patient 057, cancer, LCM	GSE18105					Carcinoma				GSM452600
+GSM656800			82	colon cancer (GRUBER_CRC_259)	GSE26682	M			MSS	Carcinoma				GSM656800
+GSM452636				patient 032, normal, homogenized	GSE18105					Normal				GSM452636
+GSM656732			83	colon cancer (GRUBER_CRC_191)	GSE26682	M			MSS	Carcinoma				GSM656732
+GSM76509				Ovary - 20323	GSE2109			2		Carcinoma				GSM76509
+GSM358386	6.01		30	T4376A	GSE14333	M	II			Carcinoma				GSM358386
+GSM929570			94	SA031424	GSE37892	F	II			Carcinoma				GSM929570_SOG_031424_U133_2
+GSM353920				Rectosigmoid - 465785	GSE2109			3		Carcinoma				GSM353920
+GSM358363	83.73		70	T1498A	GSE14333	M	I			Carcinoma				GSM358363
+GSM53142				Colon - 3761	GSE2109					Carcinoma				GSM53142
+GSM203788				Rectum - 371435	GSE2109			2		Carcinoma				GSM203788
+GSM102462				Rectosigmoid - 104350	GSE2109			2		Carcinoma				GSM102462
+GSM656542			76	colon cancer (GRUBER_CRC_1)	GSE26682	F			MSS	Carcinoma				GSM656542
+GSM102501				Colon - 129700	GSE2109			2		Carcinoma				GSM102501
+GSM358494	19.98		81	T5565A1	GSE14333	F	III	3		Carcinoma				GSM358494
+GSM358535	89.62		46	T1612C	GSE14333	M	III	2		Carcinoma				GSM358535
+GSM656777			68	colon cancer (GRUBER_CRC_236)	GSE26682	F			MSS	Carcinoma				GSM656777
+GSM95481				colon_adenoma_1115	GSE4183					Adenoma				GSM95481
+GSM234910				Normal_colon_03_12April05	GSE9254					Normal				GSM234910
+GSM234914				Normal_colon_16_12April05	GSE9254					Normal				GSM234914
+GSM335511	137.14		70	primary colorectal adenocarcinoma R002: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335511
+GSM656561			54	colon cancer (GRUBER_CRC_20)	GSE26682	F			MSS	Carcinoma				GSM656561
+GSM358441	118.58		74	T74A	GSE14333	F	II	2		Carcinoma				GSM358441
+GSM358434	80.25		86	T2551A	GSE14333	F	II	2		Carcinoma				GSM358434
+GSM335629	260.71		78	primary colorectal adenocarcinoma R240: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335629
+GSM774695			Human colonic mucosa-EPHB2 high replicate 1		GSE31255					EPHB2 high				
+GSM656586			79	colon cancer (GRUBER_CRC_45)	GSE26682	F			MSS	Carcinoma				GSM656586
+GSM339562				4 tumor	GSE13471					Carcinoma				GSM339562
+GSM437162	26.66		71	MCC Patient 70	GSE17538	M	II	2		Carcinoma				GSM437162
+GSM215103				Biopsy of a colorectal adenoma from patient #21	GSE8671					Adenoma				GSM215103
+GSM358509	34.19		41	T4550B	GSE14333	M	III	2		Carcinoma				GSM358509
+GSM179880				Colon - 262827	GSE2109			2		Carcinoma				GSM179880
+GSM523280				mucosa_distant_normal_colon_39 (micro)	GSE20916					Normal				GSM523280_Microdys_59ANN
+GSM784873			74	Colon_R43_1962	GSE31595	F	III			Carcinoma				GSM784873
+GSM76618				Colon - 6295	GSE2109			2		Carcinoma				GSM76618
+GSM452558				patient 111, cancer, LCM	GSE18105					Carcinoma				GSM452558
+GSM358527	64.93		62	T3040A	GSE14333	M	III	3		Carcinoma				GSM358527
+GSM46899				Colon - 23940	GSE2109					Carcinoma				GSM46899
+GSM327307	1.8		73	02-TB-061: MSS	GSE13067	M	I		MSS	Carcinoma				GSM327307
+GSM656861			92	colon cancer (GRUBER_CRC_320)	GSE26682	M			MSS	Carcinoma				GSM656861
+GSM774703			Human colonic mucosa-EPHB2 high replicate 3		GSE31255					EPHB2 high				
+GSM656824			70	colon cancer (GRUBER_CRC_283)	GSE26682	F			MSS	Carcinoma				GSM656824
+GSM400178				vad5	GSE15960					Adenoma				GSM400178
+GSM203640				Colon - 199395	GSE2109			3		Carcinoma				GSM203640
+GSM179899				Colon - 267118	GSE2109			2		Carcinoma				GSM179899
+GSM452186			65	C65	GSE18088	F		2	MSS	Carcinoma				GSM452186
+GSM400191				vn6	GSE15960					Normal				GSM400191
+GSM452605				patient 083, cancer, LCM	GSE18105					Carcinoma				GSM452605
+GSM215064				Biopsy of the normal mucosa of the colon from patient #14	GSE8671					Normal				GSM215064
+GSM929572			64	SA033888	GSE37892	M	III			Carcinoma				GSM929572_050805-04
+GSM523322				adenocarcinoma_41 (macro)	GSE20916					Carcinoma				GSM523322_ColonCa_Seria06_P24
+GSM38089				Colon - 8228	GSE2109			3		Carcinoma				GSM38089
+GSM102453				Rectum - 101188	GSE2109			2		Carcinoma				GSM102453
+GSM237965				3765T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237965
+GSM656706			55	colon cancer (GRUBER_CRC_165)	GSE26682	M			MSI	Carcinoma				GSM656706
+GSM152610				Colon - 184870	GSE2109			2		Carcinoma				GSM152610
+GSM452587				patient 156, cancer, LCM	GSE18105					Carcinoma				GSM452587
+GSM327311	14.2		78	02-TB-074: MSI	GSE13067	M	II		MSI	Carcinoma				GSM327311
+GSM76611				Colon - 58992	GSE2109			2		Carcinoma				GSM76611
+GSM929610			66	682	GSE37892	M	III			Carcinoma				GSM929610_070123-06
+GSM452163			74	C27	GSE18088	F		3	MSI	Carcinoma				GSM452163
+GSM237968				3804T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237968
+GSM215070				Biopsy of the normal mucosa of the colon from patient #20	GSE8671					Normal				GSM215070
+GSM53083				Colon - 22231	GSE2109					Carcinoma				GSM53083
+GSM437315	70.454794520548		54	VMC Patient 46	GSE17538	F	III	2		Carcinoma				GSM437315
+GSM929533			79	533	GSE37892	M	II			Carcinoma				GSM929533_MFL_533b_U133_2
+GSM358437	88.99		74	T1369A	GSE14333	M	II	2		Carcinoma				GSM358437
+GSM215072				Biopsy of the normal mucosa of the colon from patient #22	GSE8671					Normal				GSM215072
+GSM656842			77	colon cancer (GRUBER_CRC_301)	GSE26682	M			MSI	Carcinoma				GSM656842
+GSM117738				Colon - 184820	GSE2109			2		Carcinoma				GSM117738
+GSM662709			68	COL2_744	GSE26906	F	II			Carcinoma				GSM662709
+GSM358537	99.51		48	T1204A	GSE14333	F	III	1		Carcinoma				GSM358537
+GSM327308	14.4		67	02-TB-062: MSS	GSE13067	F	I		MSS	Carcinoma				GSM327308
+GSM93922				3416M patient's mucosa	GSE4107					Carcinoma				GSM93922
+GSM237914				3058T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237914
+GSM523312				carcinoma_31 (macro)	GSE20916					Carcinoma				GSM523312_ColonCa_Seria05_41B1
+GSM452192			70	C71	GSE18088	F		2	MSS	Carcinoma				GSM452192
+GSM400182				vCRC3	GSE15960					Carcinoma				GSM400182
+GSM93943				NM19 healthy control	GSE4107					Normal				GSM93943
+GSM327286	24.2		84	01-TB-019: MSS	GSE13067	F	III		MSS	Carcinoma				GSM327286
+GSM656642			75	colon cancer (GRUBER_CRC_101)	GSE26682	M			MSS	Carcinoma				GSM656642
+GSM929513			72	48	GSE37892	F	III			Carcinoma				GSM929513_051206-14
+GSM437127	9.05		58	MCC Patient 35	GSE17538	F	II	3		Carcinoma				GSM437127
+GSM234911				Normal_colon_08_12April05	GSE9254					Normal				GSM234911
+GSM237990				NM61  healthy control	GSE9348					Normal				GSM237990
+GSM656819			71	colon cancer (GRUBER_CRC_278)	GSE26682	F			MSS	Carcinoma				GSM656819
+GSM46879				Rectum - 23882	GSE2109			2		Carcinoma				GSM46879
+GSM656710			66	colon cancer (GRUBER_CRC_169)	GSE26682	F			MSS	Carcinoma				GSM656710
+GSM237978				3959T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237978
+GSM325818				Ascending Colon - 465682	GSE2109			2		Carcinoma				GSM325818
+GSM335542	475.71		52	primary colorectal adenocarcinoma R040: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335542
+GSM452184			46	C63	GSE18088	F		2	MSI	Carcinoma				GSM452184
+GSM117652				Rectosigmoid - 144558	GSE2109			2		Carcinoma				GSM117652
+GSM452634				patient 030, normal, homogenized	GSE18105					Normal				GSM452634
+GSM523298				carcinoma_17 (macro)	GSE20916					Carcinoma				GSM523298_ColonCa_Seria03_22B1
+GSM335623				primary colorectal adenocarcinoma R202: MSI	GSE13294					Carcinoma				GSM335623
+GSM452645				patient 047, normal, homogenized	GSE18105					Normal				GSM452645
+GSM327296	45.3		68	02-TB-035: MSS	GSE13067	F	II		MSS	Carcinoma				GSM327296
+GSM89062				Colon - 78400	GSE2109			2		Carcinoma				GSM89062
+GSM237970				3826T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237970
+GSM358585			82	T3025B1	GSE14333	F	IV	2		Carcinoma				GSM358585
+GSM277686				Rectosigmoid Colon - 383898	GSE2109			2		Carcinoma				GSM277686
+GSM137999				Rectum - 199374	GSE2109			2		Carcinoma				GSM137999
+GSM277481				Synchronous liver metastasis colorectal CA 14	GSE10961		IV			Carcinoma				GSM277481
+GSM437145	22.02		78	MCC Patient 53	GSE17538	F	II	2		Carcinoma				GSM437145
+GSM656636			78	colon cancer (GRUBER_CRC_95)	GSE26682	M			MSS	Carcinoma				GSM656636
+GSM452595				patient 037, cancer, LCM	GSE18105					Carcinoma				GSM452595
+GSM523362				adenocarcinoma_81 (macro)	GSE20916					Carcinoma				GSM523362_ColonCa_Seria12_P32A
+GSM89001				Ovary - 33797	GSE2109			2		Carcinoma				GSM89001
+GSM335620	260.71		61	primary colorectal adenocarcinoma R182: MSI	GSE13294	M	II		MSI	Carcinoma	3	0		GSM335620
+GSM152675				Rectum - 219576	GSE2109			2		Carcinoma				GSM152675
+GSM102519				Colon - 138411	GSE2109			2		Carcinoma				GSM102519
+GSM656678			77	colon cancer (GRUBER_CRC_137)	GSE26682	F			MSS	Carcinoma				GSM656678
+GSM270794				CRCCD02	GSE10714					Carcinoma				GSM270794
+GSM335657	260.71		83	primary colorectal adenocarcinoma R370: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335657
+GSM325825				Rectosigmoid colon - 468475	GSE2109			X		Carcinoma				GSM325825
+GSM237967				3782T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237967
+GSM929578			64	L6	GSE37892	F	III			Carcinoma				GSM929578_070123-11
+GSM93952				NM4 healthy control	GSE4107					Normal				GSM93952
+GSM452623				patient 064, cancer, LCM	GSE18105					Carcinoma				GSM452623
+GSM339565				1 tumor	GSE13471					Carcinoma				GSM339565
+GSM137993				Colon - 199359	GSE2109			2		Carcinoma				GSM137993
+GSM335510	260.71		79	primary colorectal adenocarcinoma R001: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335510
+GSM203673				Colon - 262826	GSE2109			2		Carcinoma				GSM203673
+GSM76608				Colon - 54078	GSE2109			2		Carcinoma				GSM76608
+GSM231959				Colon - 404994	GSE2109			2		Carcinoma				GSM231959
+GSM784893			82	Colon_RB33_1658	GSE31595	F	II	2		Carcinoma				GSM784893
+GSM215078				Biopsy of the normal mucosa of the colon from patient #28	GSE8671					Normal				GSM215078
+GSM327322			73.4	03-TB-014: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327322
+GSM656769			69	colon cancer (GRUBER_CRC_228)	GSE26682	M			MSS	Carcinoma				GSM656769
+GSM656736			64	colon cancer (GRUBER_CRC_195)	GSE26682	M			MSI	Carcinoma				GSM656736
+GSM523249				mucosa_carcinoma_8 (micro)	GSE20916					Carcinoma				GSM523249_Microdys_24AC
+GSM452181			83	C57	GSE18088	M		2	MSS	Carcinoma				GSM452181
+GSM452612				patient 140, cancer, LCM	GSE18105					Carcinoma				GSM452612
+GSM452620				patient 042, cancer, LCM	GSE18105					Carcinoma				GSM452620
+GSM89026				Colon - 45129	GSE2109			2		Carcinoma				GSM89026
+GSM662640			56	COL2_11060	GSE26906	M	II			Carcinoma				GSM662640
+GSM231955				Colon - 404990	GSE2109			3		Carcinoma				GSM231955
+GSM152684				Colon - 219605	GSE2109			2		Carcinoma				GSM152684
+GSM662679			54	COL2_709	GSE26906	M	II			Carcinoma				GSM662679
+GSM327318			60	03-TB-005: MSS	GSE13067	M	I		MSS	Carcinoma				GSM327318
+GSM237989				NM60  healthy control	GSE9348					Normal				GSM237989
+GSM358518	49.11		71	T4452A2	GSE14333	F	III	2		Carcinoma				GSM358518
+GSM335639	15.57		45	primary colorectal adenocarcinoma R283: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335639
+GSM301669				Cecum - 423093	GSE2109			2		Carcinoma				GSM301669
+GSM46861				Colon - 22237	GSE2109			2		Carcinoma				GSM46861
+GSM335664	5.43		63	primary colorectal adenocarcinoma R401: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335664
+GSM774704			Human colonic mucosa-EPHB2 medium replicate 3		GSE31255					EPHB2 medium				
+GSM656693			63	colon cancer (GRUBER_CRC_152)	GSE26682	F			MSS	Carcinoma				GSM656693
+GSM335587	260.71		61	primary colorectal adenocarcinoma R128: MSS	GSE13294	M	III		MSS	Carcinoma	3	1	0	GSM335587
+GSM335611	260.71		66	primary colorectal adenocarcinoma R153: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335611
+GSM353922				Sigmoid Colon - 465787	GSE2109			2		Carcinoma				GSM353922
+GSM437282	57.2383561643836		49	VMC Patient 13	GSE17538	M	III			Carcinoma				GSM437282
+GSM102472				Colon - 118653	GSE2109			2		Carcinoma				GSM102472
+GSM298798				Colonic_mucosa_control_47	GSE11831					Normal				GSM298798_C47KN1
+GSM301706				Sigmoid Colon - 443483	GSE2109			2		Carcinoma				GSM301706
+GSM523247				mucosa_adenoma_6 (micro)	GSE20916					Adenoma				GSM523247_Microdys_21AA
+GSM117747				Colon - 184842	GSE2109			3		Carcinoma				GSM117747
+GSM452629				patient 006, normal, homogenized	GSE18105					Normal				GSM452629
+GSM523318				carcinoma_37 (macro)	GSE20916					Carcinoma				GSM523318_ColonCa_Seria06_3B1
+GSM277690				Colon - 383910	GSE2109			2		Carcinoma				GSM277690
+GSM523321				adenocarcinoma_40 (macro)	GSE20916					Carcinoma				GSM523321_ColonCa_Seria06_P19
+GSM76574				Lung - 36318	GSE2109			2		Carcinoma				GSM76574
+GSM46877				Colon - 23876	GSE2109					Carcinoma				GSM46877
+GSM327284			79	01-TB-006: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327284
+GSM452150			56	C3	GSE18088	F		3	MSS	Carcinoma				GSM452150
+GSM656853			84	colon cancer (GRUBER_CRC_312)	GSE26682	M			MSS	Carcinoma				GSM656853
+GSM358577			82	T2057A	GSE14333	F	IV	3		Carcinoma				GSM358577
+GSM179930				Colon - 290730	GSE2109			2		Carcinoma				GSM179930
+GSM53132				Rectosigmoid - 31895	GSE2109			2		Carcinoma				GSM53132
+GSM215091				Biopsy of a colorectal adenoma from patient #9	GSE8671					Adenoma				GSM215091
+GSM237941				3557T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237941
+GSM523385				adenocarcinoma_104 (macro)	GSE20916					Carcinoma				GSM523385_ColonCa_Seria15_P35
+GSM203642				Colon - 205691	GSE2109			2		Carcinoma				GSM203642
+GSM662715			72	COL2_9243	GSE26906	F	II			Carcinoma				GSM662715
+GSM656804			80	colon cancer (GRUBER_CRC_263)	GSE26682	M			MSS	Carcinoma				GSM656804
+GSM234920				Normal_colon_27_13April05	GSE9254					Normal				GSM234920
+GSM662673			78	COL2_702	GSE26906	F	II			Carcinoma				GSM662673
+GSM452608				patient 129, cancer, LCM	GSE18105					Carcinoma				GSM452608
+GSM95490				colon_adenoma_1830	GSE4183					Adenoma				GSM95490
+GSM237973				3865T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237973
+GSM327302	10.3		62	02-TB-052: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327302
+GSM358404	26.82		66	T1150A	GSE14333	M	II	2		Carcinoma				GSM358404
+GSM215111				Biopsy of a colorectal adenoma from patient #29	GSE8671					Adenoma				GSM215111
+GSM102559				Colon - 78396	GSE2109			2		Carcinoma				GSM102559
+GSM523325				carcinoma_44 (macro)	GSE20916					Carcinoma				GSM523325_ColonCa_Seria07_29B1
+GSM353901				Colon - 443035	GSE2109			1		Carcinoma				GSM353901
+GSM234921				Normal_colon_29_20April05	GSE9254					Normal				GSM234921
+GSM523339				carcinoma_58 (macro)	GSE20916					Carcinoma				GSM523339_ColonCa_Seria09_9B2
+GSM784855			71	Colon_R25_1668	GSE31595	F	III	2		Carcinoma				GSM784855
+GSM335553	188.57		75	primary colorectal adenocarcinoma R094: MSS	GSE13294	M	II		MSS	Carcinoma	4	0		GSM335553
+GSM929562			82	08C0535T	GSE37892	M	II			Carcinoma				GSM929562_SOG_535_U133_2
+GSM929531			60	512	GSE37892	M	II			Carcinoma				GSM929531_MFL_512b_U133_2
+GSM662719			55	COL2_9736	GSE26906	F	II			Carcinoma				GSM662719
+GSM102516				Colon - 138198	GSE2109			3		Carcinoma				GSM102516
+GSM437319	0		38	VMC Patient 50	GSE17538	F	IV	2		Carcinoma				GSM437319
+GSM179865				Liver - 260857	GSE2109			X		Carcinoma				GSM179865
+GSM327330	57		63	03-TB-036: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327330
+GSM452574				patient 138, cancer, LCM	GSE18105					Carcinoma				GSM452574
+GSM237980				4040T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237980
+GSM237959				3717T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237959
+GSM335528	260.71		72	primary colorectal adenocarcinoma R019: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335528
+GSM662638			78	COL2_10602	GSE26906	M	II			Carcinoma				GSM662638
+GSM358603			73	T4975A1	GSE14333	M	IV	2		Carcinoma				GSM358603
+GSM46857				Colon - 22227	GSE2109					Carcinoma				GSM46857
+GSM102431				Colon - 101116	GSE2109			2		Carcinoma				GSM102431
+GSM76520				Colon - 21638	GSE2109			4		Carcinoma				GSM76520
+GSM358389	14.26		83	T789A	GSE14333	M	II			Carcinoma				GSM358389
+GSM353897				Lung - 441147	GSE2109			X		Carcinoma				GSM353897
+GSM437278	55.8575342465753		70	VMC Patient 9	GSE17538	F	II	2		Carcinoma				GSM437278
+GSM523349				normal_colon_68 (macro)	GSE20916					Normal				GSM523349_ColonCa_Seria11_16A
+GSM335599	44.14		61	primary colorectal adenocarcinoma R140: MSS	GSE13294	F	III		MSS	Carcinoma	4	1	0	GSM335599
+GSM437324	41.4246575342466		69	VMC Patient 55	GSE17538	M	II	2		Carcinoma				GSM437324
+GSM929550			72	9243	GSE37892	F	II			Carcinoma				GSM929550_SOG_9243_U133_2
+GSM298958				Colonic_mucosa_control_87	GSE11831					Normal				GSM298958_C87KN1
+GSM237972				3860T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237972
+GSM452589				patient 022, cancer, LCM	GSE18105					Carcinoma				GSM452589
+GSM784858			51	Colon_R29_1663	GSE31595	F	II	2		Carcinoma				GSM784858
+GSM437318	0		56	VMC Patient 49	GSE17538	M	IV	2		Carcinoma				GSM437318
+GSM358501	24.85		66	T2875A1	GSE14333	M	III	2		Carcinoma				GSM358501
+GSM76625				Abdominal wall mass - 6519	GSE2109			2		Carcinoma				GSM76625
+GSM179856				Cecum - 259731	GSE2109			2		Carcinoma				GSM179856
+GSM76548				Colon - 21957	GSE2109			3		Carcinoma				GSM76548
+GSM89044				Colon - 59009	GSE2109			2		Carcinoma				GSM89044
+GSM237924				3223T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237924
+GSM335545	291.43		73	primary colorectal adenocarcinoma R073: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335545
+GSM215077				Biopsy of the normal mucosa of the colon from patient #27	GSE8671					Normal				GSM215077
+GSM88994				Colon - 2318	GSE2109			2		Carcinoma				GSM88994
+GSM523259				colonic_crypt_epithelial_cells_adenoma_18 (micro)	GSE20916					Adenoma				GSM523259_Microdys_36EA
+GSM662689			70	COL2_720	GSE26906	F	II			Carcinoma				GSM662689
+GSM117775				Colon - 8031	GSE2109			2		Carcinoma				GSM117775
+GSM95502				colon_CRC_1486	GSE4183					Carcinoma				GSM95502
+GSM335655	260.71		80	primary colorectal adenocarcinoma R362: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335655
+GSM335608			59	primary colorectal adenocarcinoma R150: MSS	GSE13294	M	IV		MSS	Carcinoma	3	0	1	GSM335608
+GSM656856			91	colon cancer (GRUBER_CRC_315)	GSE26682	F			MSI	Carcinoma				GSM656856
+GSM102568				Colon - 84140	GSE2109			2		Carcinoma				GSM102568
+GSM335630	260.71		83	primary colorectal adenocarcinoma R245: MSI	GSE13294	M	I		MSI	Carcinoma	2	0	0	GSM335630
+GSM301712				Cecum - 458414	GSE2109			2		Carcinoma				GSM301712
+GSM335659	260.71		83	primary colorectal adenocarcinoma R376: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335659
+GSM138044				Colon - 215949	GSE2109			2		Carcinoma				GSM138044
+GSM929599			59	329	GSE37892	M	III			Carcinoma				GSM929599_070123-04
+GSM102497				Colon - 129690	GSE2109			3		Carcinoma				GSM102497
+GSM152712				Rectum - 231869	GSE2109			2		Carcinoma				GSM152712
+GSM656845			90	colon cancer (GRUBER_CRC_304)	GSE26682	F			MSS	Carcinoma				GSM656845
+GSM656820			76	colon cancer (GRUBER_CRC_279)	GSE26682	M			MSI	Carcinoma				GSM656820
+GSM523383				adenocarcinoma_102 (macro)	GSE20916					Carcinoma				GSM523383_ColonCa_Seria15_P27
+GSM452655				patient 035, cancer, homogenized	GSE18105					Carcinoma				GSM452655
+GSM358479	0.92		54	T4695A1	GSE14333	M	III	2		Carcinoma				GSM358479
+GSM179845				Rectum - 256876	GSE2109			2		Carcinoma				GSM179845
+GSM929587			58	92	GSE37892	M	II			Carcinoma				GSM929587_121206-01
+GSM237940				3530T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237940
+GSM656866			75	colon cancer (GRUBER_CRC_325)	GSE26682	M				Carcinoma				GSM656866
+GSM656816			62	colon cancer (GRUBER_CRC_275)	GSE26682	F			MSS	Carcinoma				GSM656816
+GSM358412	33.69		69	T5024A1	GSE14333	M	II	2		Carcinoma				GSM358412
+GSM452585				patient 154, cancer, LCM	GSE18105					Carcinoma				GSM452585
+GSM437281	57.9616438356164		59	VMC Patient 12	GSE17538	M	II			Carcinoma				GSM437281
+GSM358395	22.02		78	T2976A	GSE14333	F	II			Carcinoma				GSM358395
+GSM335541	13.86		71	primary colorectal adenocarcinoma R035: MSI	GSE13294	F	II		MSI	Carcinoma	4	0	0	GSM335541
+GSM335531	54.14		73	primary colorectal adenocarcinoma R022: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335531
+GSM215097				Biopsy of a colorectal adenoma from patient #15	GSE8671					Adenoma				GSM215097
+GSM784887			73	Colon_RB06_165	GSE31595	M	II	2		Carcinoma				GSM784887
+GSM452553				patient 101, cancer, LCM	GSE18105					Carcinoma				GSM452553
+GSM437099	82.29		66	MCC Patient 7	GSE17538	M	I	1		Carcinoma				GSM437099
+GSM784852			79	Colon_R18_1665	GSE31595	F	II	1		Carcinoma				GSM784852
+GSM215107				Biopsy of a colorectal adenoma from patient #25	GSE8671					Adenoma				GSM215107
+GSM452653				patient 032, cancer, homogenized	GSE18105					Carcinoma				GSM452653
+GSM784854			71	Colon_R22_1662	GSE31595	M	II	1		Carcinoma				GSM784854
+GSM358589			59	T3277B	GSE14333	M	IV	2		Carcinoma				GSM358589
+GSM277680				Colon - 362604	GSE2109			2		Carcinoma				GSM277680
+GSM662637			81	COL2_10411	GSE26906	M	II			Carcinoma				GSM662637
+GSM358539	112.33		64	T573A	GSE14333	F	III	2		Carcinoma				GSM358539
+GSM353890				Colon - 433125	GSE2109			2		Carcinoma				GSM353890
+GSM203700				Colon - 309417	GSE2109			2		Carcinoma				GSM203700
+GSM656837			78	colon cancer (GRUBER_CRC_296)	GSE26682	M			MSI	Carcinoma				GSM656837
+GSM662705			65	COL2_738	GSE26906	F	II			Carcinoma				GSM662705
+GSM929602			84	284	GSE37892	F	II			Carcinoma				GSM929602_MFL_284b_U133_2
+GSM237993				NM64  healthy control	GSE9348					Normal				GSM237993
+GSM358629			76	02-567-P1453	GSE14333	F	IV			Carcinoma				GSM358629
+GSM656560			65	colon cancer (GRUBER_CRC_19)	GSE26682	F			MSS	Carcinoma				GSM656560
+GSM76629				Colon - 6910	GSE2109			2		Carcinoma				GSM76629
+GSM358471	45.4		78	02-1140-P1840	GSE14333	F	II			Carcinoma				GSM358471
+GSM929619			87	7094	GSE37892	F	II			Carcinoma				GSM929619_121206-24
+GSM335595	260.71		49	primary colorectal adenocarcinoma R136: MSI	GSE13294	NA	II		MSI	Carcinoma	3	0	0	GSM335595
+GSM327289	9.5		49	01-TB-030: MSS	GSE13067	F	III		MSS	Carcinoma				GSM327289
+GSM179920				Rectum - 290716	GSE2109			2		Carcinoma				GSM179920
+GSM452642				patient 042, normal, homogenized	GSE18105					Normal				GSM452642
+GSM95492				colon_adenoma_956	GSE4183					Adenoma				GSM95492
+GSM335519	222.86		61	primary colorectal adenocarcinoma R010: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335519
+GSM523292				carcinoma_11 (macro)	GSE20916					Carcinoma				GSM523292_ColonCa_Seria02_27B1
+GSM335615	260.71		70	primary colorectal adenocarcinoma R157: MSS	GSE13294	F	II		MSS	Carcinoma		0		GSM335615
+GSM452638				patient 035, normal, homogenized	GSE18105					Normal				GSM452638
+GSM358402	26.53		79	T1662A	GSE14333	F	II	2		Carcinoma				GSM358402
+GSM179867				Colon - 260859	GSE2109			2		Carcinoma				GSM179867
+GSM335554	407.14		66	primary colorectal adenocarcinoma R095: MSS	GSE13294	M	II		MSS	Carcinoma	4	0		GSM335554
+GSM215112				Biopsy of a colorectal adenoma from patient #30	GSE8671					Adenoma				GSM215112
+GSM929613			71	315	GSE37892	F	II			Carcinoma				GSM929613_MFL_315b_U133_2
+GSM452593				patient 034, cancer, LCM	GSE18105					Carcinoma				GSM452593
+GSM523381				adenocarcinoma_100 (macro)	GSE20916					Carcinoma				GSM523381_ColonCa_Seria15_48P
+GSM437289	0.493150684931507		47	VMC Patient 20	GSE17538	M	III			Carcinoma				GSM437289
+GSM452659				patient 042, cancer, homogenized	GSE18105					Carcinoma				GSM452659
+GSM137922				Colon - 174060	GSE2109			2		Carcinoma				GSM137922
+GSM335550	260.71		55	primary colorectal adenocarcinoma R091: MSS	GSE13294	F	II		MSS	Carcinoma	4	0		GSM335550
+GSM215109				Biopsy of a colorectal adenoma from patient #27	GSE8671					Adenoma				GSM215109
+GSM656631			62	colon cancer (GRUBER_CRC_90)	GSE26682	M				Carcinoma				GSM656631
+GSM179831				Colon - 251039	GSE2109			3		Carcinoma				GSM179831
+GSM452662				patient 047, cancer, homogenized	GSE18105					Carcinoma				GSM452662
+GSM277699				Cecum - 416807	GSE2109			2		Carcinoma				GSM277699
+GSM327337				03-TB-102: MSS	GSE13067				MSS	Carcinoma				GSM327337
+GSM929556			68	B9406375	GSE37892	M	II			Carcinoma				GSM929556_SOG_34_U133_2
+GSM358489	11.9		46	T223B	GSE14333	M	III	2		Carcinoma				GSM358489
+GSM298778				Colonic_mucosa_control_36	GSE11831					Normal				GSM298778_C36KN3
+GSM662716			67	COL2_9304	GSE26906	M	II			Carcinoma				GSM662716
+GSM301660				Ovary - 421726	GSE2109			3		Carcinoma				GSM301660
+GSM93948				NM24 healthy control	GSE4107					Normal				GSM93948
+GSM358350	52.24		76	T3201B	GSE14333	M	I	1		Carcinoma				GSM358350
+GSM215080				Biopsy of the normal mucosa of the colon from patient #30	GSE8671					Normal				GSM215080
+GSM117720				Colon - 174938	GSE2109			2		Carcinoma				GSM117720
+GSM327323			65	03-TB-019: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327323
+GSM335566	260.71		68	primary colorectal adenocarcinoma R107: MSI	GSE13294	M	II		MSI	Carcinoma	4	0		GSM335566
+GSM452170			71	C34	GSE18088	M		3	MSS	Carcinoma				GSM452170
+GSM358575			88	T1792A1	GSE14333	M	IV	2		Carcinoma				GSM358575
+GSM452153			56	C8	GSE18088	M		2	MSI	Carcinoma				GSM452153
+GSM358397	22.38		65	T5162A1	GSE14333	F	II	2		Carcinoma				GSM358397
+GSM523286				normal_colon_5 (macro)	GSE20916					Normal				GSM523286_ColonCa_Seria01_8K
+GSM400179				vad6	GSE15960					Adenoma				GSM400179
+GSM237995				NM66  healthy control	GSE9348					Normal				GSM237995
+GSM452552				patient 100, cancer, LCM	GSE18105					Carcinoma				GSM452552
+GSM437273	60.0328767123288		61	VMC Patient 4	GSE17538	F	III	1		Carcinoma				GSM437273
+GSM117649				Colon - 143664	GSE2109			3		Carcinoma				GSM117649
+GSM656679			65	colon cancer (GRUBER_CRC_138)	GSE26682	M			MSI	Carcinoma				GSM656679
+GSM46940				Colon - 31820	GSE2109					Carcinoma				GSM46940
+GSM335585	260.71		79	primary colorectal adenocarcinoma R126: MSI	GSE13294	F	II		MSI	Carcinoma	3	0		GSM335585
+GSM656640			57	colon cancer (GRUBER_CRC_99)	GSE26682	F			MSS	Carcinoma				GSM656640
+GSM784867			79	Colon_R41_1960	GSE31595	M	II	2		Carcinoma				GSM784867
+GSM46915				Colon - 29241	GSE2109					Carcinoma				GSM46915
+GSM95482				colon_adenoma_1138	GSE4183					Adenoma				GSM95482
+GSM95475				colon_normal_1114	GSE4183					Normal				GSM95475
+GSM662645			34	COL2_14604	GSE26906	F	II			Carcinoma				GSM662645
+GSM53070				Colon - 1646	GSE2109					Carcinoma				GSM53070
+GSM523337				carcinoma_56 (macro)	GSE20916					Carcinoma				GSM523337_ColonCa_Seria09_38B1
+GSM358517	47.8		30	T2549C	GSE14333	M	III	3		Carcinoma				GSM358517
+GSM215114				Biopsy of a colorectal adenoma from patient #32	GSE8671					Adenoma				GSM215114
+GSM656550			63	colon cancer (GRUBER_CRC_9)	GSE26682	F			MSS	Carcinoma				GSM656550
+GSM523384				adenocarcinoma_103 (macro)	GSE20916					Carcinoma				GSM523384_ColonCa_Seria15_P3
+GSM327347	44.8		66	04-TB-124: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327347
+GSM523364				normal_colon_83 (macro)	GSE20916					Normal				GSM523364_ColonCa_Seria13_12A
+GSM237976				3931T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237976
+GSM335522	81.43		65	primary colorectal adenocarcinoma R013: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335522
+GSM335582	102.86		44	primary colorectal adenocarcinoma R123: MSS	GSE13294	M	II		MSS	Carcinoma	4	0		GSM335582
+GSM929539			56	79	GSE37892	F	II			Carcinoma				GSM929539_SOG_79_U133_2
+GSM523354				adenocarcinoma_73 (macro)	GSE20916					Carcinoma				GSM523354_ColonCa_Seria11_40P
+GSM88968				Colon - 1021	GSE2109			2		Carcinoma				GSM88968
+GSM452578				patient 144, cancer, LCM	GSE18105					Carcinoma				GSM452578
+GSM523288				adenocarcinoma_7 (macro)	GSE20916					Carcinoma				GSM523288_ColonCa_Seria01_P5D
+GSM929543			58	11196	GSE37892	M	II			Carcinoma				GSM929543_SOG_11196_U133_2
+GSM452169			85	C33	GSE18088	F		3	MSI	Carcinoma				GSM452169
+GSM656683			87	colon cancer (GRUBER_CRC_142)	GSE26682	F			MSS	Carcinoma				GSM656683
+GSM656775			55	colon cancer (GRUBER_CRC_234)	GSE26682	M			MSS	Carcinoma				GSM656775
+GSM452565				patient 011, cancer, LCM	GSE18105					Carcinoma				GSM452565
+GSM46819				Rectum - 1043	GSE2109			2		Carcinoma				GSM46819
+GSM452158			68	C22	GSE18088	M		3	MSS	Carcinoma				GSM452158
+GSM358482	4.24		78	T4448A	GSE14333	F	III	2		Carcinoma				GSM358482
+GSM89052				Colon - 6999	GSE2109			2		Carcinoma				GSM89052
+GSM335597	260.71		76	primary colorectal adenocarcinoma R138: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335597
+GSM358422	52.14		65	T3541A	GSE14333	F	II	2		Carcinoma				GSM358422
+GSM237962				3737T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237962
+GSM437283	59.7698630136986		66	VMC Patient 14	GSE17538	F	I	2		Carcinoma				GSM437283
+GSM523269				mucosa_distant_normal_colon_28 (micro)	GSE20916					Normal				GSM523269_Microdys_55ANN
+GSM523252				mucosa_adenoma_11 (micro)	GSE20916					Adenoma				GSM523252_Microdys_29AA
+GSM335591	260.71		75	primary colorectal adenocarcinoma R132: MSS	GSE13294	M	III		MSS	Carcinoma	3	1	0	GSM335591
+GSM662685			69	COL2_715	GSE26906	M	II			Carcinoma				GSM662685
+GSM929522			96	SA014500	GSE37892	M	III			Carcinoma				GSM929522_110706-23
+GSM358498	22.25		87	T2307A1	GSE14333	F	III	1		Carcinoma				GSM358498
+GSM656836			74	colon cancer (GRUBER_CRC_295)	GSE26682	F			MSS	Carcinoma				GSM656836
+GSM929586			62	81	GSE37892	M	II			Carcinoma				GSM929586_121206-13
+GSM327315			62	02-TB-087: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327315
+GSM231953				Colon - 403739	GSE2109			3		Carcinoma				GSM231953
+GSM137926				Colon - 177894	GSE2109			3		Carcinoma				GSM137926
+GSM339569				2 normal	GSE13471					Normal				GSM339569
+GSM231875				Colon - 345961	GSE2109			2		Carcinoma				GSM231875
+GSM237991				NM62  healthy control	GSE9348					Normal				GSM237991
+GSM523323				carcinoma_42 (macro)	GSE20916					Carcinoma				GSM523323_ColonCa_Seria07_13B1
+GSM662700			63	COL2_731	GSE26906	M	II			Carcinoma				GSM662700
+GSM76526				Colon - 21751	GSE2109			2		Carcinoma				GSM76526
+GSM95509				colon_CRC_1761	GSE4183					Carcinoma				GSM95509
+GSM784862			66	Colon_R36_2366	GSE31595	M	III	3		Carcinoma				GSM784862
+GSM152664				Colon - 211400	GSE2109			2		Carcinoma				GSM152664
+GSM437310	5.32602739726027		57	VMC Patient 41	GSE17538	F	II			Carcinoma				GSM437310
+GSM327353	12.1		92	05-WH-052: MSI	GSE13067	F	II		MSI	Carcinoma				GSM327353
+GSM117760				Colon - 187215	GSE2109			2		Carcinoma				GSM117760
+GSM215079				Biopsy of the normal mucosa of the colon from patient #29	GSE8671					Normal				GSM215079
+GSM656618			92	colon cancer (GRUBER_CRC_77)	GSE26682	M			MSS	Carcinoma				GSM656618
+GSM335662	260.71		74	primary colorectal adenocarcinoma R396: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335662
+GSM335513	407.14		64	primary colorectal adenocarcinoma R004: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335513
+GSM38078				Colon - 8202	GSE2109			3		Carcinoma				GSM38078
+GSM335631	15.57		55	primary colorectal adenocarcinoma R255: MSI	GSE13294	F	III		MSI	Carcinoma	3	1	0	GSM335631
+GSM929554			67	9749	GSE37892	F	II			Carcinoma				GSM929554_SOG_9749_U133_2
+GSM335636	260.71		57	primary colorectal adenocarcinoma R275: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335636
+GSM152604				Hepatic Flexure - 184846	GSE2109			2		Carcinoma				GSM152604
+GSM656669			73	colon cancer (GRUBER_CRC_128)	GSE26682	F			MSI	Carcinoma				GSM656669
+GSM656834			82	colon cancer (GRUBER_CRC_293)	GSE26682	F			MSS	Carcinoma				GSM656834
+GSM929567			45	SA031197	GSE37892	F	II			Carcinoma				GSM929567_SOG_031197_U133_2
+GSM358477	74.2		48	99-113-P447	GSE14333	F	II			Carcinoma				GSM358477
+GSM358600			51	T4750A1	GSE14333	M	IV	2		Carcinoma				GSM358600
+GSM452610				patient 131, cancer, LCM	GSE18105					Carcinoma				GSM452610
+GSM203657				Colon - 228547	GSE2109			2		Carcinoma				GSM203657
+GSM215101				Biopsy of a colorectal adenoma from patient #19	GSE8671					Adenoma				GSM215101
+GSM358409	29.22		64	T4660A1	GSE14333	F	II	2		Carcinoma				GSM358409
+GSM152573				Colon - 127830	GSE2109			3		Carcinoma				GSM152573
+GSM358448	13.5		92	00-TB-010-1A	GSE14333	M	II			Carcinoma				GSM358448
+GSM358382	30		76	03-1929-P3382	GSE14333	F	I			Carcinoma				GSM358382
+GSM774699			Human colonic mucosa-EPHB2 high replicate 2		GSE31255					EPHB2 high				
+GSM335609	51.43		67	primary colorectal adenocarcinoma R151: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335609
+GSM656850			80	colon cancer (GRUBER_CRC_309)	GSE26682	M			MSI	Carcinoma				GSM656850
+GSM400175				vad2	GSE15960					Adenoma				GSM400175
+GSM452577				patient 143, cancer, LCM	GSE18105					Carcinoma				GSM452577
+GSM774700			Human colonic mucosa-EPHB2 medium replicate 2		GSE31255					EPHB2 medium				
+GSM929534			53	534	GSE37892	F	II			Carcinoma				GSM929534_SOG_534_U133_2
+GSM89047				Colon - 6897	GSE2109			2		Carcinoma				GSM89047
+GSM152799				Colon - 262819	GSE2109			2		Carcinoma				GSM152799
+GSM117728				Colon - 178555	GSE2109			2		Carcinoma				GSM117728
+GSM656795			73	colon cancer (GRUBER_CRC_254)	GSE26682	M			MSI	Carcinoma				GSM656795
+GSM93926				3894M patient’s mucosa	GSE4107					Carcinoma				GSM93926
+GSM523268				mucosa_distant_normal_colon_27 (micro)	GSE20916					Normal				GSM523268_Microdys_54ANN
+GSM452566				patient 123, cancer, LCM	GSE18105					Carcinoma				GSM452566
+GSM335590	260.71		73	primary colorectal adenocarcinoma R131: MSS	GSE13294	M	III		MSS	Carcinoma	3	2	0	GSM335590
+GSM102551				Colon - 36322	GSE2109			2		Carcinoma				GSM102551
+GSM203743				Colon - 341555	GSE2109			2		Carcinoma				GSM203743
+GSM88999				Colon - 31587	GSE2109			2		Carcinoma				GSM88999
+GSM231904				Colon - 366598	GSE2109			4		Carcinoma				GSM231904
+GSM152721				Ovary - 235691	GSE2109			3		Carcinoma				GSM152721
+GSM93929				4160M patient’s mucosa	GSE4107					Carcinoma				GSM93929
+GSM523300				adenocarcinoma_19 (macro)	GSE20916					Carcinoma				GSM523300_ColonCa_Seria03_P7
+GSM335625	260.71		71	primary colorectal adenocarcinoma R223: MSI	GSE13294	NA	I		MSI	Carcinoma	2	0	0	GSM335625
+GSM89061				Colon - 78398	GSE2109			2		Carcinoma				GSM89061
+GSM437294	46.0931506849315		74	VMC Patient 25	GSE17538	F	III			Carcinoma				GSM437294
+GSM215074				Biopsy of the normal mucosa of the colon from patient #24	GSE8671					Normal				GSM215074
+GSM452199			70	C102	GSE18088	F		3	MSS	Carcinoma				GSM452199
+GSM358388	14.13		54	T1483C	GSE14333	F	II	2		Carcinoma				GSM358388
+GSM117699				Rectosigmoid - 170822	GSE2109			2		Carcinoma				GSM117699
+GSM662706			73	COL2_739	GSE26906	F	II			Carcinoma				GSM662706
+GSM327350	30.9		75	05-WH-018: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327350
+GSM656704			59	colon cancer (GRUBER_CRC_163)	GSE26682	F			MSS	Carcinoma				GSM656704
+GSM215054				Biopsy of the normal mucosa of the colon from patient #4	GSE8671					Normal				GSM215054
+GSM95488				colon_adenoma_1700	GSE4183					Adenoma				GSM95488
+GSM95506				colon_CRC_1651	GSE4183					Carcinoma				GSM95506
+GSM117676				Colon - 152482	GSE2109			2		Carcinoma				GSM117676
+GSM179924				Colon - 290720	GSE2109			3		Carcinoma				GSM179924
+GSM237937				3501T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237937
+GSM215081				Biopsy of the normal mucosa of the colon from patient #31	GSE8671					Normal				GSM215081
+GSM215055				Biopsy of the normal mucosa of the colon from patient #5	GSE8671					Normal				GSM215055
+GSM53045				Colon - 1228	GSE2109					Carcinoma				GSM53045
+GSM784906			89	Colon_RB56_1653	GSE31595	F	III	1		Carcinoma				GSM784906
+GSM152614				Colon - 193021	GSE2109			2		Carcinoma				GSM152614
+GSM358476	38		63	03-512-P2225	GSE14333	M	II			Carcinoma				GSM358476
+GSM335571	260.71		80	primary colorectal adenocarcinoma R112: MSS	GSE13294	M	II		MSS	Carcinoma	3	0		GSM335571
+GSM335621	130.71		75	primary colorectal adenocarcinoma R187: MSI	GSE13294	F	II		MSI	Carcinoma	4	0		GSM335621
+GSM93932				3446M patient’s mucosa	GSE4107					Carcinoma				GSM93932
+GSM327303			46	02-TB-055: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327303
+GSM929552			76	9607	GSE37892	F	II			Carcinoma				GSM929552_SOG_9607_U133_2
+GSM656609			78	colon cancer (GRUBER_CRC_68)	GSE26682	F				Carcinoma				GSM656609
+GSM523360				normal_colon_79 (macro)	GSE20916					Normal				GSM523360_ColonCa_Seria12_9K
+GSM358343	16.47		80	T1856A	GSE14333	F	I	2		Carcinoma				GSM358343
+GSM452563				patient 118, cancer, LCM	GSE18105					Carcinoma				GSM452563
+GSM656869			71	colon cancer (GRUBER_CRC_328)	GSE26682	M			MSS	Carcinoma				GSM656869
+GSM231868				Colon - 267100	GSE2109			2		Carcinoma				GSM231868
+GSM298948				Colonic_mucosa_control_70	GSE11831					Normal				GSM298948_C70KN2
+GSM215076				Biopsy of the normal mucosa of the colon from patient #26	GSE8671					Normal				GSM215076
+GSM89096				Rectum - 89229	GSE2109			3		Carcinoma				GSM89096
+GSM452609				patient 130, cancer, LCM	GSE18105					Carcinoma				GSM452609
+GSM358625			79	04-TB-017-1A	GSE14333	M	IV			Carcinoma				GSM358625
+GSM452557				patient 107, cancer, LCM	GSE18105					Carcinoma				GSM452557
+GSM523265				colonic_crypt_epithelial_cells_distant_normal_colon_24 (micro)	GSE20916					Normal				GSM523265_Microdys_50ENN
+GSM929546			84	8196	GSE37892	F	II			Carcinoma				GSM929546_SOG_8196_U133_2
+GSM138039				Rectosigmoid - 215941	GSE2109			3		Carcinoma				GSM138039
+GSM452162			70	C26	GSE18088	F		2	MSS	Carcinoma				GSM452162
+GSM203780				Rectosigmoid - 362602	GSE2109			2		Carcinoma				GSM203780
+GSM327293				01-TB-037: MSS	GSE13067				MSS	Carcinoma				GSM327293
+GSM237944				3577T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237944
+GSM138052				Colon - 231874	GSE2109			2		Carcinoma				GSM138052
+GSM95476				colon_normal_1122	GSE4183					Normal				GSM95476
+GSM95478				colon_normal_1431	GSE4183					Normal				GSM95478
+GSM662643			71	COL2_11538	GSE26906	M	II			Carcinoma				GSM662643
+GSM237974				3872T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237974
+GSM523279				colonic_crypt_epithelial_cells_distant_normal_colon_38 (micro)	GSE20916					Normal				GSM523279_Microdys_53ENN
+GSM452154			75	C10	GSE18088	F		2	MSS	Carcinoma				GSM452154
+GSM656749			75	colon cancer (GRUBER_CRC_208)	GSE26682	M			MSS	Carcinoma				GSM656749
+GSM437305	0		65	VMC Patient 36	GSE17538	M	IV	2		Carcinoma				GSM437305
+GSM89095				Rectum - 89228	GSE2109			2		Carcinoma				GSM89095
+GSM662698			58	COL2_729	GSE26906	F	II			Carcinoma				GSM662698
+GSM358502	26.26		78	T4080A	GSE14333	F	III	3		Carcinoma				GSM358502
+GSM452179			77	C51	GSE18088	F		2	MSI	Carcinoma				GSM452179
+GSM137967				Colon - 191427	GSE2109			2		Carcinoma				GSM137967
+GSM237982				4144T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237982
+GSM523267				colonic_crypt_epithelial_cells_distant_normal_colon_26 (micro)	GSE20916					Normal				GSM523267_Microdys_52ENN
+GSM437279	64.8657534246575		55	VMC Patient 10	GSE17538	M	I	2		Carcinoma				GSM437279
+GSM95501				colon_CRC_1479	GSE4183					Carcinoma				GSM95501
+GSM179922				Colon - 290718	GSE2109			2		Carcinoma				GSM179922
+GSM358436	86.43		74	T1979A	GSE14333	F	II	2		Carcinoma				GSM358436
+GSM335534	227.14		80	primary colorectal adenocarcinoma R025: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335534
+GSM358423	52.5		76	T1249A	GSE14333	F	II	2		Carcinoma				GSM358423
+GSM335523	260.71		68	primary colorectal adenocarcinoma R014: MSS	GSE13294	M	II		MSS	Carcinoma	4	0	0	GSM335523
+GSM102539				Rectosigmoid - 161466	GSE2109			2		Carcinoma				GSM102539
+GSM452637				patient 033, normal, homogenized	GSE18105					Normal				GSM452637
+GSM452656				patient 036, cancer, homogenized	GSE18105					Carcinoma				GSM452656
+GSM179803				Colon - 209690	GSE2109			2		Carcinoma				GSM179803
+GSM237987				NM58  healthy control	GSE9348					Normal				GSM237987
+GSM358591			63	T3426B1	GSE14333	M	IV	2		Carcinoma				GSM358591
+GSM335578	260.71		85	primary colorectal adenocarcinoma R119: MSI	GSE13294	F	II		MSI	Carcinoma	4	0		GSM335578
+GSM929527			71	SA033059	GSE37892	F	III			Carcinoma				GSM929527_050805-08
+GSM152613				Colon - 193020	GSE2109			3		Carcinoma				GSM152613
+GSM523308				adenocarcinoma_27 (macro)	GSE20916					Carcinoma				GSM523308_ColonCa_Seria04_P4
+GSM452649				patient 027, cancer, homogenized	GSE18105					Carcinoma				GSM452649
+GSM437291	54.2794520547945		72	VMC Patient 22	GSE17538	M	II			Carcinoma				GSM437291
+GSM929529			59	SA014936	GSE37892	F	II			Carcinoma				GSM929529_111206-23
+GSM782671			65	Colon_R06_2361	GSE31595	F	III	2		Carcinoma				GSM782671
+GSM231937				Ovary - 388908	GSE2109			X		Carcinoma				GSM231937
+GSM929620			78	7225	GSE37892	F	II			Carcinoma				GSM929620_121206-18
+GSM237985				NM54  healthy control	GSE9348					Normal				GSM237985
+GSM656731			77	colon cancer (GRUBER_CRC_190)	GSE26682	M			MSI	Carcinoma				GSM656731
+GSM46956				Colon - 31877	GSE2109					Carcinoma				GSM46956
+GSM215106				Biopsy of a colorectal adenoma from patient #24	GSE8671					Adenoma				GSM215106
+GSM656585			64	colon cancer (GRUBER_CRC_44)	GSE26682	M			MSS	Carcinoma				GSM656585
+GSM358379			75	03-TB-041-1B	GSE14333	M	I			Carcinoma				GSM358379
+GSM929544			93	12266	GSE37892	F	II			Carcinoma				GSM929544_SOG_12266_U133_2
+GSM784857			87	Colon_R27_1673	GSE31595	F	II	1		Carcinoma				GSM784857
+GSM662693			68	COL2_723	GSE26906	F	II			Carcinoma				GSM662693
+GSM353881				Cecum - 345979	GSE2109			3		Carcinoma				GSM353881
+GSM277689				Colon - 383907	GSE2109			2		Carcinoma				GSM277689
+GSM102436				Colon - 101129	GSE2109			2		Carcinoma				GSM102436
+GSM784850			56	Colon_R14_2363	GSE31595	F	II	1		Carcinoma				GSM784850
+GSM452644				patient 045, normal, homogenized	GSE18105					Normal				GSM452644
+GSM358597			69	T4148A2.2	GSE14333	F	IV	2		Carcinoma				GSM358597
+GSM452630				patient 011, normal, homogenized	GSE18105					Normal				GSM452630
+GSM89098				Colon - 89232	GSE2109			2		Carcinoma				GSM89098
+GSM215084				Biopsy of a colorectal adenoma from patient #2	GSE8671					Adenoma				GSM215084
+GSM277731				Colon - 440432	GSE2109			2		Carcinoma				GSM277731
+GSM452556				patient 104, cancer, LCM	GSE18105					Carcinoma				GSM452556
+GSM452658				patient 041, cancer, homogenized	GSE18105					Carcinoma				GSM452658
+GSM179782				Rectum - 127824	GSE2109			3		Carcinoma				GSM179782
+GSM929597			63	202	GSE37892	F	III			Carcinoma				GSM929597_070123-13
+GSM237949				3616T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237949
+GSM93950				NM3 healthy control	GSE4107					Normal				GSM93950
+GSM327334	28.5		60	03-TB-078: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327334
+GSM298950				Colonic_mucosa_control_73	GSE11831					Normal				GSM298950_C73KN2
+GSM437153	45.99		68	MCC Patient 61	GSE17538	M	II	2		Carcinoma				GSM437153
+GSM335580	260.71		64	primary colorectal adenocarcinoma R121: MSS	GSE13294	F	II		MSS	Carcinoma	3	0		GSM335580
+GSM929564			75	07C1421T	GSE37892	F	II			Carcinoma				GSM929564_SOG_1421b_U133_2
+GSM179859				Colon - 259771	GSE2109			3		Carcinoma				GSM179859
+GSM929614			72	83	GSE37892	F	III			Carcinoma				GSM929614_051206-06
+GSM353934				Sigmoid Colon - 486145	GSE2109			2		Carcinoma				GSM353934
+GSM452167			84	C31	GSE18088	F		3	MSS	Carcinoma				GSM452167
+GSM452189			85	C68	GSE18088	M		2	MSI	Carcinoma				GSM452189
+GSM437292	34.9479452054794		88	VMC Patient 23	GSE17538	F	IV			Carcinoma				GSM437292
+GSM339567				3 tumor	GSE13471					Carcinoma				GSM339567
+GSM656859			76	colon cancer (GRUBER_CRC_318)	GSE26682	M			MSS	Carcinoma				GSM656859
+GSM95491				colon_adenoma_1832	GSE4183					Adenoma				GSM95491
+GSM46895				Colon - 23924	GSE2109			2		Carcinoma				GSM46895
+GSM523290				normal_colon_9 (macro)	GSE20916					Normal				GSM523290_ColonCa_Seria02_1K
+GSM301654				Omentum - 403714	GSE2109			X		Carcinoma				GSM301654
+GSM929524			97	SA017456	GSE37892	F	III			Carcinoma				GSM929524_110706-24
+GSM774701			Human colonic mucosa-EPHB2 low replicate 2		GSE31255					EPHB2 low				
+GSM358431	70.65		83	T2004A	GSE14333	F	II	2		Carcinoma				GSM358431
+GSM662699			66	COL2_730	GSE26906	F	II			Carcinoma				GSM662699
+GSM452650				patient 028, cancer, homogenized	GSE18105					Carcinoma				GSM452650
+GSM203645				Colon - 205706	GSE2109			2		Carcinoma				GSM203645
+GSM237917				3094T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237917
+GSM523303				carcinoma_22 (macro)	GSE20916					Carcinoma				GSM523303_ColonCa_Seria04_15B1
+GSM358353	59.53		50	T773A1	GSE14333	M	I	2		Carcinoma				GSM358353
+GSM523281				mucosa_adenoma_40 (micro)	GSE20916					Adenoma				GSM523281_Microdys_64AA
+GSM358381	52.1		65	01-568-P991	GSE14333	F	I			Carcinoma				GSM358381
+GSM358414	36.75		76	T4491A1	GSE14333	F	II	2		Carcinoma				GSM358414
+GSM102524				Colon - 149055	GSE2109			2		Carcinoma				GSM102524
+GSM215102				Biopsy of a colorectal adenoma from patient #20	GSE8671					Adenoma				GSM215102
+GSM656701			90	colon cancer (GRUBER_CRC_160)	GSE26682	F			MSS	Carcinoma				GSM656701
+GSM335526	260.71		69	primary colorectal adenocarcinoma R017: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335526
+GSM929615			70	97	GSE37892	F	III			Carcinoma				GSM929615_051206-15
+GSM353896				Cecum - 441145	GSE2109			2		Carcinoma				GSM353896
+GSM774697			Human colonic mucosa-EPHB2 low replicate 1		GSE31255					EPHB2 low				
+GSM656583			75	colon cancer (GRUBER_CRC_42)	GSE26682	F			MSI	Carcinoma				GSM656583
+GSM400190				vn5	GSE15960					Normal				GSM400190
+GSM656551			74	colon cancer (GRUBER_CRC_10)	GSE26682	M			MSI	Carcinoma				GSM656551
+GSM95477				colon_normal_1357	GSE4183					Normal				GSM95477
+GSM523275				mucosa_carcinoma_34 (micro)	GSE20916					Carcinoma				GSM523275_Microdys_28AC
+GSM237919				3132T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237919
+GSM215098				Biopsy of a colorectal adenoma from patient #16	GSE8671					Adenoma				GSM215098
+GSM270808				Normal01	GSE10714					Normal				GSM270808
+GSM358524	59.07		87	T2465G	GSE14333	M	III	2		Carcinoma				GSM358524
+GSM335575	47.86		79	primary colorectal adenocarcinoma R116: MSS	GSE13294	F	II		MSS	Carcinoma	4	0		GSM335575
+GSM523254				colonic_crypt_epithelial_cells_adenoma_13 (micro)	GSE20916					Adenoma				GSM523254_Microdys_31EA
+GSM929559			69	B0201594	GSE37892	M	II			Carcinoma				GSM929559_SOG_47_U133_2
+GSM358345	20.02		81	T5589B1	GSE14333	M	I	2		Carcinoma				GSM358345
+GSM929590			58	163	GSE37892	M	III			Carcinoma				GSM929590_051206-21
+GSM335529	287.14		67	primary colorectal adenocarcinoma R020: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335529
+GSM929523			96	SA016466	GSE37892	F	III			Carcinoma				GSM929523_051206-17
+GSM358483	5.22		62	T5811A1	GSE14333	F	III	2		Carcinoma				GSM358483
+GSM53126				Colon - 31852	GSE2109			2		Carcinoma				GSM53126
+GSM203775				Liver - 362575	GSE2109			2		Carcinoma				GSM203775
+GSM215058				Biopsy of the normal mucosa of the colon from patient #8	GSE8671					Normal				GSM215058
+GSM437178	95.07		71	MCC Patient 86	GSE17538	F	III	2		Carcinoma				GSM437178
+GSM358529	72.09		55	T2660A	GSE14333	M	III	1		Carcinoma				GSM358529
+GSM203702				Colon - 309419	GSE2109			3		Carcinoma				GSM203702
+GSM523341				adenocarcinoma_60 (macro)	GSE20916					Carcinoma				GSM523341_ColonCa_Seria09_P26
+GSM452175			34	C43	GSE18088	M		3	MSI	Carcinoma				GSM452175
+GSM38061				Colon - 2485	GSE2109			2		Carcinoma				GSM38061
+GSM929573			22	S1	GSE37892	M	III			Carcinoma				GSM929573_051206-04
+GSM335557	321.43		69	primary colorectal adenocarcinoma R098: MSS	GSE13294	F	II		MSS	Carcinoma	4	0		GSM335557
+GSM400181				vCRC2	GSE15960					Carcinoma				GSM400181
+GSM327306	61.4		73	02-TB-060: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327306
+GSM452654				patient 033, cancer, homogenized	GSE18105					Carcinoma				GSM452654
+GSM452597				patient 046, cancer, LCM	GSE18105					Carcinoma				GSM452597
+GSM358490	14.72		60	T949B	GSE14333	M	III	1		Carcinoma				GSM358490
+GSM437322	0		60	VMC Patient 53	GSE17538	F	IV	2		Carcinoma				GSM437322
+GSM437313	40.7342465753425		51	VMC Patient 44	GSE17538	M	II	2		Carcinoma				GSM437313
+GSM358576			58	T1889A1	GSE14333	M	IV	2		Carcinoma				GSM358576
+GSM358460	33.9		66	03-TB-052-1D	GSE14333	F	II			Carcinoma				GSM358460
+GSM929605			73	536	GSE37892	M	III			Carcinoma				GSM929605_070123-16
+GSM452651				patient 030, cancer, homogenized	GSE18105					Carcinoma				GSM452651
+GSM335598	260.71		76	primary colorectal adenocarcinoma R139: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335598
+GSM774702			Human colonic mucosa-EPHB2 neg replicate 2		GSE31255					EPHB2 neg				
+GSM353938				Right Colon - 486150	GSE2109			2		Carcinoma				GSM353938
+GSM327301	68.1		74	02-TB-050: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327301
+GSM339566				2 tumor	GSE13471					Carcinoma				GSM339566
+GSM215092				Biopsy of a colorectal adenoma from patient #10	GSE8671					Adenoma				GSM215092
+GSM335518	381.43		79	primary colorectal adenocarcinoma R009: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335518
+GSM358532	79.46		60	T252A	GSE14333	M	III			Carcinoma				GSM358532
+GSM523365				normal_colon_84 (macro)	GSE20916					Normal				GSM523365_ColonCa_Seria13_25B1N
+GSM929548			73	8612	GSE37892	F	II			Carcinoma				GSM929548_SOG_8612_U133_2
+GSM325840				Colon - 486173	GSE2109			3		Carcinoma				GSM325840
+GSM929516			76	SA030625	GSE37892	M	II			Carcinoma				GSM929516_121206-16
+GSM327288	69.1		59	01-TB-024: MSI	GSE13067	M	III		MSI	Carcinoma				GSM327288
+GSM452606				patient 106, cancer, LCM	GSE18105					Carcinoma				GSM452606
+GSM929591			72	244	GSE37892	M	II			Carcinoma				GSM929591_SOG_244_U133_2
+GSM358354	64.1		87	T3566A	GSE14333	F	I	2		Carcinoma				GSM358354
+GSM327341	40.4		78	04-TB-021: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327341
+GSM237966				3775T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237966
+GSM656784			69	colon cancer (GRUBER_CRC_243)	GSE26682	M				Carcinoma				GSM656784
+GSM298964				Colonic_mucosa_control_97	GSE11831					Normal				GSM298964_C97KN1
+GSM358596			59	T377A	GSE14333	F	IV	1		Carcinoma				GSM358596
+GSM523304				normal_colon_23 (macro)	GSE20916					Normal				GSM523304_ColonCa_Seria04_33A
+GSM656619			81	colon cancer (GRUBER_CRC_78)	GSE26682	F			MSI	Carcinoma				GSM656619
+GSM929609			64	680	GSE37892	F	III			Carcinoma				GSM929609_070123-14
+GSM335548	55.71		79	primary colorectal adenocarcinoma R089: MSS	GSE13294	M	II		MSS	Carcinoma	4	0		GSM335548
+GSM327346	49.6		69	04-TB-077: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327346
+GSM929575			63	S3	GSE37892	F	III			Carcinoma				GSM929575_070123-15
+GSM656720			82	colon cancer (GRUBER_CRC_179)	GSE26682	M			MSS	Carcinoma				GSM656720
+GSM53169				Colon - 5150	GSE2109					Carcinoma				GSM53169
+GSM234923				Normal_colon_33_20April05	GSE9254					Normal				GSM234923
+GSM53088				Liver - 2311	GSE2109					Carcinoma				GSM53088
+GSM358504	27.58		58	T1430C	GSE14333	M	III	3		Carcinoma				GSM358504
+GSM38074				Colon - 8194	GSE2109			2		Carcinoma				GSM38074
+GSM656543			77	colon cancer (GRUBER_CRC_2)	GSE26682	F			MSS	Carcinoma				GSM656543
+GSM46856				Rectosigmoid - 22225	GSE2109					Carcinoma				GSM46856
+GSM662686			68	COL2_716	GSE26906	M	II			Carcinoma				GSM662686
+GSM662721			50	COL2_9848	GSE26906	M	II			Carcinoma				GSM662721
+GSM137952				Peritoneum - 187237	GSE2109			2		Carcinoma				GSM137952
+GSM237971				3842T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237971
+GSM437272	46.2904109589041		72	VMC Patient 3	GSE17538	M	II	2		Carcinoma				GSM437272
+GSM452190			82	C69	GSE18088	F		2	MSS	Carcinoma				GSM452190
+GSM452178			55	C48	GSE18088	F		2	MSS	Carcinoma				GSM452178
+GSM117662				Colon - 151604	GSE2109			2		Carcinoma				GSM117662
+GSM335646	260.71		75	primary colorectal adenocarcinoma R320: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335646
+GSM203800				Colon - 383410	GSE2109			2		Carcinoma				GSM203800
+GSM46878				Colon - 23880	GSE2109			2		Carcinoma				GSM46878
+GSM237946				3599T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237946
+GSM335565	260.71		80	primary colorectal adenocarcinoma R106: MSI	GSE13294	F	II		MSI	Carcinoma	4	0		GSM335565
+GSM358567	40		51	2000-287	GSE14333	M	III			Carcinoma				GSM358567
+GSM327305	68.7		77	02-TB-059: MSS	GSE13067	F	III		MSS	Carcinoma				GSM327305
+GSM452648				patient 024, cancer, homogenized	GSE18105					Carcinoma				GSM452648
+GSM662677			78	COL2_707	GSE26906	F	II			Carcinoma				GSM662677
+GSM656691			68	colon cancer (GRUBER_CRC_150)	GSE26682	M			MSS	Carcinoma				GSM656691
+GSM231928				Colon - 384504	GSE2109			2		Carcinoma				GSM231928
+GSM358566	4.44		82	02-863-P1654	GSE14333	F	III			Carcinoma				GSM358566
+GSM656568			74	colon cancer (GRUBER_CRC_27)	GSE26682	M			MSS	Carcinoma				GSM656568
+GSM656770			64	colon cancer (GRUBER_CRC_229)	GSE26682	F			MSS	Carcinoma				GSM656770
+GSM335549	260.71		80	primary colorectal adenocarcinoma R090: MSS	GSE13294	F	II		MSS	Carcinoma	3	0		GSM335549
+GSM774705			Human colonic mucosa-EPHB2 low replicate 3		GSE31255					EPHB2 low				
+GSM358574			54	T1700A	GSE14333	M	IV	2		Carcinoma				GSM358574
+GSM523289				normal_colon_8 (macro)	GSE20916					Normal				GSM523289_ColonCa_Seria02_11B1N_2
+GSM215065				Biopsy of the normal mucosa of the colon from patient #15	GSE8671					Normal				GSM215065
+GSM102572				Colon - 84147	GSE2109			2		Carcinoma				GSM102572
+GSM929542			83	10937	GSE37892	M	II			Carcinoma				GSM929542_SOG_10937_U133_2
+GSM784860			64	Colon_R31_2365	GSE31595	M	II	2		Carcinoma				GSM784860
+GSM301702				Rectosigmoid - 443479	GSE2109			2		Carcinoma				GSM301702
+GSM929601			76	47	GSE37892	M	III			Carcinoma				GSM929601_051206-20
+GSM358503	26.92		71	T3804A	GSE14333	F	III	2		Carcinoma				GSM358503
+GSM325816				Ascending Colon - 465656	GSE2109			3		Carcinoma				GSM325816
+GSM76519				Colon - 21637	GSE2109			3		Carcinoma				GSM76519
+GSM358580			69	T2404A1	GSE14333	M	IV	2		Carcinoma				GSM358580
+GSM215110				Biopsy of a colorectal adenoma from patient #28	GSE8671					Adenoma				GSM215110
+GSM656833			50	colon cancer (GRUBER_CRC_292)	GSE26682	M			MSS	Carcinoma				GSM656833
+GSM179795				Colon - 199354	GSE2109			2		Carcinoma				GSM179795
+GSM298952				Colonic_mucosa_control_80	GSE11831					Normal				GSM298952_C80KN2
+GSM237963				3750T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237963
+GSM656848			78	colon cancer (GRUBER_CRC_307)	GSE26682	F				Carcinoma				GSM656848
+GSM656584			73	colon cancer (GRUBER_CRC_43)	GSE26682	F			MSS	Carcinoma				GSM656584
+GSM437165			87	MCC Patient 73	GSE17538	F	II	2		Carcinoma				GSM437165
+GSM152602				Colon - 180944	GSE2109			2		Carcinoma				GSM152602
+GSM929520			96	SA013893	GSE37892	M	III			Carcinoma				GSM929520_051206-24
+GSM656549			67	colon cancer (GRUBER_CRC_8)	GSE26682	M			MSI	Carcinoma				GSM656549
+GSM335596	260.71		79	primary colorectal adenocarcinoma R137: MSS	GSE13294	NA	II		MSS	Carcinoma	3	0	0	GSM335596
+GSM215062				Biopsy of the normal mucosa of the colon from patient #12	GSE8671					Normal				GSM215062
+GSM523263				colonic_crypt_epithelial_cells_carcinoma_22 (micro)	GSE20916					Carcinoma				GSM523263_Microdys_42EC
+GSM929540			81	10411	GSE37892	M	II			Carcinoma				GSM929540_SOG_10411_U133_2
+GSM523282				normal_colon_1 (macro)	GSE20916					Normal				GSM523282_ColonCa_Seria01_18A
+GSM358531	74.53		63	T2421A	GSE14333	M	III	2		Carcinoma				GSM358531
+GSM656675			61	colon cancer (GRUBER_CRC_134)	GSE26682	M			MSS	Carcinoma				GSM656675
+GSM117656				Colon - 144575	GSE2109			3		Carcinoma				GSM117656
+GSM358416	37.31		71	T2965B	GSE14333	M	II	2		Carcinoma				GSM358416
+GSM358390	15.05		54	T5164A1	GSE14333	M	II	2		Carcinoma				GSM358390
+GSM203684				Colon - 290734	GSE2109			2		Carcinoma				GSM203684
+GSM179887				Colon - 267093	GSE2109			2		Carcinoma				GSM179887
+GSM452632				patient 027, normal, homogenized	GSE18105					Normal				GSM452632
+GSM656802			80	colon cancer (GRUBER_CRC_261)	GSE26682	F			MSI	Carcinoma				GSM656802
+GSM335583	260.71		61	primary colorectal adenocarcinoma R124: MSS	GSE13294	F	II		MSS	Carcinoma	4	0		GSM335583
+GSM656803			72	colon cancer (GRUBER_CRC_262)	GSE26682	M			MSS	Carcinoma				GSM656803
+GSM784884			63	Colon_R54_1969	GSE31595	F	II	1		Carcinoma				GSM784884
+GSM117642				Colon - 143655	GSE2109			2		Carcinoma				GSM117642
+GSM656839			68	colon cancer (GRUBER_CRC_298)	GSE26682	M			MSI	Carcinoma				GSM656839
+GSM929553			55	9736	GSE37892	F	II			Carcinoma				GSM929553_SOG_9736_U133_2
+GSM929555			50	9848	GSE37892	M	II			Carcinoma				GSM929555_SOG_9848_U133_2
+GSM231905				Colon - 366602	GSE2109			2		Carcinoma				GSM231905
+GSM523294				adenocarcinoma_13 (macro)	GSE20916					Carcinoma				GSM523294_ColonCa_Seria02_P2
+GSM452193			71	C74	GSE18088	M		2	MSS	Carcinoma				GSM452193
+GSM784901			83	Colon_RB36_1646	GSE31595	F	III	2		Carcinoma				GSM784901
+GSM277248				Metachronous liver metastasis colorectal CA 23	GSE10961		IV			Carcinoma				GSM277248
+GSM452200			61	C113	GSE18088	F		2	MSI	Carcinoma				GSM452200
+GSM358342	14.53		53	T521B	GSE14333	F	I			Carcinoma				GSM358342
+GSM46841				Colon - 1354	GSE2109			3		Carcinoma				GSM46841
+GSM452633				patient 028, normal, homogenized	GSE18105					Normal				GSM452633
+GSM656711			83	colon cancer (GRUBER_CRC_170)	GSE26682	M			MSS	Carcinoma				GSM656711
+GSM358512	38.07		60	T4475A1	GSE14333	F	III	2		Carcinoma				GSM358512
+GSM452188			43	C67	GSE18088	F		2	MSI	Carcinoma				GSM452188
+GSM452594				patient 036, cancer, LCM	GSE18105					Carcinoma				GSM452594
+GSM523344				carcinoma_63 (macro)	GSE20916					Carcinoma				GSM523344_ColonCa_Seria10_23B1
+GSM215056				Biopsy of the normal mucosa of the colon from patient #6	GSE8671					Normal				GSM215056
+GSM929496			58	9700	GSE37892	F	III			Carcinoma				GSM929496_090126-09
+GSM656692			53	colon cancer (GRUBER_CRC_151)	GSE26682	M			MSS	Carcinoma				GSM656692
+GSM237934				3459T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237934
+GSM656868			70	colon cancer (GRUBER_CRC_327)	GSE26682	M			MSS	Carcinoma				GSM656868
+GSM152632				Colon - 199390	GSE2109			2		Carcinoma				GSM152632
+GSM452592				patient 033, cancer, LCM	GSE18105					Carcinoma				GSM452592
+GSM335516	565.71		63	primary colorectal adenocarcinoma R007: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335516
+GSM452581				patient 148, cancer, LCM	GSE18105					Carcinoma				GSM452581
+GSM784885			88	Colon_R55_1970	GSE31595	M	III	2		Carcinoma				GSM784885
+GSM662672			31	COL2_701	GSE26906	F	II			Carcinoma				GSM662672
+GSM358470	36.2		78	02-1005-P1757	GSE14333	F	II			Carcinoma				GSM358470
+GSM358361	82.29		66	T940A	GSE14333	M	I			Carcinoma				GSM358361
+GSM656545			71	colon cancer (GRUBER_CRC_4)	GSE26682	F			MSI	Carcinoma				GSM656545
+GSM327324	42.9		79	03-TB-021: MSI	GSE13067	F	II		MSI	Carcinoma				GSM327324
+GSM929581			75	112	GSE37892	F	II			Carcinoma				GSM929581_121206-21
+GSM137972				Colon - 194730	GSE2109			3		Carcinoma				GSM137972
+GSM452635				patient 031, normal, homogenized	GSE18105					Normal				GSM452635
+GSM335581				primary colorectal adenocarcinoma R122: MSS	GSE13294					Carcinoma				GSM335581
+GSM277253				Metachronous liver metastasis colorectal CA 24	GSE10961		IV			Carcinoma				GSM277253
+GSM335645	260.71		75	primary colorectal adenocarcinoma R316: MSI	GSE13294	F	I		MSI	Carcinoma	2	0	0	GSM335645
+GSM523359				carcinoma_78 (macro)	GSE20916					Carcinoma				GSM523359_ColonCa_Seria12_21B1_2
+GSM452647				patient 011, cancer, homogenized	GSE18105					Carcinoma				GSM452647
+GSM523291				normal_colon_10 (macro)	GSE20916					Normal				GSM523291_ColonCa_Seria02_27A
+GSM656851			63	colon cancer (GRUBER_CRC_310)	GSE26682	M			MSI	Carcinoma				GSM656851
+GSM237951				3626T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237951
+GSM335616	330.00		67	primary colorectal adenocarcinoma R158: MSS	GSE13294	M	II		MSS	Carcinoma		0		GSM335616
+GSM203688				Colon - 308699	GSE2109			2		Carcinoma				GSM203688
+GSM138005				Colon - 199382	GSE2109			2		Carcinoma				GSM138005
+GSM138047				Lung - 215953	GSE2109			X		Carcinoma				GSM138047
+GSM335525	274.29		58	primary colorectal adenocarcinoma R016: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335525
+GSM179897				Colon - 267116	GSE2109			2		Carcinoma				GSM179897
+GSM215093				Biopsy of a colorectal adenoma from patient #11	GSE8671					Adenoma				GSM215093
+GSM298962				Colonic_mucosa_control_92	GSE11831					Normal				GSM298962_C92KN2
+GSM523242				mucosa_normal_colon_1 (micro)	GSE20916					Normal				GSM523242_Microdys_11AN
+GSM358461	47.7		64	03-TB-084-1A	GSE14333	M	II			Carcinoma				GSM358461
+GSM437299	68.054794520548		72	VMC Patient 30	GSE17538	M	II	2		Carcinoma				GSM437299
+GSM452183			59	C60	GSE18088	F		2	MSI	Carcinoma				GSM452183
+GSM656703			66	colon cancer (GRUBER_CRC_162)	GSE26682	F			MSS	Carcinoma				GSM656703
+GSM437274	209.720547945205		56	VMC Patient 5	GSE17538	M	III			Carcinoma				GSM437274
+GSM929515			61	SA017579	GSE37892	M	II			Carcinoma				GSM929515_121206-07
+GSM452195			73	C81	GSE18088	F		3	MSS	Carcinoma				GSM452195
+GSM452562				patient 117, cancer, LCM	GSE18105					Carcinoma				GSM452562
+GSM215099				Biopsy of a colorectal adenoma from patient #17	GSE8671					Adenoma				GSM215099
+GSM929509			49	26	GSE37892	F	II			Carcinoma				GSM929509_121206-04
+GSM325844				Rectosigmoid Colon - 486190	GSE2109			2		Carcinoma				GSM325844
+GSM358601			63	T4926A1	GSE14333	M	IV	2		Carcinoma				GSM358601
+GSM88945				Colon - 1007	GSE2109			2		Carcinoma				GSM88945
+GSM152582				Colon - 129670	GSE2109			2		Carcinoma				GSM152582
+GSM335605			71	primary colorectal adenocarcinoma R146: MSS	GSE13294	F	IV		MSS	Carcinoma	3	0	1	GSM335605
+GSM46901				Rectosigmoid Colon - 23946	GSE2109					Carcinoma				GSM46901
+GSM400186				vn1	GSE15960					Normal				GSM400186
+GSM656590			73	colon cancer (GRUBER_CRC_49)	GSE26682	M			MSI	Carcinoma				GSM656590
+GSM400176				vad3	GSE15960					Adenoma				GSM400176
+GSM523326				carcinoma_45 (macro)	GSE20916					Carcinoma				GSM523326_ColonCa_Seria07_40B2D
+GSM656762			81	colon cancer (GRUBER_CRC_221)	GSE26682	M				Carcinoma				GSM656762
+GSM179838				Colon - 254435	GSE2109			2		Carcinoma				GSM179838
+GSM523243				mucosa_normal_colon_2 (micro)	GSE20916					Normal				GSM523243_Microdys_13AN
+GSM358398	24.19		66	T3463A	GSE14333	F	II	3		Carcinoma				GSM358398
+GSM327282	84.7		75	00-TB-002: MSI	GSE13067	M	III		MSI	Carcinoma				GSM327282
+GSM452159			72	C23	GSE18088	F		2	MSI	Carcinoma				GSM452159
+GSM929510			76	33	GSE37892	M	II			Carcinoma				GSM929510_121206-15
+GSM662701			44	COL2_732	GSE26906	M	II			Carcinoma				GSM662701
+GSM358496	21.04		46	T4110A	GSE14333	M	III	2		Carcinoma				GSM358496
+GSM358500	24.13		75	T4644B1	GSE14333	F	III	2		Carcinoma				GSM358500
+GSM88982				Rectum - 20279	GSE2109			2		Carcinoma				GSM88982
+GSM358377	56.5		77	02-TB-011-1B	GSE14333	F	I			Carcinoma				GSM358377
+GSM437320	0		64	VMC Patient 51	GSE17538	F	IV	2		Carcinoma				GSM437320
+GSM929498			62	11501	GSE37892	M	III			Carcinoma				GSM929498_090126-08
+GSM335656	260.71		77	primary colorectal adenocarcinoma R368: MSI	GSE13294	F	I		MSI	Carcinoma	2	0	0	GSM335656
+GSM215063				Biopsy of the normal mucosa of the colon from patient #13	GSE8671					Normal				GSM215063
+GSM400177				vad4	GSE15960					Adenoma				GSM400177
+GSM452661				patient 045, cancer, homogenized	GSE18105					Carcinoma				GSM452661
+GSM929617			78	12371	GSE37892	F	III			Carcinoma				GSM929617_110706-19
+GSM237979				3967T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237979
+GSM523278				colonic_crypt_epithelial_cells_carcinoma_37 (micro)	GSE20916					Carcinoma				GSM523278_Microdys_43EC
+GSM95487				colon_adenoma_1419	GSE4183					Adenoma				GSM95487
+GSM523277				colonic_crypt_epithelial_cells_adenoma_36 (micro)	GSE20916					Adenoma				GSM523277_Microdys_41EA
+GSM93946				NM22 healthy control	GSE4107					Normal				GSM93946
+GSM327349			81	04-TB-155: MSS	GSE13067	F	IV		MSS	Carcinoma				GSM327349
+GSM784905			85	Colon_RB51_183	GSE31595	M	II	2		Carcinoma				GSM784905
+GSM656546			49	colon cancer (GRUBER_CRC_5)	GSE26682	F			MSS	Carcinoma				GSM656546
+GSM102521				Colon - 144545	GSE2109			2		Carcinoma				GSM102521
+GSM231956				Colon - 404991	GSE2109			2		Carcinoma				GSM231956
+GSM46969				Rectosigmoid - 8262	GSE2109					Carcinoma				GSM46969
+GSM358362	83.6		62	T2011A	GSE14333	M	I	2		Carcinoma				GSM358362
+GSM523302				adenocarcinoma_21 (macro)	GSE20916					Carcinoma				GSM523302_ColonCa_Seria03_P9A
+GSM327326				03-TB-024: MSS	GSE13067				MSS	Carcinoma				GSM327326
+GSM452572				patient 135, cancer, LCM	GSE18105					Carcinoma				GSM452572
+GSM89049				Colon - 6994	GSE2109			2		Carcinoma				GSM89049
+GSM523329				adenocarcinoma_48 (macro)	GSE20916					Carcinoma				GSM523329_ColonCa_Seria07_P21
+GSM327309	40		62	02-TB-064: MSI	GSE13067	M	II		MSI	Carcinoma				GSM327309
+GSM656737			66	colon cancer (GRUBER_CRC_196)	GSE26682	M			MSS	Carcinoma				GSM656737
+GSM335658				primary colorectal adenocarcinoma R371: MSI	GSE13294					Carcinoma				GSM335658
+GSM929616			78	123	GSE37892	F	II			Carcinoma				GSM929616_070123-18
+GSM335626				primary colorectal adenocarcinoma R232: MSI	GSE13294					Carcinoma				GSM335626
+GSM76529				Colon - 21754	GSE2109			3		Carcinoma				GSM76529
+GSM237927				3373T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237927
+GSM523260				colonic_crypt_epithelial_cells_normal_colon_19 (micro)	GSE20916					Normal				GSM523260_Microdys_37EN
+GSM102549				Colon - 2320	GSE2109			2		Carcinoma				GSM102549
+GSM523255				colonic_crypt_epithelial_cells_normal_colon_14 (micro)	GSE20916					Normal				GSM523255_Microdys_32EN
+GSM452173			73	C40	GSE18088	F		2	MSI	Carcinoma				GSM452173
+GSM335632	260.71		79	primary colorectal adenocarcinoma R264: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335632
+GSM237932				3438T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237932
+GSM929545			81	7610	GSE37892	M	II			Carcinoma				GSM929545_SOG_7610_U133_2
+GSM929558			70	211	GSE37892	F	II			Carcinoma				GSM929558_MFL_211b_U133_2
+GSM89036				Ovary - 58994	GSE2109			X		Carcinoma				GSM89036
+GSM437277	57.0739726027397		52	VMC Patient 8	GSE17538	M	III	2		Carcinoma				GSM437277
+GSM203755				Colon - 346004	GSE2109			2		Carcinoma				GSM203755
+GSM358568	72.9		53	99-52-P49	GSE14333	F	III			Carcinoma				GSM358568
+GSM358497	21.27		53	T625A	GSE14333	M	III	1		Carcinoma				GSM358497
+GSM784902			81	Colon_RB43_1648	GSE31595	F	II	2		Carcinoma				GSM784902
+GSM88976				Rectum - 1291	GSE2109			3		Carcinoma				GSM88976
+GSM656798			77	colon cancer (GRUBER_CRC_257)	GSE26682	F				Carcinoma				GSM656798
+GSM335563	39.43		70	primary colorectal adenocarcinoma R104: MSI	GSE13294	M	II		MSI	Carcinoma	4	0		GSM335563
+GSM523346				adenocarcinoma_65 (macro)	GSE20916					Carcinoma				GSM523346_ColonCa_Seria10_P22
+GSM437295	0		49	VMC Patient 26	GSE17538	M	IV			Carcinoma				GSM437295
+GSM231988				Colon - 416802	GSE2109			2		Carcinoma				GSM231988
+GSM93938				NM14 healthy control	GSE4107					Normal				GSM93938
+GSM179937				Colon - 305128	GSE2109			2		Carcinoma				GSM179937
+GSM358565	70.8		43	003-230-P541	GSE14333	M	III			Carcinoma				GSM358565
+GSM358523	58.45		63	T3552B	GSE14333	F	III	2		Carcinoma				GSM358523
+GSM270791				CRCB02	GSE10714					Carcinoma				GSM270791
+GSM46887				Colon - 23908	GSE2109			2		Carcinoma				GSM46887
+GSM53055				Colon - 1259	GSE2109			3		Carcinoma				GSM53055
+GSM358487	8.58		51	T4060A	GSE14333	F	III	3		Carcinoma				GSM358487
+GSM358393	18.18		68	T5376A1	GSE14333	M	II	2		Carcinoma				GSM358393
+GSM358405	27.15		52	T5389A1	GSE14333	F	II	2		Carcinoma				GSM358405
+GSM335574	260.71		85	primary colorectal adenocarcinoma R115: MSI	GSE13294	F	II		MSI	Carcinoma	4	0		GSM335574
+GSM335562	260.71		60	primary colorectal adenocarcinoma R103: MSI	GSE13294	F	II		MSI	Carcinoma	4	0		GSM335562
+GSM358499	23.34		63	T1600A	GSE14333	M	III	2		Carcinoma				GSM358499
+GSM76617				Colon - 6293	GSE2109			2		Carcinoma				GSM76617
+GSM335612			57	primary colorectal adenocarcinoma R154: MSS	GSE13294	NA	IV		MSS	Carcinoma	3	1	1	GSM335612
+GSM452564				patient 119, cancer, LCM	GSE18105					Carcinoma				GSM452564
+GSM437307	33.1068493150685		94	VMC Patient 38	GSE17538	F	II	2		Carcinoma				GSM437307
+GSM358341	3.64		78	T5266A1	GSE14333	M	I	2		Carcinoma				GSM358341
+GSM523244				mucosa_adenoma_3 (micro)	GSE20916					Adenoma				GSM523244_Microdys_19AA
+GSM215090				Biopsy of a colorectal adenoma from patient #8	GSE8671					Adenoma				GSM215090
+GSM335628	260.71		72	primary colorectal adenocarcinoma R239: MSI	GSE13294	M	I		MSI	Carcinoma	2	0	0	GSM335628
+GSM358383	43.9		58	03-35-P1905	GSE14333	F	I			Carcinoma				GSM358383
+GSM358367	122.72		63	T309A	GSE14333	M	I	1		Carcinoma				GSM358367
+GSM95484				colon_adenoma_1154	GSE4183					Adenoma				GSM95484
+GSM656558			83	colon cancer (GRUBER_CRC_17)	GSE26682	F			MSS	Carcinoma				GSM656558
+GSM523301				adenocarcinoma_20 (macro)	GSE20916					Carcinoma				GSM523301_ColonCa_Seria03_P8
+GSM929502			54	13955	GSE37892	M	III			Carcinoma				GSM929502_090126-04
+GSM929501			66	13070	GSE37892	F	III			Carcinoma				GSM929501_090126-02
+GSM234927				Normal_colon_40_20April05	GSE9254					Normal				GSM234927
+GSM335552	42.86		57	primary colorectal adenocarcinoma R093: MSS	GSE13294	F	II		MSS	Carcinoma	4	0		GSM335552
+GSM237930				3423T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237930
+GSM53178				Colon - 5237	GSE2109			2		Carcinoma				GSM53178
+GSM452164			60	C28	GSE18088	F		2	MSS	Carcinoma				GSM452164
+GSM929532			61	519	GSE37892	M	II			Carcinoma				GSM929532_MFL_519b_U133_2
+GSM117752				Colon - 184863	GSE2109			2		Carcinoma				GSM117752
+GSM93921				3335M patient’s mucosa	GSE4107					Carcinoma				GSM93921
+GSM523307				adenocarcinoma_26 (macro)	GSE20916					Carcinoma				GSM523307_ColonCa_Seria04_P10
+GSM358538	105.17		39	T251A	GSE14333	M	III	2		Carcinoma				GSM358538
+GSM237981				4061T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237981
+GSM335663	260.71		79	primary colorectal adenocarcinoma R399: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335663
+GSM46828				Liver or Omentum - 1308	GSE2109			3		Carcinoma				GSM46828
+GSM327336	5.7		73	03-TB-096: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327336
+GSM179925				Colon - 290721	GSE2109			2		Carcinoma				GSM179925
+GSM335536	61.71		83	primary colorectal adenocarcinoma R027: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335536
+GSM335514	240.00		72	primary colorectal adenocarcinoma R005: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335514
+GSM301691				Rectosigmoid - 438176	GSE2109			2		Carcinoma				GSM301691
+GSM400189				vn4	GSE15960					Normal				GSM400189
+GSM335576	260.71		75	primary colorectal adenocarcinoma R117: MSI	GSE13294	F	II		MSI	Carcinoma	4	0		GSM335576
+GSM656831			66	colon cancer (GRUBER_CRC_290)	GSE26682	M			MSS	Carcinoma				GSM656831
+GSM452583				patient 152, cancer, LCM	GSE18105					Carcinoma				GSM452583
+GSM452582				patient 150, cancer, LCM	GSE18105					Carcinoma				GSM452582
+GSM353905				Rectosigmoid Colon - 443042	GSE2109			2		Carcinoma				GSM353905
+GSM327348	10.2		66	04-TB-138: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327348
+GSM358378	36.3		74	02-TB-051-1B	GSE14333	M	I			Carcinoma				GSM358378
+GSM137949				Colon - 187232	GSE2109			3		Carcinoma				GSM137949
+GSM437276	204.328767123288		74	VMC Patient 7	GSE17538	F	III	2		Carcinoma				GSM437276
+GSM662674			75	COL2_704	GSE26906	F	II			Carcinoma				GSM662674
+GSM237948				3604T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237948
+GSM327351	24		64	05-WH-027: MSS	GSE13067	F	III		MSS	Carcinoma				GSM327351
+GSM335564	260.71		61	primary colorectal adenocarcinoma R105: MSS	GSE13294	F	II		MSS	Carcinoma	3	0		GSM335564
+GSM298782				Colonic_mucosa_control_37	GSE11831					Normal				GSM298782_C37KN1
+GSM237945				3592T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237945
+GSM523343				normal_colon_62 (macro)	GSE20916					Normal				GSM523343_ColonCa_Seria10_23A
+GSM237918				3103T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237918
+GSM784892			91	Colon_RB30_1651	GSE31595	M	II	3		Carcinoma				GSM784892
+GSM358459	31.3		44	03-TB-042-1B	GSE14333	M	II			Carcinoma				GSM358459
+GSM662711			56	COL2_79	GSE26906	F	II			Carcinoma				GSM662711
+GSM137947				Colon - 187229	GSE2109			2		Carcinoma				GSM137947
+GSM656806			77	colon cancer (GRUBER_CRC_265)	GSE26682	F			MSS	Carcinoma				GSM656806
+GSM437275	60.0328767123288		57	VMC Patient 6	GSE17538	F	III	2		Carcinoma				GSM437275
+GSM358478	84.9		72	99-2-P2	GSE14333	M	II			Carcinoma				GSM358478
+GSM656843			74	colon cancer (GRUBER_CRC_302)	GSE26682	F			MSS	Carcinoma				GSM656843
+GSM234913				Normal_colon_14_12April05	GSE9254					Normal				GSM234913
+GSM335593	219.00		60	primary colorectal adenocarcinoma R134: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335593
+GSM523297				normal_colon_16 (macro)	GSE20916					Normal				GSM523297_ColonCa_Seria03_22A_2
+GSM102484				Small Intestine - 118672	GSE2109			3		Carcinoma				GSM102484
+GSM656694			71	colon cancer (GRUBER_CRC_153)	GSE26682	F			MSI	Carcinoma				GSM656694
+GSM929593			50	179	GSE37892	M	III			Carcinoma				GSM929593_051206-12
+GSM929565			81	SA010753	GSE37892	M	II			Carcinoma				GSM929565_SOG_010753_U133_2
+GSM656785			85	colon cancer (GRUBER_CRC_244)	GSE26682	F			MSS	Carcinoma				GSM656785
+GSM734148				T3395A	GSE14333	F	II	3		Carcinoma	4	X	X	GSM734148
+GSM452621				patient 045, cancer, LCM	GSE18105					Carcinoma				GSM452621
+GSM358385	2.26		40	T5261B1	GSE14333	F	II	1		Carcinoma				GSM358385
+GSM76575				Rectum - 36320	GSE2109			2		Carcinoma				GSM76575
+GSM523375				adenocarcinoma_94 (macro)	GSE20916					Carcinoma				GSM523375_ColonCa_Seria14_45P
+GSM929497			59	10682	GSE37892	F	III			Carcinoma				GSM929497_090126-07
+GSM656783			80	colon cancer (GRUBER_CRC_242)	GSE26682	M			MSS	Carcinoma				GSM656783
+GSM358474	14.3		75	02-627-P1492	GSE14333	M	II			Carcinoma				GSM358474
+GSM358581			51	T2419A1	GSE14333	M	IV	2		Carcinoma				GSM358581
+GSM335601	260.71		56	primary colorectal adenocarcinoma R142: MSS	GSE13294	M	III		MSS	Carcinoma	3	1	0	GSM335601
+GSM929507			66	12	GSE37892	F	II			Carcinoma				GSM929507_121206-10
+GSM237915				3068T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237915
+GSM523256				colonic_crypt_epithelial_cells_adenoma_15 (micro)	GSE20916					Adenoma				GSM523256_Microdys_33EA
+GSM358403	26.66		71	T4612A1	GSE14333	M	II			Carcinoma				GSM358403
+GSM656673			75	colon cancer (GRUBER_CRC_132)	GSE26682	M				Carcinoma				GSM656673
+GSM452149			65	C2	GSE18088	F		3	MSS	Carcinoma				GSM452149
+GSM237955				3679T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237955
+GSM929499			55	11697	GSE37892	M	III			Carcinoma				GSM929499_090126-01
+GSM656559			70	colon cancer (GRUBER_CRC_18)	GSE26682	M			MSI	Carcinoma				GSM656559
+GSM95497				colon_CRC_1158	GSE4183					Carcinoma				GSM95497
+GSM102577				Colon - 84158	GSE2109			2		Carcinoma				GSM102577
+GSM656832			69	colon cancer (GRUBER_CRC_291)	GSE26682	F			MSS	Carcinoma				GSM656832
+GSM327352				05-WH-028: MSI	GSE13067				MSI	Carcinoma				GSM327352
+GSM215089				Biopsy of a colorectal adenoma from patient #7	GSE8671					Adenoma				GSM215089
+GSM327314	57.8		60	02-TB-085: MSS	GSE13067	F	III		MSS	Carcinoma				GSM327314
+GSM102429				Colon - 101097	GSE2109			2		Carcinoma				GSM102429
+GSM656847			74	colon cancer (GRUBER_CRC_306)	GSE26682	M			MSS	Carcinoma				GSM656847
+GSM452559				patient 113, cancer, LCM	GSE18105					Carcinoma				GSM452559
+GSM335555	260.71		82	primary colorectal adenocarcinoma R096: MSI	GSE13294	M	II		MSI	Carcinoma	3	0		GSM335555
+GSM325829				Colon - 468495	GSE2109			2		Carcinoma				GSM325829
+GSM656870			63	colon cancer (GRUBER_CRC_329)	GSE26682	M			MSS	Carcinoma				GSM656870
+GSM152592				Lung - 151625	GSE2109			2		Carcinoma				GSM152592
+GSM237938				3514T-R early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237938
+GSM117707				Rectum - 174051	GSE2109			1		Carcinoma				GSM117707
+GSM358417	39.25		59	T4257A	GSE14333	F	II	3		Carcinoma				GSM358417
+GSM353936				Sigmoid Colon - 486147	GSE2109			2		Carcinoma				GSM353936
+GSM358344	19.75		58	T4919A1	GSE14333	M	I	2		Carcinoma				GSM358344
+GSM215067				Biopsy of the normal mucosa of the colon from patient #17	GSE8671					Normal				GSM215067
+GSM152780				Colon - 256880	GSE2109			2		Carcinoma				GSM152780
+GSM523331				carcinoma_50 (macro)	GSE20916					Carcinoma				GSM523331_ColonCa_Seria08_31BI1_2
+GSM335647	260.71		54	primary colorectal adenocarcinoma R326: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335647
+GSM38105				Colon - 8260	GSE2109			2		Carcinoma				GSM38105
+GSM237929				3395T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237929
+GSM215073				Biopsy of the normal mucosa of the colon from patient #23	GSE8671					Normal				GSM215073
+GSM215088				Biopsy of a colorectal adenoma from patient #6	GSE8671					Adenoma				GSM215088
+GSM452161			66	C25	GSE18088	M		2	MSS	Carcinoma				GSM452161
+GSM358365	109.21		63	T981A	GSE14333	M	I	2		Carcinoma				GSM358365
+GSM452560				patient 115, cancer, LCM	GSE18105					Carcinoma				GSM452560
+GSM237952				3634T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237952
+GSM656592			63	colon cancer (GRUBER_CRC_51)	GSE26682	M			MSS	Carcinoma				GSM656592
+GSM358491	16.07		53	T672A	GSE14333	F	III			Carcinoma				GSM358491
+GSM523338				normal_colon_57 (macro)	GSE20916					Normal				GSM523338_ColonCa_Seria09_9A
+GSM452641				patient 041, normal, homogenized	GSE18105					Normal				GSM452641
+GSM523366				carcinoma_85 (macro)	GSE20916					Carcinoma				GSM523366_ColonCa_Seria13_37B
+GSM89075				Rectosigmoid Colon - 84168	GSE2109			2		Carcinoma				GSM89075
+GSM89074				Rectum - 84157	GSE2109			2		Carcinoma				GSM89074
+GSM656695			64	colon cancer (GRUBER_CRC_154)	GSE26682	F			MSS	Carcinoma				GSM656695
+GSM358507	31.36		78	T4920A1	GSE14333	F	III	2		Carcinoma				GSM358507
+GSM662656			72	COL2_244	GSE26906	M	II			Carcinoma				GSM662656
+GSM102579				Colon - 84162	GSE2109			2		Carcinoma				GSM102579
+GSM452182			56	C58	GSE18088	M		2	MSI	Carcinoma				GSM452182
+GSM117702				Rectosigmoid - 170825	GSE2109			2		Carcinoma				GSM117702
+GSM774698			Human colonic mucosa-EPHB2 neg replicate 1		GSE31255					EPHB2 neg				
+GSM95489				colon_adenoma_1748	GSE4183					Adenoma				GSM95489
+GSM437302	0		57	VMC Patient 33	GSE17538	F	IV	2		Carcinoma				GSM437302
+GSM523248				mucosa_carcinoma_7 (micro)	GSE20916					Carcinoma				GSM523248_Microdys_22AC
+GSM523316				carcinoma_35 (macro)	GSE20916					Carcinoma				GSM523316_ColonCa_Seria06_15B2
+GSM452156			58	C13	GSE18088	M		2	MSS	Carcinoma				GSM452156
+GSM784853			68	Colon_R21_1667	GSE31595	F	II	2		Carcinoma				GSM784853
+GSM203691				Colon - 309390	GSE2109			3		Carcinoma				GSM203691
+GSM335560	260.71		74	primary colorectal adenocarcinoma R101: MSI	GSE13294	F	II		MSI	Carcinoma	4	0		GSM335560
+GSM656690			88	colon cancer (GRUBER_CRC_149)	GSE26682	F			MSI	Carcinoma				GSM656690
+GSM358586			60	T3072A1	GSE14333	M	IV	3		Carcinoma				GSM358586
+GSM152619				Small Bowel - 193034	GSE2109			X		Carcinoma				GSM152619
+GSM38107				Colon - 8266	GSE2109			2		Carcinoma				GSM38107
+GSM237956				3682T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237956
+GSM327304	59.2		56	02-TB-056: MSS	GSE13067	F	III		MSS	Carcinoma				GSM327304
+GSM452601				patient 073, cancer, LCM	GSE18105					Carcinoma				GSM452601
+GSM437303	46.4547945205479		51	VMC Patient 34	GSE17538	M	III	2		Carcinoma				GSM437303
+GSM656841			63	colon cancer (GRUBER_CRC_300)	GSE26682	M			MSS	Carcinoma				GSM656841
+GSM784865			62	Colon_R40_2367	GSE31595	M	III	3		Carcinoma				GSM784865
+GSM298789				Colonic_mucosa_control_45	GSE11831					Normal				GSM298789_C45KN5
+GSM452586				patient 155, cancer, LCM	GSE18105					Carcinoma				GSM452586
+GSM152572				Rectosigmoid - 127827	GSE2109			2		Carcinoma				GSM152572
+GSM152658				Colon - 209717	GSE2109			2		Carcinoma				GSM152658
+GSM38077				Colon - 8200	GSE2109			2		Carcinoma				GSM38077
+GSM46845				Colon - 2049	GSE2109					Carcinoma				GSM46845
+GSM335561	81.43		81	primary colorectal adenocarcinoma R102: MSS	GSE13294	M	II		MSS	Carcinoma	4	0		GSM335561
+GSM339564				4 normal	GSE13471					Normal				GSM339564
+GSM452187			63	C66	GSE18088	M		2	MSS	Carcinoma				GSM452187
+GSM452157			75	C20	GSE18088	F		3	MSI	Carcinoma				GSM452157
+GSM102486				Rectum - 127821	GSE2109			2		Carcinoma				GSM102486
+GSM95500				colon_CRC_1377	GSE4183					Carcinoma				GSM95500
+GSM89040				Colon - 59005	GSE2109			2		Carcinoma				GSM89040
+GSM358401	25.61		78	T5107B1	GSE14333	M	II	2		Carcinoma				GSM358401
+GSM400183				vCRC4	GSE15960					Carcinoma				GSM400183
+GSM656811			78	colon cancer (GRUBER_CRC_270)	GSE26682	M			MSS	Carcinoma				GSM656811
+GSM656595			71	colon cancer (GRUBER_CRC_54)	GSE26682	M			MSI	Carcinoma				GSM656595
+GSM523372				carcinoma_91 (macro)	GSE20916					Carcinoma				GSM523372_ColonCa_Seria14_35B2
+GSM400188				vn3	GSE15960					Normal				GSM400188
+GSM656822			66	colon cancer (GRUBER_CRC_281)	GSE26682	M			MSS	Carcinoma				GSM656822
+GSM929623			59	8952	GSE37892	F	III			Carcinoma				GSM929623_080318-04
+GSM335568	260.71		69	primary colorectal adenocarcinoma R109: MSS	GSE13294	M	II		MSS	Carcinoma	3	0		GSM335568
+GSM335603	260.71		71	primary colorectal adenocarcinoma R144: MSS	GSE13294	F	III		MSS	Carcinoma	3	2	0	GSM335603
+GSM335521	260.71		60	primary colorectal adenocarcinoma R012: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335521
+GSM335619	260.71		67	primary colorectal adenocarcinoma R180: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335619
+GSM358481	3.32		83	T2567B1	GSE14333	F	III	2		Carcinoma				GSM358481
+GSM137921				Liver - 174056	GSE2109			X		Carcinoma				GSM137921
+GSM138042				Colon - 215946	GSE2109			2		Carcinoma				GSM138042
+GSM327300	55.7		61	02-TB-045: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327300
+GSM46832				Colon - 1315	GSE2109					Carcinoma				GSM46832
+GSM784881			72	Colon_R52_1967	GSE31595	M	III	1		Carcinoma				GSM784881
+GSM358495	20.44		63	T1213A	GSE14333	M	III	2		Carcinoma				GSM358495
+GSM452625				patient 084, cancer, LCM	GSE18105					Carcinoma				GSM452625
+GSM437297	7.82465753424658		78	VMC Patient 28	GSE17538	F	III	3		Carcinoma				GSM437297
+GSM102485				Colon - 118673	GSE2109			3		Carcinoma				GSM102485
+GSM95504				colon_CRC_1499	GSE4183					Carcinoma				GSM95504
+GSM76576				Colon - 36327	GSE2109			2		Carcinoma				GSM76576
+GSM89053				Colon - 7003	GSE2109			3		Carcinoma				GSM89053
+GSM929549			68	9184	GSE37892	F	II			Carcinoma				GSM929549_SOG_9184_U133_2
+GSM327317	18.8		77	03-TB-003: MSS	GSE13067	F	III		MSS	Carcinoma				GSM327317
+GSM152695				Colon - 226429	GSE2109			3		Carcinoma				GSM152695
+GSM774696			Human colonic mucosa-EPHB2 medium replicate 1		GSE31255					EPHB2 medium				
+GSM662664			88	COL2_510	GSE26906	F	II			Carcinoma				GSM662664
+GSM358355	64.37		61	T1558A	GSE14333	F	I			Carcinoma				GSM358355
+GSM662681			71	COL2_711	GSE26906	M	II			Carcinoma				GSM662681
+GSM53113				Colon - 29281	GSE2109			3		Carcinoma				GSM53113
+GSM231958				Colon - 404993	GSE2109			2		Carcinoma				GSM231958
+GSM452615				patient 149, cancer, LCM	GSE18105					Carcinoma				GSM452615
+GSM452569				patient 127, cancer, LCM	GSE18105					Carcinoma				GSM452569
+GSM137942				Colon - 187218	GSE2109			2		Carcinoma				GSM137942
+GSM237922				3209T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237922
+GSM102540				Colon - 161480	GSE2109			3		Carcinoma				GSM102540
+GSM327294				02-TB-016: MSS	GSE13067				MSS	Carcinoma				GSM327294
+GSM656612			48	colon cancer (GRUBER_CRC_71)	GSE26682	F			MSI	Carcinoma				GSM656612
+GSM452622				patient 059, cancer, LCM	GSE18105					Carcinoma				GSM452622
+GSM179804				Colon - 209691	GSE2109			2		Carcinoma				GSM179804
+GSM929500			74	12248	GSE37892	M	III			Carcinoma				GSM929500_090126-03
+GSM452174			78	C42	GSE18088	M		2	MSI	Carcinoma				GSM452174
+GSM656864			77	colon cancer (GRUBER_CRC_323)	GSE26682	M			MSI	Carcinoma				GSM656864
+GSM784903			89	Colon_RB45_1652	GSE31595	F	II	2		Carcinoma				GSM784903
+GSM656772			72	colon cancer (GRUBER_CRC_231)	GSE26682	M			MSS	Carcinoma				GSM656772
+GSM656794			73	colon cancer (GRUBER_CRC_253)	GSE26682	F			MSS	Carcinoma				GSM656794
+GSM358473	55.9		81	02-47-P1097	GSE14333	F	II			Carcinoma				GSM358473
+GSM53087				Rectosigmoid - 2310	GSE2109			2		Carcinoma				GSM53087
+GSM137964				Rectosigmoid colon - 191423	GSE2109			2		Carcinoma				GSM137964
+GSM523340				adenocarcinoma_59 (macro)	GSE20916					Carcinoma				GSM523340_ColonCa_Seria09_P20
+GSM203674				Colon - 267095	GSE2109			3		Carcinoma				GSM203674
+GSM179908				Colon - 276669	GSE2109			2		Carcinoma				GSM179908
+GSM335547	634.29		56	primary colorectal adenocarcinoma R088: MSS	GSE13294	F	II		MSS	Carcinoma	4	0		GSM335547
+GSM452604				patient 081, cancer, LCM	GSE18105					Carcinoma				GSM452604
+GSM358484	5.35		74	T1102A	GSE14333	M	III	3		Carcinoma				GSM358484
+GSM358486	8.31		67	T801A1	GSE14333	F	III			Carcinoma				GSM358486
+GSM358407	28.63		84	T4701A1	GSE14333	F	II	2		Carcinoma				GSM358407
+GSM152725				Colon - 235696	GSE2109			2		Carcinoma				GSM152725
+GSM327345	47.4		53	04-TB-076: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327345
+GSM523261				colonic_crypt_epithelial_cells_adenoma_20 (micro)	GSE20916					Adenoma				GSM523261_Microdys_38EA
+GSM784886			77	Colon_RB01_14	GSE31595	F	III			Carcinoma				GSM784886
+GSM215095				Biopsy of a colorectal adenoma from patient #13	GSE8671					Adenoma				GSM215095
+GSM656580			74	colon cancer (GRUBER_CRC_39)	GSE26682	F			MSS	Carcinoma				GSM656580
+GSM523355				adenocarcinoma_74 (macro)	GSE20916					Carcinoma				GSM523355_ColonCa_Seria11_P33
+GSM327338	40.4		69	03-TB-108: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327338
+GSM53135				Colon - 3750	GSE2109					Carcinoma				GSM53135
+GSM335544	260.71		68	primary colorectal adenocarcinoma R059: MSI	GSE13294	M	III		MSI	Carcinoma	1	1	0	GSM335544
+GSM929517			71	426	GSE37892	F	II			Carcinoma				GSM929517_MFL_426b_U133_2
+GSM325798				Rectosigmoid - 426421	GSE2109			2		Carcinoma				GSM325798
+GSM929592			59	164	GSE37892	F	III			Carcinoma				GSM929592_051206-11
+GSM270792				CRCB03	GSE10714					Carcinoma				GSM270792
+GSM929621			64	8336	GSE37892	M	II			Carcinoma				GSM929621_121206-14
+GSM452584				patient 153, cancer, LCM	GSE18105					Carcinoma				GSM452584
+GSM437316	0		70	VMC Patient 47	GSE17538	F	IV	2		Carcinoma				GSM437316
+GSM117664				Colon - 151606	GSE2109			3		Carcinoma				GSM117664
+GSM929505			74	8246	GSE37892	F	II			Carcinoma				GSM929505_121206-19
+GSM452155			75	C11	GSE18088	F		3	MSS	Carcinoma				GSM452155
+GSM179833				Rectum - 254351	GSE2109			X		Carcinoma				GSM179833
+GSM95479				colon_normal_1440	GSE4183					Normal				GSM95479
+GSM523287				adenocarcinoma_6 (macro)	GSE20916					Carcinoma				GSM523287_ColonCa_Seria01_P1
+GSM523342				adenocarcinoma_61 (macro)	GSE20916					Carcinoma				GSM523342_ColonCa_Seria09_P29B
+GSM929603			78	517	GSE37892	M	III			Carcinoma				GSM929603_070123-12
+GSM929503			60	14420	GSE37892	F	III			Carcinoma				GSM929503_090126-05
+GSM231939				Colon - 388935	GSE2109			2		Carcinoma				GSM231939
+GSM53153				Colon - 4201	GSE2109					Carcinoma				GSM53153
+GSM452196			81	C82	GSE18088	M		2	MSS	Carcinoma				GSM452196
+GSM929528			73	44	GSE37892	F	II			Carcinoma				GSM929528_SOG_44_U133_2
+GSM152579				Colon - 129666	GSE2109			2		Carcinoma				GSM152579
+GSM662718			76	COL2_9607	GSE26906	F	II			Carcinoma				GSM662718
+GSM270810				Normal03	GSE10714					Normal				GSM270810
+GSM76524				Colon - 21659	GSE2109			2		Carcinoma				GSM76524
+GSM452607				patient 121, cancer, LCM	GSE18105					Carcinoma				GSM452607
+GSM301658				Cecum - 421720	GSE2109			2		Carcinoma				GSM301658
+GSM138048				Colon - 231850	GSE2109			3		Carcinoma				GSM138048
+GSM270785				ADLGD03	GSE10714					Adenoma				GSM270785
+GSM452567				patient 124, cancer, LCM	GSE18105					Carcinoma				GSM452567
+GSM662641			58	COL2_11196	GSE26906	M	II			Carcinoma				GSM662641
+GSM452571				patient 134, cancer, LCM	GSE18105					Carcinoma				GSM452571
+GSM452598				patient 048, cancer, LCM	GSE18105					Carcinoma				GSM452598
+GSM358357	67.19		68	T519A	GSE14333	F	I			Carcinoma				GSM358357
+GSM656574			87	colon cancer (GRUBER_CRC_33)	GSE26682	M			MSS	Carcinoma				GSM656574
+GSM358399	25.21		56	T2725C	GSE14333	F	II	3		Carcinoma				GSM358399
+GSM203728				Colon - 341516	GSE2109			1		Carcinoma				GSM203728
+GSM203782				Colon - 362605	GSE2109			3		Carcinoma				GSM203782
+GSM335569	260.71		78	primary colorectal adenocarcinoma R110: MSS	GSE13294	M	II		MSS	Carcinoma	3	0		GSM335569
+GSM358605			82	T5063A	GSE14333	F	IV	2		Carcinoma				GSM358605
+GSM784875			62	Colon_R47_1963	GSE31595	F	III	2		Carcinoma				GSM784875
+GSM656627			73	colon cancer (GRUBER_CRC_86)	GSE26682	M			MSI	Carcinoma				GSM656627
+GSM203731				Colon - 341526	GSE2109			1		Carcinoma				GSM203731
+GSM784891			70	Colon_RB29_1650	GSE31595	F	III	2		Carcinoma				GSM784891
+GSM152730				Colon - 241168	GSE2109			3		Carcinoma				GSM152730
+GSM358364	84.13		66	T1418A	GSE14333	M	I	2		Carcinoma				GSM358364
+GSM929583			77	187	GSE37892	F	II			Carcinoma				GSM929583_121206-11
+GSM234918				Normal_colon_23_13April05	GSE9254					Normal				GSM234918
+GSM237975				3886T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237975
+GSM179858				Rectum - 259770	GSE2109			2		Carcinoma				GSM179858
+GSM452168			60	C32	GSE18088	M		3	MSI	Carcinoma				GSM452168
+GSM298947				Colonic_mucosa_control_67	GSE11831					Normal				GSM298947_C67KN3
+GSM358595			58	T3779A	GSE14333	F	IV	2		Carcinoma				GSM358595
+GSM137929				Colon - 178556	GSE2109			2		Carcinoma				GSM137929
+GSM523376				adenocarcinoma_95 (macro)	GSE20916					Carcinoma				GSM523376_ColonCa_Seria14_47P
+GSM95498				colon_CRC_1293	GSE4183					Carcinoma				GSM95498
+GSM523350				carcinoma_69 (macro)	GSE20916					Carcinoma				GSM523350_ColonCa_Seria11_16B1
+GSM138022				Colon - 209716	GSE2109			2		Carcinoma				GSM138022
+GSM117678				Colon - 152485	GSE2109			1		Carcinoma				GSM117678
+GSM523327				adenocarcinoma_46 (macro)	GSE20916					Carcinoma				GSM523327_ColonCa_Seria07_43P
+GSM335653	260.71		79	primary colorectal adenocarcinoma R356: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335653
+GSM358602			66	T4956A1	GSE14333	M	IV	2		Carcinoma				GSM358602
+GSM656657			77	colon cancer (GRUBER_CRC_116)	GSE26682	F			MSS	Carcinoma				GSM656657
+GSM237931				3431T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237931
+GSM662663			73	COL2_44	GSE26906	F	II			Carcinoma				GSM662663
+GSM335556	501.43		56	primary colorectal adenocarcinoma R097: MSS	GSE13294	F	II		MSS	Carcinoma	4	0		GSM335556
+GSM656676			52	colon cancer (GRUBER_CRC_135)	GSE26682	F			MSS	Carcinoma				GSM656676
+GSM95480				colon_normal_1456	GSE4183					Normal				GSM95480
+GSM46921				Colon - 29255	GSE2109			3		Carcinoma				GSM46921
+GSM179928				Colon - 290728	GSE2109			2		Carcinoma				GSM179928
+GSM335527	287.14		84	primary colorectal adenocarcinoma R018: MSI	GSE13294	M	II		MSI	Carcinoma	4	0	0	GSM335527
+GSM327344	56.3		82	04-TB-075: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327344
+GSM215113				Biopsy of a colorectal adenoma from patient #31	GSE8671					Adenoma				GSM215113
+GSM335641	260.71		76	primary colorectal adenocarcinoma R292: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335641
+GSM335613			47	primary colorectal adenocarcinoma R155: MSS	GSE13294	M	IV		MSS	Carcinoma	4	1	1	GSM335613
+GSM452657				patient 038, cancer, homogenized	GSE18105					Carcinoma				GSM452657
+GSM102517				Rectosigmoid - 138200	GSE2109			2		Carcinoma				GSM102517
+GSM358391	15.71		73	T4091A	GSE14333	M	II	2		Carcinoma				GSM358391
+GSM523358				normal_colon_77 (macro)	GSE20916					Normal				GSM523358_ColonCa_Seria12_21A
+GSM929563			79	07C1415T	GSE37892	M	II			Carcinoma				GSM929563_SOG_1415_U133_2
+GSM335614	260.71		63	primary colorectal adenocarcinoma R156: MSI	GSE13294	F	II		MSI	Carcinoma		0		GSM335614
+GSM523246				mucosa_normal_colon_5 (micro)	GSE20916					Normal				GSM523246_Microdys_20AN
+GSM656721			61	colon cancer (GRUBER_CRC_180)	GSE26682	F			MSS	Carcinoma				GSM656721
+GSM523296				carcinoma_15 (macro)	GSE20916					Carcinoma				GSM523296_ColonCa_Seria03_14B2
+GSM929589			71	129	GSE37892	F	III			Carcinoma				GSM929589_051206-10
+GSM215057				Biopsy of the normal mucosa of the colon from patient #7	GSE8671					Normal				GSM215057
+GSM353924				Rectosigmoid - 465789	GSE2109			2		Carcinoma				GSM353924
+GSM358493	18.96		61	T4948A2	GSE14333	F	III	2		Carcinoma				GSM358493
+GSM102513				Colon - 138195	GSE2109			3		Carcinoma				GSM102513
+GSM656867			75	colon cancer (GRUBER_CRC_326)	GSE26682	M			MSS	Carcinoma				GSM656867
+GSM523273				mucosa_normal_colon_32 (micro)	GSE20916					Normal				GSM523273_Microdys_9AN
+GSM656782			84	colon cancer (GRUBER_CRC_241)	GSE26682	M				Carcinoma				GSM656782
+GSM76583				Colon - 4333	GSE2109			2		Carcinoma				GSM76583
+GSM339568				1 normal	GSE13471					Normal				GSM339568
+GSM215061				Biopsy of the normal mucosa of the colon from patient #11	GSE8671					Normal				GSM215061
+GSM929598			65	242	GSE37892	M	III			Carcinoma				GSM929598_070123-07
+GSM89037				Colon - 58996	GSE2109			2		Carcinoma				GSM89037
+GSM327297			54	02-TB-038: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327297
+GSM95505				colon_CRC_1556	GSE4183					Carcinoma				GSM95505
+GSM137985				Rectosigmoid colon - 199338	GSE2109			2		Carcinoma				GSM137985
+GSM327331	32.6		54	03-TB-040: MSI	GSE13067	F	II		MSI	Carcinoma				GSM327331
+GSM335577	260.71		68	primary colorectal adenocarcinoma R118: MSI	GSE13294	M	II		MSI	Carcinoma	3	0		GSM335577
+GSM358360	76.07		82	T2688A	GSE14333	M	I	2		Carcinoma				GSM358360
+GSM358396	22.38		65	T2511B	GSE14333	F	II	2		Carcinoma				GSM358396
+GSM203763				Colon - 348062	GSE2109			2		Carcinoma				GSM203763
+GSM784871			65	Colon_R42_1961	GSE31595	F	II	1		Carcinoma				GSM784871
+GSM358609			68	T5573A1	GSE14333	M	IV	2		Carcinoma				GSM358609
+GSM138032				Colon - 215932	GSE2109			3		Carcinoma				GSM138032
+GSM102581				Colon - 84191	GSE2109			4		Carcinoma				GSM102581
+GSM452614				patient 146, cancer, LCM	GSE18105					Carcinoma				GSM452614
+GSM358435	85.28		71	T1621B	GSE14333	F	II	2		Carcinoma				GSM358435
+GSM335543	265.71		87	primary colorectal adenocarcinoma R056: MSI	GSE13294	F	II		MSI	Carcinoma	4	0	0	GSM335543
+GSM76605				Colon - 54070	GSE2109			2		Carcinoma				GSM76605
+GSM523380				carcinoma_99 (macro)	GSE20916					Carcinoma				GSM523380_ColonCa_Seria15_39B2
+GSM89090				Colon - 89184	GSE2109			2		Carcinoma				GSM89090
+GSM452631				patient 024, normal, homogenized	GSE18105					Normal				GSM452631
+GSM929561			61	08C0464T	GSE37892	M	II			Carcinoma				GSM929561_SOG_0464_U133_2
+GSM358572			66	T1356B	GSE14333	M	IV	2		Carcinoma				GSM358572
+GSM358579			58	T2369A	GSE14333	F	IV	3		Carcinoma				GSM358579
+GSM437280	54.7397260273973		84	VMC Patient 11	GSE17538	M	III	2		Carcinoma				GSM437280
+GSM452166			71	C30_2	GSE18088	F		3	MSS	Carcinoma				GSM452166
+GSM452554				patient 102, cancer, LCM	GSE18105					Carcinoma				GSM452554
+GSM358569	18		81	99-62-P51	GSE14333	M	III			Carcinoma				GSM358569
+GSM335512	257.14		56	primary colorectal adenocarcinoma R003: MSS	GSE13294	M	II		MSS	Carcinoma	4	0	0	GSM335512
+GSM358432	76.04		73	T2183A1	GSE14333	M	II	2		Carcinoma				GSM358432
+GSM523332				carcinoma_51 (macro)	GSE20916					Carcinoma				GSM523332_ColonCa_Seria08_5B1_2
+GSM327327	59.5		77	03-TB-030: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327327
+GSM215052				Biopsy of the normal mucosa of the colon from patient #2	GSE8671					Normal				GSM215052
+GSM237920				3135T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237920
+GSM358628			59	02-156-P1182	GSE14333	M	IV			Carcinoma				GSM358628
+GSM400184				vCRC5	GSE15960					Carcinoma				GSM400184
+GSM237923				3215T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237923
+GSM358516	44.74		46	T4489A1	GSE14333	M	III	2		Carcinoma				GSM358516
+GSM203687				Colon - 308695	GSE2109			2		Carcinoma				GSM203687
+GSM358428	59.96		67	T3688A	GSE14333	M	II	1		Carcinoma				GSM358428
+GSM656726			79	colon cancer (GRUBER_CRC_185)	GSE26682	M			MSS	Carcinoma				GSM656726
+GSM452588				patient 015, cancer, LCM	GSE18105					Carcinoma				GSM452588
+GSM358468	11.6		64.6	03-TB-054-1C	GSE14333	M	II			Carcinoma				GSM358468
+GSM76522				Colon - 21651	GSE2109			2		Carcinoma				GSM76522
+GSM656567			77	colon cancer (GRUBER_CRC_26)	GSE26682	M			MSS	Carcinoma				GSM656567
+GSM437287	1.80821917808219		69	VMC Patient 18	GSE17538	M	II			Carcinoma				GSM437287
+GSM656827			82	colon cancer (GRUBER_CRC_286)	GSE26682	F			MSI	Carcinoma				GSM656827
+GSM335584				primary colorectal adenocarcinoma R125: MSS	GSE13294					Carcinoma				GSM335584
+GSM656809			74	colon cancer (GRUBER_CRC_268)	GSE26682	M			MSS	Carcinoma				GSM656809
+GSM358429	63.25		76	T3258A	GSE14333	M	II	2		Carcinoma				GSM358429
+GSM656858			71	colon cancer (GRUBER_CRC_317)	GSE26682	M			MSS	Carcinoma				GSM656858
+GSM327319	54.4		74	03-TB-008: MSS	GSE13067	M	I		MSS	Carcinoma				GSM327319
+GSM358420	47.86		56	T3702A	GSE14333	M	II	2		Carcinoma				GSM358420
+GSM152710				Rectosigmoid - 231864	GSE2109			2		Carcinoma				GSM152710
+GSM203647				Rectum - 207530	GSE2109			3		Carcinoma				GSM203647
+GSM929504			55	14450	GSE37892	M	III			Carcinoma				GSM929504_090126-06
+GSM784894			90	Colon_RB35_1659	GSE31595	F	II	2		Carcinoma				GSM784894
+GSM929577			63	Q1	GSE37892	M	III			Carcinoma				GSM929577_070123-03
+GSM358411	33.2		51	T4980A1	GSE14333	M	II	2		Carcinoma				GSM358411
+GSM656607			65	colon cancer (GRUBER_CRC_66)	GSE26682	F			MSI	Carcinoma				GSM656607
+GSM179844				Colon - 256875	GSE2109			2		Carcinoma				GSM179844
+GSM523258				colonic_crypt_epithelial_cells_carcinoma_17 (micro)	GSE20916					Carcinoma				GSM523258_Microdys_35EC
+GSM335644	260.71		87	primary colorectal adenocarcinoma R314: MSI	GSE13294	M	II		MSI	Carcinoma		0	0	GSM335644
+GSM656865			87	colon cancer (GRUBER_CRC_324)	GSE26682	F			MSI	Carcinoma				GSM656865
+GSM929495			46	363	GSE37892	M	II			Carcinoma				GSM929495_MFL_363b_U133_2
+GSM358433	79.13		57	T2367A	GSE14333	F	II	1		Carcinoma				GSM358433
+GSM335570	21.43		37	primary colorectal adenocarcinoma R111: MSS	GSE13294	M	II		MSS	Carcinoma	4	0		GSM335570
+GSM656573			69	colon cancer (GRUBER_CRC_32)	GSE26682	F				Carcinoma				GSM656573
+GSM656742			76	colon cancer (GRUBER_CRC_201)	GSE26682	M			MSS	Carcinoma				GSM656742
+GSM203653				Colon - 211386	GSE2109			3		Carcinoma				GSM203653
+GSM237964				3757T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237964
+GSM327291	52.8		70	01-TB-034: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327291
+GSM929521			96	SA014040	GSE37892	F	III			Carcinoma				GSM929521_110706-22
+GSM358387	9.96		54	T1053B	GSE14333	M	II			Carcinoma				GSM358387
+GSM179839				Colon - 254440	GSE2109			2		Carcinoma				GSM179839
+GSM929574			56	L10	GSE37892	M	III			Carcinoma				GSM929574_051206-03
+GSM929568			77	SA031373	GSE37892	M	II			Carcinoma				GSM929568_SOG_031373_U133_2
+GSM237939				3515T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237939
+GSM662695			80	COL2_725	GSE26906	F	II			Carcinoma				GSM662695
+GSM335604			71	primary colorectal adenocarcinoma R145: MSS	GSE13294	M	IV		MSS	Carcinoma	3	0	1	GSM335604
+GSM270784				ADLGD02	GSE10714					Adenoma				GSM270784
+GSM327285	15.2		69	01-TB-008: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327285
+GSM358584			72	T288C	GSE14333	F	IV	2		Carcinoma				GSM358584
+GSM523333				adenocarcinoma_52 (macro)	GSE20916					Carcinoma				GSM523333_ColonCa_Seria08_P16_2
+GSM95486				colon_adenoma_1312	GSE4183					Adenoma				GSM95486
+GSM179778				Colon - 1001	GSE2109			3		Carcinoma				GSM179778
+GSM656662			69	colon cancer (GRUBER_CRC_121)	GSE26682	F			MSS	Carcinoma				GSM656662
+GSM358480	1.57		71	T932B1	GSE14333	F	III			Carcinoma				GSM358480
+GSM523315				adenocarcinoma_34 (macro)	GSE20916					Carcinoma				GSM523315_ColonCa_Seria05_P13
+GSM523306				carcinoma_25 (macro)	GSE20916					Carcinoma				GSM523306_ColonCa_Seria04_45B1
+GSM523299				normal_colon_18 (macro)	GSE20916					Normal				GSM523299_ColonCa_Seria03_2K
+GSM335551	260.71		59	primary colorectal adenocarcinoma R092: MSI	GSE13294	M	II		MSI	Carcinoma	3	0		GSM335551
+GSM358488	9.56		75	T1479A	GSE14333	M	III	2		Carcinoma				GSM358488
+GSM656855			70	colon cancer (GRUBER_CRC_314)	GSE26682	F				Carcinoma				GSM656855
+GSM358607			78	T5513A1.1	GSE14333	F	IV	3		Carcinoma				GSM358607
+GSM358475	33.8		63	03-1142-P2740	GSE14333	F	II			Carcinoma				GSM358475
+GSM117635				Colon - 143650	GSE2109			2		Carcinoma				GSM117635
+GSM929566			64	SA011853	GSE37892	F	II			Carcinoma				GSM929566_SOG_011853_U133_2
+GSM523361				adenocarcinoma_80 (macro)	GSE20916					Carcinoma				GSM523361_ColonCa_Seria12_P23
+GSM656696			68	colon cancer (GRUBER_CRC_155)	GSE26682	M			MSI	Carcinoma				GSM656696
+GSM237935				3477T-R early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237935
+GSM358583			70	T2759A	GSE14333	F	IV	2		Carcinoma				GSM358583
+GSM784904			69	Colon_RB50_182	GSE31595	M	III	2		Carcinoma				GSM784904
+GSM335538	260.71		56	primary colorectal adenocarcinoma R029: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335538
+GSM327325	4.5		79	03-TB-022: MSI	GSE13067	F	III		MSI	Carcinoma				GSM327325
+GSM335610	227.14		70	primary colorectal adenocarcinoma R152: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335610
+GSM662688			44	COL2_719	GSE26906	M	II			Carcinoma				GSM662688
+GSM234915				Normal_colon_19_12April05	GSE9254					Normal				GSM234915
+GSM237916				3079T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237916
+GSM335535	260.71		73	primary colorectal adenocarcinoma R026: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335535
+GSM102550				Colon - 23942	GSE2109			3		Carcinoma				GSM102550
+GSM452185			64	C64	GSE18088	F		2	MSS	Carcinoma				GSM452185
+GSM656635			82	colon cancer (GRUBER_CRC_94)	GSE26682	F			MSS	Carcinoma				GSM656635
+GSM358606			76	T5102A1	GSE14333	M	IV	2		Carcinoma				GSM358606
+GSM137998				Colon - 199366	GSE2109			2		Carcinoma				GSM137998
+GSM237943				3567T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237943
+GSM117673				Colon - 152474	GSE2109			2		Carcinoma				GSM117673
+GSM335592			54	primary colorectal adenocarcinoma R133: MSS	GSE13294	F	IV		MSS	Carcinoma	3	2	1	GSM335592
+GSM523311				normal_colon_30 (macro)	GSE20916					Normal				GSM523311_ColonCa_Seria05_41A
+GSM234916				Normal_colon_20_13April05	GSE9254					Normal				GSM234916
+GSM400174				vad1	GSE15960					Adenoma				GSM400174
+GSM523305				carcinoma_24 (macro)	GSE20916					Carcinoma				GSM523305_ColonCa_Seria04_33B2
+GSM231971				Colon - 409599	GSE2109			2		Carcinoma				GSM231971
+GSM152709				Ovary - 231863	GSE2109			2		Carcinoma				GSM152709
+GSM656830			82	colon cancer (GRUBER_CRC_289)	GSE26682	M			MSS	Carcinoma				GSM656830
+GSM523257				colonic_crypt_epithelial_cells_carcinoma_16 (micro)	GSE20916					Carcinoma				GSM523257_Microdys_34EC
+GSM46924				Colon - 29263	GSE2109					Carcinoma				GSM46924
+GSM335622	260.71		87	primary colorectal adenocarcinoma R191: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335622
+GSM335588	118.00		52	primary colorectal adenocarcinoma R129: MSS	GSE13294	F	III		MSS	Carcinoma	3	2	0	GSM335588
+GSM327333				03-TB-066: MSS	GSE13067				MSS	Carcinoma				GSM327333
+GSM138021				Rectosigmoid - 209708	GSE2109			2		Carcinoma				GSM138021
+GSM46864				Colon - 22245	GSE2109			2		Carcinoma				GSM46864
+GSM523250				mucosa_carcinoma_9 (micro)	GSE20916					Carcinoma				GSM523250_Microdys_26AC
+GSM656852			64	colon cancer (GRUBER_CRC_311)	GSE26682	F			MSI	Carcinoma				GSM656852
+GSM335617	260.71		46	primary colorectal adenocarcinoma R159: MSS	GSE13294	F	II		MSS	Carcinoma		0		GSM335617
+GSM929536			71	206	GSE37892	F	II			Carcinoma				GSM929536_MFL_206b_U133_2
+GSM335651				primary colorectal adenocarcinoma R344: MSI	GSE13294					Carcinoma				GSM335651
+GSM327320	59.5		30	03-TB-009: MSS	GSE13067	F	II		MSS	Carcinoma				GSM327320
+GSM358593			54	T3650A	GSE14333	M	IV	3		Carcinoma				GSM358593
+GSM237928				3382T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237928
+GSM523276				colonic_crypt_epithelial_cells_normal_colon_35 (micro)	GSE20916					Normal				GSM523276_Microdys_40EN
+GSM452627				patient 090, cancer, LCM	GSE18105					Carcinoma				GSM452627
+GSM358571			73	T1311B	GSE14333	M	IV	2		Carcinoma				GSM358571
+GSM452626				patient 086, cancer, LCM	GSE18105					Carcinoma				GSM452626
+GSM452603				patient 078, cancer, LCM	GSE18105					Carcinoma				GSM452603
+GSM929514			53	SA014736	GSE37892	M	II			Carcinoma				GSM929514_121206-02
+GSM237936				3490T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237936
+GSM662704			75	COL2_737	GSE26906	M	II			Carcinoma				GSM662704
+GSM89103				Colon - 95093	GSE2109			1		Carcinoma				GSM89103
+GSM327355	29.6		74	05-WH-067: MSS	GSE13067	F	II		MSS	Carcinoma				GSM327355
+GSM452618				patient 032, cancer, LCM	GSE18105					Carcinoma				GSM452618
+GSM452599				patient 053, cancer, LCM	GSE18105					Carcinoma				GSM452599
+GSM656739			72	colon cancer (GRUBER_CRC_198)	GSE26682	F			MSS	Carcinoma				GSM656739
+GSM46865				Colon - 22247	GSE2109					Carcinoma				GSM46865
+GSM76540				Omentum - 21766	GSE2109			3		Carcinoma				GSM76540
+GSM452561				patient 116, cancer, LCM	GSE18105					Carcinoma				GSM452561
+GSM437290	29.3917808219178		62	VMC Patient 21	GSE17538	M	IV			Carcinoma				GSM437290
+GSM929519			96	SA012939	GSE37892	M	III			Carcinoma				GSM929519_110706-21
+GSM335640	260.71		85	primary colorectal adenocarcinoma R291: MSI	GSE13294	F	II		MSI	Carcinoma	3	0		GSM335640
+GSM215069				Biopsy of the normal mucosa of the colon from patient #19	GSE8671					Normal				GSM215069
+GSM929580			77	241	GSE37892	M	II			Carcinoma				GSM929580_MFL_241_U133_2
+GSM152630				Rectum - 199387	GSE2109			3		Carcinoma				GSM152630
+GSM237954				3667T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237954
+GSM662684			48	COL2_714	GSE26906	M	II			Carcinoma				GSM662684
+GSM231879				Colon - 345971	GSE2109			2		Carcinoma				GSM231879
+GSM335650	260.71		74	primary colorectal adenocarcinoma R340: MSI	GSE13294	M	II		MSI	Carcinoma	3	0		GSM335650
+GSM353883				Colon - 403721	GSE2109			X		Carcinoma				GSM353883
+GSM325794				Rectosigmoid - 416798	GSE2109			2		Carcinoma				GSM325794
+GSM89007				Colon - 36324	GSE2109			2		Carcinoma				GSM89007
+GSM358369			75	T1407A	GSE14333	M	I			Carcinoma				GSM358369
+GSM929607			68	60	GSE37892	F	III			Carcinoma				GSM929607_051206-09
+GSM784856			68	Colon_R26_1671	GSE31595	F	III	2		Carcinoma				GSM784856
+GSM76573				Colon - 36314	GSE2109			2		Carcinoma				GSM76573
+GSM452613				patient 141, cancer, LCM	GSE18105					Carcinoma				GSM452613
+GSM358610			47	T6190A1	GSE14333	M	IV	2		Carcinoma				GSM358610
+GSM234909				Normal_colon_01_20April05	GSE9254					Normal				GSM234909
+GSM102518				Colon - 138410	GSE2109			2		Carcinoma				GSM102518
+GSM656735			58	colon cancer (GRUBER_CRC_194)	GSE26682	F			MSS	Carcinoma				GSM656735
+GSM662720			67	COL2_9749	GSE26906	F	II			Carcinoma				GSM662720
+GSM358472	50.9		70	02-470-P1392	GSE14333	M	II			Carcinoma				GSM358472
+GSM53148				Colon - 3767	GSE2109					Carcinoma				GSM53148
+GSM231921				Colon - 384492	GSE2109			2		Carcinoma				GSM231921
+GSM656587			71	colon cancer (GRUBER_CRC_46)	GSE26682	F			MSS	Carcinoma				GSM656587
+GSM38055				Colon - 2471	GSE2109			X		Carcinoma				GSM38055
+GSM325841				Colon - 486175	GSE2109			2		Carcinoma				GSM325841
+GSM784888			80	Colon_RB14_155	GSE31595	M	II	3		Carcinoma				GSM784888
+GSM437123			78	MCC Patient 31	GSE17538	F	II	2		Carcinoma				GSM437123
+GSM270809				Normal02	GSE10714					Normal				GSM270809
+GSM237933				3441T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237933
+GSM234912				Normal_colon_12_12April05	GSE9254					Normal				GSM234912
+GSM662683			60	COL2_713	GSE26906	M	II			Carcinoma				GSM662683
+GSM358528	65.55		65	T3351B	GSE14333	F	III	2		Carcinoma				GSM358528
+GSM89004				Colon - 36315	GSE2109			2		Carcinoma				GSM89004
+GSM929582			70	174	GSE37892	M	II			Carcinoma				GSM929582_121206-08
+GSM298951				Colonic_mucosa_control_79	GSE11831					Normal				GSM298951_C79KN3
+GSM656787			84	colon cancer (GRUBER_CRC_246)	GSE26682	M			MSS	Carcinoma				GSM656787
+GSM656601			68	colon cancer (GRUBER_CRC_60)	GSE26682	M			MSS	Carcinoma				GSM656601
+GSM523328				adenocarcinoma_47 (macro)	GSE20916					Carcinoma				GSM523328_ColonCa_Seria07_50PD
+GSM138018				Colon - 209705	GSE2109			2		Carcinoma				GSM138018
+GSM523251				mucosa_adenoma_10 (micro)	GSE20916					Adenoma				GSM523251_Microdys_27AA
+GSM656672			82	colon cancer (GRUBER_CRC_131)	GSE26682	M			MSS	Carcinoma				GSM656672
+GSM656840			71	colon cancer (GRUBER_CRC_299)	GSE26682	M			MSS	Carcinoma				GSM656840
+GSM784889			80	Colon_RB22_1655	GSE31595	F	III	2		Carcinoma				GSM784889
+GSM76571				Rectum - 36310	GSE2109			3		Carcinoma				GSM76571
+GSM358425	55.92		74	T2002B	GSE14333	F	II	2		Carcinoma				GSM358425
+GSM437270	54.0493150684932		70	VMC Patient 1	GSE17538	F	II			Carcinoma				GSM437270
+GSM358525	59.34		69	T3701A1	GSE14333	M	III	3		Carcinoma				GSM358525
+GSM237950				3624T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237950
+GSM215087				Biopsy of a colorectal adenoma from patient #5	GSE8671					Adenoma				GSM215087
+GSM358526	64.33		63	T2130A	GSE14333	M	III	2		Carcinoma				GSM358526
+GSM358508	31.92		79	T5139A1	GSE14333	F	III	2		Carcinoma				GSM358508
+GSM138036				Colon - 215936	GSE2109			3		Carcinoma				GSM138036
+GSM179820				Colon - 241194	GSE2109			2		Carcinoma				GSM179820
+GSM400180				vCRC1	GSE15960					Carcinoma				GSM400180
+GSM929557			55	B0115625	GSE37892	M	II			Carcinoma				GSM929557_SOG_46_U133_2
+GSM327335			76	03-TB-083: MSS	GSE13067	F	IV		MSS	Carcinoma				GSM327335
+GSM523378				carcinoma_97 (macro)	GSE20916					Carcinoma				GSM523378_ColonCa_Seria15_26B2
+GSM523335				adenocarcinoma_54 (macro)	GSE20916					Carcinoma				GSM523335_ColonCa_Seria08_P18_2
+GSM325806				Colon - 438173	GSE2109			2		Carcinoma				GSM325806
+GSM523382				normal_colon_101 (macro)	GSE20916					Normal				GSM523382_ColonCa_Seria15_8A
+GSM452611				patient 133, cancer, LCM	GSE18105					Carcinoma				GSM452611
+GSM452568				patient 125, cancer, LCM	GSE18105					Carcinoma				GSM452568
+GSM523373				normal_colon_92 (macro)	GSE20916					Normal				GSM523373_ColonCa_Seria14_3K
+GSM358519	50.43		26	T4373B3	GSE14333	M	III	2		Carcinoma				GSM358519
+GSM358421	49.84		71	T3884A	GSE14333	M	II	2		Carcinoma				GSM358421
+GSM662696			70	COL2_726	GSE26906	F	II			Carcinoma				GSM662696
+GSM117709				Colon - 174054	GSE2109			2		Carcinoma				GSM117709
+GSM452575				patient 139, cancer, LCM	GSE18105					Carcinoma				GSM452575
+GSM237960				3731T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237960
+GSM358626			65	03-TB-002-1B	GSE14333	M	IV			Carcinoma				GSM358626
+GSM298967				Colonic_mucosa_control_108	GSE11831					Normal				GSM298967_C108KN5
+GSM784890			78	Colon_RB24_1656	GSE31595	M	II	2		Carcinoma				GSM784890
+GSM179805				Colon - 209692	GSE2109			3		Carcinoma				GSM179805
+GSM53156				Colon - 4214	GSE2109					Carcinoma				GSM53156
+GSM215071				Biopsy of the normal mucosa of the colon from patient #21	GSE8671					Normal				GSM215071
+GSM335637	31.57		74	primary colorectal adenocarcinoma R276: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335637
+GSM327340			59	04-TB-015: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327340
+GSM523295				adenocarcinoma_14 (macro)	GSE20916					Carcinoma				GSM523295_ColonCa_Seria02_P6
+GSM523370				carcinoma_89 (macro)	GSE20916					Carcinoma				GSM523370_ColonCa_Seria14_1B2
+GSM358530	74.36		50	T2651C	GSE14333	F	III			Carcinoma				GSM358530
+GSM437308	0		78	VMC Patient 39	GSE17538	F	IV	2		Carcinoma				GSM437308
+GSM358573			63	T1535A	GSE14333	F	IV			Carcinoma				GSM358573
+GSM656553			73	colon cancer (GRUBER_CRC_12)	GSE26682	M			MSS	Carcinoma				GSM656553
+GSM327343	18.7		59	04-TB-061: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327343
+GSM523356				adenocarcinoma_75 (macro)	GSE20916					Carcinoma				GSM523356_ColonCa_Seria11_P38
+GSM662676			66	COL2_706	GSE26906	M	II			Carcinoma				GSM662676
+GSM452191			62	C70	GSE18088	M		2	MSS	Carcinoma				GSM452191
+GSM117577				Rectum - 104340	GSE2109			1		Carcinoma				GSM117577
+GSM335572	260.71		81	primary colorectal adenocarcinoma R113: MSS	GSE13294	F	II		MSS	Carcinoma	3	0		GSM335572
+GSM335634	260.71		75	primary colorectal adenocarcinoma R267: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335634
+GSM784878			64	Colon_R49_1965	GSE31595	M	III	3		Carcinoma				GSM784878
+GSM335558	260.71		41	primary colorectal adenocarcinoma R099: MSS	GSE13294	F	II		MSS	Carcinoma	4	0		GSM335558
+GSM327321			67	03-TB-012: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327321
+GSM358424	55.33		77	T165A	GSE14333	F	II	3		Carcinoma				GSM358424
+GSM437304	76.7671232876712		54	VMC Patient 35	GSE17538	F	IV	2		Carcinoma				GSM437304
+GSM523317				carcinoma_36 (macro)	GSE20916					Carcinoma				GSM523317_ColonCa_Seria06_30B1
+GSM437312	40.6684931506849		47	VMC Patient 43	GSE17538	M	III	2		Carcinoma				GSM437312
+GSM656610			62	colon cancer (GRUBER_CRC_69)	GSE26682	M			MSI	Carcinoma				GSM656610
+GSM452165			74	C29	GSE18088	M		2	MSS	Carcinoma				GSM452165
+GSM335649	260.71		65	primary colorectal adenocarcinoma R338: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335649
+GSM437317	0		77	VMC Patient 48	GSE17538	F	IV	3		Carcinoma				GSM437317
+GSM95503				colon_CRC_1494	GSE4183					Carcinoma				GSM95503
+GSM452660				patient 044, cancer, homogenized	GSE18105					Carcinoma				GSM452660
+GSM138050				Colon - 231866	GSE2109			2		Carcinoma				GSM138050
+GSM358505	27.74		90	T771A	GSE14333	F	III	2		Carcinoma				GSM358505
+GSM523368				carcinoma_87 (macro)	GSE20916					Carcinoma				GSM523368_ColonCa_Seria13_47BIV1
+GSM102533				Colon - 161432	GSE2109			2		Carcinoma				GSM102533
+GSM358510	36.92		64	T2926B	GSE14333	F	III	2		Carcinoma				GSM358510
+GSM93924				3798M patient’s mucosa	GSE4107					Carcinoma				GSM93924
+GSM215105				Biopsy of a colorectal adenoma from patient #23	GSE8671					Adenoma				GSM215105
+GSM93941				NM18 healthy control	GSE4107					Normal				GSM93941
+GSM656552			87	colon cancer (GRUBER_CRC_11)	GSE26682	M			MSS	Carcinoma				GSM656552
+GSM325796				Cecum - 423078	GSE2109			2		Carcinoma				GSM325796
+GSM656687			82	colon cancer (GRUBER_CRC_146)	GSE26682	M			MSS	Carcinoma				GSM656687
+GSM358394	19.36		80	T1129A	GSE14333	M	II	2		Carcinoma				GSM358394
+GSM93944				NM20 healthy control	GSE4107					Normal				GSM93944
+GSM929530			88	510	GSE37892	F	II			Carcinoma				GSM929530_SOG_510_U133_2
+GSM335520	260.71		52	primary colorectal adenocarcinoma R011: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335520
+GSM358359	68.51		61	T462A	GSE14333	M	I			Carcinoma				GSM358359
+GSM523319				adenocarcinoma_38 (macro)	GSE20916					Carcinoma				GSM523319_ColonCa_Seria06_P14
+GSM452596				patient 038, cancer, LCM	GSE18105					Carcinoma				GSM452596
+GSM327328	38.1		83	03-TB-031: MSS	GSE13067	M	III		MSS	Carcinoma				GSM327328
+GSM656598			60	colon cancer (GRUBER_CRC_57)	GSE26682	M			MSS	Carcinoma				GSM656598
+GSM929595			50	186	GSE37892	M	III			Carcinoma				GSM929595_051206-08
+GSM358413	35.9		60	T4555A1	GSE14333	M	II	2		Carcinoma				GSM358413
+GSM95473				colon_normal_1024	GSE4183					Normal				GSM95473
+GSM358515	44.67		67	T4111A	GSE14333	M	III	2		Carcinoma				GSM358515
+GSM452194			40	C80	GSE18088	F		2	MSS	Carcinoma				GSM452194
+GSM335633	260.71		43	primary colorectal adenocarcinoma R265: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335633
+GSM358588			52	T3159B	GSE14333	M	IV	3		Carcinoma				GSM358588
+GSM237958				3685T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237958
+GSM76530				Colon - 21755	GSE2109			2		Carcinoma				GSM76530
+GSM452172			66	C39	GSE18088	M		2	MSS	Carcinoma				GSM452172
+GSM656698			72	colon cancer (GRUBER_CRC_157)	GSE26682	F			MSS	Carcinoma				GSM656698
+GSM929606			59	539	GSE37892	F	III			Carcinoma				GSM929606_070123-10
+GSM237926				3357T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237926
+GSM662682			70	COL2_712	GSE26906	F	II			Carcinoma				GSM662682
+GSM437314	3.87945205479452		80	VMC Patient 45	GSE17538	F	III	2		Carcinoma				GSM437314
+GSM270796				CRCCD04	GSE10714					Carcinoma				GSM270796
+GSM523374				adenocarcinoma_93 (macro)	GSE20916					Carcinoma				GSM523374_ColonCa_Seria14_42P
+GSM929547			78	208	GSE37892	M	II			Carcinoma				GSM929547_MFL_208b_U133_2
+GSM46945				Liver - 31830	GSE2109			2		Carcinoma				GSM46945
+GSM277711				Cecum - 426411	GSE2109			2		Carcinoma				GSM277711
+GSM523262				colonic_crypt_epithelial_cells_carcinoma_21 (micro)	GSE20916					Carcinoma				GSM523262_Microdys_39EC
+GSM656582			63	colon cancer (GRUBER_CRC_41)	GSE26682	M			MSS	Carcinoma				GSM656582
+GSM656825			67	colon cancer (GRUBER_CRC_284)	GSE26682	F			MSS	Carcinoma				GSM656825
+GSM76531				Colon - 21756	GSE2109			X		Carcinoma				GSM76531
+GSM117684				Rectosigmoid - 152491	GSE2109			3		Carcinoma				GSM117684
+GSM656634			66	colon cancer (GRUBER_CRC_93)	GSE26682	F			MSS	Carcinoma				GSM656634
+GSM437301	18.0493150684932		42	VMC Patient 32	GSE17538	M	IV	2		Carcinoma				GSM437301
+GSM327332	37		82	03-TB-061: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327332
+GSM523353				adenocarcinoma_72 (macro)	GSE20916					Carcinoma				GSM523353_ColonCa_Seria11_39P1
+GSM662691			64	COL2_722	GSE26906	F	II			Carcinoma				GSM662691
+GSM179860				Colon - 259773	GSE2109			2		Carcinoma				GSM179860
+GSM656617			54	colon cancer (GRUBER_CRC_76)	GSE26682	F			MSS	Carcinoma				GSM656617
+GSM335643	260.71		80	primary colorectal adenocarcinoma R312: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335643
+GSM237947				3602T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237947
+GSM152612				Liver - 193015	GSE2109			X		Carcinoma				GSM152612
+GSM452602				patient 077, cancer, LCM	GSE18105					Carcinoma				GSM452602
+GSM215051				Biopsy of the normal mucosa of the colon from patient #1	GSE8671					Normal				GSM215051
+GSM929518			66	SA031523	GSE37892	M	III			Carcinoma				GSM929518_050805-06
+GSM656688			75	colon cancer (GRUBER_CRC_147)	GSE26682	M				Carcinoma				GSM656688
+GSM301667				Cecum - 423087	GSE2109			2		Carcinoma				GSM301667
+GSM46930				Colon - 29287	GSE2109			1		Carcinoma				GSM46930
+GSM335540	260.71		66	primary colorectal adenocarcinoma R031: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335540
+GSM656602			71	colon cancer (GRUBER_CRC_61)	GSE26682	M			MSI	Carcinoma				GSM656602
+GSM327312	4.1		80	02-TB-079: MSS	GSE13067	M	II		MSS	Carcinoma				GSM327312
+GSM102535				Rectosigmoid - 161438	GSE2109			2		Carcinoma				GSM102535
+GSM353906				Sigmoid Colon - 443046	GSE2109			2		Carcinoma				GSM353906
+GSM231987				Rectum - 416801	GSE2109			2		Carcinoma				GSM231987
+GSM237986				NM55  healthy control	GSE9348					Normal				GSM237986
+GSM358511	36.92		67	T4174A	GSE14333	M	III	3		Carcinoma				GSM358511
+GSM523271				mucosa_distant_normal_colon_30 (micro)	GSE20916					Normal				GSM523271_Microdys_58ANN
+GSM437181	16.07		53	MCC Patient 89	GSE17538	F	III	2		Carcinoma				GSM437181
+GSM656699			83	colon cancer (GRUBER_CRC_158)	GSE26682	M			MSS	Carcinoma				GSM656699
+GSM102460				Colon - 104346	GSE2109			2		Carcinoma				GSM102460
+GSM400187				vn2	GSE15960					Normal				GSM400187
+GSM929525			63	SA031069	GSE37892	F	III			Carcinoma				GSM929525_050805-03
+GSM656862			80	colon cancer (GRUBER_CRC_321)	GSE26682	M			MSI	Carcinoma				GSM656862
+GSM452580				patient 147, cancer, LCM	GSE18105					Carcinoma				GSM452580
+GSM452148			61	C1	GSE18088	M		2	MSI	Carcinoma				GSM452148
+GSM523345				carcinoma_64 (macro)	GSE20916					Carcinoma				GSM523345_ColonCa_Seria10_433B1
+GSM452176			49	C44	GSE18088	M		2	MSS	Carcinoma				GSM452176
+GSM215075				Biopsy of the normal mucosa of the colon from patient #25	GSE8671					Normal				GSM215075
+GSM76607				Colon - 54077	GSE2109			3		Carcinoma				GSM76607
+GSM523367				adenocarcinoma_86 (macro)	GSE20916					Carcinoma				GSM523367_ColonCa_Seria13_41P
+GSM662639			83	COL2_10937	GSE26906	M	II			Carcinoma				GSM662639
+GSM76598				Colon - 53951	GSE2109			1		Carcinoma				GSM76598
+GSM662702			61	COL2_733	GSE26906	M	II			Carcinoma				GSM662702
+GSM152750				Rectosigmoid - 251046	GSE2109			2		Carcinoma				GSM152750
+GSM656575			83	colon cancer (GRUBER_CRC_34)	GSE26682	M				Carcinoma				GSM656575
+GSM358506	29.39		26	T372A	GSE14333	M	III	2		Carcinoma				GSM358506
+GSM237983				4168T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237983
+GSM358347	27.02		63	T866D	GSE14333	F	I	2		Carcinoma				GSM358347
+GSM929571			47	SA034165	GSE37892	F	II			Carcinoma				GSM929571_SOG_034165_U133_2
+GSM358376	42		63	01-TB-023-1A	GSE14333	F	I			Carcinoma				GSM358376
+GSM929551			67	9304	GSE37892	M	II			Carcinoma				GSM929551_SOG_9304_U133_2
+GSM179793				Colon - 195191	GSE2109			3		Carcinoma				GSM179793
+GSM237961				3735T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237961
+GSM93928				4145M patient’s mucosa	GSE4107					Carcinoma				GSM93928
+GSM358536	95.07		71	T451A	GSE14333	F	III			Carcinoma				GSM358536
+GSM452619				patient 035, cancer, LCM	GSE18105					Carcinoma				GSM452619
+GSM335589				primary colorectal adenocarcinoma R130: MSS	GSE13294					Carcinoma				GSM335589
+GSM358592			65	T3437A	GSE14333	F	IV	2		Carcinoma				GSM358592
+GSM358346	23.96		57	T5287A1	GSE14333	M	I	1		Carcinoma				GSM358346
+GSM358520	50.59		67	T3085B	GSE14333	F	III	3		Carcinoma				GSM358520
+GSM452151			56	C6	GSE18088	M		2	MSS	Carcinoma				GSM452151
+GSM152703				Rectosigmoid - 228542	GSE2109			2		Carcinoma				GSM152703
+GSM452579				patient 145, cancer, LCM	GSE18105					Carcinoma				GSM452579
+GSM358467	5.2		74	04-TB-026-1A	GSE14333	M	II			Carcinoma				GSM358467
+GSM929537			75	625	GSE37892	M	II			Carcinoma				GSM929537_MFL_625b_U133_2
+GSM270790				CRCB01	GSE10714					Carcinoma				GSM270790
+GSM662710			81	COL2_7610	GSE26906	M	II			Carcinoma				GSM662710
+GSM452617				patient 027, cancer, LCM	GSE18105					Carcinoma				GSM452617
+GSM656613			83	colon cancer (GRUBER_CRC_72)	GSE26682	M			MSS	Carcinoma				GSM656613
+GSM358608			66	T5536C4	GSE14333	F	IV	3		Carcinoma				GSM358608
+GSM523274				mucosa_normal_colon_33 (micro)	GSE20916					Normal				GSM523274_Microdys_23AN
+GSM237953				3644T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237953
+GSM93920				3216M patient's mucosa	GSE4107					Carcinoma				GSM93920
+GSM353939				Colon - 486151	GSE2109			2		Carcinoma				GSM353939
+GSM656564			84	colon cancer (GRUBER_CRC_23)	GSE26682	F				Carcinoma				GSM656564
+GSM335661	260.71		74	primary colorectal adenocarcinoma R395: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335661
+GSM95483				colon_adenoma_1141	GSE4183					Adenoma				GSM95483
+GSM335573	260.71		66	primary colorectal adenocarcinoma R114: MSI	GSE13294	M	II		MSI	Carcinoma	4	0		GSM335573
+GSM656768			81	colon cancer (GRUBER_CRC_227)	GSE26682	M			MSS	Carcinoma				GSM656768
+GSM358427	59.6		74	T3599A	GSE14333	F	II	2		Carcinoma				GSM358427
+GSM523379				carcinoma_98 (macro)	GSE20916					Carcinoma				GSM523379_ColonCa_Seria15_2B2D
+GSM215100				Biopsy of a colorectal adenoma from patient #18	GSE8671					Adenoma				GSM215100
+GSM452591				patient 025, cancer, LCM	GSE18105					Carcinoma				GSM452591
+GSM335530	227.14		81	primary colorectal adenocarcinoma R021: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335530
+GSM656854			79	colon cancer (GRUBER_CRC_313)	GSE26682	F			MSI	Carcinoma				GSM656854
+GSM327310				02-TB-073: MSI	GSE13067				MSI	Carcinoma				GSM327310
+GSM335652	215.43		54	primary colorectal adenocarcinoma R346: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335652
+GSM237921				3151T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237921
+GSM656849			68	colon cancer (GRUBER_CRC_308)	GSE26682	F			MSI	Carcinoma				GSM656849
+GSM46931				Colon - 29291	GSE2109			2		Carcinoma				GSM46931
+GSM358438	93.66		41	T379D	GSE14333	M	II	2		Carcinoma				GSM358438
+GSM95474				colon_normal_1081	GSE4183					Normal				GSM95474
+GSM335600	342.86		50	primary colorectal adenocarcinoma R141: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335600
+GSM277708				Rectosigmoid - 421744	GSE2109			2		Carcinoma				GSM277708
+GSM327316				02-TB-088: MSS	GSE13067				MSS	Carcinoma				GSM327316
+GSM523334				adenocarcinoma_53 (macro)	GSE20916					Carcinoma				GSM523334_ColonCa_Seria08_P17_2
+GSM656644			57	colon cancer (GRUBER_CRC_103)	GSE26682	M			MSS	Carcinoma				GSM656644
+GSM523284				carcinoma_3 (macro)	GSE20916					Carcinoma				GSM523284_ColonCa_Seria01_24B1
+GSM358522	54.9		83	T3254B	GSE14333	F	III	2		Carcinoma				GSM358522
+GSM335648	260.71		70	primary colorectal adenocarcinoma R330: MSI	GSE13294	F	II		MSI	Carcinoma	3	0	0	GSM335648
+GSM298956				Colonic_mucosa_control_86	GSE11831					Normal				GSM298956_C86KN2
+GSM929541			78	10602	GSE37892	M	II			Carcinoma				GSM929541_SOG_10602_U133_2
+GSM335638	260.71		61	primary colorectal adenocarcinoma R277: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335638
+GSM662712			84	COL2_8196	GSE26906	F	II			Carcinoma				GSM662712
+GSM325839				Rectosigmoid - 486168	GSE2109			2		Carcinoma				GSM325839
+GSM358598			42	T4354H	GSE14333	F	IV	2		Carcinoma				GSM358598
+GSM656863			86	colon cancer (GRUBER_CRC_322)	GSE26682	F			MSS	Carcinoma				GSM656863
+GSM523357				carcinoma_76 (macro)	GSE20916					Carcinoma				GSM523357_ColonCa_Seria12_19B2_2
+GSM523371				carcinoma_90 (macro)	GSE20916					Carcinoma				GSM523371_ColonCa_Seria14_28B1
+GSM358419	46.71		48	T3764A	GSE14333	F	II	2		Carcinoma				GSM358419
+GSM203667				Colon - 254400	GSE2109			2		Carcinoma				GSM203667
+GSM929604			54	53	GSE37892	F	III			Carcinoma				GSM929604_051206-01b
+GSM452555				patient 103, cancer, LCM	GSE18105					Carcinoma				GSM452555
+GSM335594	261.43		80	primary colorectal adenocarcinoma R135: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335594
+GSM203670				Rectum - 254405	GSE2109			2		Carcinoma				GSM203670
+GSM656557			69	colon cancer (GRUBER_CRC_16)	GSE26682	F			MSS	Carcinoma				GSM656557
+GSM452646				patient 006, cancer, homogenized	GSE18105					Carcinoma				GSM452646
+GSM234917				Normal_colon_22_13April05	GSE9254					Normal				GSM234917
+GSM656603			76	colon cancer (GRUBER_CRC_62)	GSE26682	F			MSI	Carcinoma				GSM656603
+GSM277728				Colon - 438159	GSE2109			2		Carcinoma				GSM277728
+GSM662707			72	COL2_741	GSE26906	F	II			Carcinoma				GSM662707
+GSM335546	180.00		39	primary colorectal adenocarcinoma R077: MSI	GSE13294	M	II		MSI	Carcinoma	4	0	0	GSM335546
+GSM117683				Rectum - 152490	GSE2109			2		Carcinoma				GSM117683
+GSM335517	260.71		61	primary colorectal adenocarcinoma R008: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335517
+GSM523320				adenocarcinoma_39 (macro)	GSE20916					Carcinoma				GSM523320_ColonCa_Seria06_P15
+GSM46946				Adrenal Gland - 31832	GSE2109			2		Carcinoma				GSM46946
+GSM117734				Rectosigmoid - 184813	GSE2109			2		Carcinoma				GSM117734
+GSM452640				patient 038, normal, homogenized	GSE18105					Normal				GSM452640
+GSM95507				colon_CRC_1708	GSE4183					Carcinoma				GSM95507
+GSM327295			84	02-TB-018: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327295
+GSM929622			79	8505	GSE37892	F	III			Carcinoma				GSM929622_110706-16
+GSM929506			72	386	GSE37892	M	II			Carcinoma				GSM929506_MFL_386b_U133_2
+GSM452180			49	C52	GSE18088	M		1	MSI	Carcinoma				GSM452180
+GSM215108				Biopsy of a colorectal adenoma from patient #26	GSE8671					Adenoma				GSM215108
+GSM358514	41.06		69	T2916A	GSE14333	M	III	2		Carcinoma				GSM358514
+GSM452576				patient 142, cancer, LCM	GSE18105					Carcinoma				GSM452576
+GSM656707			78	colon cancer (GRUBER_CRC_166)	GSE26682	M			MSS	Carcinoma				GSM656707
+GSM335660	260.71		31	primary colorectal adenocarcinoma R391: MSI	GSE13294	M	II		MSI	Carcinoma	3	0	0	GSM335660
+GSM523264				colonic_crypt_epithelial_cells_distant_normal_colon_23 (micro)	GSE20916					Normal				GSM523264_Microdys_49ENN
+GSM437311	49.7753424657534		56	VMC Patient 42	GSE17538	F	III			Carcinoma				GSM437311
+GSM452590				patient 024, cancer, LCM	GSE18105					Carcinoma				GSM452590
+GSM358578			64	T220A	GSE14333	M	IV	2		Carcinoma				GSM358578
+GSM88963				Colon - 101185	GSE2109			2		Carcinoma				GSM88963
+GSM270781				ADHGD01	GSE10714					Adenoma				GSM270781
+GSM358439	106.94		70	T740A	GSE14333	M	II	2		Carcinoma				GSM358439
+GSM237957				3684T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237957
+GSM335524	260.71		87	primary colorectal adenocarcinoma R015: MSS	GSE13294	F	II		MSS	Carcinoma	3	0	0	GSM335524
+GSM335515	578.57		58	primary colorectal adenocarcinoma R006: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335515
+GSM929596			64	20	GSE37892	M	III			Carcinoma				GSM929596_051206-23
+GSM335567	260.71		69	primary colorectal adenocarcinoma R108: MSS	GSE13294	M	II		MSS	Carcinoma	3	0		GSM335567
+GSM656596			45	colon cancer (GRUBER_CRC_55)	GSE26682	F			MSS	Carcinoma				GSM656596
+GSM523351				carcinoma_70 (macro)	GSE20916					Carcinoma				GSM523351_ColonCa_Seria11_20B1
+GSM215059				Biopsy of the normal mucosa of the colon from patient #9	GSE8671					Normal				GSM215059
+GSM102561				Colon - 78401	GSE2109			2		Carcinoma				GSM102561
+GSM335533	300.00		78	primary colorectal adenocarcinoma R024: MSS	GSE13294	M	II		MSS	Carcinoma	3	0	0	GSM335533
+GSM358611			46	T694C	GSE14333	M	IV	2		Carcinoma				GSM358611
+GSM523313				carcinoma_32 (macro)	GSE20916					Carcinoma				GSM523313_ColonCa_Seria05_44B1
+GSM452616				patient 019, cancer, LCM	GSE18105					Carcinoma				GSM452616
+GSM76639				Colon - 78403	GSE2109			3		Carcinoma				GSM76639
+GSM358462	38.2		72	03-TB-087-1A	GSE14333	M	II			Carcinoma				GSM358462
+GSM523347				adenocarcinoma_66 (macro)	GSE20916					Carcinoma				GSM523347_ColonCa_Seria10_P28C
+GSM335586			65	primary colorectal adenocarcinoma R127: MSS	GSE13294	F	IV		MSS	Carcinoma	3	0	1	GSM335586
+GSM656872			46	colon cancer (GRUBER_CRC_331)	GSE26682	F			MSI	Carcinoma				GSM656872
+GSM237942				3562T early stage CRC patient's tumor	GSE9348					Carcinoma				GSM237942
+GSM95493				colon_adenoma_980	GSE4183					Adenoma				GSM95493
+GSM929585			63	77	GSE37892	M	II			Carcinoma				GSM929585_070123-17
+GSM358352	57.79		55	T3737A	GSE14333	M	I	2		Carcinoma				GSM358352
+GSM93954				NM9 healthy control	GSE4107					Normal				GSM93954
+GSM358368	142.55		73	T129A	GSE14333	M	I	2		Carcinoma				GSM358368
+GSM523363				adenocarcinoma_82 (macro)	GSE20916					Carcinoma				GSM523363_ColonCa_Seria12_P34
+GSM215104				Biopsy of a colorectal adenoma from patient #22	GSE8671					Adenoma				GSM215104
+GSM929535			49	538	GSE37892	M	II			Carcinoma				GSM929535_MFL_538b_U133_2
+GSM117746				Colon - 184841	GSE2109			2		Carcinoma				GSM117746
+GSM335627				primary colorectal adenocarcinoma R237: MSI	GSE13294					Carcinoma				GSM335627
+GSM152762				Colon - 254360	GSE2109			2		Carcinoma				GSM152762
+GSM437285	54.5095890410959		81	VMC Patient 16	GSE17538	F	I	2		Carcinoma				GSM437285
+GSM327299			79	02-TB-042: MSS	GSE13067	M	IV		MSS	Carcinoma				GSM327299
+GSM298961				Colonic_mucosa_control_90	GSE11831					Normal				GSM298961_C90KN3
+GSM117672				Colon - 151627	GSE2109					Carcinoma				GSM117672
+GSM95485				colon_adenoma_1187	GSE4183					Adenoma				GSM95485
+GSM662708			56	COL2_743	GSE26906	M	II			Carcinoma				GSM662708
+GSM327287	22.8		67	01-TB-020: MSS	GSE13067	F	I		MSS	Carcinoma				GSM327287
+GSM358630			67	03-1514-P3083	GSE14333	M	IV			Carcinoma				GSM358630
+GSM93927				3950M patient’s mucosa	GSE4107					Carcinoma				GSM93927
+GSM95496				colon_CRC_1146	GSE4183					Carcinoma				GSM95496
+GSM523330				normal_colon_49 (macro)	GSE20916					Normal				GSM523330_ColonCa_Seria08_31A_2
+GSM656570			77	colon cancer (GRUBER_CRC_29)	GSE26682	F			MSS	Carcinoma				GSM656570
+GSM117742				Colon - 184833	GSE2109			2		Carcinoma				GSM117742
+GSM358418	44.97		58	T4541A1	GSE14333	M	II	2		Carcinoma				GSM358418
+GSM437298	63.945205479452		67	VMC Patient 29	GSE17538	M	II			Carcinoma				GSM437298
+GSM523245				colonic_crypt_epithelial_cells_normal_colon_4 (micro)	GSE20916					Normal				GSM523245_Microdys_1EN
+GSM138007				Colon - 199384	GSE2109			2		Carcinoma				GSM138007
+GSM452198			62	C94	GSE18088	M		1	MSS	Carcinoma				GSM452198
+GSM437271	63.9123287671233		48	VMC Patient 2	GSE17538	F	III	2		Carcinoma				GSM437271
+GSM452573				patient 136, cancer, LCM	GSE18105					Carcinoma				GSM452573
+GSM298953				Colonic_mucosa_control_82	GSE11831					Normal				GSM298953_C82KN2
+GSM437306	21.6328767123288		75	VMC Patient 37	GSE17538	M	II	2		Carcinoma				GSM437306
+GSM523285				carcinoma_4 (macro)	GSE20916					Carcinoma				GSM523285_ColonCa_Seria01_42.6B2
+GSM656663			72	colon cancer (GRUBER_CRC_122)	GSE26682	F			MSS	Carcinoma				GSM656663
+GSM437323	0.427397260273973		93	VMC Patient 54	GSE17538	M	II	2		Carcinoma				GSM437323
+GSM662722			50	COL2_JM_HS_1411	GSE26906	F	II			Carcinoma				GSM662722
+GSM237994				NM65  healthy control	GSE9348					Normal				GSM237994
+GSM215096				Biopsy of a colorectal adenoma from patient #14	GSE8671					Adenoma				GSM215096
+GSM929584			70	197	GSE37892	F	II			Carcinoma				GSM929584_121206-03
+GSM929611			73	683	GSE37892	F	III			Carcinoma				GSM929611_070123-09
+GSM523266				colonic_crypt_epithelial_cells_distant_normal_colon_25 (micro)	GSE20916					Normal				GSM523266_Microdys_51ENN
+GSM234922				Normal_colon_31_13April05	GSE9254					Normal				GSM234922
+GSM662687			83	COL2_718	GSE26906	F	II			Carcinoma				GSM662687
+GSM179894				Rectosigmoid - 267110	GSE2109			2		Carcinoma				GSM179894
+GSM215053				Biopsy of the normal mucosa of the colon from patient #3	GSE8671					Normal				GSM215053
+GSM277714				Ovary - 426417	GSE2109			X		Carcinoma				GSM277714

@@ -1,0 +1,97 @@
+name	pValue	fdr
+Chemokine receptors bind chemokines	1.4070494847e-05	0.00137890849501
+Antigen activates B Cell Receptor (BCR) leading to generation of second messengers	0.000137975837151	0.00676081602039
+CD22 mediated BCR regulation	0.000830105204883	0.0254549427594
+Signaling by the B Cell Receptor (BCR)	0.00133799235698	0.0254549427594
+Transcriptional regulation of testis differentiation	0.00133973382944	0.0254549427594
+Peptide ligand-binding receptors	0.00173604877138	0.0277767803421
+Adaptive Immune System	0.00208549231982	0.0291968924775
+Immune System	0.00427705927119	0.0513247112543
+Potential therapeutics for SARS	0.00892020256529	0.0892020256529
+The AIM2 inflammasome	0.0101081232332	0.0909731090984
+Interleukin-10 signaling	0.0202586751883	0.157534179889
+Class A/1 (Rhodopsin-like receptors)	0.0205123065992	0.157534179889
+G alpha (i) signalling events	0.0225048828413	0.157534179889
+Metal sequestration by antimicrobial proteins	0.0324887653424	0.223543045718
+Mtb iron assimilation by chelation	0.0422767328927	0.223543045718
+TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway	0.0422767328927	0.223543045718
+Transport of fatty acids	0.0447086091435	0.223543045718
+Infection with Mycobacterium tuberculosis	0.0462058598583	0.231029299292
+GPCR downstream signalling	0.0495385367257	0.236696051624
+Rap1 signalling	0.0591740129059	0.236696051624
+Prevention of phagosomal-lysosomal fusion	0.0639482155748	0.248430227136
+GPCR ligand binding	0.0677326591782	0.248430227136
+Signaling by GPCR	0.069396398335	0.248430227136
+Suppression of phagosomal maturation	0.0781296269491	0.248430227136
+Inflammasomes	0.082810075712	0.248430227136
+Integrin signaling	0.0944101300364	0.252270032716
+Effects of PIP2 hydrolysis	0.0967129262733	0.252270032716
+Bacterial Infection Pathways	0.098658100726	0.252270032716
+Generation of second messenger molecules	0.112673502469	0.252270032716
+Response of Mtb to phagocytosis	0.12167010604	0.252270032716
+Platelet Aggregation (Plug Formation)	0.126135016358	0.252270032716
+Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	0.131638847384	0.263277694768
+Synthesis of Prostaglandins (PG) and Thromboxanes (TX)	0.137200759701	0.274401519402
+Ion homeostasis	0.150299515121	0.280347445983
+Ion transport by P-type ATPases	0.167463480839	0.280347445983
+Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	0.167463480839	0.280347445983
+Latent infection - Other responses of Mtb to phagocytosis	0.169585076936	0.280347445983
+SARS-CoV Infections	0.176731249473	0.280347445983
+Cytosolic sensors of pathogen-associated DNA 	0.180114287425	0.280347445983
+Amyloid fiber formation	0.202822718695	0.280347445983
+Constitutive Signaling by Aberrant PI3K in Cancer	0.216953207122	0.280347445983
+TNFR2 non-canonical NF-kB pathway	0.232803604674	0.280347445983
+Transport of vitamins, nucleosides, and related molecules	0.240611132899	0.280347445983
+Innate Immune System	0.251533909292	0.280347445983
+Post-translational modification: synthesis of GPI-anchored proteins	0.254088422844	0.280347445983
+Antimicrobial peptides	0.269205765293	0.280347445983
+PI3K/AKT Signaling in Cancer	0.271074313094	0.280347445983
+PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling	0.280347445983	0.280347445983
+TCR signaling	0.29132355146	0.29132355146
+Negative regulation of the PI3K/AKT network	0.294945874029	0.294945874029
+MHC class II antigen presentation	0.294945874029	0.294945874029
+Regulation of Complement cascade	0.298550153872	0.298550153872
+Infectious disease	0.30353739597	0.30353739597
+Cardiac conduction	0.312788590124	0.312788590124
+RHO GTPases Activate Formins	0.316303960852	0.316303960852
+RHOA GTPase cycle	0.325015907092	0.325015907092
+Complement cascade	0.328470315865	0.328470315865
+CDC42 GTPase cycle	0.333619653054	0.333619653054
+Hemostasis	0.334175614909	0.334175614909
+Neutrophil degranulation	0.343597475216	0.343597475216
+Arachidonic acid metabolism	0.34883789921	0.34883789921
+FCERI mediated NF-kB activation	0.36043968172	0.36043968172
+RAC1 GTPase cycle	0.386206863431	0.386206863431
+Factors involved in megakaryocyte development and platelet production	0.390924293789	0.390924293789
+Ion channel transport	0.412475919505	0.412475919505
+Muscle contraction	0.447705188704	0.447705188704
+Signaling by ROBO receptors	0.451961424515	0.451961424515
+Fc epsilon receptor (FCERI) signaling	0.451961424515	0.451961424515
+Neddylation	0.478184846465	0.478184846465
+Cell surface interactions at the vascular wall	0.482212027795	0.482212027795
+Signaling by Interleukins	0.502321421752	0.502321421752
+Signal Transduction	0.51516717623	0.51516717623
+G alpha (q) signalling events	0.518367764993	0.518367764993
+Viral Infection Pathways	0.518862144501	0.518862144501
+Platelet activation, signaling and aggregation	0.52823796646	0.52823796646
+Cytokine Signaling in Immune system	0.536683108316	0.536683108316
+Signaling by Rho GTPases	0.542180818135	0.542180818135
+Antigen processing: Ubiquitination & Proteasome degradation	0.55437576381	0.55437576381
+Signaling by Rho GTPases, Miro GTPases and RHOBTB3	0.554484800766	0.554484800766
+PIP3 activates AKT signaling	0.56239237718	0.56239237718
+RHO GTPase Effectors	0.565784892063	0.565784892063
+Intracellular signaling by second messengers	0.612693571081	0.612693571081
+Disease	0.638339678471	0.638339678471
+Class I MHC mediated antigen processing & presentation	0.653748336063	0.653748336063
+SLC-mediated transmembrane transport	0.659128590225	0.659128590225
+Fatty acid metabolism	0.670507853506	0.670507853506
+RHO GTPase cycle	0.694574772277	0.694574772277
+Transport of small molecules	0.71452829249	0.71452829249
+Diseases of signal transduction by growth factor receptors and second messengers	0.723532083996	0.723532083996
+Developmental Biology	0.731527861733	0.731527861733
+Axon guidance	0.780121040247	0.780121040247
+Nervous system development	0.800080151167	0.800080151167
+Post-translational protein modification	0.930311383291	0.930311383291
+Metabolism of proteins	0.937219864627	0.937219864627
+Metabolism of lipids	0.979848123151	0.979848123151
+Metabolism	0.999975674609	0.999975674609
