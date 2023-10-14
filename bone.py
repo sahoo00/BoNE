@@ -1153,8 +1153,12 @@ def plotViolin(data, atypes, params):
         ax = sns.violinplot(x="category", y="score", inner='quartile',
                 linewidth=0.5, width=width, ax = ax, data=df,
                 order = atypes)
+        xlim = ax.get_xlim()
+        ylim = ax.get_ylim()
         ax = sns.swarmplot(x="category", y="score", color = 'blue', alpha=0.2,
                 ax=ax, data=df, order = atypes)
+        ax.set_xlim(xlim)
+        ax.set_ylim(ylim)
         ax.set_xlabel("")
         pos = range(len(atypes))
         for tick,label in zip(pos[1:],ax.get_xticklabels()[1:]):
@@ -1166,8 +1170,12 @@ def plotViolin(data, atypes, params):
         ax = sns.violinplot(x="score", y="category", inner='quartile',
                 linewidth=0.5, width=width, ax = ax, data=df,
                 order = atypes)
+        xlim = ax.get_xlim()
+        ylim = ax.get_ylim()
         ax = sns.swarmplot(x="score", y="category", color = 'blue', alpha=0.2,
                 ax=ax, data=df, order = atypes)
+        ax.set_xlim(xlim)
+        ax.set_ylim(ylim)
         ax.set_ylabel("")
         pos = range(len(atypes))
         for tick,label in zip(pos[1:],ax.get_yticklabels()[1:]):
@@ -2137,8 +2145,12 @@ class IBDAnalysis:
             ax = sns.violinplot(x="category", y="score", inner='quartile',
                     linewidth=0.5, width=width, ax = ax, data=df,
                     order = atypes)
+            xlim = ax.get_xlim()
+            ylim = ax.get_ylim()
             ax = sns.swarmplot(x="category", y="score", color = 'blue', alpha=0.2,
                     ax=ax, data=df, order = atypes)
+            ax.set_xlim(xlim)
+            ax.set_ylim(ylim)
             ax.set_xlabel("")
             pos = range(len(atypes))
             for tick,label in zip(pos[1:],ax.get_xticklabels()[1:]):
@@ -2150,8 +2162,12 @@ class IBDAnalysis:
             ax = sns.violinplot(x="score", y="category", inner='quartile',
                     linewidth=0.5, width=width, ax = ax, data=df,
                     order = atypes)
+            xlim = ax.get_xlim()
+            ylim = ax.get_ylim()
             ax = sns.swarmplot(x="score", y="category", color = 'blue', alpha=0.2,
                     ax=ax, data=df, order = atypes)
+            ax.set_xlim(xlim)
+            ax.set_ylim(ylim)
             ax.set_ylabel("")
             pos = range(len(atypes))
             for tick,label in zip(pos[1:],ax.get_yticklabels()[1:]):
