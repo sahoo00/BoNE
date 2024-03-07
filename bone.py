@@ -2218,6 +2218,8 @@ class IBDAnalysis:
                 if ana.aval[i] == m or ana.aval[i] == n]
         score = [ana.f_ranks[i - ana.start] for i in ana.i1
                 if ana.aval[i] == m or ana.aval[i] == n]
+        if (len(actual) == 0):
+            return "0.5"
         fpr, tpr, thrs = roc_curve(actual, score, pos_label=n)
         roc_auc = auc(fpr, tpr)
         return "%.2f" % roc_auc

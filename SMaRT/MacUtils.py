@@ -241,6 +241,22 @@ class HegemonUtil:
       stat = s_thr["statistic"]
       return [thr, stat, thr-0.5, thr+0.5]
 
+    @staticmethod
+    def getThrCode (thr_step, value, code = None):
+      if (code is None):
+          return value 
+      thr = value;
+      if (code == "thr1"):
+        thr = thr_step[0];
+      elif (code == "thr0"):
+        thr = thr_step[2];
+      elif (code == "thr2"):
+        thr = thr_step[3];
+      else:
+        thr = code;
+      return float(thr);
+
+
 def sumf(arr):
   s = 0
   for i in arr:
@@ -1978,7 +1994,7 @@ def printTestSurvival4(l1, wt1, i1, i2, i3, ax = None):
     nm = (np.max(ana.f_ranks) - np.min(ana.f_ranks))/16
     print(thr, nm)
     fthr = -800
-    fthr = thr[0] - i1 * nm + i3 * (np.median(ana.f_ranks) - thr[0])
+    fthr = thr[0]
     print(fthr)
     group1 = [1 if ana.f_ranks[i - ana.start] > fthr else 0 for i in ana.order]
 
@@ -1989,11 +2005,13 @@ def printTestSurvival4(l1, wt1, i1, i2, i3, ax = None):
     status = ana.getSurvName('status')
     time2 = [time[i] for i in ana.order]
     status2 = [status[i] for i in ana.order]
-    thr = hu.getThrData(ana.f_ranks)
-    nm = (np.max(ana.f_ranks) - np.min(ana.f_ranks))/16
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1[:-1])
+    nm = ana.noisemargin
+    #nm = (np.max(ana.f_ranks) - np.min(ana.f_ranks))/16
     print(thr, nm)
-    fthr = -340
-    fthr = thr[0] - i2 * nm + i3 * (np.median(ana.f_ranks) - thr[0])
+    fthr = -342
+    fthr = thr[0] - int(nm)
     print(fthr)
     group2 = [1 if ana.f_ranks[i - ana.start] > fthr else 0 for i in ana.order]
 
@@ -2043,14 +2061,59 @@ def printTestSurvival7(l1, wt1, fthr, ax = None):
     sax.set_title(ana.getTitle())
     return sax
 
+def figure4aOld():
+    wt1, l1 = getCls13a14a3()
+    ana = MacAnalysis()
+    ana.getSurvival("CRC35.3")
+    ana.orderDataDf(l1, wt1)
+    nm = ana.noisemargin
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1)
+    v2 = sorted([ana.f_ranks[i - ana.start] for i in ana.order
+          if ana.f_ranks[i - ana.start] >= thr[0]])
+    thr2 = hu.getThrData(v2[6:])
+    fthr = thr2[0] - int(nm)
+    sax = ana.printSurvival(fthr, None, None, None)
+    sax.set_title(ana.getTitle())
+    return sax
+
 def figure4a():
     wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     sax = printTestSurvival(l1, wt1, "thr+thr1")
     return sax
 
+def figure4bOld():
+    wt1, l1 = getCls13a14a3()
+    ana = MacAnalysis()
+    ana.getSurvival("LIV15.2")
+    ana.orderDataDf(l1, wt1)
+    nm = ana.noisemargin
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1[4:])
+    fthr = thr[0] - int(nm)
+    sax = ana.printSurvival(fthr, None, None, None)
+    sax.set_title(ana.getTitle())
+    return sax
+
 def figure4b():
     wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     sax = printTestSurvival2(l1, wt1, "thr1")
+    return sax
+
+def figure4cOld():
+    wt1, l1 = getCls13()
+    ana = MacAnalysis()
+    ana.getSurvival("MAC104")
+    ana.orderDataDf(l1, wt1)
+    nm = ana.noisemargin
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1)
+    v2 = sorted([ana.f_ranks[i - ana.start] for i in ana.order
+          if ana.f_ranks[i - ana.start] >= thr[0]])
+    thr2 = hu.getThrData(v2[15:])
+    fthr = thr2[0] + nm
+    sax = ana.printSurvival(fthr, None, None, None)
+    sax.set_title(ana.getTitle())
     return sax
 
 def figure4c():
@@ -2062,6 +2125,32 @@ def figure4d():
     wt1, l1 = [-1, 1, 2], [readGenes(basedir + f"node-{i}.txt") for i in [13, 14, 3]]
     sax = printTestSurvival4(l1, wt1, 0, 1.5, 0)
     sax.set_title("GSE28221")
+    return sax
+
+def figure4eOld():
+    wt1, l1 = getCls13()
+    ana = MacAnalysis()
+    ana.getSurvival("MACV82")
+    ana.orderDataDf(l1, wt1)
+    nm = ana.noisemargin
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1[5:])
+    fthr = thr[0] + int(nm)
+    sax = ana.printSurvival(fthr, None, 1500, None)
+    sax.set_title(ana.getTitle())
+    return sax
+
+def figure4fOld():
+    wt1, l1 = getCls13()
+    ana = MacAnalysis()
+    ana.getSurvival("MACV80")
+    ana.orderDataDf(l1, wt1)
+    nm = ana.noisemargin
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1[5:])
+    fthr = thr[0] + nm
+    sax = ana.printSurvival(fthr, None, 1500, None)
+    sax.set_title(ana.getTitle())
     return sax
 
 def figure4e():
@@ -2109,6 +2198,25 @@ def figure4g():
     ax.axhline(y=1.3, color='red')
 
     return sax, ax
+
+def figure4Old():
+    pdf = getPDF("surv-old.pdf")
+    figure4aOld()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figure4bOld()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figure4cOld()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figure4d()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figure4eOld()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figure4fOld()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    sax, ax = figure4g()
+    pdf.savefig(sax.get_figure(), transparent=True,bbox_inches = 'tight')
+    pdf.savefig(ax.get_figure(), transparent=True,bbox_inches = 'tight')
+    closePDF(pdf)
 
 def figure4():
     pdf = getPDF("surv-1.pdf")
@@ -2315,6 +2423,100 @@ def figure2f():
     print(proportions_ztest(2149, 2966, 62/5396), 2149/2966, 62/5936, 1/2829)
     print(thr1[0], thr2[0])
 
+def figures9f1():
+    wt1, l1 = getCls13a14a3()
+    ana = MacAnalysis()
+    ana.getBos()
+    ana.orderDataDf(l1, wt1)
+    ESR1 = "205225_at"
+    id1 = ESR1
+    expr = ana.getExprData(id1)
+    low = ana.getArraysAll(id1, "thr0", "lo")
+    high = ana.getArraysAll(id1, "thr0", "hi")
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1)
+    nm = ana.noisemargin
+    v2 = sorted([ana.f_ranks[i - ana.start] for i in ana.order
+          if ana.f_ranks[i - ana.start] >= thr[0] - nm])
+    thr2 = hu.getThrData(v2[:-4])
+    fthr = thr2[0]
+    #print(v2)
+    print(thr)
+    print(nm, fthr)
+    g1 = [i for i in high if
+            ana.f_ranks[i - ana.start] < fthr]
+    g2 = [i for i in high if
+            ana.f_ranks[i - ana.start] >= fthr]
+    pG = [ ["Low", "red", g1], ["High", "green", g2]]
+    time = ana.getSurvName('time')
+    status = ana.getSurvName('status')
+    sax = hu.survival(time, status, pG)
+    sax.set_title(ana.getTitle())
+    return sax
+
+def figures9f2():
+    wt1, l1 = getCls13()
+    ana = MacAnalysis()
+    ana.getSurvival("PANC2")
+    ana.orderDataDf(l1, wt1)
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1[:-3])
+    fthr = thr[0]
+    sax = ana.printSurvival(fthr, None, None)
+    sax.set_title(ana.getTitle())
+    return sax
+
+def figures9f3():
+    wt1, l1 = getCls13a14a3()
+    ana = MacAnalysis()
+    ana.getSurvival("P9")
+    ana.orderDataDf(l1, wt1)
+    sax = ana.printSurvival(None, None, 60, None)
+    sax.set_title(ana.getTitle())
+    return sax
+
+def figures9f4():
+    wt1, l1 = getCls13a14a3()
+    ana = MacAnalysis()
+    ana.getSurvival("G2")
+    ana.orderDataDf(l1, wt1)
+    nm = ana.noisemargin
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1[13:])
+    fthr = thr[0] + nm
+    sax = ana.printSurvival(fthr, None, None)
+    sax.set_title(ana.getTitle())
+    return sax
+
+def figures9f5():
+    wt1, l1 = getCls13a14a3()
+    ana = MacAnalysis()
+    ana.getSurvival("B2.1")
+    ana.orderDataDf(l1, wt1)
+    nm = ana.noisemargin
+    v1 = sorted([ana.f_ranks[i - ana.start] for i in ana.order])
+    thr = hu.getThrData(v1)
+    v2 = sorted([ana.f_ranks[i - ana.start] for i in ana.order
+              if ana.f_ranks[i - ana.start] < thr[0] + nm])
+    thr2 = hu.getThrData(v2[1:-1])
+    fthr = int(thr2[0] + nm)
+    sax = ana.printSurvival(fthr, None, None, None)
+    sax.set_title(ana.getTitle())
+    return sax
+
+def figures9f():
+    pdf = getPDF("surv-sup.pdf")
+    figures9f1()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figures9f2()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figures9f3()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figures9f4()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    figures9f5()
+    pdf.savefig(transparent=True,bbox_inches = 'tight')
+    closePDF(pdf)
 
 class MacAnalysis:
     def __init__(self, urlbase=urlbase):
@@ -2383,6 +2585,37 @@ class MacAnalysis:
     def getExprData(self, name):
         return hu.getHegemonData(self.dbid, name, "", self.urlbase)[1]
     
+    def getThrData(self, name):
+        obj = hu.getHegemonThrFrame(self.dbid, [name])
+        thr = [obj['thr1'][0], obj['stat'][0], obj['thr0'][0], obj['thr2'][0]]
+        return thr
+    
+    def getArraysThr (self, id1, thr = None, type1 = None):
+        res = []
+        expr = self.getExprData(id1);
+        thr_step = self.getThrData(id1);
+        thr = hu.getThrCode(thr_step, thr_step[0], thr);
+        for i in self.aRange():
+          if (thr is None):
+             res.append(i)
+          elif (expr[i] == ""):
+             continue
+          elif (type1 == "hi" and float(expr[i]) >= thr):
+             res.append(i)
+          elif (type1 == "lo" and float(expr[i]) < thr):
+             res.append(i)
+          elif (type1 is not None and type1 != "lo" and type1 != "hi" \
+                  and float(expr[i]) >= thr and float(expr[i]) <= float(type1)): 
+             res.append(i)
+        return res
+
+    def getArraysAll (self, *data):
+        res = self.aRange()
+        for i in range(0, len(data), 3):
+          r = self.getArraysThr(data[i], data[i+1], data[i+2])
+          res = list(set(res) & set(r))
+        return res;
+
     def orderDataDf(self, gene_groups, weight):
         data_g = []
         data_e = []
@@ -2536,7 +2769,8 @@ class MacAnalysis:
                 df.loc[cond1, 'y'] += (np.mean(df[cond1]['x']) - df.loc[cond1, 'x']) * (s1+1) / (s2+1)
                 df.loc[cond1, 'x'] -= (np.mean(df[cond1]['y']) - df.loc[cond1, 'y']) * (s2+1) / (s1+1)
         from sklearn.linear_model import LinearRegression
-        linreg = LinearRegression(normalize=True)
+        #linreg = LinearRegression(normalize=True)
+        linreg = LinearRegression()
         linreg.fit(np.array(df['x']).reshape(-1, 1),df['y'])
         y_pred = linreg.predict(np.array(df['x']).reshape(-1, 1))
         df['y1'] = (df['y'] - y_pred)
