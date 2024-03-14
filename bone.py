@@ -617,7 +617,8 @@ def getNoiseMargin(h, l1, wt1):
             t = h.getThrData(id);
             if e[-1] == "":
                 continue
-            v = np.array([float(e[i]) if e[i] != "" else 0 for i in h.aRange()])
+            v = np.array([float(e[i]) if i < len(e) and e[i] != ""
+                else 0 for i in h.aRange()])
             v1 = 0.5/3
             std = np.std(v)
             if std > 0:
@@ -1618,6 +1619,135 @@ def processGeneGroupsDf(ana, l1, wt1, debug = 0, fthr = None):
         print('Accuracy', accuracy_score(actual, predicted))
         print(classification_report(actual, predicted, target_names=ana.atypes))
     return c_dict, fpr, tpr, roc_auc
+
+def getBitVector(self, low, high, arr=None):
+    num = self.getNum()
+    if arr is not None:
+        num = len(arr)
+    import bitarray
+    a_high = bitarray.bitarray(num)
+    a_med = bitarray.bitarray(num)
+    a_high.setall(False)
+    a_med.setall(True)
+    if arr is not None:
+        low = set(low) & set(arr)
+        high = set(high) & set(arr)
+        for i in range(len(arr)):
+            if arr[i] in high:
+                a_med[i] = 0
+                a_high[i] = 1
+            if arr[i] in low:
+                a_med[i] = 0
+    else:
+        for i in high:
+            a_med[i - self.start] = 0
+            a_high[i - self.start] = 1
+        for i in low:
+            a_med[i - self.start] = 0
+    return a_high, a_med
+
+def getRelStats(h, order, a_high, a_med, sthr=3, pthr=0.1):
+    fp = h.fp;
+    fp.seek(0, 0);
+    hdr = fp.readline();
+    res = []
+    for line in fp:
+        line = line.strip();
+        ll = line.split("\t")
+        thr_step = h.getThrData(ll[0])
+        thr = hu.getThrCode(thr_step, thr_step[0], "thr0")
+        low = [i for i in order if float(ll[i]) < thr]
+        thr = hu.getThrCode(thr_step, thr_step[0], "thr2")
+        high = [i for i in order if float(ll[i]) >= thr]
+        b_high, b_med = h.getBitVector(low, high, order)
+        bs = hu.getBooleanStats(a_high, a_med, b_high, b_med)
+        rel = hu.getBooleanRelationType(bs, sthr, pthr)
+        res += [rel[0]]
+    return res
+def getHighJava(ana, tn=0, thr=2.0, nthr=10):
+    order = [i for i in ana.order if ana.aval[i] == tn]
+    ofh = open(".arrorder", "w")
+    for i in order:
+        ofh.write(ana.headers[i] + "\n")
+    ofh.close()
+    from subprocess import check_output
+    cmd = ['java', '-cp', '/booleanfs2/sahoo/Hegemon',
+           'tools.Hegemon', 'high', ana.h.getPre(),
+           '.arrorder', str(thr), str(nthr)]
+    result = check_output(cmd, input='')
+    l1 = result.decode('utf-8').split('\n')
+    res = [k.split('\t') for k in l1 if k != '']
+    res = [[k[0], ana.h.getSimpleName(k[0]), k[1]] for k in res]
+    return res
+
+def getRelStatsJava(ana, id1, order, sthr=3.0, pthr=0.1):
+    ofh = open(".arrorder", "w")
+    for i in order:
+        ofh.write(ana.headers[i] + "\n")
+    ofh.close()
+    from subprocess import check_output
+    cmd = ['java', '-cp', '/booleanfs2/sahoo/Hegemon',
+           'tools.Hegemon', 'Bool', ana.h.getPre(),
+           id1, '.arrorder']
+    result = check_output(cmd, input='')
+    l1 = result.decode('utf-8').split('\n')
+    res = {}
+    for line in l1:
+        if line == '':
+            continue
+        k = line.split('\t')
+        bs = np.array([k[2:6], k[2:6], k[6:10], k[10:]]).astype(np.float)
+        rel = hu.getBooleanRelationType(bs, sthr, pthr)
+        if rel[0] not in res:
+            res[rel[0]] = {}
+        res[rel[0]][k[1]] = rel[1]
+    return res
+
+def getRelListStatsJava(ana, idlist, order, sthr=3.0, pthr=0.1):
+    ofh = open(".idlist", "w")
+    for i in idlist:
+        ofh.write(i + "\n")
+    ofh.close()
+    ofh = open(".arrorder", "w")
+    for i in order:
+        ofh.write(ana.headers[i] + "\n")
+    ofh.close()
+    from subprocess import check_output
+    cmd = ['java', '-cp', '/booleanfs2/sahoo/Hegemon',
+           'tools.Hegemon', 'Boolean', ana.h.getPre(),
+           '.idlist', '.arrorder']
+    result = check_output(cmd, input='')
+    l1 = result.decode('utf-8').split('\n')
+    res = {}
+    for line in l1:
+        if line == '':
+            continue
+        k = line.split('\t')
+        bs = np.array([k[2:6], k[2:6], k[6:10], k[10:]]).astype(np.float)
+        rel = hu.getBooleanRelationType(bs, sthr, pthr)
+        if rel[0] not in res:
+            res[rel[0]] = {}
+        res[rel[0]][k[0]] = [k[1]] + rel[1]
+    return res
+
+def getCorrelationsJava(ana, id1, order):
+    ofh = open(".arrorder", "w")
+    for i in order:
+        ofh.write(ana.headers[i] + "\n")
+    ofh.close()
+    from subprocess import check_output
+    cmd = ['java', '-cp', '/booleanfs2/sahoo/Hegemon',
+           'tools.Hegemon', 'corr', ana.h.getExprFile(),
+           id1, '.arrorder']
+    result = check_output(cmd, input='')
+    l1 = result.decode('utf-8').split('\n')
+    res = []
+    for line in l1:
+        if line == '':
+            continue
+        k = line.split('\t')
+        res += [k]
+    return res
 
 class IBDAnalysis:
 
