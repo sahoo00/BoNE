@@ -1680,14 +1680,16 @@ def getHighJava(ana, tn=0, thr=2.0, nthr=10):
     res = [[k[0], ana.h.getSimpleName(k[0]), k[1]] for k in res]
     return res
 
-def getRelStatsJava(ana, id1, order, sthr=3.0, pthr=0.1):
+def getRelStatsJava(ana, id1, order, sthr=3.0, pthr=0.1, pre=None):
     ofh = open(".arrorder", "w")
     for i in order:
         ofh.write(ana.headers[i] + "\n")
     ofh.close()
+    if pre is None:
+        pre = ana.h.getPre()
     from subprocess import check_output
     cmd = ['java', '-cp', '/booleanfs2/sahoo/Hegemon',
-           'tools.Hegemon', 'Bool', ana.h.getPre(),
+           'tools.Hegemon', 'Bool', pre,
            id1, '.arrorder']
     result = check_output(cmd, input='')
     l1 = result.decode('utf-8').split('\n')
