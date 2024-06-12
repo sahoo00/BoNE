@@ -1,101 +1,57 @@
 name	pValue	fdr
-Generation of second messenger molecules	6.29518904782e-08	3.63232408059e-05
-Translocation of ZAP-70 to Immunological synapse	8.11944082102e-06	0.00199424832979
-Phosphorylation of CD3 and TCR zeta chains	1.38489467346e-05	0.00199424832979
-PD-1 signaling	1.38489467346e-05	0.00199424832979
-RUNX1 regulates transcription of genes involved in differentiation of myeloid cells	2.81001670788e-05	0.00323151921406
-Adaptive Immune System	4.12426723635e-05	0.0039592965469
-TCR signaling	5.17394508391e-05	0.00424263496881
-Immune System	9.01899807957e-05	0.00649367861729
-Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	0.000139692364331	0.00894031131716
-Costimulation by the CD28 family	0.000426589909006	0.0243156248133
-RUNX2 regulates genes involved in cell migration	0.00136496441773	0.070978149722
-Interferon gamma signaling	0.00175922700123	0.0741997486293
-Regulation of cortical dendrite branching	0.00177662446209	0.0741997486293
-Downstream TCR signaling	0.00181938914191	0.0741997486293
-RUNX2 regulates osteoblast differentiation	0.00195262496393	0.0741997486293
-YAP1- and WWTR1 (TAZ)-stimulated gene expression	0.00277447946887	0.0961098950498
-RAC1 GTPase cycle	0.00291242106212	0.0961098950498
-G-protein beta:gamma signalling	0.00318707111318	0.101986275622
-RUNX2 regulates genes involved in differentiation of myeloid cells	0.00391817183972	0.117545155191
-G beta:gamma signalling through CDC42	0.00426117994363	0.119313038422
-RUNX2 regulates bone development	0.00449363975811	0.121328273469
-RHO GTPase cycle	0.00505287773761	0.126721120681
-RUNX2 regulates chondrocyte maturation	0.00528004669505	0.126721120681
-RUNX1 regulates transcription of genes involved in interleukin signaling	0.00528004669505	0.126721120681
-Platelet activation, signaling and aggregation	0.00578821415971	0.133128925673
-MyD88 deficiency (TLR2/4)	0.00765088561325	0.162561560862
-IRAK4 deficiency (TLR2/4)	0.00847379471602	0.162561560862
-Attachment and Entry	0.00847379471602	0.162561560862
-Nef and signal transduction	0.0085558716243	0.162561560862
-Cytokine Signaling in Immune system	0.0102033557164	0.177789061972
-G beta:gamma signalling through PI3Kgamma	0.0102702669108	0.177789061972
-RUNX3 Regulates Immune Response and Cell Migration	0.010458180116	0.177789061972
-MECP2 regulates transcription factors	0.010458180116	0.177789061972
-TNFs bind their physiological receptors	0.0112449526465	0.179919242343
-Regulation of commissural axon pathfinding by SLIT and ROBO	0.014763475833	0.236215613328
-Regulation of TLR by endogenous ligand	0.0181893416772	0.291018836415
-MHC class II antigen presentation	0.019401255761	0.291018836415
-Formation of the posterior neural plate	0.0197003507206	0.295505260809
-HS-GAG biosynthesis	0.0223775350133	0.313285490186
-EGR2 and SOX10-mediated initiation of Schwann cell myelination	0.0223775350133	0.313285490186
-Defective EXT2 causes exostoses 2	0.0252273399975	0.324556976664
-Defective EXT1 causes exostoses 1, TRPS2 and CHDS	0.0252273399975	0.324556976664
-Transcriptional regulation by RUNX2	0.0261948143202	0.324556976664
-Diseases associated with the TLR signaling cascade	0.027046414722	0.324556976664
-Diseases of Immune System	0.027046414722	0.324556976664
-P2Y receptors	0.0313048808335	0.375658570002
-G beta:gamma signalling through BTK	0.0345382459974	0.379920705972
-Formation of the anterior neural plate	0.0345382459974	0.379920705972
-Cell-extracellular matrix interactions	0.0345382459974	0.379920705972
-Hemostasis	0.0394484444094	0.400438835569
-Scavenging by Class A Receptors	0.0397942442911	0.400438835569
-Defective B3GALT6 causes EDSP2 and SEMDJL1	0.0413714079712	0.400438835569
-Defective B4GALT7 causes EDS, progeroid type	0.0413714079712	0.400438835569
-Glucagon-like Peptide-1 (GLP1) regulates insulin secretion	0.0418239308991	0.400438835569
-Parasitic Infection Pathways	0.043475133292	0.400438835569
-Leishmania infection	0.043475133292	0.400438835569
-Integrin cell surface interactions	0.0436616026987	0.400438835569
-Signaling by Rho GTPases	0.0444932039522	0.400438835569
-Transfer of LPS from LBP carrier to CD14	0.0446872628529	0.402185365676
-Defective B3GAT3 causes JDSSDHD	0.0449624222493	0.404661800244
-G beta:gamma signalling through PLC beta	0.0486640434235	0.408346872218
-Presynaptic function of Kainate receptors	0.0486640434235	0.408346872218
-Nucleotide-like (purinergic) receptors	0.0486640434235	0.408346872218
-Prostacyclin signalling through prostacyclin receptor	0.0524721366414	0.408346872218
-Signaling by Rho GTPases, Miro GTPases and RHOBTB3	0.0526870289087	0.408346872218
-The AIM2 inflammasome	0.0591366268873	0.408346872218
-Neurophilin interactions with VEGF and VEGFR	0.0591366268873	0.408346872218
-G-protein activation	0.0603916918598	0.408346872218
-ADP signalling through P2Y purinoceptor 12	0.0603916918598	0.408346872218
-G alpha (z) signalling events	0.0727068690608	0.408346872218
-The role of Nef in HIV-1 replication and disease pathogenesis	0.0729717685397	0.408346872218
-Defective SLC7A7 causes lysinuric protein intolerance (LPI)	0.0733683602666	0.408346872218
-Intracellular oxygen transport	0.0733683602666	0.408346872218
-Anti-inflammatory response favouring Leishmania parasite infection	0.0768063563421	0.408346872218
-Leishmania parasite growth and survival	0.0768063563421	0.408346872218
-Thromboxane signalling through TP receptor	0.0773372564203	0.408346872218
-ADP signalling through P2Y purinoceptor 1	0.0773372564203	0.408346872218
-Response to elevated platelet cytosolic Ca2+	0.0776363684512	0.408346872218
-Signaling by Interleukins	0.0802620107999	0.408346872218
-Early SARS-CoV-2 Infection Events	0.0809495836934	0.408346872218
-A tetrasaccharide linker sequence is required for GAG synthesis	0.0817829286394	0.408346872218
-G protein gated Potassium channels	0.0817829286394	0.408346872218
-Activation of G protein gated Potassium channels	0.0817829286394	0.408346872218
-Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits	0.0817829286394	0.408346872218
-VEGFR2 mediated cell proliferation	0.0817829286394	0.408346872218
-Regulation of insulin secretion	0.0845417862066	0.408346872218
-Interferon Signaling	0.0856935563655	0.408346872218
-Adrenaline,noradrenaline inhibits insulin secretion	0.0863053863495	0.408346872218
-AKT-mediated inactivation of FOXO1A	0.0873857270016	0.408346872218
-FLT3 signaling through SRC family kinases	0.0873857270016	0.408346872218
-Activation of kainate receptors upon glutamate binding	0.0955674794727	0.408346872218
-CDC42 GTPase cycle	0.0976945272106	0.408346872218
-Glucagon-type ligand receptors	0.100300728638	0.408346872218
-Nectin/Necl  trans heterodimerization	0.101191942357	0.408346872218
-Chondroitin sulfate/dermatan sulfate metabolism	0.101647458175	0.408346872218
-GPCR downstream signalling	0.101755823703	0.408346872218
-Thrombin signalling through proteinase activated receptors (PARs)	0.105097987426	0.408346872218
-Interleukin-4 and Interleukin-13 signaling	0.105711313066	0.408346872218
-Toll Like Receptor 4 (TLR4) Cascade	0.109637911447	0.408346872218
-Cell-Cell communication	0.109637911447	0.408346872218
+Cam-PDE 1 activation	0.00906573573029	0.145021535106
+AMPK inhibits chREBP transcriptional activation activity	0.0124454777048	0.145021535106
+Activation of PPARGC1A (PGC-1alpha) by phosphorylation	0.0146926320186	0.145021535106
+cGMP effects	0.0225199785319	0.145021535106
+Import of palmitoyl-CoA into the mitochondrial matrix	0.0313941244174	0.145021535106
+Activation of AMPK downstream of NMDARs	0.0380001065008	0.145021535106
+Energy dependent regulation of mTOR by LKB1-AMPK	0.0401926979042	0.145021535106
+Calmodulin induced events	0.0467423953464	0.145021535106
+CaM pathway	0.0467423953464	0.145021535106
+Nitric oxide stimulates guanylate cyclase	0.0478299293067	0.145021535106
+Deactivation of the beta-catenin transactivating complex	0.0489163000047	0.145021535106
+Ca-dependent events	0.0521684441341	0.145021535106
+mTOR signalling	0.0543307451728	0.145021535106
+DAG and IP3 signaling	0.0575655272907	0.145021535106
+PLC beta mediated events	0.0767574158892	0.145021535106
+G-protein mediated events	0.0778128140061	0.145021535106
+Macroautophagy	0.0862153725643	0.145021535106
+Translocation of SLC2A4 (GLUT4) to the plasma membrane	0.0862153725643	0.145021535106
+Post NMDA receptor activation events	0.102805614071	0.145021535106
+Regulation of TP53 Activity through Phosphorylation	0.102805614071	0.145021535106
+Activation of NMDA receptors and postsynaptic events	0.110994439202	0.145021535106
+Opioid Signalling	0.119113154984	0.145021535106
+Post-translational modification: synthesis of GPI-anchored proteins	0.123146397204	0.145021535106
+TP53 Regulates Metabolic Genes	0.133153890663	0.145021535106
+Platelet homeostasis	0.133153890663	0.145021535106
+Mitochondrial biogenesis	0.135142496539	0.145021535106
+Platelet degranulation 	0.145021535106	0.145021535106
+Integration of energy metabolism	0.150898073349	0.150898073349
+Response to elevated platelet cytosolic Ca2+	0.151873807133	0.151873807133
+Regulation of TP53 Activity	0.184430130803	0.184430130803
+TCF dependent signaling in response to WNT	0.219428649086	0.219428649086
+Neurotransmitter receptors and postsynaptic signal transmission	0.224824282111	0.224824282111
+Hemostasis	0.243118836523	0.243118836523
+Platelet activation, signaling and aggregation	0.292683178058	0.292683178058
+Signaling by WNT	0.316164589963	0.316164589963
+Organelle biogenesis and maintenance	0.320138488849	0.320138488849
+Transmission across Chemical Synapses	0.322512425447	0.322512425447
+Intracellular signaling by second messengers	0.340456119584	0.340456119584
+Fatty acid metabolism	0.390936185002	0.390936185002
+Neuronal System	0.429091489206	0.429091489206
+Transcriptional Regulation by TP53	0.430435791188	0.430435791188
+G alpha (i) signalling events	0.482452249382	0.482452249382
+Cellular responses to external stimuli	0.502930073354	0.502930073354
+G alpha (s) signalling events	0.504110673829	0.504110673829
+Membrane Trafficking	0.539431937893	0.539431937893
+Vesicle-mediated transport	0.619537168856	0.619537168856
+Signal Transduction	0.738923297053	0.738923297053
+GPCR downstream signalling	0.802404583441	0.802404583441
+Metabolism of lipids	0.820946974011	0.820946974011
+Signaling by GPCR	0.831318684587	0.831318684587
+Generic Transcription Pathway	0.83949458494	0.83949458494
+Post-translational protein modification	0.854183848919	0.854183848919
+RNA Polymerase II Transcription	0.865712241395	0.865712241395
+Gene expression (Transcription)	0.890620811491	0.890620811491
+Metabolism of proteins	0.946924926349	0.946924926349
+Metabolism	0.99099403576	0.99099403576

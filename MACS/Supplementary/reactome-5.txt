@@ -1,101 +1,101 @@
 name	pValue	fdr
-Activation of gene expression by SREBF (SREBP)	0.000991351465224	0.113204742624
-TFAP2 (AP-2) family regulates transcription of growth factors and their receptors	0.00155245971565	0.113204742624
-PI3K events in ERBB2 signaling	0.00170088804871	0.113204742624
-Regulation of cholesterol biosynthesis by SREBP (SREBF)	0.00176952647474	0.113204742624
-Signaling by ERBB2 ECD mutants	0.00185581545285	0.113204742624
-Zygotic genome activation (ZGA)	0.00235924381227	0.119695684699
-MECP2 regulates neuronal receptors and channels	0.00353690671278	0.119695684699
-Signaling by ERBB2 KD Mutants	0.0042093035737	0.119695684699
-Signaling by ERBB2 in Cancer	0.00444559188602	0.119695684699
-SUMOylation of intracellular receptors	0.00545064121002	0.119695684699
-RND1 GTPase cycle	0.00626640068878	0.119695684699
-RND2 GTPase cycle	0.00654995139073	0.119695684699
-SUMOylation of transcription cofactors	0.00654995139073	0.119695684699
-RHO GTPase cycle	0.00815774740632	0.119695684699
-Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors	0.00902310312947	0.119695684699
-CDC42 GTPase cycle	0.00943018069716	0.119695684699
-Drug resistance in ERBB2 KD mutants	0.0108814258817	0.119695684699
-Drug-mediated inhibition of ERBB2 signaling	0.0108814258817	0.119695684699
-Resistance of ERBB2 KD mutants to lapatinib	0.0108814258817	0.119695684699
-Resistance of ERBB2 KD mutants to neratinib	0.0108814258817	0.119695684699
-Resistance of ERBB2 KD mutants to afatinib	0.0108814258817	0.119695684699
-Resistance of ERBB2 KD mutants to osimertinib	0.0108814258817	0.119695684699
-Resistance of ERBB2 KD mutants to AEE788	0.0108814258817	0.119695684699
-Drug resistance in ERBB2 TMD/JMD mutants	0.0108814258817	0.119695684699
-Resistance of ERBB2 KD mutants to trastuzumab	0.0108814258817	0.119695684699
-Resistance of ERBB2 KD mutants to tesevatinib	0.0108814258817	0.119695684699
-Resistance of ERBB2 KD mutants to sapitinib	0.0108814258817	0.119695684699
-Signaling by Rho GTPases	0.0120871720351	0.125497707524
-Signaling by Rho GTPases, Miro GTPases and RHOBTB3	0.0133824837738	0.125497707524
-MET activates PTPN11	0.0135836702798	0.125497707524
-SUMO E3 ligases SUMOylate target proteins	0.0139441897248	0.125497707524
-Signaling by ERBB2	0.0150115449565	0.130229660202
-SUMOylation	0.0158227926625	0.130229660202
-PLCG1 events in ERBB2 signaling	0.0162787075252	0.130229660202
-GRB7 events in ERBB2 signaling	0.0162787075252	0.130229660202
-RHOC GTPase cycle	0.0198825272175	0.153937185276
-Iron uptake and transport	0.0217971323639	0.153937185276
-MET activates PI3K/AKT signaling	0.0269871593598	0.153937185276
-Constitutive Signaling by Aberrant PI3K in Cancer	0.02851899962	0.153937185276
-Activated NTRK2 signals through PI3K	0.029646441211	0.153937185276
-MET receptor recycling	0.029646441211	0.153937185276
-Transcriptional Regulation by MECP2	0.0307345439597	0.153937185276
-MET activates RAP1 and RAC1	0.0349437373745	0.153937185276
-DNA replication initiation	0.0349437373745	0.153937185276
-Inhibition of replication initiation of damaged DNA by RB1/E2F1	0.0402127997239	0.153937185276
-Maturation of protein 3a	0.0402127997239	0.153937185276
-Maturation of protein 3a	0.0402127997239	0.153937185276
-Constitutive Signaling by Overexpressed ERBB2	0.0428367891321	0.153937185276
-Polymerase switching	0.0428367891321	0.153937185276
-Leading Strand Synthesis	0.0428367891321	0.153937185276
-Erythropoietin activates Phosphoinositide-3-kinase (PI3K)	0.0428367891321	0.153937185276
-Downregulation of ERBB2:ERBB3 signaling	0.0428367891321	0.153937185276
-Z-decay: degradation of maternal mRNAs by zygotically expressed factors	0.0428367891321	0.153937185276
-PI3K/AKT Signaling in Cancer	0.0453655024849	0.153937185276
-Removal of the Flap Intermediate	0.0480637758354	0.153937185276
-ERBB2 Activates PTK6 Signaling	0.0480637758354	0.153937185276
-Signaling by FGFR4 in disease	0.0480637758354	0.153937185276
-PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling	0.0486827374451	0.153937185276
-Interferon alpha/beta signaling	0.0486827374451	0.153937185276
-ERBB2 Regulates Cell Motility	0.0506668095593	0.153937185276
-Processive synthesis on the lagging strand	0.0506668095593	0.153937185276
-Telomere C-strand synthesis initiation	0.0506668095593	0.153937185276
-N-Glycan antennae elongation	0.0506668095593	0.153937185276
-Class I peroxisomal membrane protein import	0.0532628944068	0.153937185276
-SUMOylation of transcription factors	0.0532628944068	0.153937185276
-Negative regulation of the PI3K/AKT network	0.0541682811852	0.153937185276
-Maternal to zygotic transition (MZT)	0.0541682811852	0.153937185276
-GRB2 events in ERBB2 signaling	0.055852048477	0.153937185276
-Constitutive Signaling by EGFRvIII	0.0584342898227	0.153937185276
-Signaling by EGFRvIII in Cancer	0.0584342898227	0.153937185276
-GAB1 signalosome	0.0610096364512	0.153937185276
-PI-3K cascade:FGFR3	0.0635781063238	0.153937185276
-E2F mediated regulation of DNA replication	0.0635781063238	0.153937185276
-Metabolism of steroids	0.0639793569199	0.153937185276
-PI-3K cascade:FGFR4	0.0661397173564	0.153937185276
-Sema4D induced cell migration and growth-cone collapse	0.0661397173564	0.153937185276
-VxPx cargo-targeting to cilium	0.0661397173564	0.153937185276
-RHOA GTPase cycle	0.0665051454865	0.153937185276
-Lagging Strand Synthesis	0.0686944874192	0.153937185276
-RORA activates gene expression	0.0686944874192	0.153937185276
-Signaling by Ligand-Responsive EGFR Variants in Cancer	0.0686944874192	0.153937185276
-Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants	0.0686944874192	0.153937185276
-PI-3K cascade:FGFR1	0.0737835758898	0.153937185276
-Termination of O-glycan biosynthesis	0.0737835758898	0.153937185276
-ABC transporters in lipid homeostasis	0.0763179298116	0.153937185276
-Signaling by ERBB2 TMD/JMD mutants	0.0788455137918	0.153937185276
-Thromboxane signalling through TP receptor	0.0788455137918	0.153937185276
-Deadenylation of mRNA	0.0788455137918	0.153937185276
-PI-3K cascade:FGFR2	0.0813663454749	0.153937185276
-Sema4D in semaphorin signaling	0.0813663454749	0.153937185276
-Polymerase switching on the C-strand of the telomere	0.0813663454749	0.153937185276
-Signaling by EGFR in Cancer	0.0838804424605	0.153937185276
-Synthesis of IP2, IP, and Ins in the cytosol	0.0838804424605	0.153937185276
-Insulin processing	0.0838804424605	0.153937185276
-Tat-mediated HIV elongation arrest and recovery	0.0863878223033	0.153937185276
-Pausing and recovery of Tat-mediated HIV elongation	0.0863878223033	0.153937185276
-Signaling by FGFR3 in disease	0.0863878223033	0.153937185276
-Signaling by NTRK2 (TRKB)	0.0863878223033	0.153937185276
-HIV elongation arrest and recovery	0.0888885025136	0.153937185276
-Pausing and recovery of HIV elongation	0.0888885025136	0.153937185276
+MET interacts with TNS proteins	0.0109663534511	0.210879844085
+Defective CYP11A1 causes Adrenal insufficiency, congenital, with 46,XY sex reversal (AICSR)	0.0196555542923	0.210879844085
+TRIF-mediated programmed cell death	0.0218162841546	0.210879844085
+Electron transport from NADPH to Ferredoxin	0.0218162841546	0.210879844085
+Ca2+ activated K+ channels	0.0218162841546	0.210879844085
+Defective EXT2 causes exostoses 2	0.0346842049912	0.210879844085
+Defective EXT1 causes exostoses 1, TRPS2 and CHDS	0.0346842049912	0.210879844085
+MyD88 deficiency (TLR2/4)	0.0389369927674	0.210879844085
+IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation	0.0389369927674	0.210879844085
+TRAF6-mediated induction of TAK1 complex within TLR4 complex	0.0410565816367	0.210879844085
+IRAK4 deficiency (TLR2/4)	0.0410565816367	0.210879844085
+Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon	0.0431716463053	0.210879844085
+Caspase activation via Death Receptors in the presence of ligand	0.0431716463053	0.210879844085
+Defective B4GALT7 causes EDS, progeroid type	0.0452821961088	0.210879844085
+Defective B3GAT3 causes JDSSDHD	0.0452821961088	0.210879844085
+Defective B3GALT6 causes EDSP2 and SEMDJL1	0.0452821961088	0.210879844085
+Ras activation upon Ca2+ influx through NMDA receptor	0.047388240364	0.210879844085
+Regulation of FZD by ubiquitination	0.047388240364	0.210879844085
+Synaptic adhesion-like molecules	0.0494897883693	0.210879844085
+Cytosolic iron-sulfur cluster assembly	0.0494897883693	0.210879844085
+IKK complex recruitment mediated by RIP1	0.0515868494046	0.210879844085
+Pregnenolone biosynthesis	0.0536794327314	0.210879844085
+Mitochondrial iron-sulfur cluster biogenesis	0.0557675475923	0.210879844085
+PPARA activates gene expression	0.0562137038395	0.210879844085
+Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)	0.0573589154861	0.210879844085
+Unblocking of NMDA receptors, glutamate binding and activation	0.057851203212	0.210879844085
+Negative regulation of NMDA receptor-mediated neuronal transmission	0.057851203212	0.210879844085
+Reactions specific to the complex N-glycan synthesis pathway	0.0599304087966	0.210879844085
+Ethanol oxidation	0.0599304087966	0.210879844085
+Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)	0.0640755065927	0.210879844085
+A tetrasaccharide linker sequence is required for GAG synthesis	0.066141417125	0.210879844085
+Regulation of TLR by endogenous ligand	0.066141417125	0.210879844085
+Long-term potentiation	0.066141417125	0.210879844085
+Diseases of glycosylation	0.068026867821	0.210879844085
+Caspase activation via extrinsic apoptotic signalling pathway	0.0682029142632	0.210879844085
+Diseases of Immune System	0.0723127047983	0.210879844085
+Diseases associated with the TLR signaling cascade	0.0723127047983	0.210879844085
+CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling	0.0723127047983	0.210879844085
+Resolution of D-loop Structures through Holliday Junction Intermediates	0.0764049508976	0.210879844085
+Resolution of D-Loop Structures	0.0784445174232	0.210879844085
+Defective B3GALTL causes Peters-plus syndrome (PpS)	0.082510582547	0.210879844085
+HDR through Single Strand Annealing (SSA)	0.082510582547	0.210879844085
+HS-GAG biosynthesis	0.0845370991396	0.210879844085
+O-glycosylation of TSR domain-containing proteins	0.086559283719	0.210879844085
+Presynaptic phase of homologous DNA pairing and strand exchange	0.086559283719	0.210879844085
+Homologous DNA Pairing and Strand Exchange	0.0925999348118	0.210879844085
+HS-GAG degradation	0.0925999348118	0.210879844085
+MET promotes cell motility	0.0946048806832	0.210879844085
+N-glycan antennae elongation in the medial/trans-Golgi	0.0966055391248	0.210879844085
+Metabolism of Angiotensinogen to Angiotensins	0.100594029154	0.210879844085
+Cobalamin (Cbl, vitamin B12) transport and metabolism	0.102581878416	0.210879844085
+Diseases associated with glycosaminoglycan metabolism	0.112457519083	0.210879844085
+Neurexins and neuroligins	0.124169508617	0.210879844085
+Cell Cycle Checkpoints	0.125622287258	0.210879844085
+Golgi Associated Vesicle Biogenesis	0.126106909371	0.210879844085
+G alpha (i) signalling events	0.128051821564	0.210879844085
+Kinesins	0.139553058012	0.210879844085
+Phase I - Functionalization of compounds	0.13975642046	0.210879844085
+Metabolism of steroid hormones	0.141457516409	0.210879844085
+tRNA processing in the nucleus	0.143357895282	0.210879844085
+Endogenous sterols	0.143357895282	0.210879844085
+HDR through Homologous Recombination (HRR)	0.147146448233	0.210879844085
+Chondroitin sulfate/dermatan sulfate metabolism	0.149034639157	0.210879844085
+Diseases associated with O-glycosylation of proteins	0.154674970435	0.210879844085
+Retinoid metabolism and transport	0.160279114942	0.210879844085
+trans-Golgi Network Vesicle Budding	0.162139160444	0.210879844085
+Clathrin derived vesicle budding	0.162139160444	0.210879844085
+G2/M DNA damage checkpoint	0.163995218426	0.210879844085
+Metabolic disorders of biological oxidation enzymes	0.165847297153	0.210879844085
+MAPK family signaling cascades	0.165864559505	0.210879844085
+Signaling by MET	0.175048290045	0.210879844085
+Heparan sulfate/heparin (HS-GAG) metabolism	0.176876665861	0.210879844085
+Amyloid fiber formation	0.176876665861	0.210879844085
+Processing of DNA double-strand break ends	0.180521660021	0.210879844085
+Protein-protein interactions at synapses	0.185959879322	0.210879844085
+Mitochondrial translation termination	0.18776484559	0.210879844085
+Amplification of signal from the kinetochores	0.18776484559	0.210879844085
+Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal	0.18776484559	0.210879844085
+Mitochondrial translation elongation	0.18776484559	0.210879844085
+Metabolism of fat-soluble vitamins	0.18776484559	0.210879844085
+Post NMDA receptor activation events	0.189565938542	0.210879844085
+Regulation of TP53 Activity through Phosphorylation	0.189565938542	0.210879844085
+Mitochondrial translation initiation	0.191363166213	0.210879844085
+Mitochondrial translation	0.202065809285	0.210879844085
+TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation	0.202065809285	0.210879844085
+Activation of NMDA receptors and postsynaptic events	0.203836203629	0.210879844085
+Potassium Channels	0.203836203629	0.210879844085
+MyD88 dependent cascade initiated on endosome	0.203836203629	0.210879844085
+Toll Like Receptor 7/8 (TLR7/8) Cascade	0.203836203629	0.210879844085
+Metabolism of vitamins and cofactors	0.204860331576	0.210879844085
+MAPK6/MAPK4 signaling	0.209124608757	0.210879844085
+MyD88-independent TLR4 cascade 	0.210879844085	0.210879844085
+TRIF(TICAM1)-mediated TLR4 signaling 	0.210879844085	0.210879844085
+COPI-dependent Golgi-to-ER retrograde traffic	0.210879844085	0.210879844085
+Toll Like Receptor 9 (TLR9) Cascade	0.210879844085	0.210879844085
+Mitotic Spindle Checkpoint	0.216122960746	0.216122960746
+MyD88:MAL(TIRAP) cascade initiated on plasma membrane	0.217863162567	0.217863162567
+Toll Like Receptor TLR6:TLR2 Cascade	0.217863162567	0.217863162567
+Toll Like Receptor TLR1:TLR2 Cascade	0.223061365777	0.223061365777
+Toll Like Receptor 2 (TLR2) Cascade	0.223061365777	0.223061365777

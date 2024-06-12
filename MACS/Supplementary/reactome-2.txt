@@ -1,101 +1,101 @@
 name	pValue	fdr
-Regulation of gene expression by Hypoxia-inducible Factor	0.000942797982493	0.407288728437
-Drug ADME	0.00340316029894	0.423567492865
-TYSND1 cleaves peroxisomal proteins	0.00465937871111	0.423567492865
-Carnitine metabolism	0.00544696916447	0.423567492865
-NR1H2 & NR1H3 regulate gene expression linked to gluconeogenesis 	0.00716222044721	0.423567492865
-Paracetamol ADME	0.00844654445782	0.423567492865
-MAPK1 (ERK2) activation	0.0101466848216	0.423567492865
-NFE2L2 regulating MDR associated enzymes	0.0101466848216	0.423567492865
-MAPK3 (ERK1) activation	0.0118116556452	0.423567492865
-Bicarbonate transporters	0.0135877061148	0.423567492865
-Reduction of cytosolic Ca++ levels	0.015471848589	0.423567492865
-Ion channel transport	0.0164536323538	0.423567492865
-Neutrophil degranulation	0.0178440508338	0.423567492865
-Stimuli-sensing channels	0.018129763207	0.423567492865
-Interleukin-6 signaling	0.0195527401522	0.423567492865
-Reversible hydration of carbon dioxide	0.0195527401522	0.423567492865
-TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	0.0240315409649	0.423567492865
-Other semaphorin interactions	0.0240315409649	0.423567492865
-Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4	0.0246964393134	0.423567492865
-Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4	0.0246964393134	0.423567492865
-Class I peroxisomal membrane protein import	0.0264132712963	0.423567492865
-Apoptotic execution phase	0.030915236834	0.423567492865
-Evasion of Oncogene Induced Senescence Due to p16INK4A Defects	0.0368161674069	0.423567492865
-Evasion of Oxidative Stress Induced Senescence Due to p16INK4A Defects	0.0368161674069	0.423567492865
-Defective SLC20A2 causes idiopathic basal ganglia calcification 1 (IBGC1)	0.0368161674069	0.423567492865
-Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	0.0368161674069	0.423567492865
-Defective SLC22A5 causes systemic primary carnitine deficiency (CDSP)	0.0368161674069	0.423567492865
-Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	0.0368161674069	0.423567492865
-Defective SLC4A4 causes renal tubular acidosis, proximal, with ocular abnormalities and mental retardation (pRTA-OA)	0.0368161674069	0.423567492865
-Cardiac conduction	0.0384216374189	0.423567492865
-Ion homeostasis	0.0470843386626	0.423567492865
-Digestion	0.0470843386626	0.423567492865
-Signaling by TGF-beta Receptor Complex	0.0476566715216	0.423567492865
-RAF-independent MAPK1/3 activation	0.048541433289	0.423567492865
-Diseases of Cellular Senescence	0.0487860629334	0.423567492865
-Diseases of cellular response to stress	0.0487860629334	0.423567492865
-Synthesis of PA	0.0488906137129	0.423567492865
-Peroxisomal protein import	0.052603598675	0.423567492865
-Interleukin-6 family signaling	0.0548383713432	0.423567492865
-Transport of inorganic cations/anions and amino acids/oligopeptides	0.0599062081178	0.423567492865
-Cytosolic sulfonation of small molecules	0.0604239477895	0.423567492865
-Digestion and absorption	0.0604239477895	0.423567492865
-Abacavir ADME	0.0614048072143	0.423567492865
-Ion transport by P-type ATPases	0.0624595623718	0.423567492865
-Sensory processing of sound by inner hair cells of the cochlea	0.0709150758313	0.423567492865
-Platelet calcium homeostasis	0.0717227715165	0.423567492865
-Proton-coupled neutral amino acid transporters	0.0722837047651	0.423567492865
-Muscle contraction	0.07272217002	0.423567492865
-RHO GTPases activate IQGAPs	0.0752788516899	0.423567492865
-Apoptotic cleavage of cellular proteins	0.0825544462684	0.423567492865
-Beta-oxidation of very long chain fatty acids	0.0825544462684	0.423567492865
-PTK6 Activates STAT3	0.08381506922	0.423567492865
-SMAC(DIABLO)-mediated dissociation of IAP:caspase complexes 	0.08381506922	0.423567492865
-Sodium-coupled phosphate cotransporters	0.08381506922	0.423567492865
-SMAC (DIABLO) binds to IAPs 	0.08381506922	0.423567492865
-NrCAM interactions	0.08381506922	0.423567492865
-Cellular response to hypoxia	0.0941289682279	0.423567492865
-Defective NEU1 causes sialidosis	0.095203837953	0.423567492865
-Activation of caspases through apoptosome-mediated cleavage	0.095203837953	0.423567492865
-Sensory perception of salty taste	0.095203837953	0.423567492865
-SMAC, XIAP-regulated apoptotic response	0.095203837953	0.423567492865
-Signaling by TGFB family members	0.0961365317732	0.423567492865
-Sensory processing of sound	0.0966036964468	0.423567492865
-Oncogene Induced Senescence	0.0977074544708	0.423567492865
-Senescence-Associated Secretory Phenotype (SASP)	0.104184759133	0.423567492865
-SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	0.105556533531	0.423567492865
-Abacavir transmembrane transport	0.10645176517	0.423567492865
-alpha-linolenic acid (ALA) metabolism	0.109543300319	0.423567492865
-Transcriptional regulation of pluripotent stem cells	0.109543300319	0.423567492865
-PTK6 Expression	0.117560583611	0.423567492865
-Assembly and cell surface presentation of NMDA receptors	0.125867967449	0.423567492865
-FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes	0.125867967449	0.423567492865
-Alpha-defensins	0.128532004805	0.423567492865
-MTOR signalling	0.130035880532	0.423567492865
-G1 Phase	0.138465530756	0.423567492865
-Cyclin D associated events in G1	0.138465530756	0.423567492865
-Caspase-mediated cleavage of cytoskeletal proteins	0.139367719337	0.423567492865
-HuR (ELAVL1) binds and stabilizes mRNA	0.139367719337	0.423567492865
-Butyrophilin (BTN) family interactions	0.139367719337	0.423567492865
-Biological oxidations	0.149730207052	0.423567492865
-Activation of Ca-permeable Kainate Receptor	0.150069397097	0.423567492865
-Formation of the active cofactor, UDP-glucuronate	0.150069397097	0.423567492865
-Apoptosis induced DNA fragmentation	0.150069397097	0.423567492865
-Pexophagy	0.150069397097	0.423567492865
-alpha-linolenic (omega3) and linoleic (omega6) acid metabolism	0.151323699648	0.423567492865
-Pyruvate metabolism	0.160022727441	0.423567492865
-RHOD GTPase cycle	0.160022727441	0.423567492865
-Ionotropic activity of kainate receptors	0.160638687534	0.423567492865
-Protein localization	0.165252069965	0.423567492865
-Sodium/Calcium exchangers	0.171077219902	0.423567492865
-Uptake of dietary cobalamins into enterocytes	0.171077219902	0.423567492865
-Cytochrome c-mediated apoptotic response	0.171077219902	0.423567492865
-Neurexins and neuroligins	0.173236396637	0.423567492865
-Post-translational modification: synthesis of GPI-anchored proteins	0.175183571115	0.423567492865
-Erythrocytes take up oxygen and release carbon dioxide	0.181386603512	0.423567492865
-Sensory processing of sound by outer hair cells of the cochlea	0.19111322042	0.423567492865
-Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	0.19111322042	0.423567492865
-Formation of Senescence-Associated Heterochromatin Foci (SAHF)	0.191568427969	0.423567492865
-CRMPs in Sema3A signaling	0.201624263415	0.423567492865
-Beta oxidation of hexanoyl-CoA to butanoyl-CoA	0.201624263415	0.423567492865
+G-protein beta:gamma signalling	0.00120890125529	0.188980736757
+G beta:gamma signalling through CDC42	0.00201043336975	0.188980736757
+Defective B4GALT7 causes EDS, progeroid type	0.00201043336975	0.188980736757
+Defective B3GALT6 causes EDSP2 and SEMDJL1	0.00201043336975	0.188980736757
+Defective B3GAT3 causes JDSSDHD	0.00201043336975	0.188980736757
+RUNX1 regulates transcription of genes involved in interleukin signaling	0.00314057843222	0.244313412528
+G beta:gamma signalling through PI3Kgamma	0.00494745371816	0.244313412528
+Extracellular matrix organization	0.0055594458538	0.244313412528
+A tetrasaccharide linker sequence is required for GAG synthesis	0.00594199547494	0.244313412528
+RUNX3 Regulates Immune Response and Cell Migration	0.00626444647507	0.244313412528
+MECP2 regulates transcription factors	0.00626444647507	0.244313412528
+Rho GTPase cycle	0.00721970529911	0.259909390768
+Dermatan sulfate biosynthesis	0.0103482350765	0.3395846268
+Chondroitin sulfate/dermatan sulfate metabolism	0.0109543428	0.3395846268
+Defective EXT2 causes exostoses 2	0.0153230180987	0.413721488665
+Defective EXT1 causes exostoses 1, TRPS2 and CHDS	0.0153230180987	0.413721488665
+Integrin cell surface interactions	0.0188077913677	0.464715372351
+Glucagon-like Peptide-1 (GLP1) regulates insulin secretion	0.020171948111	0.464715372351
+G beta:gamma signalling through BTK	0.021123426016	0.464715372351
+Cell-extracellular matrix interactions	0.021123426016	0.464715372351
+Diseases associated with glycosaminoglycan metabolism	0.0258950647639	0.471233757907
+G beta:gamma signalling through PLC beta	0.0300349635034	0.471233757907
+Prostacyclin signalling through prostacyclin receptor	0.0300349635034	0.471233757907
+Presynaptic function of Kainate receptors	0.0300349635034	0.471233757907
+Thromboxane signalling through TP receptor	0.0375264028271	0.471233757907
+Regulation of cortical dendrite branching	0.0455949732027	0.471233757907
+ADP signalling through P2Y purinoceptor 1	0.0456492415907	0.471233757907
+The role of Nef in HIV-1 replication and disease pathogenesis	0.0456492415907	0.471233757907
+G-protein activation	0.0484881433126	0.471233757907
+ADP signalling through P2Y purinoceptor 12	0.0484881433126	0.471233757907
+Adrenaline,noradrenaline inhibits insulin secretion	0.0543517495636	0.471233757907
+Activation of BIM and translocation to mitochondria 	0.0566670673383	0.471233757907
+RUNX2 regulates osteoblast differentiation	0.0604511737944	0.471233757907
+Activation of kainate receptors upon glutamate binding	0.0604511737944	0.471233757907
+Thrombin signalling through proteinase activated receptors (PARs)	0.0635849704715	0.471233757907
+Glucagon-type ligand receptors	0.0635849704715	0.471233757907
+Nuclear signaling by ERBB4	0.0635849704715	0.471233757907
+ECM proteoglycans	0.0659365212585	0.471233757907
+Activation of BH3-only proteins	0.0667725689231	0.471233757907
+AKT-mediated inactivation of FOXO1A	0.0676114878078	0.471233757907
+Ca2+ pathway	0.0679129240935	0.471233757907
+Cell-Cell communication	0.071356716521	0.471233757907
+Molecules associated with elastic fibres	0.0733025942568	0.471233757907
+G alpha (12/13) signalling events	0.0781920143716	0.471233757907
+Nectin/Necl  trans heterodimerization	0.0784296979033	0.471233757907
+HS-GAG biosynthesis	0.0800283997334	0.471233757907
+Glucagon signaling in metabolic regulation	0.0800283997334	0.471233757907
+Cell surface interactions at the vascular wall	0.0806884226454	0.471233757907
+Heparan sulfate/heparin (HS-GAG) metabolism	0.0846672347941	0.471233757907
+Signal amplification	0.0869376106142	0.471233757907
+SLIT2:ROBO1 increases RHOA activity	0.0891231442482	0.471233757907
+Intestinal hexose absorption	0.0891231442482	0.471233757907
+Regulation of cytoskeletal remodeling and cell spreading by IPP complex components	0.0891231442482	0.471233757907
+RUNX2 regulates bone development	0.0904572522784	0.471233757907
+HS-GAG degradation	0.0940183126144	0.471233757907
+Phosphorylation of CD3 and TCR zeta chains	0.0976193719127	0.471233757907
+Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding	0.0976193719127	0.471233757907
+Cell junction organization	0.0982737710067	0.471233757907
+Defective CHST3 causes SEDCJD	0.099693256986	0.471233757907
+Defective CHST14 causes EDS, musculocontractural type	0.099693256986	0.471233757907
+RUNX3 regulates YAP1-mediated transcription	0.099693256986	0.471233757907
+Nef and signal transduction	0.099693256986	0.471233757907
+Elastic fibre formation	0.10125903746	0.471233757907
+Role of ABL in ROBO-SLIT signaling	0.110141449967	0.471233757907
+Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2	0.110141449967	0.471233757907
+Defective CHSY1 causes TPBS	0.110141449967	0.471233757907
+Class B/2 (Secretin family receptors)	0.110241950975	0.471233757907
+Interleukin-18 signaling	0.120469120932	0.471233757907
+Nef mediated downregulation of MHC class I complex cell surface expression	0.120469120932	0.471233757907
+Fructose biosynthesis	0.120469120932	0.471233757907
+Regulation of insulin secretion	0.122740608437	0.471233757907
+Vasopressin regulates renal water homeostasis via Aquaporins	0.123833064722	0.471233757907
+Beta-catenin independent WNT signaling	0.128453297749	0.471233757907
+AKT phosphorylates targets in the nucleus	0.130677651695	0.471233757907
+Inactivation of CDC42 and RAC1	0.130677651695	0.471233757907
+Regulation of commissural axon pathfinding by SLIT and ROBO	0.130677651695	0.471233757907
+Intestinal absorption	0.130677651695	0.471233757907
+Physiological factors	0.140768408325	0.471233757907
+Opioid Signalling	0.141053642103	0.471233757907
+Generation of second messenger molecules	0.147474388717	0.471233757907
+Regulation of localization of FOXO transcription factors	0.150742741323	0.471233757907
+RUNX2 regulates genes involved in cell migration	0.150742741323	0.471233757907
+Intrinsic Pathway for Apoptosis	0.151500727682	0.471233757907
+Non-integrin membrane-ECM interactions	0.15961751059	0.471233757907
+Signaling by ERBB4	0.15961751059	0.471233757907
+Transcriptional regulation by RUNX3	0.1602168546	0.471233757907
+Activation of RAC1	0.160601985797	0.471233757907
+G alpha (z) signalling events	0.163705903559	0.471233757907
+Glycosaminoglycan metabolism	0.164638757908	0.471233757907
+Signaling by Rho GTPases	0.166873806758	0.471233757907
+AKT phosphorylates targets in the cytosol	0.17034746164	0.471233757907
+Downregulation of ERBB2:ERBB3 signaling	0.17034746164	0.471233757907
+Ion homeostasis	0.171937719327	0.471233757907
+Hemostasis	0.172989156512	0.471233757907
+IL-6-type cytokine receptor ligand interactions	0.179980473699	0.471233757907
+Regulation of TP53 Activity through Association with Co-factors	0.179980473699	0.471233757907
+Platelet homeostasis	0.180119309435	0.471233757907
+Aquaporin-mediated transport	0.188594874047	0.471233757907
+N-glycan trimming and elongation in the cis-Golgi	0.189502311946	0.471233757907
+YAP1- and WWTR1 (TAZ)-stimulated gene expression	0.189502311946	0.471233757907

@@ -1,101 +1,101 @@
 name	pValue	fdr
-Voltage gated Potassium channels	0.000339490740774	0.260389398173
-Potassium Channels	0.00439835491041	0.702762722636
-RUNX3 regulates RUNX1-mediated transcription	0.00615464243409	0.702762722636
-Presynaptic depolarization and calcium channel opening	0.00809503114964	0.702762722636
-TRKA activation by NGF	0.00943619878461	0.702762722636
-MECP2 regulates transcription of genes involved in GABA signaling	0.0133337924044	0.702762722636
-Regulation of gene expression in beta cells	0.0194429442146	0.702762722636
-Passive transport by Aquaporins	0.0235948501859	0.702762722636
-Defective Base Excision Repair Associated with NEIL1	0.0284355962098	0.702762722636
-Activation of TRKA receptors	0.034358015542	0.702762722636
-FGFR3b ligand binding and activation	0.034358015542	0.702762722636
-Regulation of NPAS4 gene transcription	0.0476650793675	0.702762722636
-Organic anion transport	0.0476650793675	0.702762722636
-Ethanol oxidation	0.0483792444493	0.702762722636
-Aquaporin-mediated transport	0.051389198068	0.702762722636
-Defective AVP does not bind AVPR2 and causes neurohypophyseal diabetes insipidus (NDI)	0.0560643826207	0.702762722636
-Defective RHAG causes regulator type Rh-null hemolytic anemia (RHN)	0.0560643826207	0.702762722636
-Plasma lipoprotein assembly	0.0571068233217	0.702762722636
-Assembly of active LPL and LIPC lipase complexes	0.0571068233217	0.702762722636
-TNFs bind their physiological receptors	0.0571068233217	0.702762722636
-Chylomicron assembly	0.0625151571089	0.702762722636
-LGI-ADAM interactions	0.0625151571089	0.702762722636
-Reduction of cytosolic Ca++ levels	0.070451183946	0.702762722636
-Uptake of dietary cobalamins into enterocytes	0.070451183946	0.702762722636
-Inactivation, recovery and regulation of the phototransduction cascade	0.072758115188	0.702762722636
-Neuronal System	0.07878239493	0.702762722636
-Plasma lipoprotein remodeling	0.0805994694945	0.702762722636
-Platelet calcium homeostasis	0.0818725737444	0.702762722636
-Abasic sugar-phosphate removal via the single-nucleotide replacement pathway	0.0829092007137	0.702762722636
-Defective SERPING1 causes hereditary angioedema	0.0829092007137	0.702762722636
-FGFR2c ligand binding and activation	0.0872205136634	0.702762722636
-Chylomicron remodeling	0.0872205136634	0.702762722636
-FGFR4 ligand binding and activation	0.0872205136634	0.702762722636
-Signaling by activated point mutants of FGFR3	0.0872205136634	0.702762722636
-FGFR3 mutant receptor activation	0.0872205136634	0.702762722636
-The phototransduction cascade	0.0931081573274	0.702762722636
-Phospholipase C-mediated cascade; FGFR3	0.0960073418518	0.702762722636
-Signal regulatory protein family interactions	0.0960073418518	0.702762722636
-FGFR3c ligand binding and activation	0.0960073418518	0.702762722636
-Cardiogenesis	0.104445554813	0.702762722636
-Phospholipase C-mediated cascade; FGFR4	0.105033084666	0.702762722636
-FGFR3 ligand binding and activation	0.105033084666	0.702762722636
-G alpha (12/13) signalling events	0.105710599115	0.702762722636
-Defective factor XII causes hereditary angioedema	0.108992246732	0.702762722636
-Defective LARGE causes MDDGA6 and MDDGB6	0.108992246732	0.702762722636
-tRNA-derived small RNA (tsRNA or tRNA-related fragment, tRF) biogenesis	0.108992246732	0.702762722636
-Prolonged ERK activation events	0.114277125043	0.702762722636
-Activation of the phototransduction cascade	0.114277125043	0.702762722636
-NRAGE signals death through JNK	0.115843983816	0.702762722636
-Phase 2 - plateau phase	0.123719820535	0.702762722636
-Diseases of hemostasis	0.123719820535	0.702762722636
-Defects of contact activation system (CAS) and kallikrein/kinin system (KKS)	0.123719820535	0.702762722636
-TRAF3-dependent IRF activation pathway	0.123719820535	0.702762722636
-NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux	0.125558056963	0.702762722636
-Regulation of beta-cell development	0.130540196739	0.702762722636
-Regulation of NPAS4 gene expression	0.133342464753	0.702762722636
-PLC-gamma1 signalling	0.13433508987	0.702762722636
-Classical Kir channels	0.13433508987	0.702762722636
-Invadopodia formation	0.13433508987	0.702762722636
-Defective ABCA1 causes TGD	0.13433508987	0.702762722636
-NR1D1 (REV-ERBA) represses gene expression	0.13433508987	0.702762722636
-Signalling to STAT3	0.13433508987	0.702762722636
-Rhesus glycoproteins mediate ammonium transport.	0.13433508987	0.702762722636
-Cardiac conduction	0.13621702919	0.702762722636
-Activated point mutants of FGFR2	0.14312725022	0.702762722636
-FOXO-mediated transcription of cell death genes	0.14312725022	0.702762722636
-PI-3K cascade:FGFR3	0.153057232558	0.702762722636
-HDL remodeling	0.153057232558	0.702762722636
-Germ layer formation at gastrulation	0.153057232558	0.702762722636
-Vasopressin-like receptors	0.158958689944	0.702762722636
-RUNX2 regulates genes involved in differentiation of myeloid cells	0.158958689944	0.702762722636
-GABA synthesis	0.158958689944	0.702762722636
-Electric Transmission Across Gap Junctions	0.158958689944	0.702762722636
-Transmission across Electrical Synapses 	0.158958689944	0.702762722636
-Organic cation/anion/zwitterion transport	0.162572277495	0.702762722636
-Phospholipase C-mediated cascade; FGFR2	0.16311629599	0.702762722636
-VxPx cargo-targeting to cilium	0.16311629599	0.702762722636
-PI-3K cascade:FGFR4	0.16311629599	0.702762722636
-Sema4D induced cell migration and growth-cone collapse	0.16311629599	0.702762722636
-Formation of definitive endoderm	0.16311629599	0.702762722636
-SHC-mediated cascade:FGFR3	0.173289120095	0.702762722636
-FGFR2 ligand binding and activation	0.173289120095	0.702762722636
-Intrinsic Pathway of Fibrin Clot Formation	0.173289120095	0.702762722636
-Plasma lipoprotein assembly, remodeling, and clearance	0.174566158061	0.702762722636
-RUNX1 regulates transcription of genes involved in interleukin signaling	0.182883414576	0.702762722636
-RUNX1 regulates transcription of genes involved in BCR signaling	0.182883414576	0.702762722636
-Defective F9 activation	0.182883414576	0.702762722636
-Nectin/Necl  trans heterodimerization	0.182883414576	0.702762722636
-Resolution of AP sites via the single-nucleotide replacement pathway	0.182883414576	0.702762722636
-FRS-mediated FGFR3 signaling	0.183561147771	0.702762722636
-SHC-mediated cascade:FGFR4	0.183561147771	0.702762722636
-FRS-mediated FGFR4 signaling	0.19391855438	0.702762722636
-Vasopressin regulates renal water homeostasis via Aquaporins	0.198229786253	0.702762722636
-RUNX1 regulates expression of components of tight junctions	0.206129055884	0.702762722636
-NGF-independant TRKA activation	0.206129055884	0.702762722636
-Signalling to p38 via RIT and RIN	0.206129055884	0.702762722636
-Phase 1 - inactivation of fast Na+ channels	0.206129055884	0.702762722636
-Formation of the Editosome	0.206129055884	0.702762722636
-Diseases of Base Excision Repair	0.206129055884	0.702762722636
-TYSND1 cleaves peroxisomal proteins	0.206129055884	0.702762722636
+Voltage gated Potassium channels	0.00267754057101	0.750467909969
+RUNX3 regulates RUNX1-mediated transcription	0.0069795519117	0.750467909969
+TRKA activation by NGF	0.0106874106159	0.750467909969
+Presynaptic depolarization and calcium channel opening	0.0116136848121	0.750467909969
+MECP2 regulates transcription of genes involved in GABA signaling	0.0150828218217	0.750467909969
+Potassium Channels	0.0156956301173	0.750467909969
+Regulation of gene expression in beta cells	0.0239749698575	0.750467909969
+Passive transport by Aquaporins	0.0278769439712	0.750467909969
+Activation of TRKA receptors	0.0386722356311	0.750467909969
+Ethanol oxidation	0.0566258494594	0.750467909969
+Defective AVP does not bind AVPR2 and causes neurohypophyseal diabetes insipidus (NDI)	0.0597429042013	0.750467909969
+Defective RHAG causes regulator type Rh-null hemolytic anemia (RHN)	0.0597429042013	0.750467909969
+Aquaporin-mediated transport	0.0611074129692	0.750467909969
+Plasma lipoprotein assembly	0.0666652748092	0.750467909969
+Phase 2 - plateau phase	0.0666652748092	0.750467909969
+Assembly of active LPL and LIPC lipase complexes	0.0666652748092	0.750467909969
+TNFs bind their physiological receptors	0.0666652748092	0.750467909969
+Chylomicron assembly	0.0700236738482	0.750467909969
+LGI-ADAM interactions	0.0700236738482	0.750467909969
+Reduction of cytosolic Ca++ levels	0.0788183364907	0.750467909969
+Plasma lipoprotein remodeling	0.087378807216	0.750467909969
+Inactivation, recovery and regulation of the phototransduction cascade	0.087378807216	0.750467909969
+Abasic sugar-phosphate removal via the single-nucleotide replacement pathway	0.0882652624984	0.750467909969
+Defective LARGE causes MDDGA6 and MDDGB6	0.0882652624984	0.750467909969
+Platelet calcium homeostasis	0.0949575088728	0.750467909969
+Chylomicron remodeling	0.0973476102779	0.750467909969
+TRAF3-dependent IRF activation pathway	0.0973476102779	0.750467909969
+Cardiac conduction	0.0983755747267	0.750467909969
+The phototransduction cascade	0.106121994625	0.750467909969
+Signal regulatory protein family interactions	0.107028493433	0.750467909969
+Prolonged ERK activation events	0.107028493433	0.750467909969
+Activation of the phototransduction cascade	0.116953277417	0.750467909969
+G alpha (12/13) signalling events	0.12452013342	0.750467909969
+NRAGE signals death through JNK	0.131854879452	0.750467909969
+PLC-gamma1 signalling	0.142746215475	0.750467909969
+NR1D1 (REV-ERBA) represses gene expression	0.142746215475	0.750467909969
+Classical Kir channels	0.142746215475	0.750467909969
+Invadopodia formation	0.142746215475	0.750467909969
+Signalling to STAT3	0.142746215475	0.750467909969
+Rhesus glycoproteins mediate ammonium transport.	0.142746215475	0.750467909969
+Visual phototransduction	0.150960163438	0.750467909969
+Regulation of beta-cell development	0.15409939686	0.750467909969
+FOXO-mediated transcription of cell death genes	0.15863685566	0.750467909969
+FBXW7 Mutants and NOTCH1 in Cancer	0.168756164498	0.750467909969
+Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling	0.168756164498	0.750467909969
+RUNX2 regulates genes involved in differentiation of myeloid cells	0.168756164498	0.750467909969
+Vasopressin-like receptors	0.168756164498	0.750467909969
+Transmission across Electrical Synapses 	0.168756164498	0.750467909969
+Electric Transmission Across Gap Junctions	0.168756164498	0.750467909969
+HDL remodeling	0.169450214128	0.750467909969
+Sema4D induced cell migration and growth-cone collapse	0.169450214128	0.750467909969
+Neuronal System	0.170219149783	0.750467909969
+Phase 0 - rapid depolarisation	0.177876685514	0.750467909969
+VxPx cargo-targeting to cilium	0.180382828465	0.750467909969
+Plasma lipoprotein assembly, remodeling, and clearance	0.187235539954	0.750467909969
+RUNX1 regulates transcription of genes involved in interleukin signaling	0.19397871254	0.750467909969
+RUNX1 regulates transcription of genes involved in BCR signaling	0.19397871254	0.750467909969
+GABA synthesis	0.19397871254	0.750467909969
+Nectin/Necl  trans heterodimerization	0.19397871254	0.750467909969
+Resolution of AP sites via the single-nucleotide replacement pathway	0.19397871254	0.750467909969
+Vasopressin regulates renal water homeostasis via Aquaporins	0.216847225248	0.750467909969
+RUNX1 regulates expression of components of tight junctions	0.218437643139	0.750467909969
+NGF-independant TRKA activation	0.218437643139	0.750467909969
+Signalling to p38 via RIT and RIN	0.218437643139	0.750467909969
+Phase 1 - inactivation of fast Na+ channels	0.218437643139	0.750467909969
+Formation of the Editosome	0.218437643139	0.750467909969
+Recognition and association of DNA glycosylase with site containing an affected pyrimidine	0.218437643139	0.750467909969
+Cell death signalling via NRAGE, NRIF and NADE	0.234410400727	0.750467909969
+Signaling by BMP	0.236266827814	0.750467909969
+TRP channels	0.236266827814	0.750467909969
+Sema4D in semaphorin signaling	0.236266827814	0.750467909969
+HDL clearance	0.242156023062	0.750467909969
+RUNX1 regulates transcription of genes involved in WNT signaling	0.242156023062	0.750467909969
+VLDL assembly	0.242156023062	0.750467909969
+Regulation of RUNX1 Expression and Activity	0.258923220948	0.750467909969
+Intrinsic Pathway of Fibrin Clot Formation	0.258923220948	0.750467909969
+MECP2 regulates neuronal receptors and channels	0.258923220948	0.750467909969
+Displacement of DNA glycosylase by APEX1	0.265156223863	0.750467909969
+VLDL clearance	0.265156223863	0.750467909969
+FGFR3b ligand binding and activation	0.265156223863	0.750467909969
+RUNX1 regulates estrogen receptor mediated transcription	0.265156223863	0.750467909969
+mRNA Editing: C to U Conversion	0.265156223863	0.750467909969
+Netrin mediated repulsion signals	0.265156223863	0.750467909969
+Activation of PUMA and translocation to mitochondria	0.265156223863	0.750467909969
+Cation-coupled Chloride cotransporters	0.265156223863	0.750467909969
+Ca2+ activated K+ channels	0.265156223863	0.750467909969
+POU5F1 (OCT4), SOX2, NANOG repress genes related to differentiation	0.265156223863	0.750467909969
+Interaction between L1 and Ankyrins	0.270266130188	0.750467909969
+RUNX1 regulates transcription of genes involved in differentiation of myeloid cells	0.287459942786	0.750467909969
+RUNX1 regulates transcription of genes involved in differentiation of keratinocytes	0.287459942786	0.750467909969
+AMPK inhibits chREBP transcriptional activation activity	0.287459942786	0.750467909969
+Muscle contraction	0.289089712167	0.750467909969
+Resolution of D-loop Structures through Holliday Junction Intermediates	0.304226338679	0.750467909969
+APEX1-Independent Resolution of AP Sites via the Single Nucleotide Replacement Pathway	0.309088223045	0.750467909969
+ARMS-mediated activation	0.309088223045	0.750467909969
+GP1b-IX-V activation signalling	0.309088223045	0.750467909969
+Regulation of signaling by NODAL	0.309088223045	0.750467909969
+Caspase activation via Dependence Receptors in the absence of ligand	0.309088223045	0.750467909969
+mRNA Editing	0.309088223045	0.750467909969
+Caspase-mediated cleavage of cytoskeletal proteins	0.309088223045	0.750467909969

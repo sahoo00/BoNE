@@ -1,101 +1,101 @@
 name	pValue	fdr
-Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA	4.37293157241e-09	2.29578907551e-06
-Binding of TCF/LEF:CTNNB1 to target gene promoters	3.20130514597e-06	0.000838741948245
-Repression of WNT target genes	2.00597980744e-05	0.00351046466302
-Response of EIF2AK1 (HRI) to heme deficiency	0.000196489463429	0.0257401197091
-ATF4 activates genes in response to endoplasmic reticulum  stress	0.000357693496625	0.0375578171457
-Formation of the beta-catenin:TCF transactivating complex	0.000487003251126	0.0423692828479
-PERK regulates gene expression	0.00078486831065	0.0588651232987
-TCF dependent signaling in response to WNT	0.00122990276317	0.0773063499082
-Regulation of FZD by ubiquitination	0.00133286810187	0.0773063499082
-Signaling by WNT	0.00148829401322	0.0773912886874
-RUNX3 regulates YAP1-mediated transcription	0.00352964786004	0.165893449422
-RUNX3 regulates WNT signaling	0.0043302539835	0.18620092129
-Amino acid transport across the plasma membrane	0.00468357783575	0.18734311343
-NFE2L2 regulating MDR associated enzymes	0.00615766587164	0.227833637251
-Ca2+ pathway	0.00814424788902	0.285048676116
-Formation of axial mesoderm	0.011976740985	0.361756101431
-Degradation of beta-catenin by the destruction complex	0.0120585367144	0.361756101431
-YAP1- and WWTR1 (TAZ)-stimulated gene expression	0.0133434936199	0.371304980025
-EPHB-mediated forward signaling	0.0142809607702	0.371304980025
-RMTs methylate histone arginines	0.0142809607702	0.371304980025
-Cell-cell junction organization	0.0159337483276	0.39834370819
-POU5F1 (OCT4), SOX2, NANOG activate genes related to proliferation	0.0178248937924	0.400916498046
-Drug-mediated inhibition of MET activation	0.0190912618117	0.400916498046
-Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4	0.0190912618117	0.400916498046
-Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4	0.0190912618117	0.400916498046
-Ephrin signaling	0.021116915155	0.401221387946
-Hyaluronan metabolism	0.021116915155	0.401221387946
-Deubiquitination	0.0226016829625	0.406830293326
-Response of EIF2AK4 (GCN2) to amino acid deficiency	0.0258265105922	0.411985037757
-Transcriptional regulation by RUNX3	0.0280132498469	0.411985037757
-Evasion of Oncogene Induced Senescence Due to p16INK4A Defects	0.0285006907722	0.411985037757
-Evasion of Oxidative Stress Induced Senescence Due to p16INK4A Defects	0.0285006907722	0.411985037757
-Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	0.0285006907722	0.411985037757
-Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	0.0285006907722	0.411985037757
-Transcriptional regulation of granulopoiesis	0.0307745629827	0.411985037757
-Cell junction organization	0.0343712211805	0.411985037757
-Tight junction interactions	0.0365030365285	0.411985037757
-Diseases of Cellular Senescence	0.0378204632446	0.411985037757
-Diseases of cellular response to stress	0.0378204632446	0.411985037757
-MECP2 regulates neuronal receptors and channels	0.0386561884478	0.411985037757
-Triglyceride biosynthesis	0.0408566324928	0.411985037757
-MET interacts with TNS proteins	0.0470514277522	0.411985037757
-MET activates PTPN11	0.0470514277522	0.411985037757
-MET activates STAT3	0.0470514277522	0.411985037757
-Interleukin-37 signaling	0.0477308810057	0.411985037757
-Nuclear events mediated by NFE2L2	0.0504552102721	0.411985037757
-TFAP2 (AP-2) family regulates transcription of cell cycle factors	0.0561944248426	0.411985037757
-Drug-mediated inhibition of CDK4/CDK6 activity	0.0561944248426	0.411985037757
-Hyaluronan biosynthesis and export	0.0561944248426	0.411985037757
-Cyclin A:Cdk2-associated events at S phase entry	0.0570630680992	0.411985037757
-Senescence-Associated Secretory Phenotype (SASP)	0.0570630680992	0.411985037757
-Unfolded Protein Response (UPR)	0.0651082835801	0.411985037757
-Activation of AKT2	0.0652502871616	0.411985037757
-NFE2L2 regulating inflammation associated genes	0.0652502871616	0.411985037757
-Ovarian tumor domain proteases	0.067881964757	0.411985037757
-SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	0.067881964757	0.411985037757
-Transcriptional regulation of pluripotent stem cells	0.0705692818713	0.411985037757
-PTK6 Regulates Cell Cycle	0.074219839527	0.411985037757
-Signaling by RNF43 mutants	0.074219839527	0.411985037757
-Cell-Cell communication	0.0764192317693	0.411985037757
-EPH-Ephrin signaling	0.0765876769508	0.411985037757
-Beta-catenin independent WNT signaling	0.0777335238396	0.411985037757
-Tryptophan catabolism	0.0788335589876	0.411985037757
-Transport of inorganic cations/anions and amino acids/oligopeptides	0.079059158315	0.411985037757
-MET Receptor Activation	0.0831038990022	0.411985037757
-Regulation of NFE2L2 gene expression	0.0831038990022	0.411985037757
-Cellular response to starvation	0.0914920500297	0.411985037757
-MET activates PI3K/AKT signaling	0.0919032749679	0.411985037757
-SLBP independent Processing of Histone Pre-mRNAs	0.0919032749679	0.411985037757
-KEAP1-NFE2L2 pathway	0.0973013938836	0.411985037757
-EPH-ephrin mediated repulsion of cells	0.0991865935898	0.411985037757
-MET receptor recycling	0.100618769194	0.411985037757
-SLBP Dependent Processing of Replication-Dependent Histone Pre-mRNAs	0.100618769194	0.411985037757
-Fructose biosynthesis	0.100618769194	0.411985037757
-Zinc influx into cells by the SLC39 gene family	0.100618769194	0.411985037757
-Meiotic recombination	0.105247353646	0.411985037757
-NOTCH1 Intracellular Domain Regulates Transcription	0.105247353646	0.411985037757
-Regulation of signaling by NODAL	0.109251175913	0.411985037757
-MET activates RAP1 and RAC1	0.117801281884	0.411985037757
-Apoptosis induced DNA fragmentation	0.117801281884	0.411985037757
-Josephin domain DUBs	0.117801281884	0.411985037757
-Transport of RCbl within the body	0.126269866471	0.411985037757
-Cellular Senescence	0.127135586929	0.411985037757
-Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	0.127192088855	0.411985037757
-Triglyceride metabolism	0.133647873936	0.411985037757
-Adherens junctions interactions	0.133647873936	0.411985037757
-Sema4D mediated inhibition of cell attachment and migration	0.134657701705	0.411985037757
-Sensing of DNA Double Strand Breaks	0.134657701705	0.411985037757
-Metabolism of non-coding RNA	0.136903380542	0.411985037757
-snRNP Assembly	0.136903380542	0.411985037757
-Ub-specific processing proteases	0.138996787424	0.411985037757
-Signaling by NOTCH1 PEST Domain Mutants in Cancer	0.140176439489	0.411985037757
-Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants	0.140176439489	0.411985037757
-Signaling by NOTCH1 HD+PEST Domain Mutants in Cancer	0.140176439489	0.411985037757
-Constitutive Signaling by NOTCH1 PEST Domain Mutants	0.140176439489	0.411985037757
-Signaling by NOTCH1 in Cancer	0.140176439489	0.411985037757
-MET activates RAS signaling	0.142965552357	0.411985037757
-p75NTR recruits signalling complexes	0.142965552357	0.411985037757
-Zinc transporters	0.142965552357	0.411985037757
-Interleukin-4 and Interleukin-13 signaling	0.14773249628	0.411985037757
+Reversible hydration of carbon dioxide	3.20844590261e-05	0.00933657757661
+Erythrocytes take up oxygen and release carbon dioxide	0.000637166627454	0.0923891609809
+O2/CO2 exchange in erythrocytes	0.00179643767318	0.129343512469
+Erythrocytes take up carbon dioxide and release oxygen	0.00179643767318	0.129343512469
+Ion channel transport	0.00573488984454	0.275620856445
+MAPK1 (ERK2) activation	0.00692145291739	0.275620856445
+MAPK3 (ERK1) activation	0.00806912177016	0.275620856445
+Stimuli-sensing channels	0.00820146995894	0.275620856445
+Bicarbonate transporters	0.00929614265985	0.275620856445
+Reduction of cytosolic Ca++ levels	0.0106008021709	0.275620856445
+Regulation of gene expression by Hypoxia-inducible Factor	0.0106008021709	0.275620856445
+Interleukin-6 signaling	0.0134363143331	0.322471543995
+Transport of small molecules	0.0195132501713	0.406327926297
+Digestion	0.027492039973	0.406327926297
+Transport of inorganic cations/anions and amino acids/oligopeptides	0.02813208481	0.406327926297
+Ion homeostasis	0.0286125935089	0.406327926297
+Synthesis of PA	0.0297571282028	0.406327926297
+Defective SLC4A4 causes renal tubular acidosis, proximal, with ocular abnormalities and mental retardation (pRTA-OA)	0.0302635318031	0.406327926297
+Defective SLC26A3 causes congenital secretory chloride diarrhea 1 (DIAR1)	0.0302635318031	0.406327926297
+Defective SLC22A5 causes systemic primary carnitine deficiency (CDSP)	0.0302635318031	0.406327926297
+Post-translational modification: synthesis of GPI-anchored proteins	0.0312559943305	0.406327926297
+Import of palmitoyl-CoA into the mitochondrial matrix	0.0338931760001	0.406718112001
+RAF-independent MAPK1/3 activation	0.0338931760001	0.406718112001
+Ion transport by P-type ATPases	0.0371246918374	0.408371610211
+Digestion and absorption	0.0371246918374	0.408371610211
+Interleukin-6 family signaling	0.0383996263569	0.413510188939
+Abacavir transport and metabolism	0.0480449734034	0.413510188939
+Platelet calcium homeostasis	0.0505805673966	0.413510188939
+Cellular Senescence	0.0539195413924	0.413510188939
+Proton-coupled neutral amino acid transporters	0.0596173508624	0.413510188939
+Organic cation transport	0.0611830574703	0.413510188939
+SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	0.0611830574703	0.413510188939
+Senescence-Associated Secretory Phenotype (SASP)	0.0641998932569	0.413510188939
+PTK6 Activates STAT3	0.0692045166116	0.413510188939
+SMAC(DIABLO)-mediated dissociation of IAP:caspase complexes 	0.0692045166116	0.413510188939
+SMAC (DIABLO) binds to IAPs 	0.0692045166116	0.413510188939
+Oncogene Induced Senescence	0.0695852262572	0.413510188939
+Cardiac conduction	0.070597310806	0.413510188939
+Activation of caspases through apoptosome-mediated cleavage	0.0786946134439	0.413510188939
+SMAC, XIAP-regulated apoptotic response	0.0786946134439	0.413510188939
+TYSND1 cleaves peroxisomal proteins	0.0786946134439	0.413510188939
+Cellular responses to stress	0.0828885357746	0.413510188939
+Cyclin D associated events in G1	0.0874179329545	0.413510188939
+G1 Phase	0.0874179329545	0.413510188939
+FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes	0.0905111656317	0.413510188939
+Organic cation/anion/zwitterion transport	0.0967924972511	0.413510188939
+Abacavir transmembrane transport	0.0973874946428	0.413510188939
+Degradation of cysteine and homocysteine	0.106437482957	0.413510188939
+Apoptotic execution phase	0.106437482957	0.413510188939
+Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	0.109708271095	0.413510188939
+Caspase-mediated cleavage of cytoskeletal proteins	0.115703686157	0.413510188939
+Apoptosis induced DNA fragmentation	0.12472288506	0.413510188939
+Activation of DNA fragmentation factor	0.12472288506	0.413510188939
+SLC-mediated transmembrane transport	0.13175131224	0.413510188939
+HDR through MMEJ (alt-NHEJ)	0.142488130442	0.413510188939
+Sensing of DNA Double Strand Breaks	0.142488130442	0.413510188939
+Sodium/Calcium exchangers	0.142488130442	0.413510188939
+Cytochrome c-mediated apoptotic response	0.142488130442	0.413510188939
+Peroxisomal protein import	0.150779804898	0.413510188939
+Estrogen biosynthesis	0.151236005677	0.413510188939
+Kinesins	0.154330292204	0.413510188939
+Metabolism of steroid hormones	0.157896995817	0.413510188939
+Formation of Senescence-Associated Heterochromatin Foci (SAHF)	0.159895253236	0.413510188939
+Cellular responses to external stimuli	0.164839067988	0.413510188939
+DNA Damage/Telomere Stress Induced Senescence	0.165076295605	0.413510188939
+Apoptotic factor-mediated response	0.16846676482	0.413510188939
+Glycerophospholipid catabolism	0.16846676482	0.413510188939
+Cytosolic sulfonation of small molecules	0.168687544024	0.413510188939
+Interleukin-4 and Interleukin-13 signaling	0.171830520022	0.413510188939
+Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation	0.172312312892	0.413510188939
+Lysosphingolipid and LPA receptors	0.176951423222	0.413510188939
+Multifunctional anion exchangers	0.176951423222	0.413510188939
+Other semaphorin interactions	0.176951423222	0.413510188939
+Phase 4 - resting membrane potential	0.185350102412	0.413510188939
+Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	0.201892975463	0.413510188939
+Sulfide oxidation to sulfate	0.201892975463	0.413510188939
+SLC transporter disorders	0.202316356318	0.413510188939
+Cellular response to hypoxia	0.209167486074	0.413510188939
+Regulation of Hypoxia-inducible Factor (HIF) by oxygen	0.209167486074	0.413510188939
+Transport of connexons to the plasma membrane	0.210038873947	0.413510188939
+Trafficking of GluR2-containing AMPA receptors	0.210038873947	0.413510188939
+Glucocorticoid biosynthesis	0.210038873947	0.413510188939
+Interleukin-12 signaling	0.212900922389	0.413510188939
+Muscle contraction	0.215244135452	0.413510188939
+Signaling by TGF-beta Receptor Complex	0.216640875574	0.413510188939
+Post-chaperonin tubulin folding pathway	0.226083792692	0.413510188939
+Acyl chain remodelling of PI	0.226083792692	0.413510188939
+Glutathione synthesis and recycling	0.233984466972	0.413510188939
+Basigin interactions	0.233984466972	0.413510188939
+Acyl chain remodelling of PG	0.233984466972	0.413510188939
+Abacavir metabolism	0.249546318577	0.413510188939
+Ethanol oxidation	0.249546318577	0.413510188939
+Sulfur amino acid metabolism	0.250511700504	0.413510188939
+Interleukin-12 family signaling	0.258069638292	0.413510188939
+Formation of tubulin folding intermediates by CCT/TriC	0.264794177239	0.413510188939
+Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)	0.264794177239	0.413510188939
+TRP channels	0.264794177239	0.413510188939
+Tight junction interactions	0.264794177239	0.413510188939
+Laminin interactions	0.272302330403	0.413510188939
+Acyl chain remodelling of PS	0.272302330403	0.413510188939

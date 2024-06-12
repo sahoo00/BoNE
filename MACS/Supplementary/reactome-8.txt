@@ -1,101 +1,101 @@
 name	pValue	fdr
-Metabolism of RNA	5.06968800273e-10	9.53608313314e-07
-Translation	7.64112695339e-09	7.18265933619e-06
-Processing of Capped Intron-Containing Pre-mRNA	1.26524439703e-07	7.93308236938e-05
-Antigen processing: Ubiquitination & Proteasome degradation	2.92633164378e-06	0.00119579147934
-Mitochondrial translation termination	3.1802964876e-06	0.00119579147934
-Transport of Mature Transcript to Cytoplasm	4.16128068692e-06	0.00130248085501
-Transport of Mature mRNAs Derived from Intronless Transcripts	7.08403166483e-06	0.00189852048617
-Mitochondrial translation elongation	8.94743015822e-06	0.00205072222829
-SUMOylation of SUMOylation proteins	9.81206807793e-06	0.00205072222829
-Mitochondrial translation initiation	1.28798301524e-05	0.00210647592591
-Transport of the SLBP Dependant Mature mRNA	1.33119625246e-05	0.00210647592591
-Mitochondrial translation	1.38199580896e-05	0.00210647592591
-Cellular responses to stress	1.53172239196e-05	0.00210647592591
-Cell Cycle Checkpoints	1.65769135232e-05	0.00210647592591
-Transport of Mature mRNA derived from an Intron-Containing Transcript	1.68518074073e-05	0.00210647592591
-Transport of Mature mRNA Derived from an Intronless Transcript	1.96129829911e-05	0.00215742812902
-NS1 Mediated Effects on Host Pathways	1.96129829911e-05	0.00215742812902
-Metabolism of non-coding RNA	2.49813385227e-05	0.00247315251375
-snRNP Assembly	2.49813385227e-05	0.00247315251375
-S Phase	2.74833483515e-05	0.00258343474504
-SUMOylation of ubiquitinylation proteins	3.13742473779e-05	0.00279230801663
-Cellular responses to stimuli	3.63036253028e-05	0.00307249974782
-Transport of the SLBP independent Mature mRNA	3.79320956521e-05	0.00307249974782
-tRNA processing in the nucleus	4.62860798803e-05	0.00361031423067
-Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC)	6.04556978431e-05	0.00439004082386
-Switching of origins to a post-replicative state	6.3623780056e-05	0.00439004082386
-Nuclear import of Rev protein	6.58307959969e-05	0.00441066333179
-Regulation of HSF1-mediated heat shock response	7.91592467264e-05	0.00502923039485
-G1/S Transition	8.11166192718e-05	0.00502923039485
-Interactions of Vpr with host cellular proteins	8.73678109282e-05	0.00524206865569
-Synthesis of active ubiquitin: roles of E1 and E2 enzymes	9.63041229592e-05	0.00558563913164
-Transport of Ribonucleoproteins into the Host Nucleus	0.000110759346338	0.00631328274124
-Cell Cycle	0.000128810562828	0.00708458095555
-Class I MHC mediated antigen processing & presentation	0.000155957490135	0.00814431777563
-Mitotic Anaphase	0.000161737352148	0.00814431777563
-Separation of Sister Chromatids	0.000162886355513	0.00814431777563
-SUMOylation of DNA replication proteins	0.00017441428622	0.00836296162656
-Mitotic Metaphase and Anaphase	0.000176849550729	0.00836296162656
-Regulation of Glucokinase by Glucokinase Regulatory Protein	0.000177935353757	0.00836296162656
-Host Interactions of HIV factors	0.00019624045535	0.00846964638017
-Synthesis of DNA	0.000196968520469	0.00846964638017
-SUMOylation of RNA binding proteins	0.000216766407042	0.00900351373924
-Orc1 removal from chromatin	0.000225087843481	0.00900351373924
-SUMOylation of chromatin organization proteins	0.000230120780056	0.00920483120224
-Interactions of Rev with host cellular proteins	0.000281615831543	0.0109830174302
-Nuclear Pore Complex (NPC) Disassembly	0.000289198553366	0.0109895450279
-SUMOylation of DNA damage response and repair proteins	0.000327401114872	0.0121138412503
-Formation of the ternary complex, and subsequently, the 43S complex	0.000401550949024	0.0144558341649
-Vpr-mediated nuclear import of PICs	0.000455456882347	0.0163964477645
-mRNA Splicing - Major Pathway	0.00047927412606	0.0167745944121
-G2/M Checkpoints	0.000506677466629	0.0172270338654
-Rev-mediated nuclear export of HIV RNA	0.000565370228824	0.0186572175512
-Impaired BRCA2 binding to RAD51	0.000598179812919	0.0192641987317
-Cellular response to heat stress	0.000602006210365	0.0192641987317
-Transcriptional activation of mitochondrial biogenesis	0.000924105482995	0.0286472699728
-NEP/NS2 Interacts with the Cellular Export Machinery	0.000943694814308	0.0291832334394
-Postmitotic nuclear pore complex (NPC) reformation	0.000972774447979	0.0291832334394
-Nuclear Envelope Breakdown	0.00105193592265	0.031224899923
-Protein ubiquitination	0.001076720687	0.031224899923
-Mitotic G1 phase and G1/S transition	0.0010852590843	0.0314725134447
-Export of Viral Ribonucleoproteins from Nucleus	0.00113184151862	0.0316915625215
-Diseases of DNA repair	0.00113184151862	0.0316915625215
-mRNA Splicing	0.00122333695758	0.0326859424502
-ISG15 antiviral mechanism	0.00123794649036	0.0326859424502
-Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha	0.00125242521947	0.0326859424502
-HIV Infection	0.0012571516327	0.0326859424502
-Degradation of beta-catenin by the destruction complex	0.00138322315063	0.0359638019165
-Influenza Infection	0.00145473130215	0.0371364705422
-HDR through Single Strand Annealing (SSA)	0.00148545882169	0.0371364705422
-Mitotic Spindle Checkpoint	0.00155794454389	0.0389486135971
-Translation initiation complex formation	0.00165852952515	0.0403460700424
-APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	0.00168108625177	0.0403460700424
-RNA Polymerase II Transcription Termination	0.00195297257518	0.0468713418044
-Viral Messenger RNA Synthesis	0.00195297257518	0.0468713418044
-DNA Replication	0.00219612408351	0.0497784387355
-Diseases of DNA Double-Strand Break Repair	0.00222980610635	0.0497784387355
-Defective homologous recombination repair (HRR) due to BRCA2 loss of function	0.00222980610635	0.0497784387355
-Ribosomal scanning and start codon recognition	0.00226265630616	0.0497784387355
-Mitochondrial biogenesis	0.00237116111499	0.0521655445298
-Regulation of expression of SLITs and ROBOs	0.00241102469382	0.0530425432639
-Presynaptic phase of homologous DNA pairing and strand exchange	0.00270272728551	0.0592186925961
-Transcriptional Regulation by TP53	0.00281993774267	0.0592186925961
-ATF6 (ATF6-alpha) activates chaperones	0.00298053514082	0.0625912379572
-Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S	0.00303978186252	0.0638354191128
-mRNA 3'-end processing	0.0030472557658	0.0639923710818
-DNA Replication Pre-Initiation	0.00320097556137	0.0640195112273
-Influenza Viral RNA Transcription and Replication	0.00337962577071	0.0653140563922
-Antiviral mechanism by IFN-stimulated genes	0.00337962577071	0.0653140563922
-Cdc20:Phospho-APC/C mediated degradation of Cyclin A	0.00342752460489	0.0653140563922
-Regulation of mitotic cell cycle	0.00343758191538	0.0653140563922
-APC/C-mediated degradation of cell cycle proteins	0.00343758191538	0.0653140563922
-FBXL7 down-regulates AURKA during mitotic entry and in early mitosis	0.00352135250328	0.0669056975624
-Retrograde transport at the Trans-Golgi-Network	0.00352135250328	0.0669056975624
-Cellular response to hypoxia	0.00361117388295	0.0686123037761
-Formation of a pool of free 40S subunits	0.00382715180511	0.0695348076376
-Regulation of mRNA stability by proteins that bind AU-rich elements	0.00386304486875	0.0695348076376
-APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint	0.00391344112107	0.0698763571451
-APC/C:Cdc20 mediated degradation of Securin	0.0040253466161	0.0698763571451
-GTP hydrolysis and joining of the 60S ribosomal subunit	0.00409685978481	0.0698763571451
-L13a-mediated translational silencing of Ceruloplasmin expression	0.00409685978481	0.0698763571451
+Endosomal/Vacuolar pathway	1.11022302463e-16	2.50910403565e-14
+Interferon alpha/beta signaling	1.11022302463e-16	2.50910403565e-14
+Antigen Presentation: Folding, assembly and peptide loading of class I MHC	1.11022302463e-16	2.50910403565e-14
+ER-Phagosome pathway	1.11022302463e-16	2.50910403565e-14
+Interferon gamma signaling	1.11022302463e-16	2.50910403565e-14
+Antigen processing-Cross presentation	1.11022302463e-16	2.50910403565e-14
+Class I MHC mediated antigen processing & presentation	1.55431223448e-14	2.64233079861e-12
+Interferon Signaling	1.55431223448e-14	2.64233079861e-12
+Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	1.84983139917e-11	2.79324541275e-09
+Respiratory electron transport	6.63906174481e-09	9.02912397294e-07
+Cytokine Signaling in Immune system	2.32097219222e-08	2.85479579643e-06
+Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.	7.80992681637e-08	8.8252173025e-06
+Adaptive Immune System	4.91839918126e-07	5.11513514851e-05
+Translation	9.47787819006e-07	9.19354184435e-05
+mRNA Splicing - Major Pathway	3.30077210919e-06	0.000297069489827
+The citric acid (TCA) cycle and respiratory electron transport	5.74687946853e-06	0.000488484754825
+Complex I biogenesis	8.3954577984e-06	0.000671636623872
+Neutrophil degranulation	9.22588047014e-06	0.000691941035261
+mRNA Splicing	1.0112051726e-05	0.000709091048408
+Immune System	1.04278095354e-05	0.000709091048408
+SRP-dependent cotranslational protein targeting to membrane	2.02507021116e-05	0.00129604493515
+Mitochondrial translation termination	2.24960844808e-05	0.00132726898437
+Mitochondrial translation elongation	2.24960844808e-05	0.00132726898437
+Mitochondrial translation initiation	2.9760287717e-05	0.00166657611215
+Mitochondrial translation	6.56805398719e-05	0.00354674915308
+mRNA Splicing - Minor Pathway	0.000113720007799	0.00553421297467
+Regulation of expression of SLITs and ROBOs	0.000114271014022	0.00553421297467
+Processing of Capped Intron-Containing Pre-mRNA	0.00011907122312	0.00553421297467
+Signaling by ROBO receptors	0.00012030897771	0.00553421297467
+EPH-Ephrin signaling	0.000172488330896	0.0077619748903
+Signaling by FGFR2 IIIa TM	0.00022580251292	0.00970950805555
+ER to Golgi Anterograde Transport	0.000299928178868	0.0122970553336
+COPI-mediated anterograde transport	0.000340636450572	0.0129441851217
+Membrane Trafficking	0.000412292043065	0.0152548055934
+Metabolism of RNA	0.000483270479748	0.0166824413292
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	0.000488329170916	0.0166824413292
+Axon guidance	0.000490660039093	0.0166824413292
+Host Interactions of HIV factors	0.000509558021064	0.0173249727162
+Eukaryotic Translation Elongation	0.000544046493161	0.0175357735403
+Clathrin-mediated endocytosis	0.000547992923133	0.0175357735403
+Interleukin-12 signaling	0.000568058890521	0.0176098256061
+EPHB-mediated forward signaling	0.0006781488142	0.020344464426
+rRNA processing in the nucleus and cytosol	0.000744755070036	0.0223426521011
+Eukaryotic Translation Termination	0.000824988497031	0.0239246664139
+Peptide chain elongation	0.000868803284831	0.0243264919753
+Formation of annular gap junctions	0.000881734658412	0.0246885704355
+Major pathway of rRNA processing in the nucleolus and cytosol	0.00094855444153	0.0256109699213
+Clathrin derived vesicle budding	0.00103158505578	0.0268212114503
+trans-Golgi Network Vesicle Budding	0.00103158505578	0.0268212114503
+GTP hydrolysis and joining of the 60S ribosomal subunit	0.00123712943586	0.0309282358964
+L13a-mediated translational silencing of Ceruloplasmin expression	0.00123712943586	0.0309282358964
+Gap junction degradation	0.00129168794434	0.0316176913491
+Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation	0.00131740380621	0.0316176913491
+Apoptosis	0.00175240400759	0.0404832841705
+Nonsense-Mediated Decay (NMD)	0.00176014279002	0.0404832841705
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	0.00176014279002	0.0404832841705
+RHO GTPases Activate WASPs and WAVEs	0.00179970278451	0.0413931640438
+TP53 Regulates Metabolic Genes	0.00191672216873	0.042167887712
+Interleukin-12 family signaling	0.00207584774764	0.0443369346241
+Formation of a pool of free 40S subunits	0.00211128260115	0.0443369346241
+Regulation of ornithine decarboxylase (ODC)	0.00266663720762	0.0552264650939
+Golgi Associated Vesicle Biogenesis	0.0027286228922	0.0552264650939
+PCP/CE pathway	0.0027613232547	0.0552264650939
+HIV Infection	0.00280176064028	0.0560352128057
+Eukaryotic Translation Initiation	0.00288662585826	0.0562991214041
+Cap-dependent Translation Initiation	0.00288662585826	0.0562991214041
+Programmed Cell Death	0.00296311165285	0.0562991214041
+ATF6 (ATF6-alpha) activates chaperone genes	0.00336187472606	0.0638756197952
+Autodegradation of the E3 ubiquitin ligase COP1	0.00346951487481	0.0659207826214
+The role of GTSE1 in G2/M progression after G2 checkpoint	0.00390420744412	0.0702757339941
+SCF-beta-TrCP mediated degradation of Emi1	0.00393718640045	0.0708693552081
+EPH-ephrin mediated repulsion of cells	0.00393718640045	0.0708693552081
+Viral mRNA Translation	0.00422207257072	0.0717752337022
+Selenocysteine synthesis	0.00422207257072	0.0717752337022
+AUF1 (hnRNP D0) binds and destabilizes mRNA	0.00445334063758	0.0757067908388
+Unfolded Protein Response (UPR)	0.00535404496552	0.0910187644138
+Defective CFTR causes cystic fibrosis	0.00542574290179	0.0910897308107
+ATF6 (ATF6-alpha) activates chaperones	0.00565578616764	0.0910897308107
+FGFR2 mutant receptor activation	0.00569310817567	0.0910897308107
+Transport to the Golgi and subsequent modification	0.00622171482604	0.0995474372166
+Stabilization of p53	0.00632672731803	0.101227637088
+Translocation of SLC2A4 (GLUT4) to the plasma membrane	0.00683663689623	0.10938619034
+rRNA processing	0.007149170396	0.114386726336
+Hh mutants that don't undergo autocatalytic processing are degraded by ERAD	0.00788175319476	0.118226297921
+NIK-->noncanonical NF-kB signaling	0.00788175319476	0.118226297921
+Lysosome Vesicle Biogenesis	0.00825245984544	0.123786897682
+Degradation of GLI1 by the proteasome	0.00876200823018	0.128952711355
+Hedgehog ligand biogenesis	0.00899557537052	0.128952711355
+Vpu mediated degradation of CD4	0.00921090795393	0.128952711355
+Regulation of mRNA stability by proteins that bind AU-rich elements	0.00959709220686	0.134359290896
+Autodegradation of Cdh1 by Cdh1:APC/C	0.00971570871281	0.136019921979
+Infectious disease	0.00984473119318	0.137826236704
+RHO GTPases activate IQGAPs	0.0104594501244	0.146432301742
+Hh mutants abrogate ligand secretion	0.0107466004684	0.150452406558
+FBXL7 down-regulates AURKA during mitotic entry and in early mitosis	0.0114904294177	0.160866011848
+COPI-dependent Golgi-to-ER retrograde traffic	0.0125153086505	0.162699012457
+Vif-mediated degradation of APOBEC3G	0.0127768868748	0.166099529373
+Prefoldin mediated transfer of substrate  to CCT/TriC	0.0130505129682	0.169656668586
+The role of Nef in HIV-1 replication and disease pathogenesis	0.0130505129682	0.169656668586
+Dectin-1 mediated noncanonical NF-kB signaling	0.013054993957	0.169714921441

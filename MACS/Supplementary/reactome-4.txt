@@ -1,6 +1,101 @@
 name	pValue	fdr
-Alpha-defensins	5.13065251173e-07	2.56532625587e-06
-Defensins	1.10287827952e-05	2.20575655905e-05
-Antimicrobial peptides	6.41501172276e-05	6.41501172276e-05
-Innate Immune System	0.0076250867181	0.0076250867181
-Immune System	0.0300245827371	0.0300245827371
+Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA	6.78226586004e-09	3.2758344104e-06
+Binding of TCF/LEF:CTNNB1 to target gene promoters	4.28891546134e-06	0.00103362862618
+Repression of WNT target genes	2.67823929798e-05	0.00431196526975
+ATF4 activates genes	0.000376883799595	0.0452260559513
+PERK regulates gene expression	0.000714331953788	0.0501563030437
+Formation of the beta-catenin:TCF transactivating complex	0.000726902942662	0.0501563030437
+Cell-cell junction organization	0.000726902942662	0.0501563030437
+Regulation of FZD by ubiquitination	0.00164747150362	0.0988482902175
+TCF dependent signaling in response to WNT	0.0020105817911	0.106560834928
+Signaling by WNT	0.00249291371029	0.119659858094
+Cell junction organization	0.00316446594123	0.136072035473
+RUNX3 regulates WNT signaling	0.00500317980997	0.200127192399
+Amino acid transport across the plasma membrane	0.00577003859816	0.204519938464
+Adherens junctions interactions	0.00601529230778	0.204519938464
+Ca2+ pathway	0.0100539805942	0.321727379014
+Cell-Cell communication	0.0130520493203	0.39156147961
+Degradation of beta-catenin by the destruction complex	0.0148858256222	0.41680311742
+EPHB-mediated forward signaling	0.0165133005351	0.429345813912
+RMTs methylate histone arginines	0.0182595275589	0.42985199976
+POU5F1 (OCT4), SOX2, NANOG activate genes related to proliferation	0.0204867998761	0.42985199976
+Ephrin signaling	0.0242474753851	0.42985199976
+Hyaluronan metabolism	0.0242474753851	0.42985199976
+Listeria monocytogenes entry into host cells	0.0303695967942	0.42985199976
+Tight junction interactions	0.0393681337245	0.42985199976
+MECP2 regulates neuronal receptors and channels	0.0441999933085	0.42985199976
+MET interacts with TNS proteins	0.0506077821892	0.42985199976
+MET activates PTPN11	0.0506077821892	0.42985199976
+MET activates STAT3	0.0506077821892	0.42985199976
+Activation of Matrix Metalloproteinases	0.0518330762034	0.42985199976
+Interleukin-37 signaling	0.0544749862955	0.42985199976
+TFAP2 (AP-2) family regulates transcription of cell cycle factors	0.0604198392194	0.42985199976
+Hyaluronan biosynthesis and export	0.0604198392194	0.42985199976
+SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	0.0626758369073	0.42985199976
+Senescence-Associated Secretory Phenotype (SASP)	0.0663280606645	0.42985199976
+Cyclin A:Cdk2-associated events at S phase entry	0.0680909047343	0.42985199976
+Degradation of the extracellular matrix	0.0693560943578	0.42985199976
+Interleukin-4 and Interleukin-13 signaling	0.0700764764776	0.42985199976
+Activation of AKT2	0.0701311751688	0.42985199976
+Ovarian tumor domain proteases	0.074207582176	0.42985199976
+PTK6 Regulates Cell Cycle	0.079742816885	0.42985199976
+RNF mutants show enhanced WNT signaling and proliferation	0.079742816885	0.42985199976
+Aryl hydrocarbon receptor signalling	0.079742816885	0.42985199976
+Deubiquitination	0.0809077425507	0.42985199976
+Unfolded Protein Response (UPR)	0.086410557324	0.42985199976
+EPH-Ephrin signaling	0.0888428288271	0.42985199976
+RUNX3 regulates YAP1-mediated transcription	0.0892557808187	0.42985199976
+MET Receptor Activation	0.0892557808187	0.42985199976
+Tryptophan catabolism	0.0894801258111	0.42985199976
+Transport of inorganic cations/anions and amino acids/oligopeptides	0.0940665523815	0.42985199976
+Beta-catenin independent WNT signaling	0.0940665523815	0.42985199976
+MET activates PI3K/AKT signaling	0.0986710731285	0.42985199976
+SLBP independent Processing of Histone Pre-mRNAs	0.0986710731285	0.42985199976
+Uptake and function of diphtheria toxin	0.0986710731285	0.42985199976
+MET receptor recycling	0.107989689785	0.42985199976
+SLBP Dependent Processing of Replication-Dependent Histone Pre-mRNAs	0.107989689785	0.42985199976
+Fructose biosynthesis	0.107989689785	0.42985199976
+Zinc influx into cells by the SLC39 gene family	0.107989689785	0.42985199976
+Apoptotic cleavage of cell adhesion  proteins	0.107989689785	0.42985199976
+Apoptotic execution phase	0.108891854533	0.42985199976
+EPH-ephrin mediated repulsion of cells	0.112228430784	0.42985199976
+Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	0.112228430784	0.42985199976
+NOTCH1 Intracellular Domain Regulates Transcription	0.115591469792	0.42985199976
+EGFR Transactivation by Gastrin	0.11721261667	0.42985199976
+Regulation of signaling by NODAL	0.11721261667	0.42985199976
+Telomere Extension By Telomerase	0.11721261667	0.42985199976
+Transcriptional regulation of pluripotent stem cells	0.11898007845	0.42985199976
+Meiotic recombination	0.122393379045	0.42985199976
+Transcriptional regulation by RUNX3	0.125345895478	0.42985199976
+MET activates RAP1 and RAC1	0.126340829685	0.42985199976
+Activation of DNA fragmentation factor	0.126340829685	0.42985199976
+Apoptosis induced DNA fragmentation	0.126340829685	0.42985199976
+Sema4D mediated inhibition of cell attachment and migration	0.135375294843	0.42985199976
+InlA-mediated entry of Listeria monocytogenes into host cells	0.135375294843	0.42985199976
+MET activates RAS signaling	0.144316968374	0.42985199976
+HDR through MMEJ (alt-NHEJ)	0.144316968374	0.42985199976
+Sensing of DNA Double Strand Breaks	0.144316968374	0.42985199976
+Metabolism of non-coding RNA	0.150488278534	0.42985199976
+snRNP Assembly	0.150488278534	0.42985199976
+Cellular Senescence	0.151907468818	0.42985199976
+p75NTR recruits signalling complexes	0.153166796821	0.42985199976
+Assembly of collagen fibrils and other multimeric structures	0.15408674395	0.42985199976
+Signaling by NOTCH1 PEST Domain Mutants in Cancer	0.157701924239	0.42985199976
+Constitutive Signaling by NOTCH1 PEST Domain Mutants	0.157701924239	0.42985199976
+Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants	0.157701924239	0.42985199976
+Signaling by NOTCH1 HD+PEST Domain Mutants in Cancer	0.157701924239	0.42985199976
+Signaling by NOTCH1 in Cancer	0.157701924239	0.42985199976
+Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	0.161333097211	0.42985199976
+Collagen degradation	0.161333097211	0.42985199976
+Semaphorin interactions	0.164979553622	0.42985199976
+Ub-specific processing proteases	0.167612278398	0.42985199976
+InlB-mediated entry of Listeria monocytogenes into host cell	0.170594656788	0.42985199976
+YAP1- and WWTR1 (TAZ)-stimulated gene expression	0.170594656788	0.42985199976
+Hyaluronan uptake and degradation	0.170594656788	0.42985199976
+Acyl chain remodeling of DAG and TAG	0.170594656788	0.42985199976
+Zinc transporters	0.170594656788	0.42985199976
+Sema3A PAK dependent Axon repulsion	0.179174533833	0.42985199976
+IRF3-mediated induction of type I IFN	0.179174533833	0.42985199976
+p75NTR signals via NF-kB	0.179174533833	0.42985199976
+G2/M Transition	0.179755806694	0.42985199976
+Mitotic G2-G2/M phases	0.183868636343	0.42985199976

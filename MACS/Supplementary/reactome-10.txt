@@ -1,71 +1,70 @@
 name	pValue	fdr
-NCAM1 interactions	0.0027472684177	0.100466050118
-Transcriptional regulation of pluripotent stem cells	0.00287045857479	0.100466050118
-Transfer of LPS from LBP carrier to CD14	0.00526109463041	0.114933836185
-NCAM signaling for neurite out-growth	0.00676081389326	0.114933836185
-Defective CHST14 causes EDS, musculocontractural type	0.0157034363251	0.159289003861
-Defective CHST3 causes SEDCJD	0.0157034363251	0.159289003861
-Defective CHSY1 causes TPBS	0.0174335320467	0.159289003861
-Dermatan sulfate biosynthesis	0.0226062669912	0.159289003861
-Presynaptic depolarization and calcium channel opening	0.0243246770971	0.159289003861
-Defective B3GALT6 causes EDSP2 and SEMDJL1	0.0362723459242	0.159289003861
-Defective B4GALT7 causes EDS, progeroid type	0.0362723459242	0.159289003861
-Phase 2 - plateau phase	0.0362723459242	0.159289003861
-POU5F1 (OCT4), SOX2, NANOG activate genes related to proliferation	0.0362723459242	0.159289003861
-Defective B3GAT3 causes JDSSDHD	0.0379676120623	0.159289003861
-Chondroitin sulfate biosynthesis	0.0430361981777	0.159289003861
-CS/DS degradation	0.049754325142	0.159289003861
-Interleukin-4 and Interleukin-13 signaling	0.0528154227358	0.159289003861
-A tetrasaccharide linker sequence is required for GAG synthesis	0.0530963346203	0.159289003861
-Adrenaline,noradrenaline inhibits insulin secretion	0.0547630920599	0.16428927618
-Phase 0 - rapid depolarisation	0.058088135404	0.174264406212
-Regulation of TLR by endogenous ligand	0.0614019140349	0.184205742105
-ADORA2B mediated anti-inflammatory cytokines production	0.0891193754749	0.184655907224
-Diseases associated with glycosaminoglycan metabolism	0.0923279536122	0.184655907224
-GPER1 signaling	0.0939281585686	0.187856317137
-G alpha (z) signalling events	0.105053770319	0.210107540639
-Regulation of PTEN gene transcription	0.116047770972	0.232095541944
-Chondroitin sulfate/dermatan sulfate metabolism	0.120719568158	0.241439136316
-Ca2+ pathway	0.133061746292	0.254308065712
-Heparan sulfate/heparin (HS-GAG) metabolism	0.145237010755	0.254308065712
-Regulation of insulin secretion	0.17349694324	0.254308065712
-Cardiac conduction	0.228712302531	0.254308065712
-Integration of energy metabolism	0.228712302531	0.254308065712
-Toll Like Receptor 4 (TLR4) Cascade	0.252981561764	0.254308065712
-Developmental Biology	0.25299210647	0.254308065712
-Beta-catenin independent WNT signaling	0.254308065712	0.254308065712
-PTEN Regulation	0.260906633634	0.260906633634
-Axon guidance	0.274892803972	0.274892803972
-Glycosaminoglycan metabolism	0.276514590125	0.276514590125
-G alpha (s) signalling events	0.28547213924	0.28547213924
-Anti-inflammatory response favouring Leishmania parasite infection	0.289278309152	0.289278309152
-Leishmania parasite growth and survival	0.289278309152	0.289278309152
-Nervous system development	0.298626307528	0.298626307528
-Diseases of glycosylation	0.300580037272	0.300580037272
-Toll-like Receptor Cascades	0.300580037272	0.300580037272
-Signaling by Interleukins	0.322942474958	0.322942474958
-Muscle contraction	0.337016111582	0.337016111582
-Cell surface interactions at the vascular wall	0.365976724271	0.365976724271
-Leishmania infection	0.415064283239	0.415064283239
-Parasitic Infection Pathways	0.415064283239	0.415064283239
-PIP3 activates AKT signaling	0.43568668122	0.43568668122
-Signaling by WNT	0.444736653351	0.444736653351
-Transmission across Chemical Synapses	0.457562496031	0.457562496031
-Intracellular signaling by second messengers	0.481430339727	0.481430339727
-Diseases of metabolism	0.53043211972	0.53043211972
-G alpha (i) signalling events	0.532127195459	0.532127195459
-Metabolism of carbohydrates	0.562443578945	0.562443578945
-Neuronal System	0.583362992477	0.583362992477
-Cytokine Signaling in Immune system	0.586045767718	0.586045767718
-GPCR downstream signalling	0.761935112191	0.761935112191
-Hemostasis	0.765441254334	0.765441254334
-Signaling by GPCR	0.795219513583	0.795219513583
-Innate Immune System	0.91516442203	0.91516442203
-Signal Transduction	0.923743180796	0.923743180796
-Infectious disease	0.930618132129	0.930618132129
-Generic Transcription Pathway	0.947301829466	0.947301829466
-Disease	0.950832165704	0.950832165704
-RNA Polymerase II Transcription	0.960165864518	0.960165864518
-Immune System	0.960902855736	0.960902855736
-Gene expression (Transcription)	0.972678289825	0.972678289825
-Metabolism	0.993955409472	0.993955409472
+G-protein activation	0.00154247262768	0.0519491803495
+Phase 2 - plateau phase	0.00154247262768	0.0519491803495
+NCAM1 interactions	0.00326360861946	0.0519491803495
+Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding	0.00340961313583	0.0519491803495
+Phase 0 - rapid depolarisation	0.00371065573925	0.0519491803495
+Transcriptional regulation of pluripotent stem cells	0.00539364107884	0.0560756929854
+Transfer of LPS from LBP carrier to CD14	0.00574547998602	0.0560756929854
+NCAM signaling for neurite out-growth	0.00779273811261	0.0560756929854
+PLC beta mediated events	0.00801081328363	0.0560756929854
+G-protein mediated events	0.00823163125289	0.0576214187703
+Chaperonin-mediated protein folding	0.0157820493725	0.0761129850332
+Defective CHST14 causes EDS, musculocontractural type	0.017141225084	0.0761129850332
+Defective CHST3 causes SEDCJD	0.017141225084	0.0761129850332
+Protein folding	0.0176082955436	0.0761129850332
+Defective CHSY1 causes TPBS	0.0190282462583	0.0761129850332
+Opioid Signalling	0.0191957380539	0.0767829522155
+Dermatan sulfate biosynthesis	0.0246684004911	0.085233422417
+Presynaptic depolarization and calcium channel opening	0.0284111408057	0.085233422417
+Cardiac conduction	0.0338989829353	0.0938366733886
+Defective B3GALT6 causes EDSP2 and SEMDJL1	0.0395565636625	0.0938366733886
+Defective B3GAT3 causes JDSSDHD	0.0395565636625	0.0938366733886
+Defective B4GALT7 causes EDS, progeroid type	0.0395565636625	0.0938366733886
+POU5F1 (OCT4), SOX2, NANOG activate genes related to proliferation	0.0395565636625	0.0938366733886
+Chondroitin sulfate biosynthesis	0.0469183366943	0.0938366733886
+CS/DS degradation	0.0542257564121	0.108451512824
+A tetrasaccharide linker sequence is required for GAG synthesis	0.0578592044986	0.115718408997
+Regulation of TLR by endogenous ligand	0.0578592044986	0.115718408997
+Adrenaline,noradrenaline inhibits insulin secretion	0.0596708841257	0.119341768251
+Interleukin-4 and Interleukin-13 signaling	0.0617264662428	0.123452932486
+Muscle contraction	0.072830893343	0.142794010769
+Diseases associated with glycosaminoglycan metabolism	0.09868952142	0.142794010769
+G alpha (z) signalling events	0.11248775212	0.142794010769
+Regulation of PTEN gene transcription	0.126082452738	0.142794010769
+Chondroitin sulfate/dermatan sulfate metabolism	0.131128583644	0.142794010769
+Ca2+ pathway	0.142794010769	0.142794010769
+Heparan sulfate/heparin (HS-GAG) metabolism	0.155941269236	0.155941269236
+Regulation of insulin secretion	0.181655689907	0.181655689907
+Developmental Biology	0.185865344933	0.185865344933
+Integration of energy metabolism	0.241213305363	0.241213305363
+Toll Like Receptor 4 (TLR4) Cascade	0.24268413847	0.24268413847
+Beta-catenin independent WNT signaling	0.272944913038	0.272944913038
+PTEN Regulation	0.281374744037	0.281374744037
+Glycosaminoglycan metabolism	0.296585609835	0.296585609835
+G alpha (i) signalling events	0.297538417916	0.297538417916
+Toll-like Receptor Cascades	0.299317705734	0.299317705734
+Axon guidance	0.309041370055	0.309041370055
+Diseases of glycosylation	0.312825617994	0.312825617994
+Signaling by Interleukins	0.349752683007	0.349752683007
+Cell surface interactions at the vascular wall	0.391144069706	0.391144069706
+PIP3 activates AKT signaling	0.457642912314	0.457642912314
+Signaling by WNT	0.473400065826	0.473400065826
+Transmission across Chemical Synapses	0.481622668277	0.481622668277
+Intracellular signaling by second messengers	0.5045797713	0.5045797713
+Metabolism of carbohydrates	0.554696042585	0.554696042585
+Neuronal System	0.61166547986	0.61166547986
+Cytokine Signaling in Immune system	0.611702751116	0.611702751116
+G alpha (s) signalling events	0.693830599993	0.693830599993
+GPCR downstream signalling	0.748560801238	0.748560801238
+Signaling by GPCR	0.792742043196	0.792742043196
+Hemostasis	0.806598512886	0.806598512886
+Innate Immune System	0.930931313954	0.930931313954
+Generic Transcription Pathway	0.95436859403	0.95436859403
+Metabolism of proteins	0.954603310531	0.954603310531
+Disease	0.956293377752	0.956293377752
+Signal Transduction	0.962400292649	0.962400292649
+RNA Polymerase II Transcription	0.966227635544	0.966227635544
+Immune System	0.974798686328	0.974798686328
+Gene expression (Transcription)	0.976110761781	0.976110761781
+Metabolism	0.996380643141	0.996380643141
