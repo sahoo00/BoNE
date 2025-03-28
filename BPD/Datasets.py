@@ -70,10 +70,16 @@ def getSharma2022Mac(self, tn=1, ta=None):
         atype = [atype[i] if pterm[i] == '1' and cell[i] == 'cMNC' and
                  labor[i] == 'No'
                  else None for i in range(len(atype))]
+    if (tn == 7):
+        atype = bpd
+        atypes = ['no', 'yes']
+        atype = [atype[i] if pterm[i] == '1' and cell[i] == 'ncMNC' and
+                 labor[i] == 'No'
+                 else None for i in range(len(atype))]
     self.initData(atype, atypes, ahash)
     return
 bone.IBDAnalysis.getSharma2022Mac = getSharma2022Mac
-def getLance2007(self, tn=1):
+def getLance2007(self, tn=1, tb=0):
     self.prepareData("LP3")
     treatment = self.h.getSurvName('c Treatment')
     place = self.h.getSurvName('c Collection            Place ')
@@ -141,6 +147,12 @@ def getLance2007(self, tn=1):
         atype = bpd
         atypes = ['No', 'Yes']
         atype = [atype[i] if time[i] != 'A' and time[i] != 'B'
+                 else None for i in range(len(atype))]
+    if (tn == 13):
+        atype = bpd
+        atypes = ['No', 'Yes']
+        atype = [atype[i] if (time[i] == 'A' or time[i] == 'B') and
+                treatment[i] == tb
                  else None for i in range(len(atype))]
     self.initData(atype, atypes, ahash)
     return
@@ -308,3 +320,46 @@ def getLi2024mmIII(self, tn=1, ta=0):
     return
 bone.IBDAnalysis.getLi2024mmIII = getLi2024mmIII
 
+def getSun2025BPD(self, tn=1, ta=0):
+    self.prepareData("LP9")
+    atype = self.h.getSurvName("c disease")
+    atypes = ['control', 'hBPD', 'aeBPD', 'eBPD']
+    ahash = {}
+    if tn == 2:
+        atypes = ['C', 'BPD']
+        ahash = {'control':0, 'hBPD':1, 'aeBPD':1, 'eBPD':1}
+    self.initData(atype, atypes, ahash)
+    return
+bone.IBDAnalysis.getSun2025BPD = getSun2025BPD
+
+def getSun2025BPDII(self, tn=1, ta=0):
+    self.prepareData("LP9.2")
+    cell = self.h.getSurvName("c predicted.cellref_celltype")
+    disease = self.h.getSurvName("c disease")
+    atype = disease
+    atypes = ['control', 'hBPD', 'aeBPD', 'eBPD']
+    ahash = {}
+    if tn == 2:
+        atype = [atype[i] if cell[i] == ta
+                 else None for i in range(len(atype))]
+    if tn == 3:
+        atype = [atype[i] if ((cell[i] == 'AM') or (cell[i] == 'IM'))
+                 else None for i in range(len(atype))]
+    if tn == 4:
+        atype = [atype[i] if ((cell[i] == 'pDC') or (cell[i] == 'cDC1') or
+            (cell[i] == 'cDC2') or (cell[i] == 'maDC'))
+                 else None for i in range(len(atype))]
+    if tn == 5:
+        atype = cell
+        atypes = ['pMON', 'iMON', 'AM', 'IM', 'pDC', 'cDC1', 'cDC2', 'maDC']
+        atype = [atype[i] if disease[i] == 'control'
+                 else None for i in range(len(atype))]
+    if tn == 6:
+        atype = [atype[i] if ((cell[i] == 'pDC') or (cell[i] == 'cDC2'))
+                 else None for i in range(len(atype))]
+    if tn == 7:
+        atype = [atype[i] if ((cell[i] == 'cDC1') or (cell[i] == 'maDC'))
+                 else None for i in range(len(atype))]
+    self.initData(atype, atypes, ahash)
+    return
+bone.IBDAnalysis.getSun2025BPDII = getSun2025BPDII

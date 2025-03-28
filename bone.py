@@ -3824,7 +3824,7 @@ class BIGraph:
         nt.from_nx(G)
         return nt.show(ofile)
 
-    def getBINGraphGML(ana, edges, clusters, dr):
+    def getBINGraphGML(ana, edges, clusters, dr, top=10):
         import networkx as nx
         from networkx.drawing.nx_agraph import write_dot, graphviz_layout
 
@@ -3848,7 +3848,10 @@ class BIGraph:
                     net.add_edge(id1, id2, rel='2')
 
         G = nx.DiGraph()
-        for id1 in keys[0:10]:
+        ll = keys
+        if top > 0:
+            ll = keys[0:top]
+        for id1 in ll:
             l1 = []
             if id1 in edges and '4' in edges[id1]:
                 l1 += list(edges[id1]['4'].keys())
@@ -3961,7 +3964,7 @@ class BIGraph:
         df["color"] = c
         df.dropna(inplace = True)
         ax = df.plot.scatter("log(FC)", "-log10(p)", c = df["color"],
-                s=8, alpha=0.2, figsize=(6, 4))
+                rasterized=True, s=8, alpha=0.2, figsize=(6, 4))
         ax.set_xlim([-9, 9])
         ax.set_ylim([0, 9])
         for i in order:
