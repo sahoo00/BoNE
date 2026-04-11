@@ -1,0 +1,63 @@
+#!/bin/bash
+
+export PERL_HASH_SEED=0
+export PYTHONHASHSEED=0
+
+#--------------- download the required data
+
+perl -I .. ../analyze.pl data-download CRC35.3 database/jstom
+perl -I .. ../analyze.pl toidx database/jstom-expr.txt > database/jstom-idx.txt
+perl -I .. ../analyze.pl thr database/jstom-expr.txt 2 5000 0.5> database/jstom-thr.txt
+perl -I .. ../analyze.pl bv database/jstom > database/jstom-bv.txt
+perl -I .. ../analyze.pl Info database/jstom > database/jstom-info.txt
+perl -I .. ../analyze.pl VInfo database/jstom > database/jstom-vinfo.txt
+
+perl -I .. ../analyze.pl data-download LIV15.2 database/chronic-liver
+perl -I .. ../analyze.pl toidx database/chronic-liver-expr.txt > database/chronic-liver-idx.txt
+perl -I .. ../analyze.pl thr database/chronic-liver-expr.txt 2 5000 0.5> database/chronic-liver-thr.txt
+perl -I .. ../analyze.pl bv database/chronic-liver > database/chronic-liver-bv.txt
+perl -I .. ../analyze.pl Info database/chronic-liver > database/chronic-liver-info.txt
+perl -I .. ../analyze.pl VInfo database/chronic-liver > database/chronic-liver-vinfo.txt
+
+perl -I .. ../analyze.pl data-download MAC104 database/sepsis
+perl -I .. ../analyze.pl toidx database/sepsis-expr.txt > database/sepsis-idx.txt
+perl -I .. ../analyze.pl thr database/sepsis-expr.txt 2 5000 0.5> database/sepsis-thr.txt
+perl -I .. ../analyze.pl bv database/sepsis > database/sepsis-bv.txt
+perl -I .. ../analyze.pl Info database/sepsis > database/sepsis-info.txt
+perl -I .. ../analyze.pl VInfo database/sepsis > database/sepsis-vinfo.txt
+
+perl -I .. ../analyze.pl data-download MACV74 database/ipf-1
+perl -I .. ../analyze.pl toidx database/ipf-1-expr.txt > database/ipf-1-idx.txt
+perl -I .. ../analyze.pl thr database/ipf-1-expr.txt 2 5000 0.5> database/ipf-1-thr.txt
+perl -I .. ../analyze.pl bv database/ipf-1 > database/ipf-1-bv.txt
+perl -I .. ../analyze.pl Info database/ipf-1 > database/ipf-1-info.txt
+perl -I .. ../analyze.pl VInfo database/ipf-1 > database/ipf-1-vinfo.txt
+
+perl -I .. ../analyze.pl data-download MACV75 database/ipf-2
+perl -I .. ../analyze.pl toidx database/ipf-2-expr.txt > database/ipf-2-idx.txt
+perl -I .. ../analyze.pl thr database/ipf-2-expr.txt 2 5000 0.5> database/ipf-2-thr.txt
+perl -I .. ../analyze.pl bv database/ipf-2 > database/ipf-2-bv.txt
+perl -I .. ../analyze.pl Info database/ipf-2 > database/ipf-2-info.txt
+perl -I .. ../analyze.pl VInfo database/ipf-2 > database/ipf-2-vinfo.txt
+
+perl -I .. ../analyze.pl data-download MACV82 database/kidney-transplant-tissue
+perl -I .. ../analyze.pl toidx database/kidney-transplant-tissue-expr.txt > database/kidney-transplant-tissue-idx.txt
+perl -I .. ../analyze.pl thr database/kidney-transplant-tissue-expr.txt 2 5000 0.5> database/kidney-transplant-tissue-thr.txt
+perl -I .. ../analyze.pl bv database/kidney-transplant-tissue > database/kidney-transplant-tissue-bv.txt
+perl -I .. ../analyze.pl Info database/kidney-transplant-tissue > database/kidney-transplant-tissue-info.txt
+perl -I .. ../analyze.pl VInfo database/kidney-transplant-tissue > database/kidney-transplant-tissue-vinfo.txt
+
+perl -I .. ../analyze.pl data-download MACV80 database/kidney-transplant-blood
+perl -I .. ../analyze.pl toidx database/kidney-transplant-blood-expr.txt > database/kidney-transplant-blood-idx.txt
+perl -I .. ../analyze.pl thr database/kidney-transplant-blood-expr.txt 2 5000 0.5> database/kidney-transplant-blood-thr.txt
+perl -I .. ../analyze.pl bv database/kidney-transplant-blood > database/kidney-transplant-blood-bv.txt
+perl -I .. ../analyze.pl Info database/kidney-transplant-blood > database/kidney-transplant-blood-info.txt
+perl -I .. ../analyze.pl VInfo database/kidney-transplant-blood > database/kidney-transplant-blood-vinfo.txt
+
+perl -I .. ../analyze.pl data-download MACV120.2 database/aging
+perl -I .. ../analyze.pl toidx database/aging-expr.txt > database/aging-idx.txt
+perl -I .. ../analyze.pl thr database/aging-expr.txt 2 5000 0.5> database/aging-thr.txt
+perl -I .. ../analyze.pl bv database/aging > database/aging-bv.txt
+perl -I .. ../analyze.pl Info database/aging > database/aging-info.txt
+perl -I .. ../analyze.pl VInfo database/aging > database/aging-vinfo.txt
+
