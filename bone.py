@@ -1843,7 +1843,7 @@ class IBDAnalysis:
         aval = [ahash[i] if i in ahash else None for i in atype]
         expg = [i for i in self.aRange() if aval[i] is not None]
         self.state = [[i for i in range(len(atype)) if aval[i] == k] 
-                for k in range(len(atypes))]
+                for k in self.aRange()]
         self.aval = aval
         self.atype = atype
         self.atypes = atypes
